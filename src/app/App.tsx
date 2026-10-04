@@ -40,8 +40,7 @@ const routePaths: Partial<Record<Screen, string>> = {
 
 function routeFromPath(): Pick<RouteState, 'screen' | 'labId'> | null {
   if (typeof window === 'undefined') return null
-  const path = window.location.pathname.replace(/\/+$/, '') || '/'
-  const screens: Record<string, Screen> = {
+  const path = window.location.pathname.replace(/\/+$/, '') || '/'\n  const authMode = new URLSearchParams(window.location.search).get('auth')\n  if (authMode === 'recovery') return { screen: 'recovery', labId: 'projectile' }\n  const screens: Record<string, Screen> = {
     '/': 'home',
     '/login': 'login',
     '/cadastro': 'signup',
