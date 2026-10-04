@@ -14,6 +14,8 @@ create table if not exists public.profiles (
 
 alter table public.profiles enable row level security;
 
+grant select, update on table public.profiles to authenticated;
+
 create policy "Users can view their own profile"
   on public.profiles
   for select
