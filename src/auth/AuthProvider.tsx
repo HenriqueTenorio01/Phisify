@@ -84,7 +84,7 @@ export function AuthProvider({ children }: PropsWithChildren) {
     const options: { data: { full_name: string }; emailRedirectTo?: string } = {
       data: { full_name: fullName },
     }
-    if (typeof window !== 'undefined') options.emailRedirectTo = window.location.origin + '/login'
+    if (typeof window !== 'undefined') options.emailRedirectTo = window.location.origin + '/'
     const { data, error } = await supabase.auth.signUp({ email, password, options })
     if (error) throw new Error(getAuthErrorMessage(error))
     if (data.session?.user) await loadProfile(data.session.user.id)
@@ -97,7 +97,7 @@ export function AuthProvider({ children }: PropsWithChildren) {
       throw new Error('A recuperação de senha precisa ser iniciada no navegador.')
     }
     const { error } = await supabase.auth.resetPasswordForEmail(email, {
-      redirectTo: window.location.origin + '/recuperar-senha',
+      redirectTo: window.location.origin + '/?auth=recovery',
     })
     if (error) throw new Error(getAuthErrorMessage(error))
   }, [])
