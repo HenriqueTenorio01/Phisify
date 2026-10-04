@@ -10,9 +10,11 @@ interface AuthContextValue {
   profile: Profile | null
   isLoading: boolean
   isConfigured: boolean
+  isPasswordRecovery: boolean
   signIn: (email: string, password: string) => Promise<void>
   signUp: (fullName: string, email: string, password: string) => Promise<{ requiresEmailConfirmation: boolean }>
   resetPassword: (email: string) => Promise<void>
+  updatePassword: (password: string) => Promise<void>
   signOut: () => Promise<void>
   refreshProfile: () => Promise<void>
   updateFullName: (fullName: string) => Promise<void>
@@ -24,6 +26,7 @@ export function AuthProvider({ children }: PropsWithChildren) {
   const [session, setSession] = useState<Session | null>(null)
   const [profile, setProfile] = useState<Profile | null>(null)
   const [isLoading, setIsLoading] = useState(true)
+  const [isPasswordRecovery, setIsPasswordRecovery] = useState(false)
 
   const loadProfile = useCallback(async (userId: string) => {
     try {
@@ -53,9 +56,10 @@ export function AuthProvider({ children }: PropsWithChildren) {
       setIsLoading(false)
     })
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, nextSession) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, nextSession) => {
       if (!mounted) return
       setSession(nextSession)
+      setIsPasswordRecovery(event === 'PASSWORD_RECOVERY')
       if (nextSession?.user) {
         window.setTimeout(() => void loadProfile(nextSession.user.id), 0)
       } else {
@@ -98,6 +102,13 @@ export function AuthProvider({ children }: PropsWithChildren) {
     if (error) throw new Error(getAuthErrorMessage(error))
   }, [])
 
+  const updatePassword = useCallback(async (password: string) => {
+    if (!supabase) throw new Error('Supabase não está configurado.')
+    const { error } = await supabase.auth.updateUser({ password })
+    if (error) throw new Error(getAuthErrorMessage(error))
+    setIsPasswordRecovery(false)
+  }, [])
+
   const signOut = useCallback(async () => {
     if (!supabase) return
     const { error } = await supabase.auth.signOut()
@@ -128,13 +139,15 @@ export function AuthProvider({ children }: PropsWithChildren) {
     profile,
     isLoading,
     isConfigured: isSupabaseConfigured,
+    isPasswordRecovery,
     signIn,
     signUp,
     resetPassword,
+    updatePassword,
     signOut,
     refreshProfile,
     updateFullName,
-  }), [isLoading, profile, refreshProfile, resetPassword, session, signIn, signOut, signUp, updateFullName])
+  }), [isLoading, isPasswordRecovery, profile, refreshProfile, resetPassword, session, signIn, signOut, signUp, updateFullName, updatePassword])
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }
