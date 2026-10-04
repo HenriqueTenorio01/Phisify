@@ -81,15 +81,11 @@ export function AuthProvider({ children }: PropsWithChildren) {
 
   const signUp = useCallback(async (fullName: string, email: string, password: string) => {
     if (!supabase) throw new Error('Supabase não está configurado.')
-    const redirectTo = typeof window === 'undefined' ? undefined : window.location.origin + '/login'
-    const { data, error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        data: { full_name: fullName },
-        emailRedirectTo: redirectTo,
-      },
-    })
+    const options: { data: { full_name: string }; emailRedirectTo?: string } = {
+      data: { full_name: fullName },
+    }
+    if (typeof window !== 'undefined') options.emailRedirectTo = window.location.origin + '/login'
+    const { data, error } = await supabase.auth.signUp({ email, password, options })
     if (error) throw new Error(getAuthErrorMessage(error))
     if (data.session?.user) await loadProfile(data.session.user.id)
     return { requiresEmailConfirmation: !data.session }
@@ -97,8 +93,12 @@ export function AuthProvider({ children }: PropsWithChildren) {
 
   const resetPassword = useCallback(async (email: string) => {
     if (!supabase) throw new Error('Supabase não está configurado.')
-    const redirectTo = typeof window === 'undefined' ? undefined : window.location.origin + '/recuperar-senha'
-    const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo })
+    if (typeof window === 'undefined') {
+      throw new Error('A recuperação de senha precisa ser iniciada no navegador.')
+    }
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: window.location.origin + '/recuperar-senha',
+    })
     if (error) throw new Error(getAuthErrorMessage(error))
   }, [])
 
