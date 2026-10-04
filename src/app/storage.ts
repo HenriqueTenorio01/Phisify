@@ -17,18 +17,29 @@ export function loadProgress(): ProgressState {
     const parsed = JSON.parse(raw) as Partial<ProgressState>
     return {
       completedLessons: Array.isArray(parsed.completedLessons) ? parsed.completedLessons : [],
-      responses: parsed.responses ?? {}, history: Array.isArray(parsed.history) ? parsed.history : [],
+      responses: parsed.responses ?? {},
+      history: Array.isArray(parsed.history) ? parsed.history : [],
       lastScreen: parsed.lastScreen ?? 'home',
     }
-  } catch { return emptyProgress() }
+  } catch {
+    return emptyProgress()
+  }
 }
 
 export function saveProgress(progress: ProgressState) {
   if (typeof window === 'undefined') return
-  try { window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress)) } catch { /* local storage is optional */ }
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
+  } catch {
+    /* local storage is optional */
+  }
 }
 
 export function screenFrom(value: string | null): Screen {
-  const valid: Screen[] = ['home', 'courses', 'lab', 'sheets', 'performance', 'review', 'search', 'course', 'lesson', 'simulation']
+  const valid: Screen[] = [
+    'home', 'courses', 'lab', 'sheets', 'performance', 'review', 'search',
+    'course', 'lesson', 'simulation', 'login', 'signup', 'recovery',
+    'profile', 'settings',
+  ]
   return value && valid.includes(value as Screen) ? value as Screen : 'home'
 }
