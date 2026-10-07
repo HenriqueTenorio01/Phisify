@@ -10,6 +10,7 @@ export interface Profile {
   questions_answered: number
   questions_correct: number
   study_time_minutes: number
+  timezone: string
   created_at: string
   updated_at: string
 }
@@ -43,3 +44,5 @@ export async function updateProfile(
   if (error) throw error
   return data as Profile
 }
+
+

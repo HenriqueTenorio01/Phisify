@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { lessonById } from '../../content/courses'
-import { loadProgress, saveProgress } from './storage'
+import { emptyProgress, loadProgress, saveProgress } from './storage'
 import { AppContext, type AppContextValue } from './context'
 import type { CourseId, LabId, ProgressState, Question, RouteState, Screen } from './types'
 import { AppShell } from '../components/layout/AppShell'
@@ -20,6 +20,7 @@ import { RegisterPage } from '../pages/RegisterPage'
 import { RecoveryPage } from '../pages/RecoveryPage'
 import { ProfilePage } from '../pages/ProfilePage'
 import { SettingsPage } from '../pages/SettingsPage'
+import { recordQuestionCompletion } from '../lib/supabase/activity'
 
 const initialRoute: RouteState = {
   screen: 'home',
@@ -62,9 +63,9 @@ function routeFromPath(): Pick<RouteState, 'screen' | 'labId'> | null {
 }
 
 export function App() {
-  const { user, profile, isLoading: authLoading, signOut } = useAuth()
+  const { user, profile, isLoading: authLoading, signOut, refreshProfile } = useAuth()
   const [route, setRoute] = useState<RouteState>(() => {
-    const saved = loadProgress()
+    const saved = loadProgress(user?.id)
     const pathRoute = routeFromPath()
     return {
       ...initialRoute,
@@ -72,12 +73,17 @@ export function App() {
       labId: pathRoute?.labId ?? initialRoute.labId,
     }
   })
-  const [progress, setProgress] = useState<ProgressState>(() => loadProgress())
+  const [progress, setProgress] = useState<ProgressState>(() => loadProgress(user?.id))
   const [moreOpen, setMoreOpen] = useState(false)
 
   useEffect(() => {
-    saveProgress(progress)
-  }, [progress])
+    if (!authLoading && user) saveProgress(progress, user.id)
+  }, [authLoading, progress, user?.id])
+
+  useEffect(() => {
+    if (authLoading) return
+    setProgress(user ? loadProgress(user.id) : emptyProgress())
+  }, [authLoading, user?.id])
 
   useEffect(() => {
     const onPopState = () => {
@@ -131,25 +137,35 @@ export function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  const answerQuestion = (question: Question, selected: number) => {
+  const answerQuestion = async (question: Question, selected: number) => {
+    if (!user) return
+    const answeredAt = Date.now()
     setProgress((current) => ({
       ...current,
       responses: {
         ...current.responses,
-        [question.id]: { selected, correct: selected === question.answer, at: Date.now() },
+        [question.id]: { selected, correct: selected === question.answer, at: answeredAt },
       },
       history: [
         {
           label: question.topic + ' · ' + question.objective,
           type: 'answer' as const,
-          at: Date.now(),
+          at: answeredAt,
         },
         ...current.history,
       ].slice(0, 50),
     }))
+
+    try {
+      await recordQuestionCompletion(question.id, selected === question.answer)
+      await refreshProfile()
+    } catch {
+      // Keep the local answer feedback available if the remote save is temporarily unavailable.
+    }
   }
 
   const completeLesson = (lessonId: string) => {
+    if (!user) return
     setProgress((current) =>
       current.completedLessons.includes(lessonId)
         ? current
@@ -168,13 +184,7 @@ export function App() {
     )
   }
 
-  const streak = useMemo(
-    () =>
-      progress.history.length
-        ? Math.min(12, Math.max(1, new Set(progress.history.map((item) => new Date(item.at).toDateString())).size))
-        : 4,
-    [progress.history],
-  )
+  const streak = user ? profile?.current_streak ?? 0 : 0
   const displayName = profile?.full_name || user?.email?.split('@')[0] || 'Conta'
   const value: AppContextValue = {
     route,
@@ -226,3 +236,5 @@ export function App() {
     </AppContext.Provider>
   )
 }
+
+

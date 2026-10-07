@@ -3,6 +3,7 @@ import type { Session, User } from '@supabase/supabase-js'
 import { getAuthErrorMessage } from './auth-errors'
 import { isSupabaseConfigured, supabase } from '../lib/supabase/client'
 import { fetchProfile, updateProfile as updateProfileRecord, type Profile } from '../lib/supabase/profile'
+import { refreshUserStreak, setUserTimezone } from '../lib/supabase/activity'
 
 interface AuthContextValue {
   user: User | null
@@ -37,6 +38,17 @@ export function AuthProvider({ children }: PropsWithChildren) {
     }
   }, [])
 
+  const syncUserTimezone = useCallback(async () => {
+    if (typeof Intl === 'undefined') return
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone
+    if (!timezone) return
+    try {
+      await setUserTimezone(timezone)
+    } catch {
+      // Timezone sync is auxiliary; authentication remains available if it fails.
+    }
+  }, [])
+
   useEffect(() => {
     if (!supabase) {
       setIsLoading(false)
@@ -45,10 +57,19 @@ export function AuthProvider({ children }: PropsWithChildren) {
 
     let mounted = true
 
-    void supabase.auth.getSession().then(({ data: { session: currentSession } }) => {
+    void supabase.auth.getSession().then(async ({ data: { session: currentSession } }) => {
       if (!mounted) return
       setSession(currentSession)
-      if (currentSession?.user) void loadProfile(currentSession.user.id)
+      if (currentSession?.user) {
+        await syncUserTimezone()
+        try {
+          await refreshUserStreak()
+        } catch {
+          // Streak refresh is auxiliary; authentication remains available if it fails.
+        }
+        await loadProfile(currentSession.user.id)
+      }
+      if (!mounted) return
       setIsLoading(false)
     }).catch(() => {
       if (!mounted) return
@@ -61,7 +82,13 @@ export function AuthProvider({ children }: PropsWithChildren) {
       setSession(nextSession)
       setIsPasswordRecovery(event === 'PASSWORD_RECOVERY')
       if (nextSession?.user) {
-        window.setTimeout(() => void loadProfile(nextSession.user.id), 0)
+        window.setTimeout(() => {
+          void (async () => {
+            await syncUserTimezone()
+            await refreshUserStreak().catch(() => undefined)
+            await loadProfile(nextSession.user.id)
+          })()
+        }, 0)
       } else {
         setProfile(null)
       }
@@ -71,7 +98,7 @@ export function AuthProvider({ children }: PropsWithChildren) {
       mounted = false
       subscription.unsubscribe()
     }
-  }, [loadProfile])
+  }, [loadProfile, syncUserTimezone])
 
   const signIn = useCallback(async (email: string, password: string) => {
     if (!supabase) throw new Error('Supabase não está configurado.')
@@ -157,3 +184,5 @@ export function useAuth() {
   if (!context) throw new Error('useAuth precisa estar dentro de AuthProvider')
   return context
 }
+
+

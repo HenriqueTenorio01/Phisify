@@ -8,9 +8,11 @@ export interface AppContextValue {
   openCourse: (id: CourseId) => void
   openLesson: (id: string) => void
   openLab: (id: LabId) => void
-  answerQuestion: (question: Question, selected: number) => void
+  answerQuestion: (question: Question, selected: number) => Promise<void>
   completeLesson: (id: string) => void
   streak: number
 }
 export const AppContext = createContext<AppContextValue | null>(null)
 export function useApp() { const value = useContext(AppContext); if (!value) throw new Error('useApp precisa estar dentro de AppContext'); return value }
+
+
