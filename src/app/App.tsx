@@ -1,10 +1,10 @@
-import { useEffect, useMemo, useState } from 'react'
-import { courseById, lessonById } from '../../content/courses'
-import { labs } from '../../simulations/registry'
-import { loadProgress, saveProgress } from './storage'
+import { useEffect, useState } from 'react'
+import { lessonById } from '../../content/courses'
+import { emptyProgress, loadProgress, saveProgress } from './storage'
 import { AppContext, type AppContextValue } from './context'
 import type { CourseId, LabId, ProgressState, Question, RouteState, Screen } from './types'
 import { AppShell } from '../components/layout/AppShell'
+import { useAuth } from '../hooks/useAuth'
 import { HomePage } from '../pages/HomePage'
 import { CoursesPage } from '../pages/CoursesPage'
 import { CoursePage } from '../pages/CoursePage'
@@ -15,32 +15,226 @@ import { PerformancePage } from '../pages/PerformancePage'
 import { ReviewPage } from '../pages/ReviewPage'
 import { SearchPage } from '../pages/SearchPage'
 import { LessonPage } from '../pages/LessonPage'
+import { LoginPage } from '../pages/LoginPage'
+import { RegisterPage } from '../pages/RegisterPage'
+import { RecoveryPage } from '../pages/RecoveryPage'
+import { ProfilePage } from '../pages/ProfilePage'
+import { SettingsPage } from '../pages/SettingsPage'
+import { recordQuestionCompletion } from '../lib/supabase/activity'
 
-const initialRoute: RouteState = { screen: 'home', courseId: 'mechanics', lessonId: 'lesson-free-fall', labId: 'projectile' }
+const initialRoute: RouteState = {
+  screen: 'home',
+  courseId: 'mechanics',
+  lessonId: 'lesson-free-fall',
+  labId: 'projectile',
+}
 
-function routeFromLabPath(): Pick<RouteState, 'screen' | 'labId'> | null {
+const routePaths: Partial<Record<Screen, string>> = {
+  home: '/',
+  lab: '/laboratorio',
+  login: '/login',
+  signup: '/cadastro',
+  recovery: '/recuperar-senha',
+  profile: '/perfil',
+  settings: '/configuracoes',
+}
+
+function routeFromPath(): Pick<RouteState, 'screen' | 'labId'> | null {
   if (typeof window === 'undefined') return null
   const path = window.location.pathname.replace(/\/+$/, '') || '/'
-  if (path === '/laboratorio') return { screen: 'lab', labId: 'projectile' }
-  if (path === '/laboratorio/lancamento-obliquo') return { screen: 'simulation', labId: 'projectile' }
-  if (path === '/laboratorio/interferencia-de-ondas') return { screen: 'simulation', labId: 'waves' }
-  if (path === '/laboratorio/circuito-resistivo') return { screen: 'simulation', labId: 'circuit' }
-  return null
+  const authMode = new URLSearchParams(window.location.search).get('auth')
+  if (authMode === 'recovery') return { screen: 'recovery', labId: 'projectile' }
+  const screens: Record<string, Screen> = {
+    '/': 'home',
+    '/login': 'login',
+    '/cadastro': 'signup',
+    '/recuperar-senha': 'recovery',
+    '/perfil': 'profile',
+    '/configuracoes': 'settings',
+    '/laboratorio': 'lab',
+    '/laboratorio/lancamento-obliquo': 'simulation',
+    '/laboratorio/interferencia-de-ondas': 'simulation',
+    '/laboratorio/circuito-resistivo': 'simulation',
+  }
+  const screen = screens[path]
+  if (!screen) return null
+  const labId = path.includes('interferencia') ? 'waves' : path.includes('circuito') ? 'circuit' : 'projectile'
+  return { screen, labId }
 }
 
 export function App() {
-  const [route, setRoute] = useState<RouteState>(() => { const saved = loadProgress(); const pathRoute = routeFromLabPath(); return { ...initialRoute, screen: pathRoute?.screen ?? saved.lastScreen, labId: pathRoute?.labId ?? initialRoute.labId } }); const [progress, setProgress] = useState<ProgressState>(() => loadProgress()); const [moreOpen, setMoreOpen] = useState(false)
-  useEffect(() => { saveProgress(progress) }, [progress])
-  useEffect(() => { const onPopState = () => { const pathRoute = routeFromLabPath(); if (!pathRoute) return; setRoute((current) => ({ ...current, ...pathRoute })) }; window.addEventListener('popstate', onPopState); return () => window.removeEventListener('popstate', onPopState) }, [])
-  const record = (next: ProgressState) => setProgress(next)
-  const navigate = (screen: Screen) => { if (screen === 'lab') window.history.pushState({}, '', '/laboratorio'); if (screen === 'home') window.history.pushState({}, '', '/'); setRoute((current) => ({ ...current, screen })); setProgress((current) => ({ ...current, lastScreen: screen })); setMoreOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }) }
-  const openCourse = (courseId: CourseId) => { setRoute((current) => ({ ...current, screen: 'course', courseId })); window.scrollTo({ top: 0, behavior: 'smooth' }) }
-  const openLesson = (lessonId: string) => { const found = lessonById(lessonId); setRoute((current) => ({ ...current, screen: 'lesson', lessonId, courseId: found?.course.id ?? current.courseId })); window.scrollTo({ top: 0, behavior: 'smooth' }) }
-  const openLab = (labId: LabId) => { const paths: Record<LabId, string> = { projectile: '/laboratorio/lancamento-obliquo', waves: '/laboratorio/interferencia-de-ondas', circuit: '/laboratorio/circuito-resistivo' }; window.history.pushState({}, '', paths[labId]); setRoute((current) => ({ ...current, screen: 'simulation', labId })); window.scrollTo({ top: 0, behavior: 'smooth' }) }
-  const answerQuestion = (question: Question, selected: number) => { setProgress((current) => ({ ...current, responses: { ...current.responses, [question.id]: { selected, correct: selected === question.answer, at: Date.now() } }, history: [{ label: `${question.topic} · ${question.objective}`, type: 'answer' as const, at: Date.now() }, ...current.history].slice(0, 50) })) }
-  const completeLesson = (lessonId: string) => { setProgress((current) => current.completedLessons.includes(lessonId) ? current : { ...current, completedLessons: [...current.completedLessons, lessonId], history: [{ label: lessonById(lessonId)?.data.title ?? lessonId, type: 'lesson' as const, at: Date.now() }, ...current.history].slice(0, 50) }) }
-  const streak = useMemo(() => progress.history.length ? Math.min(12, Math.max(1, new Set(progress.history.map((item) => new Date(item.at).toDateString())).size)) : 4, [progress.history])
-  const value: AppContextValue = { route, progress, navigate, openCourse, openLesson, openLab, answerQuestion, completeLesson, streak }
-  const page = route.screen === 'home' ? <HomePage /> : route.screen === 'courses' ? <CoursesPage /> : route.screen === 'course' ? <CoursePage /> : route.screen === 'lab' ? <LabPage /> : route.screen === 'simulation' ? <SimulationPage /> : route.screen === 'sheets' ? <SheetsPage /> : route.screen === 'performance' ? <PerformancePage /> : route.screen === 'review' ? <ReviewPage /> : route.screen === 'search' ? <SearchPage /> : <LessonPage />
-  return <AppContext.Provider value={value}><AppShell screen={route.screen} streak={streak} moreOpen={moreOpen} onNavigate={navigate} onToggleMore={() => setMoreOpen((open) => !open)}>{page}</AppShell></AppContext.Provider>
+  const { user, profile, isLoading: authLoading, signOut, refreshProfile } = useAuth()
+  const [route, setRoute] = useState<RouteState>(() => {
+    const saved = loadProgress(user?.id)
+    const pathRoute = routeFromPath()
+    return {
+      ...initialRoute,
+      screen: pathRoute?.screen ?? saved.lastScreen,
+      labId: pathRoute?.labId ?? initialRoute.labId,
+    }
+  })
+  const [progress, setProgress] = useState<ProgressState>(() => loadProgress(user?.id))
+  const [moreOpen, setMoreOpen] = useState(false)
+
+  useEffect(() => {
+    if (!authLoading && user) saveProgress(progress, user.id)
+  }, [authLoading, progress, user?.id])
+
+  useEffect(() => {
+    if (authLoading) return
+    setProgress(user ? loadProgress(user.id) : emptyProgress())
+  }, [authLoading, user?.id])
+
+  useEffect(() => {
+    const onPopState = () => {
+      const pathRoute = routeFromPath()
+      if (pathRoute) setRoute((current) => ({ ...current, ...pathRoute }))
+    }
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [])
+
+  const navigate = (screen: Screen) => {
+    const path = routePaths[screen]
+    if (path) window.history.pushState({}, '', path)
+    setRoute((current) => ({ ...current, screen }))
+    if (!['login', 'signup', 'recovery', 'profile', 'settings'].includes(screen)) {
+      setProgress((current) => ({ ...current, lastScreen: screen }))
+    }
+    setMoreOpen(false)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  useEffect(() => {
+    const protectedScreen = route.screen === 'profile' || route.screen === 'settings'
+    if (!authLoading && !user && protectedScreen) navigate('login')
+  }, [authLoading, route.screen, user])
+
+  const openCourse = (courseId: CourseId) => {
+    setRoute((current) => ({ ...current, screen: 'course', courseId }))
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const openLesson = (lessonId: string) => {
+    const found = lessonById(lessonId)
+    setRoute((current) => ({
+      ...current,
+      screen: 'lesson',
+      lessonId,
+      courseId: found?.course.id ?? current.courseId,
+    }))
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const openLab = (labId: LabId) => {
+    const paths: Record<LabId, string> = {
+      projectile: '/laboratorio/lancamento-obliquo',
+      waves: '/laboratorio/interferencia-de-ondas',
+      circuit: '/laboratorio/circuito-resistivo',
+    }
+    window.history.pushState({}, '', paths[labId])
+    setRoute((current) => ({ ...current, screen: 'simulation', labId }))
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const answerQuestion = async (question: Question, selected: number) => {
+    if (!user) return
+    const answeredAt = Date.now()
+    setProgress((current) => ({
+      ...current,
+      responses: {
+        ...current.responses,
+        [question.id]: { selected, correct: selected === question.answer, at: answeredAt },
+      },
+      history: [
+        {
+          label: question.topic + ' · ' + question.objective,
+          type: 'answer' as const,
+          at: answeredAt,
+        },
+        ...current.history,
+      ].slice(0, 50),
+    }))
+
+    try {
+      await recordQuestionCompletion(question.id, selected === question.answer)
+      await refreshProfile()
+    } catch {
+      // Keep the local answer feedback available if the remote save is temporarily unavailable.
+    }
+  }
+
+  const completeLesson = (lessonId: string) => {
+    if (!user) return
+    setProgress((current) =>
+      current.completedLessons.includes(lessonId)
+        ? current
+        : {
+            ...current,
+            completedLessons: [...current.completedLessons, lessonId],
+            history: [
+              {
+                label: lessonById(lessonId)?.data.title ?? lessonId,
+                type: 'lesson' as const,
+                at: Date.now(),
+              },
+              ...current.history,
+            ].slice(0, 50),
+          },
+    )
+  }
+
+  const streak = user ? profile?.current_streak ?? 0 : 0
+  const displayName = profile?.full_name || user?.email?.split('@')[0] || 'Conta'
+  const value: AppContextValue = {
+    route,
+    progress,
+    navigate,
+    openCourse,
+    openLesson,
+    openLab,
+    answerQuestion,
+    completeLesson,
+    streak,
+  }
+
+  if (authLoading) {
+    return <div className="auth-loading">Carregando sua sessão…</div>
+  }
+
+  const page =
+    route.screen === 'home' ? <HomePage /> :
+    route.screen === 'courses' ? <CoursesPage /> :
+    route.screen === 'course' ? <CoursePage /> :
+    route.screen === 'lab' ? <LabPage /> :
+    route.screen === 'simulation' ? <SimulationPage /> :
+    route.screen === 'sheets' ? <SheetsPage /> :
+    route.screen === 'performance' ? <PerformancePage /> :
+    route.screen === 'review' ? <ReviewPage /> :
+    route.screen === 'search' ? <SearchPage /> :
+    route.screen === 'lesson' ? <LessonPage /> :
+    route.screen === 'login' ? <LoginPage onNavigate={navigate} onSuccess={() => navigate('home')} /> :
+    route.screen === 'signup' ? <RegisterPage onNavigate={navigate} onSuccess={() => navigate('home')} /> :
+    route.screen === 'recovery' ? <RecoveryPage onNavigate={navigate} /> :
+    route.screen === 'profile' ? <ProfilePage profile={profile} user={user} onNavigate={navigate} onSignOut={signOut} /> :
+    <SettingsPage onNavigate={navigate} />
+
+  return (
+    <AppContext.Provider value={value}>
+      <AppShell
+        screen={route.screen}
+        streak={streak}
+        moreOpen={moreOpen}
+        onNavigate={navigate}
+        onToggleMore={() => setMoreOpen((open) => !open)}
+        onOpenAccount={() => navigate(user ? 'profile' : 'login')}
+        isAuthenticated={Boolean(user)}
+        userName={displayName}
+      >
+        {page}
+      </AppShell>
+    </AppContext.Provider>
+  )
 }
+
+

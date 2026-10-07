@@ -1,4 +1,4 @@
-export type Screen = 'home' | 'courses' | 'lab' | 'sheets' | 'performance' | 'review' | 'search' | 'course' | 'lesson' | 'simulation'
+export type Screen = 'home' | 'courses' | 'lab' | 'sheets' | 'performance' | 'review' | 'search' | 'course' | 'lesson' | 'simulation' | 'login' | 'signup' | 'recovery' | 'profile' | 'settings'
 
 export type CourseId = 'mechanics' | 'electricity' | 'waves' | 'thermo'
 export type LabId = 'projectile' | 'waves' | 'circuit'
