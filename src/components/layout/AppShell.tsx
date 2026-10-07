@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react'
 import { Settings } from 'lucide-react'
 import type { Screen } from '../../app/types'
+import phisifyLogo from '../../assets/phisify-logo-cyan.svg?url'
 
 const primary: Array<[Screen, string, string]> = [
   ['home', 'Início', '⌂'],
@@ -44,7 +45,7 @@ export function AppShell({
       <header className="topbar">
         <div className="topbar-inner">
           <button className="brand" onClick={() => onNavigate('home')} aria-label="Página inicial da Phisify">
-            <span className="brand-mark"><span>Φ</span><i /></span>
+            <img className="brand-mark brand-logo" src={phisifyLogo} alt="" aria-hidden="true" />
             <span className="brand-copy">PHISIFY<small>APRENDER EM MOVIMENTO</small></span>
           </button>
           <nav className="main-nav">
