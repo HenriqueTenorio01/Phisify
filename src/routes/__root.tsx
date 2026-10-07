@@ -10,8 +10,10 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
+import settingsCss from "../settings.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { AuthProvider } from "../auth/AuthProvider";
+import { PreferencesProvider } from "../app/PreferencesProvider";
 
 function NotFoundComponent() {
   return (
@@ -103,6 +105,7 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="pt-BR">
       <head>
         <HeadContent />
+        <link rel="stylesheet" href={settingsCss} />
       </head>
       <body>
         {children}
@@ -118,8 +121,12 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <AuthProvider>
-        <Outlet />
+        <PreferencesProvider>
+          <Outlet />
+        </PreferencesProvider>
       </AuthProvider>
     </QueryClientProvider>
   );
 }
+
+
