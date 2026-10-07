@@ -36,7 +36,6 @@ set search_path = public
 as $$
 declare
   v_user_id uuid := auth.uid();
-  v_question_id text := trim(p_question_id);
   v_timezone text;
 begin
   if v_user_id is null then
@@ -71,6 +70,7 @@ set search_path = public
 as $$
 declare
   v_user_id uuid := auth.uid();
+  v_question_id text := trim(p_question_id);
   v_timezone text;
   v_activity_date date;
   v_previous_date date;
