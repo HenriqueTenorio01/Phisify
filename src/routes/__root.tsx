@@ -11,6 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import settingsCss from "../settings.css?url";
+import phisifyLogo from "../assets/phisify-logo-cyan.svg?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { AuthProvider } from "../auth/AuthProvider";
 import { PreferencesProvider } from "../app/PreferencesProvider";
@@ -91,7 +92,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: phisifyLogo, type: "image/svg+xml" },
+      { rel: "apple-touch-icon", href: phisifyLogo },
     ],
   }),
   shellComponent: RootShell,
