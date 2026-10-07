@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { Settings } from 'lucide-react'
 import type { Screen } from '../../app/types'
 
 const primary: Array<[Screen, string, string]> = [
@@ -55,6 +56,17 @@ export function AppShell({
           </nav>
           <div className="top-actions">
             <span className="streak"><b>{streak}</b> dias de sequência</span>
+            {isAuthenticated && (
+              <button
+                className="settings-button"
+                onClick={() => onNavigate('settings')}
+                aria-label="Abrir configurações"
+                title="Configurações"
+              >
+                <Settings size={16} aria-hidden="true" />
+                <span>Configurações</span>
+              </button>
+            )}
             <button className="account-button" onClick={onOpenAccount} aria-label={isAuthenticated ? 'Abrir meu perfil' : 'Entrar ou criar conta'}>
               {isAuthenticated && <span className="avatar">{initial}</span>}
               <span>{isAuthenticated ? userName : 'Entrar'}</span>
@@ -88,3 +100,5 @@ export function AppShell({
     </div>
   )
 }
+
+
