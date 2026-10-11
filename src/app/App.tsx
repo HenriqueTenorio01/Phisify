@@ -21,6 +21,7 @@ import { RecoveryPage } from '../pages/RecoveryPage'
 import { ProfilePage } from '../pages/ProfilePage'
 import { SettingsPage } from '../pages/SettingsPage'
 import { recordQuestionCompletion } from '../lib/supabase/activity'
+import { Localize } from '../i18n'
 
 const initialRoute: RouteState = {
   screen: 'home',
@@ -221,6 +222,7 @@ export function App() {
 
   return (
     <AppContext.Provider value={value}>
+      <Localize>
       <AppShell
         screen={route.screen}
         streak={streak}
@@ -233,6 +235,7 @@ export function App() {
       >
         {page}
       </AppShell>
+      </Localize>
     </AppContext.Provider>
   )
 }
