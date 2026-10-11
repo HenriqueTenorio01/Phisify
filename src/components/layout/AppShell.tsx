@@ -5,7 +5,7 @@ import type { Screen } from '../../app/types'
 const primary: Array<[Screen, string, string]> = [
   ['home', 'Início', '⌂'],
   ['courses', 'Trilhas', '▤'],
-  ['lab', 'Laboratório', '◌'],
+  ['lab', 'Lab', '◌'],
   ['sheets', 'Fichas', '▣'],
   ['performance', 'Desempenho', '◔'],
   ['review', 'Revisão', '↻'],
