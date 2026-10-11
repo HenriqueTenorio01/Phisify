@@ -99,7 +99,9 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 
 
 
-/* Light theme accent palette: navy blue, keeping the dark theme unchanged. */
+
+
+/* Light mode: use navy blue for all cyan/teal accents, including simulations. */
 :root[data-theme="light"] {
   --primary: #163A63;
   --primary-foreground: #ffffff;
@@ -108,4 +110,34 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
   --blue: #163A63;
   --blue-dark: #102B4C;
   --blue-soft: rgb(22 58 99 / 10%);
+  --green: #163A63;
+  --green-soft: rgb(22 58 99 / 10%);
+}
+:root[data-theme="light"] .wave-a,
+:root[data-theme="light"] .wave-b,
+:root[data-theme="light"] .circuit-electron,
+:root[data-theme="light"] .pro-status .live,
+:root[data-theme="light"] .sim-slider > span strong,
+:root[data-theme="light"] .interference-pill b {
+  color: #163A63 !important;
+  fill: #163A63 !important;
+  stroke: #163A63 !important;
+}
+:root[data-theme="light"] .pro-btn.primary {
+  background: #163A63 !important;
+  border-color: #163A63 !important;
+  color: #ffffff !important;
+}
+:root[data-theme="light"] .pro-btn:hover {
+  border-color: rgb(22 58 99 / 50%) !important;
+}
+:root[data-theme="light"] .sim-slider input {
+  accent-color: #163A63 !important;
+}
+:root[data-theme="light"] .interference-pill {
+  border-color: rgb(22 58 99 / 18%) !important;
+  background: rgb(22 58 99 / 6%) !important;
+}
+:root[data-theme="light"] .circuit-electron {
+  filter: drop-shadow(0 0 3px rgb(22 58 99 / 25%)) !important;
 }
