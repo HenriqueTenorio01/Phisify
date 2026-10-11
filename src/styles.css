@@ -184,6 +184,8 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 .mobile-link .lab-atom-icon {
   display: block;
   margin: 0 auto 1px;
+  width: 24px;
+  height: 24px;
   color: var(--primary);
 }
 .side-link .lab-atom-icon {
