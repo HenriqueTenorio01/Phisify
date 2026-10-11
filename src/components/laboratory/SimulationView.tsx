@@ -6,7 +6,7 @@ import type { LabId } from '../../app/types'
 const fmt = (value: number, digits = 2) => value.toFixed(digits).replace('.', ',')
 
 function Slider({ label, value, min, max, step, unit, onChange }: { label: string; value: number; min: number; max: number; step: number; unit: string; onChange: (v: number) => void }) {
-  return useLocalizedTree(<label className="sim-slider"><span><b>{label}</b><strong>{fmt(value, step < 1 ? 1 : 0)} {unit}</strong></span><input type="range" min={min} max={max} step={step} value={value} onChange={e => onChange(Number(e.target.value))} /><small><i>{min}</i><i>{max} {unit}</i></small></label>
+  return useLocalizedTree(<label className="sim-slider"><span><b>{label}</b><strong>{fmt(value, step < 1 ? 1 : 0)} {unit}</strong></span><input type="range" min={min} max={max} step={step} value={value} onChange={e => onChange(Number(e.target.value))} /><small><i>{min}</i><i>{max} {unit}</i></small></label>)
 }
 
 function ProjectileSimulation() {
