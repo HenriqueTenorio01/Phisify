@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import { Settings } from 'lucide-react'
+import { Atom, Settings } from 'lucide-react'
 import type { Screen } from '../../app/types'
 
 const primary: Array<[Screen, string, string]> = [
@@ -82,7 +82,7 @@ export function AppShell({
           <div className="side-label">Navegação</div>
           {primary.map(([target, label, icon]) => (
             <button className={'side-link ' + (screen === target ? 'active' : '')} key={target} onClick={() => onNavigate(target)}>
-              <span className="side-icon">{icon}</span>{label}
+              <span className="side-icon">{target === 'lab' ? <Atom size={19} strokeWidth={2.1} aria-hidden="true" /> : icon}</span>{label}
             </button>
           ))}
           <div className="sidebar-note"><strong>Ritmo constante</strong>Um conceito por vez. Continue sua sequência de estudos.</div>
@@ -92,7 +92,7 @@ export function AppShell({
       <nav className="mobile-nav">
         {primary.slice(0, 3).map(([target, label, icon]) => (
           <button className={'mobile-link ' + (screen === target ? 'active' : '')} key={target} onClick={() => onNavigate(target)}>
-            <span>{icon}</span>{label}
+            <span>{target === 'lab' ? <Atom size={20} strokeWidth={2.1} aria-hidden="true" /> : icon}</span>{label}
           </button>
         ))}
         <button className={'mobile-link ' + (moreOpen ? 'active' : '')} onClick={onToggleMore}><span>•••</span>Mais</button>
