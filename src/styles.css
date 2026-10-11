@@ -22,13 +22,13 @@
   --foreground: oklch(0.97 0.01 220);
   --panel: oklch(0.18 0.025 255);
   --surface: oklch(0.22 0.03 255);
-  --primary: #163A63;
-  --primary-foreground: #ffffff;
-  --primary-soft: rgb(22 58 99 / 12%);
+  --primary: oklch(0.79 0.14 205);
+  --primary-foreground: oklch(0.12 0.02 255);
+  --primary-soft: oklch(0.79 0.14 205 / 0.12);
   --muted-foreground: oklch(0.72 0.025 235);
   --subtle: oklch(0.58 0.025 235);
   --border: oklch(0.97 0.01 220 / 0.11);
-  --border-strong: rgb(22 58 99 / 35%);
+  --border-strong: oklch(0.79 0.14 205 / 0.35);
   --destructive: oklch(0.65 0.2 25);
   --radius: 0.75rem;
   --max: 1280px;
@@ -78,7 +78,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 
 
 /* Interactive laboratory simulations */
-.sim-stage-label{position:absolute;left:17px;top:14px;color:#8494a6;font:.59rem 'DM Mono';letter-spacing:.1em;z-index:2}.sim-stage-status{position:absolute;right:16px;bottom:13px;color:#66788c;font:500 .62rem 'DM Mono';letter-spacing:.08em;text-transform:uppercase}.lab-svg{width:92%;height:88%;display:block;color:#7d8da0}.lab-axis{stroke:#b9c5d2;stroke-width:1}.lab-label{fill:#68798d;font:600 11px 'DM Mono';letter-spacing:.03em}.wave-line{fill:none;stroke-width:3;vector-effect:non-scaling-stroke}.wave-a{stroke:#163A63}.wave-b{stroke:#667eea}.wave-sum{stroke:#14263a;stroke-width:4}.circuit-wire{fill:none;stroke:#34485c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.battery-plate{stroke:#14263a;stroke-width:6;stroke-linecap:round}.resistor{fill:none;stroke:#14263a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.circuit-electron{fill:#163A63;filter:drop-shadow(0 0 3px rgba(22,58,99,.25))}.circuit-value{fill:#2d4257;font:600 12px 'DM Mono'}
+.sim-stage-label{position:absolute;left:17px;top:14px;color:#8494a6;font:.59rem 'DM Mono';letter-spacing:.1em;z-index:2}.sim-stage-status{position:absolute;right:16px;bottom:13px;color:#66788c;font:500 .62rem 'DM Mono';letter-spacing:.08em;text-transform:uppercase}.lab-svg{width:92%;height:88%;display:block;color:#7d8da0}.lab-axis{stroke:#b9c5d2;stroke-width:1}.lab-label{fill:#68798d;font:600 11px 'DM Mono';letter-spacing:.03em}.wave-line{fill:none;stroke-width:3;vector-effect:non-scaling-stroke}.wave-a{stroke:#16c5dc}.wave-b{stroke:#667eea}.wave-sum{stroke:#14263a;stroke-width:4}.circuit-wire{fill:none;stroke:#34485c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.battery-plate{stroke:#14263a;stroke-width:6;stroke-linecap:round}.resistor{fill:none;stroke:#14263a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.circuit-electron{fill:#09bfd8;filter:drop-shadow(0 0 3px rgba(9,191,216,.4))}.circuit-value{fill:#2d4257;font:600 12px 'DM Mono'}
 @media(max-width:720px){.lab-svg{width:100%;height:86%}.sim-stage{height:300px}.sim-stage-label{font-size:.5rem}.sim-stage-status{font-size:.54rem}}
 
 /* Garantia de visibilidade das simulações */
@@ -87,7 +87,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 
 /* Phisify laboratory — visual layer inspired by interactive physics labs */
 .pro-sim{display:grid;grid-template-columns:minmax(0,1fr) 245px;border:1px solid rgba(132,170,190,.22);border-radius:20px;overflow:hidden;background:rgba(5,13,22,.72);box-shadow:0 24px 70px rgba(0,0,0,.24)}
-.pro-main{min-width:0}.pro-stage{position:relative;padding:16px;background:#050d16}.pro-svg{display:block;width:100%;height:auto;min-height:410px;border-radius:16px}.pro-stage-head{position:absolute;z-index:3;left:30px;right:30px;top:28px;display:flex;justify-content:space-between;gap:12px;pointer-events:none}.pro-stage-head span{font:600 .62rem 'DM Mono';letter-spacing:.14em;color:#9db5c1}.pro-stage-head b{font:500 .62rem 'DM Mono';color:#7f98a6}.pro-status{position:absolute;z-index:3;left:30px;right:30px;bottom:28px;display:flex;justify-content:space-between;gap:10px;font:500 .65rem 'DM Mono';color:#78909e}.pro-status .live{color:#25d2b2}.pro-status b{color:#d6e4e9;font-weight:500}.pro-controls{display:grid;grid-template-columns:repeat(2,minmax(150px,1fr));gap:14px;padding:18px 20px;border-top:1px solid rgba(132,170,190,.16);background:rgba(9,20,31,.94)}.sim-slider{display:grid;gap:8px}.sim-slider>span{display:flex;justify-content:space-between;gap:8px;color:#8da4b0;font-size:.72rem}.sim-slider>span b{color:#dbe8ed;font-weight:500}.sim-slider>span strong{color:#163A63;font:600 .72rem 'DM Mono'}.sim-slider input{width:100%;accent-color:#163A63}.sim-slider small{display:flex;justify-content:space-between;color:#536c7a;font:500 .55rem 'DM Mono'}.sim-slider small i{font-style:normal}.pro-actions{display:flex;align-items:end;gap:8px}.pro-btn{border:1px solid rgba(132,170,190,.22);background:rgba(255,255,255,.045);color:#b9ccd4;border-radius:9px;padding:10px 13px;font-size:.72rem;cursor:pointer}.pro-btn:hover{border-color:rgba(22,58,99,.5);color:#fff}.pro-btn.primary{background:#163A63;border-color:#163A63;color:#03131a;font-weight:700}.pro-side{display:flex;flex-direction:column;gap:13px;padding:24px 18px;border-left:1px solid rgba(132,170,190,.16);background:rgba(8,18,29,.96)}.side-kicker{padding-bottom:12px;border-bottom:1px solid rgba(132,170,190,.14);font:600 .58rem 'DM Mono';letter-spacing:.14em;color:#6f8996}.metric{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.metric span{color:#718995;font-size:.69rem}.metric b{color:#edf7fa;font:600 .82rem 'DM Mono';text-align:right}.physics-note{margin-top:auto;padding-top:14px;border-top:1px solid rgba(132,170,190,.14);color:#657d89;font-size:.68rem;line-height:1.65}.wave-legend{display:flex;gap:18px;flex-wrap:wrap;padding:8px 10px 2px;color:#738d9a;font-size:.64rem}.wave-legend span{display:inline-flex;align-items:center;gap:6px}.wave-legend i{width:8px;height:8px;border-radius:50%;display:inline-block}.wave-legend .cyan{background:#163A63}.wave-legend .amber{background:#ffb43f}.wave-legend .white{background:#fff}.interference-pill{padding:12px;border:1px solid rgba(22,58,99,.18);border-radius:11px;background:rgba(22,58,99,.055)}.interference-pill span{display:block;color:#68828e;font-size:.62rem}.interference-pill b{display:block;margin-top:3px;color:#163A63;font:600 .9rem 'Space Grotesk'}.projectile-stage-pro .pro-svg{background:#06111c}.circuit-stage-pro .pro-svg{background:#061018}
+.pro-main{min-width:0}.pro-stage{position:relative;padding:16px;background:#050d16}.pro-svg{display:block;width:100%;height:auto;min-height:410px;border-radius:16px}.pro-stage-head{position:absolute;z-index:3;left:30px;right:30px;top:28px;display:flex;justify-content:space-between;gap:12px;pointer-events:none}.pro-stage-head span{font:600 .62rem 'DM Mono';letter-spacing:.14em;color:#9db5c1}.pro-stage-head b{font:500 .62rem 'DM Mono';color:#7f98a6}.pro-status{position:absolute;z-index:3;left:30px;right:30px;bottom:28px;display:flex;justify-content:space-between;gap:10px;font:500 .65rem 'DM Mono';color:#78909e}.pro-status .live{color:#25d2b2}.pro-status b{color:#d6e4e9;font-weight:500}.pro-controls{display:grid;grid-template-columns:repeat(2,minmax(150px,1fr));gap:14px;padding:18px 20px;border-top:1px solid rgba(132,170,190,.16);background:rgba(9,20,31,.94)}.sim-slider{display:grid;gap:8px}.sim-slider>span{display:flex;justify-content:space-between;gap:8px;color:#8da4b0;font-size:.72rem}.sim-slider>span b{color:#dbe8ed;font-weight:500}.sim-slider>span strong{color:#18cbe5;font:600 .72rem 'DM Mono'}.sim-slider input{width:100%;accent-color:#18cbe5}.sim-slider small{display:flex;justify-content:space-between;color:#536c7a;font:500 .55rem 'DM Mono'}.sim-slider small i{font-style:normal}.pro-actions{display:flex;align-items:end;gap:8px}.pro-btn{border:1px solid rgba(132,170,190,.22);background:rgba(255,255,255,.045);color:#b9ccd4;border-radius:9px;padding:10px 13px;font-size:.72rem;cursor:pointer}.pro-btn:hover{border-color:rgba(24,203,229,.5);color:#fff}.pro-btn.primary{background:#10bfd5;border-color:#10bfd5;color:#03131a;font-weight:700}.pro-side{display:flex;flex-direction:column;gap:13px;padding:24px 18px;border-left:1px solid rgba(132,170,190,.16);background:rgba(8,18,29,.96)}.side-kicker{padding-bottom:12px;border-bottom:1px solid rgba(132,170,190,.14);font:600 .58rem 'DM Mono';letter-spacing:.14em;color:#6f8996}.metric{display:flex;justify-content:space-between;align-items:baseline;gap:8px}.metric span{color:#718995;font-size:.69rem}.metric b{color:#edf7fa;font:600 .82rem 'DM Mono';text-align:right}.physics-note{margin-top:auto;padding-top:14px;border-top:1px solid rgba(132,170,190,.14);color:#657d89;font-size:.68rem;line-height:1.65}.wave-legend{display:flex;gap:18px;flex-wrap:wrap;padding:8px 10px 2px;color:#738d9a;font-size:.64rem}.wave-legend span{display:inline-flex;align-items:center;gap:6px}.wave-legend i{width:8px;height:8px;border-radius:50%;display:inline-block}.wave-legend .cyan{background:#18cbe5}.wave-legend .amber{background:#ffb43f}.wave-legend .white{background:#fff}.interference-pill{padding:12px;border:1px solid rgba(24,203,229,.18);border-radius:11px;background:rgba(24,203,229,.055)}.interference-pill span{display:block;color:#68828e;font-size:.62rem}.interference-pill b{display:block;margin-top:3px;color:#18cbe5;font:600 .9rem 'Space Grotesk'}.projectile-stage-pro .pro-svg{background:#06111c}.circuit-stage-pro .pro-svg{background:#061018}
 @media(max-width:900px){.pro-sim{grid-template-columns:1fr}.pro-side{border-left:0;border-top:1px solid rgba(132,170,190,.16);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}.side-kicker,.physics-note{grid-column:1/-1}.pro-svg{min-height:350px}}
 @media(max-width:600px){.pro-controls{grid-template-columns:1fr}.pro-actions{align-items:center}.pro-side{grid-template-columns:1fr 1fr}.pro-stage-head{left:22px;right:22px}.pro-stage-head b{display:none}.pro-status{left:22px;right:22px}.pro-svg{min-height:280px}.wave-legend{gap:10px}}
 
@@ -97,40 +97,3 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 
 @media(max-width:700px){.settings-button{padding:7px}.settings-button span{display:none}}
 
-
-
-
-
-
-
-/* Navy accent system across both themes. This replaces the former cyan/teal accents globally. */
-:root {
-  --primary: #163A63;
-  --primary-foreground: #ffffff;
-  --primary-soft: rgb(22 58 99 / 12%);
-  --border-strong: rgb(22 58 99 / 38%);
-  --blue: #163A63;
-  --blue-dark: #102B4C;
-  --blue-soft: rgb(22 58 99 / 12%);
-  --green: #163A63;
-  --green-soft: rgb(22 58 99 / 12%);
-}
-.wave-a, .wave-b, .circuit-electron,
-.pro-status .live, .sim-slider > span strong,
-.interference-pill b {
-  color: #163A63 !important;
-  fill: #163A63 !important;
-  stroke: #163A63 !important;
-}
-.btn.primary, .pro-btn.primary {
-  background: #163A63 !important;
-  border-color: #163A63 !important;
-  color: #ffffff !important;
-}
-.pro-btn:hover { border-color: rgb(22 58 99 / 55%) !important; }
-.sim-slider input { accent-color: #163A63 !important; }
-.interference-pill {
-  border-color: rgb(22 58 99 / 20%) !important;
-  background: rgb(22 58 99 / 7%) !important;
-}
-.circuit-electron { filter: drop-shadow(0 0 3px rgb(22 58 99 / 25%)) !important; }
