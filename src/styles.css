@@ -97,3 +97,75 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 
 @media(max-width:700px){.settings-button{padding:7px}.settings-button span{display:none}}
 
+
+
+/* Approved preview: navy accents ONLY when the app is in light mode. */
+:root[data-theme="light"] {
+  --primary: #163A63;
+  --primary-foreground: #ffffff;
+  --primary-soft: rgb(22 58 99 / 10%);
+  --border-strong: rgb(22 58 99 / 34%);
+  --blue: #163A63;
+  --blue-dark: #102B4C;
+  --blue-soft: rgb(22 58 99 / 10%);
+  --green: #163A63;
+  --green-soft: rgb(22 58 99 / 10%);
+}
+:root[data-theme="light"] .live-pill {
+  border-color: rgb(22 58 99 / 28%);
+  background: rgb(22 58 99 / 10%);
+  color: #163A63;
+}
+:root[data-theme="light"] .live-pill span,
+:root[data-theme="light"] .hero-copy h1 em,
+:root[data-theme="light"] .hero-stats strong,
+:root[data-theme="light"] .panel-head b,
+:root[data-theme="light"] .measurement-grid strong,
+:root[data-theme="light"] .course-card-top > span,
+:root[data-theme="light"] .course-card-foot b {
+  color: #163A63;
+}
+:root[data-theme="light"] .live-pill span {
+  background: #163A63;
+  box-shadow: 0 0 12px rgb(22 58 99 / 35%);
+}
+:root[data-theme="light"] .btn.primary {
+  border-color: #163A63;
+  background: #163A63;
+  color: #ffffff;
+}
+:root[data-theme="light"] .btn.primary:hover {
+  border-color: #102B4C;
+  background: #102B4C;
+}
+:root[data-theme="light"] .falling-orb {
+  background: #163A63;
+  color: #ffffff;
+  box-shadow: 0 0 32px rgb(22 58 99 / 40%);
+}
+:root[data-theme="light"] .orb-glow {
+  background: #163A63;
+}
+:root[data-theme="light"] .pro-status .live,
+:root[data-theme="light"] .sim-slider > span strong,
+:root[data-theme="light"] .interference-pill b {
+  color: #163A63 !important;
+}
+:root[data-theme="light"] .sim-slider input {
+  accent-color: #163A63;
+}
+:root[data-theme="light"] .pro-btn.primary {
+  background: #163A63;
+  border-color: #163A63;
+  color: #ffffff;
+}
+:root[data-theme="light"] .pro-btn:hover {
+  border-color: rgb(22 58 99 / 50%);
+}
+:root[data-theme="light"] .interference-pill {
+  border-color: rgb(22 58 99 / 18%);
+  background: rgb(22 58 99 / 6%);
+}
+:root[data-theme="light"] .circuit-electron {
+  filter: drop-shadow(0 0 3px rgb(22 58 99 / 25%));
+}
