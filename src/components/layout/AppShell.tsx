@@ -92,7 +92,7 @@ export function AppShell({
       <nav className="mobile-nav">
         {primary.slice(0, 3).map(([target, label, icon]) => (
           <button className={'mobile-link ' + (screen === target ? 'active' : '')} key={target} onClick={() => onNavigate(target)}>
-            <span>{target === 'lab' ? <Atom className="lab-atom-icon" size={19} strokeWidth={1.9} aria-hidden="true" /> : icon}</span>{label}
+            <span className="mobile-link-icon">{target === 'lab' ? <Atom className="lab-atom-icon" size={16} strokeWidth={1.9} aria-hidden="true" /> : icon}</span><span className="mobile-link-label">{label}</span>
           </button>
         ))}
         <button className={'mobile-link ' + (moreOpen ? 'active' : '')} onClick={onToggleMore}><span>•••</span>Mais</button>
