@@ -1,3 +1,4 @@
+import { useLocalizedTree } from '../i18n'
 import { useState, type FormEvent } from 'react'
 import type { Screen } from '../app/types'
 import { useAuth } from '../hooks/useAuth'
@@ -39,7 +40,7 @@ export function LoginPage({ onNavigate, onSuccess }: LoginPageProps) {
     }
   }
 
-  return (
+  return useLocalizedTree((
     <section className="auth-layout">
       <div className="auth-intro">
         <span className="eyebrow">Conta Phisify</span>
@@ -73,5 +74,5 @@ export function LoginPage({ onNavigate, onSuccess }: LoginPageProps) {
         </div>
       </div>
     </section>
-  )
+  ))
 }

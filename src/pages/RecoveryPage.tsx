@@ -1,3 +1,4 @@
+import { useLocalizedTree } from '../i18n'
 import { useState, type FormEvent } from 'react'
 import type { Screen } from '../app/types'
 import { useAuth } from '../hooks/useAuth'
@@ -64,7 +65,7 @@ export function RecoveryPage({ onNavigate }: RecoveryPageProps) {
     }
   }
 
-  return (
+  return useLocalizedTree((
     <section className="auth-layout">
       <div className="auth-intro">
         <span className="eyebrow">Recuperação</span>
@@ -111,5 +112,5 @@ export function RecoveryPage({ onNavigate }: RecoveryPageProps) {
         </div>
       </div>
     </section>
-  )
+  ))
 }

@@ -1,3 +1,4 @@
+import { useLocalizedTree } from '../i18n'
 import { useState } from 'react'
 import type { Screen } from '../app/types'
 import type { Profile } from '../lib/supabase/profile'
@@ -28,7 +29,7 @@ export function ProfilePage({ profile, user, onNavigate, onSignOut }: ProfilePag
     }
   }
 
-  return (
+  return useLocalizedTree((
     <section className="account-page">
       <div className="page-head">
         <div>
@@ -57,5 +58,5 @@ export function ProfilePage({ profile, user, onNavigate, onSignOut }: ProfilePag
         <button className="btn" onClick={handleSignOut} disabled={loggingOut}>{loggingOut ? 'Saindo…' : 'Sair da conta'}</button>
       </div>
     </section>
-  )
+  ))
 }
