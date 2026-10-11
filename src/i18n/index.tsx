@@ -119,6 +119,13 @@ function localizeNode(node: ReactNode, language: Language): ReactNode {
   return cloneElement(node, next)
 }
 
+export function localizeWithLanguage(node: ReactNode, language: Language) { return localizeNode(node, language) }
+
+export function useLocalizedTree(node: ReactNode) {
+  const { preferences } = usePreferences()
+  return localizeNode(node, preferences.language)
+}
+
 export function Localize({ children }: { children: ReactNode }) {
   const { preferences } = usePreferences()
   useEffect(() => { document.documentElement.lang = preferences.language }, [preferences.language])
