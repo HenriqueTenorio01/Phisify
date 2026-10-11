@@ -191,3 +191,36 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 .side-link .lab-atom-icon {
   vertical-align: middle;
 }
+
+
+/* Keep mobile navigation icon and label aligned consistently across all tabs. */
+@media (max-width: 720px) {
+  .mobile-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    line-height: 1.15;
+  }
+  .mobile-link .mobile-link-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1;
+  }
+  .mobile-link .lab-atom-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .mobile-link .mobile-link-label {
+    display: block;
+    margin: 0;
+    font-size: .65rem;
+    line-height: 1.15;
+  }
+}
