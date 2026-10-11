@@ -1,4 +1,4 @@
-import { cloneElement, isValidElement, type ReactNode } from 'react'
+import { cloneElement, isValidElement, useEffect, type ReactNode } from 'react'
 import { usePreferences } from '../app/PreferencesProvider'
 
 export type Language = 'pt-BR' | 'en-US'
@@ -121,6 +121,7 @@ function localizeNode(node: ReactNode, language: Language): ReactNode {
 
 export function Localize({ children }: { children: ReactNode }) {
   const { preferences } = usePreferences()
+  useEffect(() => { document.documentElement.lang = preferences.language }, [preferences.language])
   return <>{localizeNode(children, preferences.language)}</>
 }
 
