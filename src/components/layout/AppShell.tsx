@@ -45,8 +45,8 @@ export function AppShell({
         <div className="topbar-inner">
           <button className="brand" onClick={() => onNavigate('home')} aria-label="Página inicial da Phisify">
             <svg className="brand-mark brand-logo" viewBox="0 0 64 64" role="img" aria-label="Símbolo Phi da Phisify">
-            <rect x="2" y="2" width="60" height="60" rx="15" fill="var(--primary)" />
-            <text x="32" y="47" textAnchor="middle" fontFamily="Georgia, 'Times New Roman', serif" fontSize="51" fill="var(--primary-foreground)">Φ</text>
+            <rect className="brand-logo-bg" x="2" y="2" width="60" height="60" rx="15" />
+            <text className="brand-logo-glyph" x="32" y="47" textAnchor="middle" fontFamily="Georgia, 'Times New Roman', serif" fontSize="51">Φ</text>
           </svg>
             <span className="brand-copy">PHISIFY<small>APRENDER EM MOVIMENTO</small></span>
           </button>
