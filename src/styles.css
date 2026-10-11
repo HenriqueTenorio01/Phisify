@@ -22,13 +22,13 @@
   --foreground: oklch(0.97 0.01 220);
   --panel: oklch(0.18 0.025 255);
   --surface: oklch(0.22 0.03 255);
-  --primary: oklch(0.79 0.14 205);
-  --primary-foreground: oklch(0.12 0.02 255);
-  --primary-soft: oklch(0.79 0.14 205 / 0.12);
+  --primary: #163A63;
+  --primary-foreground: #ffffff;
+  --primary-soft: rgb(22 58 99 / 12%);
   --muted-foreground: oklch(0.72 0.025 235);
   --subtle: oklch(0.58 0.025 235);
   --border: oklch(0.97 0.01 220 / 0.11);
-  --border-strong: oklch(0.79 0.14 205 / 0.35);
+  --border-strong: rgb(22 58 99 / 35%);
   --destructive: oklch(0.65 0.2 25);
   --radius: 0.75rem;
   --max: 1280px;
@@ -101,43 +101,36 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 
 
 
-/* Light mode: use navy blue for all cyan/teal accents, including simulations. */
-:root[data-theme="light"] {
+
+
+/* Navy accent system across both themes. This replaces the former cyan/teal accents globally. */
+:root {
   --primary: #163A63;
   --primary-foreground: #ffffff;
-  --primary-soft: rgb(22 58 99 / 10%);
-  --border-strong: rgb(22 58 99 / 34%);
+  --primary-soft: rgb(22 58 99 / 12%);
+  --border-strong: rgb(22 58 99 / 38%);
   --blue: #163A63;
   --blue-dark: #102B4C;
-  --blue-soft: rgb(22 58 99 / 10%);
+  --blue-soft: rgb(22 58 99 / 12%);
   --green: #163A63;
-  --green-soft: rgb(22 58 99 / 10%);
+  --green-soft: rgb(22 58 99 / 12%);
 }
-:root[data-theme="light"] .wave-a,
-:root[data-theme="light"] .wave-b,
-:root[data-theme="light"] .circuit-electron,
-:root[data-theme="light"] .pro-status .live,
-:root[data-theme="light"] .sim-slider > span strong,
-:root[data-theme="light"] .interference-pill b {
+.wave-a, .wave-b, .circuit-electron,
+.pro-status .live, .sim-slider > span strong,
+.interference-pill b {
   color: #163A63 !important;
   fill: #163A63 !important;
   stroke: #163A63 !important;
 }
-:root[data-theme="light"] .pro-btn.primary {
+.btn.primary, .pro-btn.primary {
   background: #163A63 !important;
   border-color: #163A63 !important;
   color: #ffffff !important;
 }
-:root[data-theme="light"] .pro-btn:hover {
-  border-color: rgb(22 58 99 / 50%) !important;
+.pro-btn:hover { border-color: rgb(22 58 99 / 55%) !important; }
+.sim-slider input { accent-color: #163A63 !important; }
+.interference-pill {
+  border-color: rgb(22 58 99 / 20%) !important;
+  background: rgb(22 58 99 / 7%) !important;
 }
-:root[data-theme="light"] .sim-slider input {
-  accent-color: #163A63 !important;
-}
-:root[data-theme="light"] .interference-pill {
-  border-color: rgb(22 58 99 / 18%) !important;
-  background: rgb(22 58 99 / 6%) !important;
-}
-:root[data-theme="light"] .circuit-electron {
-  filter: drop-shadow(0 0 3px rgb(22 58 99 / 25%)) !important;
-}
+.circuit-electron { filter: drop-shadow(0 0 3px rgb(22 58 99 / 25%)) !important; }
