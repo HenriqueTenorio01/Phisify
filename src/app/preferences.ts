@@ -4,6 +4,7 @@ export type MotionPreference = 'standard' | 'reduced'
 export type EffectsPreference = 'standard' | 'reduced'
 export type TextSizePreference = 'standard' | 'large'
 export type ContrastPreference = 'standard' | 'high'
+export type LanguagePreference = 'pt-BR' | 'en-US'
 
 export interface UserPreferences {
   theme: ThemePreference
@@ -12,6 +13,7 @@ export interface UserPreferences {
   effects: EffectsPreference
   textSize: TextSizePreference
   contrast: ContrastPreference
+  language: LanguagePreference
 }
 
 export const PREFERENCES_STORAGE_KEY = 'phisify-preferences-v1'
@@ -23,6 +25,7 @@ export const defaultPreferences: UserPreferences = {
   effects: 'standard',
   textSize: 'standard',
   contrast: 'standard',
+  language: 'pt-BR',
 }
 
 function isOption<T extends string>(value: unknown, options: readonly T[]): value is T {
@@ -44,6 +47,7 @@ export function loadPreferences(): UserPreferences {
       effects: isOption(parsed['effects'], ['standard', 'reduced']) ? parsed['effects'] : defaultPreferences.effects,
       textSize: isOption(parsed['textSize'], ['standard', 'large']) ? parsed['textSize'] : defaultPreferences.textSize,
       contrast: isOption(parsed['contrast'], ['standard', 'high']) ? parsed['contrast'] : defaultPreferences.contrast,
+      language: isOption(parsed['language'], ['pt-BR', 'en-US']) ? parsed['language'] : defaultPreferences.language,
     }
   } catch {
     return defaultPreferences
