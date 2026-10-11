@@ -97,3 +97,15 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 
 @media(max-width:700px){.settings-button{padding:7px}.settings-button span{display:none}}
 
+
+
+/* Light theme accent palette: navy blue, keeping the dark theme unchanged. */
+:root[data-theme="light"] {
+  --primary: #163A63;
+  --primary-foreground: #ffffff;
+  --primary-soft: rgb(22 58 99 / 10%);
+  --border-strong: rgb(22 58 99 / 34%);
+  --blue: #163A63;
+  --blue-dark: #102B4C;
+  --blue-soft: rgb(22 58 99 / 10%);
+}
