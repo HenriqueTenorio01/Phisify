@@ -173,8 +173,8 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 
 /* Brand symbol colors are explicit per theme to match the approved mockup. */
 .brand-logo-bg { fill: #18cbe5; }
-.brand-logo-glyph { fill: #061018; }
+.brand-logo-glyph { fill: none; stroke: #061018; stroke-width: 4.2; stroke-linecap: butt; stroke-linejoin: round; }
 :root[data-theme="light"] .brand-logo-bg { fill: #163A63; }
-:root[data-theme="light"] .brand-logo-glyph { fill: #ffffff; }
+:root[data-theme="light"] .brand-logo-glyph { stroke: #ffffff; }
 :root[data-theme="dark"] .brand-logo-bg { fill: #18cbe5; }
-:root[data-theme="dark"] .brand-logo-glyph { fill: #061018; }
+:root[data-theme="dark"] .brand-logo-glyph { stroke: #061018; }
