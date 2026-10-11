@@ -25,6 +25,7 @@ import type {
   UserPreferences,
 } from '../app/preferences'
 import { useAuth } from '../hooks/useAuth'
+import type { LanguagePreference } from '../app/preferences'
 
 type SettingsSection = 'general' | 'appearance' | 'personalization' | 'privacy' | 'accessibility' | 'account' | 'notifications'
 
@@ -173,14 +174,14 @@ export function SettingsPage({ onNavigate }: SettingsPageProps) {
             <section className="settings-section" aria-labelledby="settings-general-title">
               <SectionHeader eyebrow="Geral" title="Preferências gerais" description="Configurações básicas para manter o Phisify do seu jeito." />
               <div className="settings-card">
-                <SettingRow icon={SlidersHorizontal} title="Idioma" description="O conteúdo disponível atualmente está em português do Brasil.">
-                  <select className="settings-select" value="pt-BR" disabled aria-label="Idioma"><option value="pt-BR">Português (Brasil)</option></select>
+                <SettingRow icon={SlidersHorizontal} title="Idioma" description="Escolha o idioma da interface e dos conteúdos traduzidos.">
+                  <select className="settings-select" value={preferences.language} onChange={(event) => setPreference("language", event.target.value as LanguagePreference)} aria-label="Idioma"><option value="pt-BR">Português (Brasil)</option><option value="en-US">English (United States)</option></select>
                 </SettingRow>
                 <SettingRow icon={UserRound} title="Dados da conta" description="Nome, e-mail e segurança ficam na seção Conta.">
                   <button className="settings-link-button" type="button" onClick={() => setActiveSection('account')}>Abrir conta</button>
                 </SettingRow>
               </div>
-              <p className="settings-note-text">Mais idiomas poderão ser adicionados quando a tradução do conteúdo estiver disponível.</p>
+              <p className="settings-note-text">A tradução cobre os textos cadastrados no catálogo de idiomas.</p>
             </section>
           )}
 
