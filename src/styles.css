@@ -178,3 +178,14 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 :root[data-theme="light"] .brand-logo-glyph { fill: #ffffff; }
 :root[data-theme="dark"] .brand-logo-bg { fill: #18cbe5; }
 :root[data-theme="dark"] .brand-logo-glyph { fill: #061018; }
+
+
+/* Laboratory navigation icon: match the approved atom preview. */
+.mobile-link .lab-atom-icon {
+  display: block;
+  margin: 0 auto 1px;
+  color: var(--primary);
+}
+.side-link .lab-atom-icon {
+  vertical-align: middle;
+}
