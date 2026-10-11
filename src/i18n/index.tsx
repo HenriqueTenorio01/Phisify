@@ -171,7 +171,7 @@ function localizeNode(node: ReactNode, language: Language): ReactNode {
   if (Array.isArray(node)) return node.map((child) => localizeNode(child, language))
   if (!isValidElement<{ children?: ReactNode; placeholder?: string; title?: string; 'aria-label'?: string; alt?: string }>(node)) return node
   const props = node.props
-  const next: Record<string, unknown> = {}
+  const next: { children?: ReactNode; placeholder?: string; title?: string; 'aria-label'?: string; alt?: string } = {}
   if (props.children !== undefined) next.children = localizeNode(props.children, language)
   for (const key of ['placeholder', 'title', 'aria-label', 'alt'] as const) {
     const value = props[key]
