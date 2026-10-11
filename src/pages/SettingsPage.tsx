@@ -25,6 +25,8 @@ import type {
   UserPreferences,
 } from '../app/preferences'
 import { useAuth } from '../hooks/useAuth'
+import type { LanguagePreference } from '../app/preferences'
+import { Localize, useTranslation } from '../i18n'
 
 type SettingsSection = 'general' | 'appearance' | 'personalization' | 'privacy' | 'accessibility' | 'account' | 'notifications'
 
@@ -97,6 +99,7 @@ function ComingSoon() {
 
 export function SettingsPage({ onNavigate }: SettingsPageProps) {
   const { preferences, updatePreference } = usePreferences()
+  const { t } = useTranslation()
   const { profile, user, updateFullName, signOut } = useAuth()
   const [activeSection, setActiveSection] = useState<SettingsSection>('general')
   const [fullName, setFullName] = useState(profile?.full_name ?? '')
@@ -148,7 +151,7 @@ export function SettingsPage({ onNavigate }: SettingsPageProps) {
   const avatar = profile?.avatar_url ? <img src={profile.avatar_url} alt="" /> : fullNameFallback.slice(0, 1).toUpperCase()
 
   return (
-    <section className="settings-page">
+    <Localize><section className="settings-page">
       <header className="settings-page-head">
         <div><span className="eyebrow">Conta Phisify</span><h1>Configurações</h1><p className="page-intro">Ajuste sua experiência de estudo, privacidade e acessibilidade.</p></div>
         <button className="btn" type="button" onClick={() => onNavigate('profile')}>Voltar ao perfil</button>
@@ -174,13 +177,13 @@ export function SettingsPage({ onNavigate }: SettingsPageProps) {
               <SectionHeader eyebrow="Geral" title="Preferências gerais" description="Configurações básicas para manter o Phisify do seu jeito." />
               <div className="settings-card">
                 <SettingRow icon={SlidersHorizontal} title="Idioma" description="O conteúdo disponível atualmente está em português do Brasil.">
-                  <select className="settings-select" value="pt-BR" disabled aria-label="Idioma"><option value="pt-BR">Português (Brasil)</option></select>
+                  <select className="settings-select" value={preferences.language} onChange={(event) => setPreference('language', event.target.value as LanguagePreference)} aria-label="Idioma"><option value="pt-BR">Português (Brasil)</option><option value="en-US">English (United States)</option></select>
                 </SettingRow>
                 <SettingRow icon={UserRound} title="Dados da conta" description="Nome, e-mail e segurança ficam na seção Conta.">
                   <button className="settings-link-button" type="button" onClick={() => setActiveSection('account')}>Abrir conta</button>
                 </SettingRow>
               </div>
-              <p className="settings-note-text">Mais idiomas poderão ser adicionados quando a tradução do conteúdo estiver disponível.</p>
+              <p className="settings-note-text">{t('A mudança é aplicada imediatamente em toda a interface e fica salva neste dispositivo.')}</p>
             </section>
           )}
 
@@ -281,7 +284,7 @@ export function SettingsPage({ onNavigate }: SettingsPageProps) {
           )}
         </div>
       </div>
-    </section>
+    </section></Localize>
   )
 }
 
