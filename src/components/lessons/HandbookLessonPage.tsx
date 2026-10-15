@@ -1,13 +1,6 @@
-import { useState } from 'react'
-import {
-  waveCourse,
-  waveLessonById,
-  waveLessons,
-} from '../../../content/olimpiadas/ondas'
-import {
-  resolveSource,
-  sourceLabel,
-} from '../../../content/olimpiadas/ondas/reader'
+import { use, useState } from 'react'
+import { handbookForLesson } from '../../../content/handbooks'
+import { loadHandbook } from '../handbook/loadHandbook'
 import { questionBank } from '../../../content/questions'
 import { useApp } from '../../app/context'
 import { useAuth } from '../../hooks/useAuth'
@@ -21,7 +14,7 @@ export default function HandbookLessonPage({ id }: { id: string }) {
     openLesson,
     completeLesson,
     answerQuestion,
-    navigate,
+    openSheet,
   } = useApp()
   const { user } = useAuth()
   const [outlineOpen, setOutlineOpen] = useState(
@@ -29,33 +22,33 @@ export default function HandbookLessonPage({ id }: { id: string }) {
       typeof window !== 'undefined' &&
       window.matchMedia('(min-width: 1051px)').matches,
   )
-  const lesson = waveLessonById(id)
-  if (!lesson) return null
+  const book = handbookForLesson(id)
+  if (!book) return null
+  const { course, lessons } = book
+  const lesson = lessons.find((item) => item.id === id)!
+  const { resolveSource, sourceLabel } = use(loadHandbook(course.id))
   const blocks = resolveSource(lesson.refs)
   const headings = blocks.filter(
     (block) => block.type === 'heading' && block.level !== 4,
   )
-  const index = waveLessons.findIndex((item) => item.id === id)
-  const previous = waveLessons[index - 1]
-  const next = waveLessons[index + 1]
+  const index = lessons.findIndex((item) => item.id === id)
+  const previous = lessons[index - 1]
+  const next = lessons[index + 1]
   const completed = progress.completedLessons.includes(id)
   const questions = questionBank.filter((question) => question.lessonId === id)
   const numberInCourse =
-    waveCourse.units
+    course.units
       .flatMap((unit) => unit.lessons)
       .findIndex((item) => item.id === id) + 1
   return (
     <div className="handbook-layout">
       <aside className="handbook-nav">
-        <button
-          className="link-button"
-          onClick={() => openCourse(waveCourse.id)}
-        >
+        <button className="link-button" onClick={() => openCourse(course.id)}>
           ← Sumário do curso
         </button>
-        <p className="handbook-nav-label">Olimpíadas · Ondulatória</p>
+        <p className="handbook-nav-label">Olimpíadas · {course.area}</p>
         <p>
-          {numberInCourse} de {waveLessons.length} aulas
+          {numberInCourse} de {lessons.length} aulas
         </p>
         <details
           open={outlineOpen}
@@ -63,7 +56,7 @@ export default function HandbookLessonPage({ id }: { id: string }) {
           className="handbook-course-outline"
         >
           <summary>Navegar pelos módulos</summary>
-          {waveCourse.units.map((unit) => (
+          {course.units.map((unit) => (
             <div key={unit.title}>
               <strong>{unit.title}</strong>
               {unit.lessons.map((item) => (
@@ -126,8 +119,8 @@ export default function HandbookLessonPage({ id }: { id: string }) {
                 Entre na sua conta para registrar a conclusão desta aula.
               </p>
             )}
-            <button className="btn" onClick={() => navigate('sheets')}>
-              Ficha de Ondulatória
+            <button className="btn" onClick={() => openSheet(course.id)}>
+              Ficha de {course.area}
             </button>
           </div>
         </article>

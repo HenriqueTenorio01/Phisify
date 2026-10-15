@@ -12,10 +12,11 @@ import type {
 export interface AppContextValue {
   route: RouteState
   progress: ProgressState
-  navigate: (screen: Screen) => void
+  navigate: (screen: Screen, trackId?: TrackId) => void
   selectTrack: (id: TrackId) => void
   openCourse: (id: CourseId) => void
   openLesson: (id: string) => void
+  openSheet: (id: CourseId) => void
   openLab: (id: LabId) => void
   answerQuestion: (question: Question, selected: number) => Promise<void>
   completeLesson: (id: string) => void

@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react'
-import { waveLessonById } from '../../content/olimpiadas/ondas'
+import { handbookForLesson } from '../../content/handbooks'
 import { academicLessonById, lessonDataById } from '../../content/lessons'
 import { questionBank } from '../../content/questions'
 import { lessonById } from '../../content/courses'
@@ -21,7 +21,7 @@ export function LessonPage() {
   const found = lessonById(route.lessonId)
   if (
     found?.course.trackId === route.trackId &&
-    waveLessonById(route.lessonId)
+    handbookForLesson(route.lessonId)
   ) {
     return (
       <Suspense fallback={<p>Carregando aula…</p>}>

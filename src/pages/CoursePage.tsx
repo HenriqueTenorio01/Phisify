@@ -1,3 +1,4 @@
+import { handbooks } from '../../content/handbooks'
 import { courseById } from '../../content/courses'
 import { useApp } from '../app/context'
 import { ProgressTrack } from '../components/ui/ProgressTrack'
@@ -59,7 +60,7 @@ export function CoursePage() {
           <section className="unit" key={unit.title}>
             <div className="unit-head">
               <h2>
-                {course.id === 'olympiad-waves'
+                {handbooks.some((book) => book.course.id === course.id)
                   ? unit.title
                   : `${unitIndex + 1}. ${unit.title}`}
               </h2>

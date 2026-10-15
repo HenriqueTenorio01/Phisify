@@ -40,6 +40,10 @@ resolução como correta ou para revisão. Essa escolha é explicitamente uma
 **autoavaliação**, reaproveitando os registros e o controle de sequência existentes.
 Notas digitadas na questão são temporárias e a interface informa essa limitação.
 
+A ficha também tem uma entrada própria na área de Fichas, em
+`/trilhas/olimpiadas/questoes/ondulatoria`, ao lado da Ficha de Gravitação.
+Os identificadores e os registros de progresso das questões foram preservados.
+
 ## Manutenção
 
 As divisões editoriais e os vínculos dos exercícios ficam em
