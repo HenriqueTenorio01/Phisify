@@ -1,8 +1,17 @@
 import { useEffect, useState } from 'react'
-import { lessonById } from '../../content/courses'
-import { emptyProgress, loadProgress, saveProgress } from './storage'
+import { courseById, lessonById } from '../../content/courses'
+import { useUserProgress } from './useUserProgress'
+import { routeFromLocation, screenPath } from './navigation'
+import { progressForTrack, questionsForTrack } from '../../content/catalog'
 import { AppContext, type AppContextValue } from './context'
-import type { CourseId, LabId, ProgressState, Question, RouteState, Screen } from './types'
+import type {
+  CourseId,
+  LabId,
+  Question,
+  RouteState,
+  Screen,
+  TrackId,
+} from './types'
 import { AppShell } from '../components/layout/AppShell'
 import { useAuth } from '../hooks/useAuth'
 import { HomePage } from '../pages/HomePage'
@@ -25,66 +34,36 @@ import { Localize } from '../i18n'
 
 const initialRoute: RouteState = {
   screen: 'home',
+  trackId: 'ensino-medio',
   courseId: 'mechanics',
-  lessonId: 'lesson-free-fall',
+  lessonId: '',
   labId: 'projectile',
 }
 
-const routePaths: Partial<Record<Screen, string>> = {
-  home: '/',
-  lab: '/laboratorio',
-  login: '/login',
-  signup: '/cadastro',
-  recovery: '/recuperar-senha',
-  profile: '/perfil',
-  settings: '/configuracoes',
-}
-
-function routeFromPath(): Pick<RouteState, 'screen' | 'labId'> | null {
-  if (typeof window === 'undefined') return null
-  const path = window.location.pathname.replace(/\/+$/, '') || '/'
-  const authMode = new URLSearchParams(window.location.search).get('auth')
-  if (authMode === 'recovery') return { screen: 'recovery', labId: 'projectile' }
-  const screens: Record<string, Screen> = {
-    '/': 'home',
-    '/login': 'login',
-    '/cadastro': 'signup',
-    '/recuperar-senha': 'recovery',
-    '/perfil': 'profile',
-    '/configuracoes': 'settings',
-    '/laboratorio': 'lab',
-    '/laboratorio/lancamento-obliquo': 'simulation',
-    '/laboratorio/interferencia-de-ondas': 'simulation',
-    '/laboratorio/circuito-resistivo': 'simulation',
-  }
-  const screen = screens[path]
-  if (!screen) return null
-  const labId = path.includes('interferencia') ? 'waves' : path.includes('circuito') ? 'circuit' : 'projectile'
-  return { screen, labId }
+function routeFromPath() {
+  return typeof window === 'undefined'
+    ? null
+    : routeFromLocation(window.location.pathname, window.location.search)
 }
 
 export function App() {
-  const { user, profile, isLoading: authLoading, signOut, refreshProfile } = useAuth()
-  const [route, setRoute] = useState<RouteState>(() => {
-    const saved = loadProgress(user?.id)
-    const pathRoute = routeFromPath()
-    return {
-      ...initialRoute,
-      screen: pathRoute?.screen ?? saved.lastScreen,
-      labId: pathRoute?.labId ?? initialRoute.labId,
-    }
-  })
-  const [progress, setProgress] = useState<ProgressState>(() => loadProgress(user?.id))
+  const {
+    user,
+    profile,
+    isLoading: authLoading,
+    signOut,
+    refreshProfile,
+  } = useAuth()
+  const [route, setRoute] = useState<RouteState>(() => ({
+    ...initialRoute,
+    ...routeFromPath(),
+  }))
+  const {
+    progress,
+    setProgress,
+    ready: progressReady,
+  } = useUserProgress(user?.id, authLoading)
   const [moreOpen, setMoreOpen] = useState(false)
-
-  useEffect(() => {
-    if (!authLoading && user) saveProgress(progress, user.id)
-  }, [authLoading, progress, user?.id])
-
-  useEffect(() => {
-    if (authLoading) return
-    setProgress(user ? loadProgress(user.id) : emptyProgress())
-  }, [authLoading, user?.id])
 
   useEffect(() => {
     const onPopState = () => {
@@ -96,10 +75,12 @@ export function App() {
   }, [])
 
   const navigate = (screen: Screen) => {
-    const path = routePaths[screen]
+    const path = screenPath(screen, route.trackId)
     if (path) window.history.pushState({}, '', path)
     setRoute((current) => ({ ...current, screen }))
-    if (!['login', 'signup', 'recovery', 'profile', 'settings'].includes(screen)) {
+    if (
+      !['login', 'signup', 'recovery', 'profile', 'settings'].includes(screen)
+    ) {
       setProgress((current) => ({ ...current, lastScreen: screen }))
     }
     setMoreOpen(false)
@@ -107,22 +88,47 @@ export function App() {
   }
 
   useEffect(() => {
-    const protectedScreen = route.screen === 'profile' || route.screen === 'settings'
+    const protectedScreen =
+      route.screen === 'profile' || route.screen === 'settings'
     if (!authLoading && !user && protectedScreen) navigate('login')
   }, [authLoading, route.screen, user])
 
+  const selectTrack = (trackId: TrackId) => {
+    window.history.pushState({}, '', screenPath('courses', trackId))
+    setRoute((current) => ({
+      ...current,
+      screen: 'courses',
+      trackId,
+      lessonId: '',
+    }))
+    setMoreOpen(false)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   const openCourse = (courseId: CourseId) => {
+    if (courseById(courseId)?.trackId !== route.trackId) return
+    window.history.pushState(
+      {},
+      '',
+      `/trilhas/${route.trackId}/cursos/${courseId}`,
+    )
     setRoute((current) => ({ ...current, screen: 'course', courseId }))
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const openLesson = (lessonId: string) => {
     const found = lessonById(lessonId)
+    if (!found || found.course.trackId !== route.trackId) return
+    window.history.pushState(
+      {},
+      '',
+      `/trilhas/${route.trackId}/aulas/${lessonId}`,
+    )
     setRoute((current) => ({
       ...current,
       screen: 'lesson',
       lessonId,
-      courseId: found?.course.id ?? current.courseId,
+      courseId: found.course.id,
     }))
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -139,18 +145,28 @@ export function App() {
   }
 
   const answerQuestion = async (question: Question, selected: number) => {
-    if (!user) return
+    if (
+      !user ||
+      !progressReady ||
+      !questionsForTrack(route.trackId).some((item) => item.id === question.id)
+    )
+      return
     const answeredAt = Date.now()
     setProgress((current) => ({
       ...current,
       responses: {
         ...current.responses,
-        [question.id]: { selected, correct: selected === question.answer, at: answeredAt },
+        [question.id]: {
+          selected,
+          correct: selected === question.answer,
+          at: answeredAt,
+        },
       },
       history: [
         {
           label: question.topic + ' · ' + question.objective,
           type: 'answer' as const,
+          contentId: question.id,
           at: answeredAt,
         },
         ...current.history,
@@ -166,7 +182,12 @@ export function App() {
   }
 
   const completeLesson = (lessonId: string) => {
-    if (!user) return
+    if (
+      !user ||
+      !progressReady ||
+      lessonById(lessonId)?.course.trackId !== route.trackId
+    )
+      return
     setProgress((current) =>
       current.completedLessons.includes(lessonId)
         ? current
@@ -177,6 +198,7 @@ export function App() {
               {
                 label: lessonById(lessonId)?.data.title ?? lessonId,
                 type: 'lesson' as const,
+                contentId: lessonId,
                 at: Date.now(),
               },
               ...current.history,
@@ -185,12 +207,14 @@ export function App() {
     )
   }
 
-  const streak = user ? profile?.current_streak ?? 0 : 0
-  const displayName = profile?.full_name || user?.email?.split('@')[0] || 'Conta'
+  const streak = user ? (profile?.current_streak ?? 0) : 0
+  const displayName =
+    profile?.full_name || user?.email?.split('@')[0] || 'Conta'
   const value: AppContextValue = {
     route,
-    progress,
+    progress: progressForTrack(progress, route.trackId),
     navigate,
+    selectTrack,
     openCourse,
     openLesson,
     openLab,
@@ -199,45 +223,64 @@ export function App() {
     streak,
   }
 
-  if (authLoading) {
+  if (authLoading || !progressReady) {
     return <div className="auth-loading">Carregando sua sessão…</div>
   }
 
   const page =
-    route.screen === 'home' ? <HomePage /> :
-    route.screen === 'courses' ? <CoursesPage /> :
-    route.screen === 'course' ? <CoursePage /> :
-    route.screen === 'lab' ? <LabPage /> :
-    route.screen === 'simulation' ? <SimulationPage /> :
-    route.screen === 'sheets' ? <SheetsPage /> :
-    route.screen === 'performance' ? <PerformancePage /> :
-    route.screen === 'review' ? <ReviewPage /> :
-    route.screen === 'search' ? <SearchPage /> :
-    route.screen === 'lesson' ? <LessonPage /> :
-    route.screen === 'login' ? <LoginPage onNavigate={navigate} onSuccess={() => navigate('home')} /> :
-    route.screen === 'signup' ? <RegisterPage onNavigate={navigate} onSuccess={() => navigate('home')} /> :
-    route.screen === 'recovery' ? <RecoveryPage onNavigate={navigate} /> :
-    route.screen === 'profile' ? <ProfilePage profile={profile} user={user} onNavigate={navigate} onSignOut={signOut} /> :
-    <SettingsPage onNavigate={navigate} />
+    route.screen === 'home' ? (
+      <HomePage />
+    ) : route.screen === 'courses' ? (
+      <CoursesPage key={route.trackId} />
+    ) : route.screen === 'course' ? (
+      <CoursePage />
+    ) : route.screen === 'lab' ? (
+      <LabPage />
+    ) : route.screen === 'simulation' ? (
+      <SimulationPage />
+    ) : route.screen === 'sheets' ? (
+      <SheetsPage key={route.trackId} />
+    ) : route.screen === 'performance' ? (
+      <PerformancePage />
+    ) : route.screen === 'review' ? (
+      <ReviewPage />
+    ) : route.screen === 'search' ? (
+      <SearchPage />
+    ) : route.screen === 'lesson' ? (
+      <LessonPage />
+    ) : route.screen === 'login' ? (
+      <LoginPage onNavigate={navigate} onSuccess={() => navigate('home')} />
+    ) : route.screen === 'signup' ? (
+      <RegisterPage onNavigate={navigate} onSuccess={() => navigate('home')} />
+    ) : route.screen === 'recovery' ? (
+      <RecoveryPage onNavigate={navigate} />
+    ) : route.screen === 'profile' ? (
+      <ProfilePage
+        profile={profile}
+        user={user}
+        onNavigate={navigate}
+        onSignOut={signOut}
+      />
+    ) : (
+      <SettingsPage onNavigate={navigate} />
+    )
 
   return (
     <AppContext.Provider value={value}>
       <Localize>
-      <AppShell
-        screen={route.screen}
-        streak={streak}
-        moreOpen={moreOpen}
-        onNavigate={navigate}
-        onToggleMore={() => setMoreOpen((open) => !open)}
-        onOpenAccount={() => navigate(user ? 'profile' : 'login')}
-        isAuthenticated={Boolean(user)}
-        userName={displayName}
-      >
-        {page}
-      </AppShell>
+        <AppShell
+          screen={route.screen}
+          streak={streak}
+          moreOpen={moreOpen}
+          onNavigate={navigate}
+          onToggleMore={() => setMoreOpen((open) => !open)}
+          onOpenAccount={() => navigate(user ? 'profile' : 'login')}
+          isAuthenticated={Boolean(user)}
+          userName={displayName}
+        >
+          {page}
+        </AppShell>
       </Localize>
     </AppContext.Provider>
   )
 }
-
-
