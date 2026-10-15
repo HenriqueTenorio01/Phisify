@@ -15,6 +15,7 @@ export default function HandbookLessonPage({ id }: { id: string }) {
     completeLesson,
     answerQuestion,
     openSheet,
+    lessonCompletion,
   } = useApp()
   const { user } = useAuth()
   const [outlineOpen, setOutlineOpen] = useState(
@@ -35,6 +36,7 @@ export default function HandbookLessonPage({ id }: { id: string }) {
   const previous = lessons[index - 1]
   const next = lessons[index + 1]
   const completed = progress.completedLessons.includes(id)
+  const parts = lessonCompletion(id)
   const questions = questionBank.filter((question) => question.lessonId === id)
   const numberInCourse =
     course.units
@@ -83,9 +85,25 @@ export default function HandbookLessonPage({ id }: { id: string }) {
             <p className="handbook-unit">{lesson.unit}</p>
             <h1>{lesson.title}</h1>
             <p className="handbook-small">
+              {lesson.pages && (
+                <>
+                  {lesson.estimatedPages ? 'Cerca de ' : ''}
+                  {lesson.pages} {lesson.pages === 1 ? 'página' : 'páginas'}{' '}
+                  {lesson.estimatedPages
+                    ? 'de leitura'
+                    : 'do material de referência'}
+                  {lesson.pages > 2 ? ' · estudo aprofundado' : ''} ·{' '}
+                </>
+              )}
               Leitura com deduções completas · cerca de {lesson.minutes} min,
               além da resolução dos exercícios.
             </p>
+            {parts.completed > 0 && parts.completed < parts.total && (
+              <p className="handbook-small">
+                Você já concluiu {parts.completed} de {parts.total} trechos
+                desta aula.
+              </p>
+            )}
           </header>
           {headings.length > 1 && (
             <nav

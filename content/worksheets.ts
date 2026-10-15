@@ -7,7 +7,7 @@ export const worksheets: Array<{
   title: string
   description: string
   guideLessonId: string
-  answersLessonId: string
+  answersLessonId?: string
 }> = [
   {
     id: 'olympiad-waves',
@@ -26,6 +26,14 @@ export const worksheets: Array<{
       'Campos, dois corpos, órbitas, manobras, espalhamento e extensões. Enunciados integrais e resoluções comentadas da ficha TBF / IPhO.',
     guideLessonId: 'olymp-gravity-treino',
     answersLessonId: 'olymp-gravity-gabarito',
+  },
+  {
+    id: 'olympiad-center-of-mass',
+    slug: 'centro-de-massa',
+    title: 'Ficha de Centro de Massa',
+    description:
+      'Integração, conservação, fragmentação, rotação e vínculos móveis. 14 enunciados integrais, pistas opcionais e resoluções comentadas da ficha TBF / IPhO.',
+    guideLessonId: 'olymp-cm-treino',
   },
 ]
 

@@ -11,6 +11,7 @@ import {
   waveCourse,
   waveLessons,
   waveQuestions,
+  waveLessonById,
 } from '../content/olimpiadas/ondas'
 import {
   handbookPages,
@@ -171,7 +172,7 @@ test('all 20 written problems retain their complete subquestions and detailed so
 })
 
 test('chapter boundaries preserve ongoing derivations, examples and appendix conditions', () => {
-  assert.equal(waveLessons.length, 42)
+  assert.equal(waveLessons.length, 22)
   assert.equal(waveCourse.units.length, 15)
   const sound = waveLessons.find((lesson) => lesson.id.endsWith('-som'))!
   const soundText = resolveSource(sound.refs)
@@ -179,12 +180,12 @@ test('chapter boundaries preserve ongoing derivations, examples and appendix con
     .join(' ')
   assert.ok(soundText.includes('6.3 Exemplo resolvido 7'))
   assert.ok(sound.refs.some((ref) => ref.page === 'aula-17'))
-  assert.ok(!soundText.includes('6.4 Excitar'))
-  const modes = waveLessons.find((lesson) => lesson.id === 'olymp-waves-modos')!
+  assert.ok(soundText.includes('6.4 Excitar'))
+  const modes = waveLessonById('olymp-waves-modos')!
   assert.ok(modes.refs.some((ref) => ref.page === 'aula-15'))
   assert.equal(
     waveLessons.filter((lesson) => lesson.unit.startsWith('13 ')).length,
-    8,
+    4,
   )
 })
 
@@ -203,7 +204,7 @@ test('the olympiad course cannot leak into Ensino Médio or Universidade', () =>
   assert.deepEqual(questionsForTrack('universidade'), [])
   const saved = {
     ...emptyProgress(),
-    completedLessons: [waveLessons[0]!.id],
+    completedLessons: [...waveLessons[0]!.previousIds],
     responses: {
       [waveQuestions[0]!.id]: { selected: 1, correct: true, at: 1 },
     },

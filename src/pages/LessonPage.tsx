@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { handbookForLesson } from '../../content/handbooks'
+import { resolveLessonId } from '../../content/lesson-compatibility'
 import { academicLessonById, lessonDataById } from '../../content/lessons'
 import { questionBank } from '../../content/questions'
 import { lessonById } from '../../content/courses'
@@ -25,7 +26,10 @@ export function LessonPage() {
   ) {
     return (
       <Suspense fallback={<p>Carregando aula…</p>}>
-        <HandbookLessonPage key={route.lessonId} id={route.lessonId} />
+        <HandbookLessonPage
+          key={resolveLessonId(route.lessonId)}
+          id={resolveLessonId(route.lessonId)}
+        />
       </Suspense>
     )
   }

@@ -2,22 +2,38 @@
   {
     "id": "olymp-gravity-guia",
     "unit": "Orientação",
-    "title": "Como estudar: sistema, convenções e hipóteses",
-    "description": "Como estudar: sistema, convenções e hipóteses. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Como estudar: sistema, convenções e orientações de treino",
+    "description": "Como estudar: sistema, convenções e orientações de treino. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-2",
         "start": 0,
         "end": 8
+      },
+      {
+        "page": "ficha-1",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "page": "ficha-15",
+        "start": 0,
+        "end": 2
       }
     ],
-    "minutes": 11
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-guia",
+      "olymp-gravity-treino"
+    ],
+    "estimatedPages": true,
+    "minutes": 17
   },
   {
     "id": "olymp-gravity-potencial",
     "unit": "1 · Força, campo e potencial",
-    "title": "Campo, potencial e energia de sistemas de partículas",
-    "description": "Campo, potencial e energia de sistemas de partículas. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Campo, potencial, energia e teorema da casca",
+    "description": "Campo, potencial, energia e teorema da casca. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-5",
@@ -27,30 +43,21 @@
       {
         "page": "aula-6",
         "start": 0,
-        "end": 1
-      }
-    ],
-    "minutes": 11
-  },
-  {
-    "id": "olymp-gravity-casca",
-    "unit": "1 · Força, campo e potencial",
-    "title": "Teorema da casca: demonstração pelo potencial",
-    "description": "Teorema da casca: demonstração pelo potencial. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-6",
-        "start": 1,
         "end": 11
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-potencial",
+      "olymp-gravity-casca"
+    ],
+    "minutes": 15
   },
   {
     "id": "olymp-gravity-interior",
     "unit": "1 · Força, campo e potencial",
-    "title": "Esfera homogênea e túnel gravitacional",
-    "description": "Esfera homogênea e túnel gravitacional. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Campo interior, túnel gravitacional e autoenergia",
+    "description": "Campo interior, túnel gravitacional e autoenergia. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-6",
@@ -60,58 +67,45 @@
       {
         "page": "aula-7",
         "start": 0,
-        "end": 8
-      }
-    ],
-    "minutes": 9
-  },
-  {
-    "id": "olymp-gravity-autoenergia",
-    "unit": "1 · Força, campo e potencial",
-    "title": "Campo quase uniforme e autoenergia gravitacional",
-    "description": "Campo quase uniforme e autoenergia gravitacional. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-7",
-        "start": 8,
         "end": 15
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-interior",
+      "olymp-gravity-autoenergia"
+    ],
+    "minutes": 13
   },
   {
     "id": "olymp-gravity-dois-corpos",
     "unit": "2 · Redução a dois corpos",
-    "title": "Centro de massa, massa reduzida e movimento relativo",
-    "description": "Centro de massa, massa reduzida e movimento relativo. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Redução a dois corpos, órbita plana e cinemática polar",
+    "description": "Redução a dois corpos, órbita plana e cinemática polar. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-8",
         "start": 0,
         "end": 19
-      }
-    ],
-    "minutes": 10
-  },
-  {
-    "id": "olymp-gravity-polares",
-    "unit": "2 · Redução a dois corpos",
-    "title": "Órbita plana e derivação da cinemática polar",
-    "description": "Órbita plana e derivação da cinemática polar. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-9",
         "start": 0,
         "end": 18
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-dois-corpos",
+      "olymp-gravity-polares"
+    ],
+    "minutes": 16
   },
   {
     "id": "olymp-gravity-efetivo",
     "unit": "3 · Potencial efetivo e estabilidade",
-    "title": "Redução radial, barreira e pontos de retorno",
-    "description": "Redução radial, barreira e pontos de retorno. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Potencial efetivo, estabilidade e lançamento tangencial",
+    "description": "Potencial efetivo, estabilidade e lançamento tangencial. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-10",
@@ -121,34 +115,6 @@
       {
         "page": "aula-11",
         "start": 0,
-        "end": 3
-      }
-    ],
-    "minutes": 12
-  },
-  {
-    "id": "olymp-gravity-estabilidade",
-    "unit": "3 · Potencial efetivo e estabilidade",
-    "title": "Estabilidade de círculos e pequenas oscilações radiais",
-    "description": "Estabilidade de círculos e pequenas oscilações radiais. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-11",
-        "start": 3,
-        "end": 12
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-lancamento",
-    "unit": "3 · Potencial efetivo e estabilidade",
-    "title": "Lançamento tangencial: círculo, elipse ou escape?",
-    "description": "Lançamento tangencial: círculo, elipse ou escape?. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-11",
-        "start": 12,
         "end": 14
       },
       {
@@ -157,13 +123,19 @@
         "end": 11
       }
     ],
-    "minutes": 8
+    "pages": 3,
+    "previousIds": [
+      "olymp-gravity-efetivo",
+      "olymp-gravity-estabilidade",
+      "olymp-gravity-lancamento"
+    ],
+    "minutes": 23
   },
   {
     "id": "olymp-gravity-binet",
     "unit": "4 · Binet e equação da órbita",
-    "title": "Da equação radial à equação polar das cônicas",
-    "description": "Da equação radial à equação polar das cônicas. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Equação de Binet, cônicas e reconstrução da força",
+    "description": "Equação de Binet, cônicas e reconstrução da força. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-13",
@@ -173,67 +145,30 @@
       {
         "page": "aula-14",
         "start": 0,
-        "end": 4
-      }
-    ],
-    "minutes": 10
-  },
-  {
-    "id": "olymp-gravity-forca-inversa",
-    "unit": "4 · Binet e equação da órbita",
-    "title": "Reconstruir a força a partir de uma trajetória",
-    "description": "Reconstruir a força a partir de uma trajetória. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-14",
-        "start": 4,
         "end": 11
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-binet",
+      "olymp-gravity-forca-inversa"
+    ],
+    "minutes": 15
   },
   {
     "id": "olymp-gravity-geometria",
     "unit": "5 · Geometria, energia e excentricidade",
-    "title": "Da equação polar aos semieixos e aos focos",
-    "description": "Da equação polar aos semieixos e aos focos. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Geometria, energia, apses e vetor de excentricidade",
+    "description": "Geometria, energia, apses e vetor de excentricidade. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-15",
         "start": 0,
-        "end": 13
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-energia",
-    "unit": "5 · Geometria, energia e excentricidade",
-    "title": "Energia, excentricidade, vis-viva e apses",
-    "description": "Energia, excentricidade, vis-viva e apses. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-15",
-        "start": 13,
         "end": 18
       },
       {
         "page": "aula-16",
         "start": 0,
-        "end": 19
-      }
-    ],
-    "minutes": 9
-  },
-  {
-    "id": "olymp-gravity-vetor-excentricidade",
-    "unit": "5 · Geometria, energia e excentricidade",
-    "title": "Vetor de excentricidade e orientação da órbita",
-    "description": "Vetor de excentricidade e orientação da órbita. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-16",
-        "start": 19,
         "end": 22
       },
       {
@@ -242,13 +177,19 @@
         "end": 17
       }
     ],
-    "minutes": 8
+    "pages": 3,
+    "previousIds": [
+      "olymp-gravity-geometria",
+      "olymp-gravity-energia",
+      "olymp-gravity-vetor-excentricidade"
+    ],
+    "minutes": 22
   },
   {
     "id": "olymp-gravity-kepler",
     "unit": "6 · Leis de Kepler e evolução temporal",
-    "title": "Lei das áreas, período e equação de Kepler",
-    "description": "Lei das áreas, período e equação de Kepler. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Leis de Kepler, evolução temporal, Barker e virial",
+    "description": "Leis de Kepler, evolução temporal, Barker e virial. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-18",
@@ -258,77 +199,46 @@
       {
         "page": "aula-19",
         "start": 0,
-        "end": 10
-      }
-    ],
-    "minutes": 14
-  },
-  {
-    "id": "olymp-gravity-barker-virial",
-    "unit": "6 · Leis de Kepler e evolução temporal",
-    "title": "Tempo na parábola e teorema do virial",
-    "description": "Tempo na parábola e teorema do virial. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-19",
-        "start": 10,
         "end": 24
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-kepler",
+      "olymp-gravity-barker-virial"
+    ],
+    "minutes": 19
   },
   {
     "id": "olymp-gravity-escape",
     "unit": "7 · Escape, queda radial e colisão",
-    "title": "Energia de escape e referencial inercial",
-    "description": "Energia de escape e referencial inercial. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Escape, queda radial e colisão com uma fonte extensa",
+    "description": "Escape, queda radial e colisão com uma fonte extensa. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-20",
         "start": 0,
-        "end": 13
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-queda",
-    "unit": "7 · Escape, queda radial e colisão",
-    "title": "Queda radial e tempo até o contato de dois corpos",
-    "description": "Queda radial e tempo até o contato de dois corpos. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-20",
-        "start": 13,
         "end": 21
       },
       {
         "page": "aula-21",
         "start": 0,
-        "end": 14
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-colisao",
-    "unit": "7 · Escape, queda radial e colisão",
-    "title": "Periastro, superfície e condição de colisão futura",
-    "description": "Periastro, superfície e condição de colisão futura. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-21",
-        "start": 14,
         "end": 20
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-escape",
+      "olymp-gravity-queda",
+      "olymp-gravity-colisao"
+    ],
+    "minutes": 19
   },
   {
     "id": "olymp-gravity-hohmann",
     "unit": "8 · Impulsos e transferências orbitais",
-    "title": "Novos invariantes e transferência de Hohmann",
-    "description": "Novos invariantes e transferência de Hohmann. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Impulsos, transferência de Hohmann e efeito Oberth",
+    "description": "Impulsos, transferência de Hohmann e efeito Oberth. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-22",
@@ -338,30 +248,21 @@
       {
         "page": "aula-23",
         "start": 0,
-        "end": 9
-      }
-    ],
-    "minutes": 13
-  },
-  {
-    "id": "olymp-gravity-oberth",
-    "unit": "8 · Impulsos e transferências orbitais",
-    "title": "Impulso no periastro e efeito Oberth",
-    "description": "Impulso no periastro e efeito Oberth. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-23",
-        "start": 9,
         "end": 13
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-hohmann",
+      "olymp-gravity-oberth"
+    ],
+    "minutes": 16
   },
   {
     "id": "olymp-gravity-hiperboles",
     "unit": "9 · Órbitas hiperbólicas e espalhamento",
-    "title": "Parâmetro de impacto, desvio e focalização gravitacional",
-    "description": "Parâmetro de impacto, desvio e focalização gravitacional. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Hipérboles, espalhamento e assistência gravitacional",
+    "description": "Hipérboles, espalhamento e assistência gravitacional. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-24",
@@ -371,77 +272,46 @@
       {
         "page": "aula-25",
         "start": 0,
-        "end": 7
-      }
-    ],
-    "minutes": 12
-  },
-  {
-    "id": "olymp-gravity-assistencia",
-    "unit": "9 · Órbitas hiperbólicas e espalhamento",
-    "title": "Assistência gravitacional e mudança de referencial",
-    "description": "Assistência gravitacional e mudança de referencial. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-25",
-        "start": 7,
         "end": 13
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-hiperboles",
+      "olymp-gravity-assistencia"
+    ],
+    "minutes": 18
   },
   {
     "id": "olymp-gravity-precessao",
     "unit": "10 · Além da órbita kepleriana",
-    "title": "Binet modificado e precessão dos apses",
-    "description": "Binet modificado e precessão dos apses. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Além de Kepler: precessão, marés e escala de Hill",
+    "description": "Além de Kepler: precessão, marés e escala de Hill. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-26",
         "start": 0,
-        "end": 14
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-mares",
-    "unit": "10 · Além da órbita kepleriana",
-    "title": "Gradiente do campo e aceleração de maré",
-    "description": "Gradiente do campo e aceleração de maré. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-26",
-        "start": 14,
         "end": 19
       },
       {
         "page": "aula-27",
         "start": 0,
-        "end": 5
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-hill",
-    "unit": "10 · Além da órbita kepleriana",
-    "title": "Escala de Hill e o referencial girante",
-    "description": "Escala de Hill e o referencial girante. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-27",
-        "start": 5,
         "end": 12
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-precessao",
+      "olymp-gravity-mares",
+      "olymp-gravity-hill"
+    ],
+    "minutes": 17
   },
   {
     "id": "olymp-gravity-estrategia",
     "unit": "11 · Estratégia e problemas de síntese",
-    "title": "Escolher a ferramenta e reconstruir uma binária",
-    "description": "Escolher a ferramenta e reconstruir uma binária. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Estratégia, problemas de síntese e referências",
+    "description": "Estratégia, problemas de síntese e referências. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-28",
@@ -451,172 +321,99 @@
       {
         "page": "aula-29",
         "start": 0,
-        "end": 1
-      }
-    ],
-    "minutes": 11
-  },
-  {
-    "id": "olymp-gravity-sintese",
-    "unit": "11 · Estratégia e problemas de síntese",
-    "title": "Colisão com energia positiva e mudança súbita da fonte",
-    "description": "Colisão com energia positiva e mudança súbita da fonte. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-29",
-        "start": 1,
         "end": 21
-      }
-    ],
-    "minutes": 11
-  },
-  {
-    "id": "olymp-gravity-referencias",
-    "unit": "11 · Estratégia e problemas de síntese",
-    "title": "Referências e alcance do material",
-    "description": "Referências e alcance do material. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-30",
         "start": 0,
         "end": 6
       }
     ],
-    "minutes": 8
+    "pages": 3,
+    "previousIds": [
+      "olymp-gravity-estrategia",
+      "olymp-gravity-sintese",
+      "olymp-gravity-referencias"
+    ],
+    "minutes": 28
   },
   {
     "id": "olymp-gravity-formulario-campos",
     "unit": "12 · Formulário fundamental",
-    "title": "Convenções, campos e potenciais",
-    "description": "Convenções, campos e potenciais. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Formulário: campos, dois corpos e invariantes",
+    "description": "Formulário: campos, dois corpos e invariantes. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-31",
         "start": 0,
         "end": 17
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-formulario-invariantes",
-    "unit": "12 · Formulário fundamental",
-    "title": "Dois corpos, invariantes e potencial efetivo",
-    "description": "Dois corpos, invariantes e potencial efetivo. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-32",
         "start": 0,
         "end": 14
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-formulario-campos",
+      "olymp-gravity-formulario-invariantes"
+    ],
+    "minutes": 10
   },
   {
     "id": "olymp-gravity-formulario-binet",
     "unit": "12 · Formulário fundamental",
-    "title": "Binet, cônicas e orientação",
-    "description": "Binet, cônicas e orientação. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Formulário: Binet, geometria, energia e tempo",
+    "description": "Formulário: Binet, geometria, energia e tempo. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-33",
         "start": 0,
         "end": 16
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-formulario-tempo",
-    "unit": "12 · Formulário fundamental",
-    "title": "Energia, velocidades e evolução temporal",
-    "description": "Energia, velocidades e evolução temporal. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-34",
         "start": 0,
         "end": 19
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-formulario-binet",
+      "olymp-gravity-formulario-tempo"
+    ],
+    "minutes": 10
   },
   {
     "id": "olymp-gravity-formulario-manobras",
     "unit": "12 · Formulário fundamental",
-    "title": "Escape, queda e manobras",
-    "description": "Escape, queda e manobras. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Formulário: escape, manobras, espalhamento e extensões",
+    "description": "Formulário: escape, manobras, espalhamento e extensões. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-35",
         "start": 0,
         "end": 17
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-formulario-extensoes",
-    "unit": "12 · Formulário fundamental",
-    "title": "Espalhamento, precessão, marés e Hill",
-    "description": "Espalhamento, precessão, marés e Hill. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-36",
         "start": 0,
         "end": 19
       }
     ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-gravity-treino",
-    "unit": "13 · Treino e conferência",
-    "title": "Como treinar e avaliar sua resolução",
-    "description": "Convenções da ficha, roteiro de trabalho e uso das soluções comentadas.",
-    "refs": [
-      {
-        "page": "ficha-1",
-        "start": 0,
-        "end": 1
-      },
-      {
-        "page": "ficha-1",
-        "start": 1,
-        "end": 2
-      },
-      {
-        "page": "ficha-1",
-        "start": 2,
-        "end": 3
-      },
-      {
-        "page": "ficha-1",
-        "start": 3,
-        "end": 4
-      },
-      {
-        "page": "ficha-1",
-        "start": 4,
-        "end": 5
-      },
-      {
-        "page": "ficha-15",
-        "start": 0,
-        "end": 1
-      },
-      {
-        "page": "ficha-15",
-        "start": 1,
-        "end": 2
-      }
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-formulario-manobras",
+      "olymp-gravity-formulario-extensoes"
     ],
-    "minutes": 8
+    "minutes": 12
   },
   {
     "id": "olymp-gravity-gabarito",
     "unit": "13 · Treino e conferência",
     "title": "Gabarito completo para conferência",
-    "description": "Resultados das 20 questões, incluindo modelos, regimes e condições.",
+    "description": "Gabarito completo para conferência. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "ficha-13"
@@ -624,6 +421,10 @@
       {
         "page": "ficha-14"
       }
+    ],
+    "pages": 2,
+    "previousIds": [
+      "olymp-gravity-gabarito"
     ],
     "minutes": 17
   }

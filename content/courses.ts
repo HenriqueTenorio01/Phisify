@@ -1,10 +1,13 @@
 import { waveCourse } from './olimpiadas/ondas'
 import { gravityCourse } from './olimpiadas/gravitacao'
+import { centerOfMassCourse } from './olimpiadas/centro-de-massa'
+import { resolveLessonId } from './lesson-compatibility'
 import type { Course } from '../src/app/types'
 
 export const courses: Course[] = [
   waveCourse,
   gravityCourse,
+  centerOfMassCourse,
   {
     trackId: 'ensino-medio',
     id: 'mechanics',
@@ -62,9 +65,10 @@ export function courseById(id: string) {
   return courses.find((course) => course.id === id)
 }
 export function lessonById(id: string) {
+  const canonical = resolveLessonId(id)
   for (const course of courses)
     for (const unit of course.units) {
-      const lesson = unit.lessons.find((item) => item.id === id)
+      const lesson = unit.lessons.find((item) => item.id === canonical)
       if (lesson) return { course, unit, data: lesson }
     }
   return null

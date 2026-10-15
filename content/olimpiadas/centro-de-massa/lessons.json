@@ -1,0 +1,315 @@
+[
+  {
+    "id": "olymp-cm-guia",
+    "unit": "Orientação",
+    "title": "Como estudar: sistema, referencial e hipóteses",
+    "description": "Como estudar: sistema, referencial e hipóteses. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 1,
+    "refs": [
+      {
+        "page": "aula-2"
+      }
+    ],
+    "minutes": 12
+  },
+  {
+    "id": "olymp-cm-geometria",
+    "unit": "1 · Fundamentos do centro de massa",
+    "title": "Definição, integração e exemplos de distribuições de massa",
+    "description": "Definição, integração e exemplos de distribuições de massa. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-5"
+      },
+      {
+        "page": "aula-6"
+      }
+    ],
+    "minutes": 18
+  },
+  {
+    "id": "olymp-cm-dinamica",
+    "unit": "1 · Fundamentos do centro de massa",
+    "title": "Dinâmica do centro de massa, conservação e fragmentação",
+    "description": "Dinâmica do centro de massa, conservação e fragmentação. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-7"
+      },
+      {
+        "page": "aula-8"
+      }
+    ],
+    "minutes": 19
+  },
+  {
+    "id": "olymp-cm-energia",
+    "unit": "1 · Fundamentos do centro de massa",
+    "title": "Teorema de König, energia interna e colisões",
+    "description": "Teorema de König, energia interna e colisões. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-9"
+      },
+      {
+        "page": "aula-10"
+      }
+    ],
+    "minutes": 18
+  },
+  {
+    "id": "olymp-cm-momento-angular",
+    "unit": "2 · Rotação e movimento relativo",
+    "title": "Momento angular: decomposição e escolha de uma origem móvel",
+    "description": "Momento angular: decomposição e escolha de uma origem móvel. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-11"
+      },
+      {
+        "page": "aula-12"
+      }
+    ],
+    "minutes": 16
+  },
+  {
+    "id": "olymp-cm-rigidos",
+    "unit": "2 · Rotação e movimento relativo",
+    "title": "Corpos rígidos, Steiner, impacto excêntrico e pêndulo físico",
+    "description": "Corpos rígidos, Steiner, impacto excêntrico e pêndulo físico. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 3,
+    "refs": [
+      {
+        "page": "aula-13"
+      },
+      {
+        "page": "aula-14"
+      },
+      {
+        "page": "aula-15"
+      }
+    ],
+    "minutes": 24
+  },
+  {
+    "id": "olymp-cm-dois-corpos",
+    "unit": "2 · Rotação e movimento relativo",
+    "title": "Massa reduzida: da mola livre à binária gravitacional",
+    "description": "Massa reduzida: da mola livre à binária gravitacional. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-16"
+      },
+      {
+        "page": "aula-17"
+      }
+    ],
+    "minutes": 17
+  },
+  {
+    "id": "olymp-cm-referenciais",
+    "unit": "3 · Referenciais e vínculos móveis",
+    "title": "Centro de massa acelerado e referenciais girantes",
+    "description": "Centro de massa acelerado e referenciais girantes. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-18"
+      },
+      {
+        "page": "aula-19"
+      }
+    ],
+    "minutes": 15
+  },
+  {
+    "id": "olymp-cm-cunha",
+    "unit": "3 · Referenciais e vínculos móveis",
+    "title": "Cunha livre: recuo, energia e conferência por Newton",
+    "description": "Cunha livre: recuo, energia e conferência por Newton. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-20"
+      },
+      {
+        "page": "aula-21"
+      }
+    ],
+    "minutes": 18
+  },
+  {
+    "id": "olymp-cm-pendulo",
+    "unit": "3 · Referenciais e vínculos móveis",
+    "title": "Pêndulo em carrinho: equação não linear, oscilações e tensão",
+    "description": "Pêndulo em carrinho: equação não linear, oscilações e tensão. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 3,
+    "refs": [
+      {
+        "page": "aula-22"
+      },
+      {
+        "page": "aula-23"
+      },
+      {
+        "page": "aula-24"
+      }
+    ],
+    "minutes": 20
+  },
+  {
+    "id": "olymp-cm-rolamento",
+    "unit": "3 · Referenciais e vínculos móveis",
+    "title": "Rolamento e trabalho do atrito em uma plataforma móvel",
+    "description": "Rolamento e trabalho do atrito em uma plataforma móvel. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-25"
+      },
+      {
+        "page": "aula-26"
+      }
+    ],
+    "minutes": 17
+  },
+  {
+    "id": "olymp-cm-sistemas-abertos",
+    "unit": "4 · Limites e síntese",
+    "title": "Sistemas abertos, fluxo de momento e foguetes",
+    "description": "Sistemas abertos, fluxo de momento e foguetes. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-27"
+      },
+      {
+        "page": "aula-28"
+      }
+    ],
+    "minutes": 14
+  },
+  {
+    "id": "olymp-cm-sintese",
+    "unit": "4 · Limites e síntese",
+    "title": "Estratégia olímpica e três problemas de síntese com conferência",
+    "description": "Estratégia olímpica e três problemas de síntese com conferência. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 3,
+    "refs": [
+      {
+        "page": "aula-29"
+      },
+      {
+        "page": "aula-30"
+      },
+      {
+        "page": "aula-31"
+      }
+    ],
+    "minutes": 30
+  },
+  {
+    "id": "olymp-cm-referencias",
+    "unit": "5 · Consulta e formulário",
+    "title": "Fontes, alcance e uso do material",
+    "description": "Fontes, alcance e uso do material. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 1,
+    "refs": [
+      {
+        "page": "aula-32"
+      }
+    ],
+    "minutes": 10
+  },
+  {
+    "id": "olymp-cm-formulario-fundamentos",
+    "unit": "5 · Consulta e formulário",
+    "title": "Formulário: coordenadas, dinâmica, energia e momento angular",
+    "description": "Formulário: coordenadas, dinâmica, energia e momento angular. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-33"
+      },
+      {
+        "page": "aula-34"
+      }
+    ],
+    "minutes": 13
+  },
+  {
+    "id": "olymp-cm-formulario-rotacao",
+    "unit": "5 · Consulta e formulário",
+    "title": "Formulário: inércia, dois corpos, colisões e referenciais",
+    "description": "Formulário: inércia, dois corpos, colisões e referenciais. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "aula-35"
+      },
+      {
+        "page": "aula-36",
+        "end": 10
+      }
+    ],
+    "minutes": 12
+  },
+  {
+    "id": "olymp-cm-formulario-vinculos",
+    "unit": "5 · Consulta e formulário",
+    "title": "Formulário: referenciais, vínculos móveis e sistemas abertos",
+    "description": "Formulário: referenciais, vínculos móveis e sistemas abertos. Teoria, deduções, hipóteses e exemplos mantidos em uma leitura contínua.",
+    "pages": 3,
+    "refs": [
+      {
+        "page": "aula-36",
+        "start": 10
+      },
+      {
+        "page": "aula-37"
+      },
+      {
+        "page": "aula-38"
+      }
+    ],
+    "minutes": 15
+  },
+  {
+    "id": "olymp-cm-treino",
+    "unit": "6 · Ficha e treino",
+    "title": "Orientações da ficha e pistas opcionais",
+    "description": "Como resolver, consultar uma pista por vez e registrar onde o raciocínio precisa de revisão.",
+    "pages": 2,
+    "refs": [
+      {
+        "page": "ficha-1",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-1",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-1",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-1",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-9"
+      }
+    ],
+    "minutes": 13
+  }
+]

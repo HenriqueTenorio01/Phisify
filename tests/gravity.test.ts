@@ -6,6 +6,7 @@ import {
   gravityCourse,
   gravityLessons,
   gravityQuestions,
+  gravityLessonById,
 } from '../content/olimpiadas/gravitacao'
 import {
   handbookPages,
@@ -195,7 +196,7 @@ test('all 20 gravity problems retain subparts, final solution steps and the two-
 })
 
 test('gravity lessons keep deductions continuous and both courses remain isolated from other tracks', () => {
-  assert.equal(gravityLessons.length, 38)
+  assert.equal(gravityLessons.length, 17)
   assert.equal(gravityCourse.units.length, 14)
   for (const [slug, pages] of [
     ['lancamento', ['aula-11', 'aula-12']],
@@ -204,7 +205,7 @@ test('gravity lessons keep deductions continuous and both courses remain isolate
     ['hohmann', ['aula-22', 'aula-23']],
     ['mares', ['aula-26', 'aula-27']],
   ] as const) {
-    const lesson = gravityLessons.find((l) => l.id === `olymp-gravity-${slug}`)!
+    const lesson = gravityLessonById(`olymp-gravity-${slug}`)!
     for (const page of pages)
       assert.ok(
         lesson.refs.some((r) => r.page === page),
@@ -214,10 +215,10 @@ test('gravity lessons keep deductions continuous and both courses remain isolate
   }
   assert.equal(
     gravityLessons.filter((l) => l.id.includes('-formulario-')).length,
-    6,
+    3,
   )
-  assert.equal(coursesForTrack('olimpiadas').length, 2)
-  assert.equal(questionsForTrack('olimpiadas').length, 40)
+  assert.equal(coursesForTrack('olimpiadas').length, 3)
+  assert.equal(questionsForTrack('olimpiadas').length, 54)
   for (const id of ['ensino-medio', 'universidade'] as const) {
     assert.deepEqual(questionsForTrack(id), [])
     assert.equal(
@@ -230,7 +231,7 @@ test('gravity lessons keep deductions continuous and both courses remain isolate
 })
 
 test('named worksheets have independent reloadable URLs and cannot be opened through another track', () => {
-  assert.equal(worksheetsForTrack('olimpiadas').length, 2)
+  assert.equal(worksheetsForTrack('olimpiadas').length, 3)
   for (const sheet of worksheets) {
     const path = worksheetPath(sheet.id, 'olimpiadas')!
     assert.deepEqual(routeFromLocation(path), {
@@ -240,7 +241,8 @@ test('named worksheets have independent reloadable URLs and cannot be opened thr
     })
     assert.deepEqual(routeFromLocation(path + '/'), routeFromLocation(path))
     assert.ok(handbookForLesson(sheet.guideLessonId))
-    assert.ok(handbookForLesson(sheet.answersLessonId))
+    if (sheet.answersLessonId)
+      assert.ok(handbookForLesson(sheet.answersLessonId))
     assert.equal(worksheetPath(sheet.id, 'universidade'), null)
     assert.equal(
       routeFromLocation(`/trilhas/universidade/questoes/${sheet.slug}`)

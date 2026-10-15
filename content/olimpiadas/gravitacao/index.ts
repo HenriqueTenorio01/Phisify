@@ -1,9 +1,13 @@
 import lessonManifest from './lessons.json'
+import { resolveLessonId } from '../../lesson-compatibility'
 import questionManifest from './questions.json'
 import type { Course, WrittenQuestion } from '../../../src/app/types'
 import type { HandbookLesson } from '../../../src/app/handbook'
 
-export const gravityLessons = lessonManifest as HandbookLesson[]
+export const gravityLessons = lessonManifest as (HandbookLesson & {
+  pages: number
+  previousIds: string[]
+})[]
 export const gravityQuestions = questionManifest as WrittenQuestion[]
 export const gravityCourse: Course = {
   id: 'olympiad-gravity',
@@ -25,10 +29,12 @@ export const gravityCourse: Course = {
           description: lesson.description,
           type: 'Aula',
           minutes: lesson.minutes,
+          pages: lesson.pages,
+          ...(lesson.estimatedPages ? { estimatedPages: true } : {}),
         })),
     }),
   ),
 }
 
 export const gravityLessonById = (id: string) =>
-  gravityLessons.find((lesson) => lesson.id === id)
+  gravityLessons.find((lesson) => lesson.id === resolveLessonId(id))

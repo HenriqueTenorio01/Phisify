@@ -64,12 +64,14 @@ export function SheetsPage() {
             >
               Orientações e convenções
             </button>
-            <button
-              className="link-button"
-              onClick={() => openLesson(sheet.answersLessonId)}
-            >
-              Gabarito para conferência
-            </button>
+            {sheet.answersLessonId && (
+              <button
+                className="link-button"
+                onClick={() => openLesson(sheet.answersLessonId!)}
+              >
+                Gabarito para conferência
+              </button>
+            )}
             <button
               className="link-button"
               onClick={() => openCourse(sheet.id)}
