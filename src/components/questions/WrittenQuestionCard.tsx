@@ -1,11 +1,8 @@
-import { useState } from 'react'
+import { use, useState } from 'react'
 import type { WrittenQuestion, StoredResponse } from '../../app/types'
 import { useAuth } from '../../hooks/useAuth'
 import { HandbookBlocks } from '../handbook/HandbookBlocks'
-import {
-  resolveSource,
-  sourceLabel,
-} from '../../../content/olimpiadas/ondas/reader'
+import { loadHandbook } from '../handbook/loadHandbook'
 
 export default function WrittenQuestionCard({
   question,
@@ -20,6 +17,7 @@ export default function WrittenQuestionCard({
   ) => void | Promise<void>
 }) {
   const { user } = useAuth()
+  const { resolveSource, sourceLabel } = use(loadHandbook(question.course))
   const [draft, setDraft] = useState('')
   const [revealed, setRevealed] = useState(false)
   const [saving, setSaving] = useState(false)

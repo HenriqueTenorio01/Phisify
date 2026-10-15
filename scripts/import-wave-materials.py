@@ -13,6 +13,8 @@ import fitz
 ROOT = Path(__file__).resolve().parents[1]
 DEST = ROOT / 'content/olimpiadas/ondas'
 ASSETS = ROOT / 'public/ondas'
+PUBLIC_PREFIX = 'ondas'
+MERGE_INLINE_BLOCKS = False
 DEST.mkdir(parents=True, exist_ok=True)
 ASSETS.mkdir(parents=True, exist_ok=True)
 SOURCES = {'aula': 'Aula_Ondulatoria_TBF_IPhO.pdf', 'ficha': 'Ficha_Ondulatoria_TBF_IPhO.pdf'}
@@ -58,7 +60,7 @@ def prose(block):
    if any(w not in MATH_WORDS for w in re.findall(r'[A-Za-zÀ-ÿ]{3,}',s['text'])):return True
  return False
 
-def vector(key,number,rect):
+def vector(key,number,rect,figure=False):
  # Remove all outside content before serializing, rather than hiding a full page
  # behind an SVG viewport. This also subsets the glyph paths to this expression.
  rect=fitz.Rect(rect)
@@ -67,6 +69,13 @@ def vector(key,number,rect):
  if cachekey in asset_cache:return asset_cache[cachekey]
  d=fitz.open();d.insert_pdf(DOCS[key],from_page=number-1,to_page=number-1)
  p=d[0];w,h=p.rect.width,p.rect.height
+ # A plot may extend behind the bounding box of a preceding prose block.
+ # Remove that prose without touching the plotted curve or its clipping paths.
+ if figure:
+  for b in p.get_text('blocks'):
+   bounds=fitz.Rect(b[:4])
+   if rect.intersects(bounds) and not rect.contains(bounds):p.add_redact_annot(bounds,fill=None)
+  p.apply_redactions(images=0,graphics=0,text=0)
  for r in [fitz.Rect(0,0,w,rect.y0),fitz.Rect(0,rect.y1,w,h),fitz.Rect(0,rect.y0,rect.x0,rect.y1),fitz.Rect(rect.x1,rect.y0,w,rect.y1)]:
   if not r.is_empty:p.add_redact_annot(r,fill=None)
  p.apply_redactions(images=2,graphics=2,text=0)
@@ -76,7 +85,7 @@ def vector(key,number,rect):
  # foreignObject, embedded PDF or full-page content.
  name=hashlib.sha256(svg.encode()).hexdigest()[:18]+'.svg'
  (ASSETS/name).write_text(svg)
- result={'src':'/ondas/'+name,'width':round(rect.width,2),'height':round(rect.height,2)}
+ result={'src':f'/{PUBLIC_PREFIX}/'+name,'width':round(rect.width,2),'height':round(rect.height,2)}
  asset_cache[cachekey]=result;d.close();return result
 
 def inline(key,number,block):
@@ -97,7 +106,10 @@ def inline(key,number,block):
   base=list(dict.fromkeys(round(b,1) for b in base))
  rows=collections.defaultdict(list)
  for s in spans:
-  b=min(base,key=lambda b:abs(b-s['origin'][1])) if base else s['origin'][1]
+  y=s['origin'][1]
+  if MERGE_INLINE_BLOCKS and (s['text'].strip()=='√' or ('Extension' in s['font'] and s['text'].strip() in {'p','q','r','s'})):
+   y+=s['size']*.8
+  b=min(base,key=lambda b:abs(b-y)) if base else y
   rows[b].append(s)
  tokens=[]
  for ri,(_,row) in enumerate(sorted(rows.items())):
@@ -139,10 +151,26 @@ def extract(key,number):
  p=DOCS[key][number-1]
  original=[b for b in p.get_text('dict')['blocks'] if b['type']==0 and b['bbox'][1]>55 and b['bbox'][3]<790]
  source_blocks=original
+ if MERGE_INLINE_BLOCKS:
+  # PDF text extraction sometimes puts each side of an inline radical in a
+  # separate block. Rejoin overlapping prose fragments before baseline reflow.
+  joined=[]
+  for b in original:
+   b={**b,'lines':list(b['lines']),'numbers':[b['number']]}
+   previous=joined[-1] if joined else None
+   overlap=previous and min(previous['bbox'][3],b['bbox'][3])-max(previous['bbox'][1],b['bbox'][1])>2
+   sans=any('Sans' in s['font'] for item in [b]+([previous] if previous else []) for l in item['lines'] for s in l['spans'])
+   figure=any(fitz.Rect(f[:4]).intersects(fitz.Rect(b['bbox'])) for f in FIGURES.get((key,number),[]))
+   if overlap and not sans and not figure and (prose(previous) or prose(b)):
+    previous['lines']+=b['lines'];previous['numbers']+=b['numbers']
+    previous['bbox']=tuple(fitz.Rect(previous['bbox'])|fitz.Rect(b['bbox']))
+   else:joined.append(b)
+  original=joined
  # Some PDF text blocks combine a short connector with a whole display equation.
  # Split those by baseline so that the equation remains a display, not a tall inline.
+ prepared=original
  original=[]
- for b in source_blocks:
+ for b in prepared:
   if not prose(b):original.append(b);continue
   anchors=[s['origin'][1] for l in b['lines'] for s in l['spans'] if s['size']>=9 and (not mathlike(s) or l['bbox'][0]<95)]
   groups=[]
@@ -157,7 +185,7 @@ def extract(key,number):
  figures=FIGURES.get((key,number),[])
  result=[];equations=[];covered=[]
  def provenance(blocks):
-  return {'document':key,'page':number,'blocks':[b['number'] for b in blocks]}
+  return {'document':key,'page':number,'blocks':list(dict.fromkeys(n for b in blocks for n in b.get('numbers',[b['number']])))}
  def flush():
   if not equations:return
   r=fitz.Rect(equations[0]['bbox'])
@@ -167,8 +195,8 @@ def extract(key,number):
   equations.clear()
  for b in original:
   t=text(b);r=fitz.Rect(b['bbox'])
-  fig=next((f for f in figures if fitz.Rect(f[:4]).intersects(r) and fitz.Rect(f[:4]).contains(fitz.Point((r.x0+r.x1)/2,(r.y0+r.y1)/2))),None)
-  covered.append(b['number'])
+  fig=next((f for f in figures if fitz.Rect(f[:4]).contains(r)),None)
+  covered.extend(b.get('numbers',[b['number']]))
   if fig:continue
   spans=[s for l in b['lines'] for s in l['spans']]
   first=spans[0]
@@ -188,7 +216,7 @@ def extract(key,number):
    equations.append(b)
  flush()
  for f in figures:
-  result.append({'type':'figure','image':vector(key,number,f[:4]),'text':f[4], 'source':{'document':key,'page':number,'blocks':[b['number'] for b in original if fitz.Rect(f[:4]).contains(fitz.Rect(b['bbox']).tl) or fitz.Rect(f[:4]).contains(fitz.Rect(b['bbox']).br)]}, '_y':f[1]})
+  result.append({'type':'figure','image':vector(key,number,f[:4],figure=True),'text':f[4], 'source':{'document':key,'page':number,'blocks':[b['number'] for b in original if fitz.Rect(f[:4]).contains(fitz.Rect(b['bbox']))]}, '_y':f[1]})
  # Use original block order (some radicals extend above the preceding paragraph),
  # inserting diagram blocks at their actual vertical position.
  for item in result:
@@ -214,7 +242,7 @@ def make_sprites():
    original=value['src']
    if '#' in original:continue
    filename=original.split('/')[-1];frag='f-'+filename[:-4]
-   value['src']=f'/ondas/{key}-{number:02}.svg#{frag}'
+   value['src']=f'/{PUBLIC_PREFIX}/{key}-{number:02}.svg#{frag}'
    if frag in seen:continue
    seen.add(frag);svg=ET.parse(ASSETS/filename).getroot();idmap={}
    for el in svg.iter():

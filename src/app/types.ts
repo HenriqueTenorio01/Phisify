@@ -18,7 +18,12 @@ export type Screen =
 export type TrackId = 'ensino-medio' | 'olimpiadas' | 'universidade'
 
 export type CourseId =
-  'mechanics' | 'electricity' | 'waves' | 'thermo' | 'olympiad-waves'
+  | 'mechanics'
+  | 'electricity'
+  | 'waves'
+  | 'thermo'
+  | 'olympiad-waves'
+  | 'olympiad-gravity'
 export type LabId = 'projectile' | 'waves' | 'circuit'
 
 export interface RouteState {
@@ -27,6 +32,7 @@ export interface RouteState {
   courseId: CourseId
   lessonId: string
   labId: LabId
+  sheetId: CourseId | 'unavailable' | null
 }
 
 export interface StoredResponse {

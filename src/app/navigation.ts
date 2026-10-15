@@ -1,4 +1,5 @@
 import { tracks } from '../../content/tracks'
+import { worksheetsForTrack } from '../../content/worksheets'
 import type { RouteState, Screen, TrackId } from './types'
 
 const trackScreens: Partial<Record<Screen, string>> = {
@@ -38,7 +39,18 @@ export function routeFromLocation(
     const screen = Object.entries(trackScreens).find(
       ([, suffix]) => suffix === (rest ? `/${rest}` : ''),
     )?.[0] as Screen | undefined
-    if (screen) return { screen, trackId: track.id }
+    if (screen) return { screen, trackId: track.id, sheetId: null }
+    if (rest.startsWith('questoes/')) {
+      const sheet = worksheetsForTrack(track.id).find(
+        (item) => item.slug === rest.slice(9),
+      )
+      // Preserve the requested screen for a useful unavailable-sheet message.
+      return {
+        screen: 'sheets',
+        trackId: track.id,
+        sheetId: sheet?.id ?? 'unavailable',
+      }
+    }
     if (rest.startsWith('cursos/'))
       return {
         screen: 'course',

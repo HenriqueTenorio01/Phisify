@@ -1,0 +1,440 @@
+{
+  "sources": [
+    {
+      "id": "aula",
+      "file": "Aula_Gravitacao_TBF_IPhO.pdf",
+      "sha256": "83bbe12fd672b92a6f5d37256f6afc0fc49af185a66847ce319468bca73a82b7",
+      "pages": 36
+    },
+    {
+      "id": "ficha",
+      "file": "Ficha_Gravitacao_TBF_IPhO.pdf",
+      "sha256": "46b70912e37f42548496025eb83ce5398f1613e95af0cbe0419813506db7dc88",
+      "pages": 27
+    }
+  ],
+  "pages": [
+    {
+      "document": "aula",
+      "page": 2,
+      "sourceBlocks": 8,
+      "coveredBlocks": 8,
+      "characters": 2120
+    },
+    {
+      "document": "aula",
+      "page": 5,
+      "sourceBlocks": 39,
+      "coveredBlocks": 39,
+      "characters": 1809
+    },
+    {
+      "document": "aula",
+      "page": 6,
+      "sourceBlocks": 44,
+      "coveredBlocks": 44,
+      "characters": 1909
+    },
+    {
+      "document": "aula",
+      "page": 7,
+      "sourceBlocks": 34,
+      "coveredBlocks": 34,
+      "characters": 1636
+    },
+    {
+      "document": "aula",
+      "page": 8,
+      "sourceBlocks": 46,
+      "coveredBlocks": 46,
+      "characters": 1819
+    },
+    {
+      "document": "aula",
+      "page": 9,
+      "sourceBlocks": 22,
+      "coveredBlocks": 22,
+      "characters": 1241
+    },
+    {
+      "document": "aula",
+      "page": 10,
+      "sourceBlocks": 33,
+      "coveredBlocks": 33,
+      "characters": 1757
+    },
+    {
+      "document": "aula",
+      "page": 11,
+      "sourceBlocks": 26,
+      "coveredBlocks": 26,
+      "characters": 1646
+    },
+    {
+      "document": "aula",
+      "page": 12,
+      "sourceBlocks": 21,
+      "coveredBlocks": 21,
+      "characters": 908
+    },
+    {
+      "document": "aula",
+      "page": 13,
+      "sourceBlocks": 33,
+      "coveredBlocks": 33,
+      "characters": 1585
+    },
+    {
+      "document": "aula",
+      "page": 14,
+      "sourceBlocks": 18,
+      "coveredBlocks": 18,
+      "characters": 1194
+    },
+    {
+      "document": "aula",
+      "page": 15,
+      "sourceBlocks": 36,
+      "coveredBlocks": 36,
+      "characters": 978
+    },
+    {
+      "document": "aula",
+      "page": 16,
+      "sourceBlocks": 38,
+      "coveredBlocks": 38,
+      "characters": 1747
+    },
+    {
+      "document": "aula",
+      "page": 17,
+      "sourceBlocks": 45,
+      "coveredBlocks": 45,
+      "characters": 1352
+    },
+    {
+      "document": "aula",
+      "page": 18,
+      "sourceBlocks": 36,
+      "coveredBlocks": 36,
+      "characters": 1571
+    },
+    {
+      "document": "aula",
+      "page": 19,
+      "sourceBlocks": 58,
+      "coveredBlocks": 58,
+      "characters": 2068
+    },
+    {
+      "document": "aula",
+      "page": 20,
+      "sourceBlocks": 36,
+      "coveredBlocks": 36,
+      "characters": 1741
+    },
+    {
+      "document": "aula",
+      "page": 21,
+      "sourceBlocks": 27,
+      "coveredBlocks": 27,
+      "characters": 1915
+    },
+    {
+      "document": "aula",
+      "page": 22,
+      "sourceBlocks": 45,
+      "coveredBlocks": 45,
+      "characters": 1552
+    },
+    {
+      "document": "aula",
+      "page": 23,
+      "sourceBlocks": 43,
+      "coveredBlocks": 43,
+      "characters": 1401
+    },
+    {
+      "document": "aula",
+      "page": 24,
+      "sourceBlocks": 31,
+      "coveredBlocks": 31,
+      "characters": 1595
+    },
+    {
+      "document": "aula",
+      "page": 25,
+      "sourceBlocks": 18,
+      "coveredBlocks": 18,
+      "characters": 1789
+    },
+    {
+      "document": "aula",
+      "page": 26,
+      "sourceBlocks": 38,
+      "coveredBlocks": 38,
+      "characters": 1770
+    },
+    {
+      "document": "aula",
+      "page": 27,
+      "sourceBlocks": 16,
+      "coveredBlocks": 16,
+      "characters": 1489
+    },
+    {
+      "document": "aula",
+      "page": 28,
+      "sourceBlocks": 30,
+      "coveredBlocks": 30,
+      "characters": 1945
+    },
+    {
+      "document": "aula",
+      "page": 29,
+      "sourceBlocks": 50,
+      "coveredBlocks": 50,
+      "characters": 2207
+    },
+    {
+      "document": "aula",
+      "page": 30,
+      "sourceBlocks": 6,
+      "coveredBlocks": 6,
+      "characters": 1211
+    },
+    {
+      "document": "aula",
+      "page": 31,
+      "sourceBlocks": 41,
+      "coveredBlocks": 41,
+      "characters": 1006
+    },
+    {
+      "document": "aula",
+      "page": 32,
+      "sourceBlocks": 36,
+      "coveredBlocks": 36,
+      "characters": 900
+    },
+    {
+      "document": "aula",
+      "page": 33,
+      "sourceBlocks": 35,
+      "coveredBlocks": 35,
+      "characters": 995
+    },
+    {
+      "document": "aula",
+      "page": 34,
+      "sourceBlocks": 46,
+      "coveredBlocks": 46,
+      "characters": 927
+    },
+    {
+      "document": "aula",
+      "page": 35,
+      "sourceBlocks": 43,
+      "coveredBlocks": 43,
+      "characters": 930
+    },
+    {
+      "document": "aula",
+      "page": 36,
+      "sourceBlocks": 37,
+      "coveredBlocks": 37,
+      "characters": 1405
+    },
+    {
+      "document": "ficha",
+      "page": 1,
+      "sourceBlocks": 17,
+      "coveredBlocks": 17,
+      "characters": 1714
+    },
+    {
+      "document": "ficha",
+      "page": 2,
+      "sourceBlocks": 16,
+      "coveredBlocks": 16,
+      "characters": 1283
+    },
+    {
+      "document": "ficha",
+      "page": 3,
+      "sourceBlocks": 16,
+      "coveredBlocks": 16,
+      "characters": 1200
+    },
+    {
+      "document": "ficha",
+      "page": 4,
+      "sourceBlocks": 16,
+      "coveredBlocks": 16,
+      "characters": 870
+    },
+    {
+      "document": "ficha",
+      "page": 5,
+      "sourceBlocks": 22,
+      "coveredBlocks": 22,
+      "characters": 1040
+    },
+    {
+      "document": "ficha",
+      "page": 6,
+      "sourceBlocks": 15,
+      "coveredBlocks": 15,
+      "characters": 1466
+    },
+    {
+      "document": "ficha",
+      "page": 7,
+      "sourceBlocks": 18,
+      "coveredBlocks": 18,
+      "characters": 1256
+    },
+    {
+      "document": "ficha",
+      "page": 8,
+      "sourceBlocks": 17,
+      "coveredBlocks": 17,
+      "characters": 1334
+    },
+    {
+      "document": "ficha",
+      "page": 9,
+      "sourceBlocks": 15,
+      "coveredBlocks": 15,
+      "characters": 1220
+    },
+    {
+      "document": "ficha",
+      "page": 10,
+      "sourceBlocks": 14,
+      "coveredBlocks": 14,
+      "characters": 1491
+    },
+    {
+      "document": "ficha",
+      "page": 11,
+      "sourceBlocks": 14,
+      "coveredBlocks": 14,
+      "characters": 1342
+    },
+    {
+      "document": "ficha",
+      "page": 12,
+      "sourceBlocks": 19,
+      "coveredBlocks": 19,
+      "characters": 1438
+    },
+    {
+      "document": "ficha",
+      "page": 13,
+      "sourceBlocks": 36,
+      "coveredBlocks": 36,
+      "characters": 1696
+    },
+    {
+      "document": "ficha",
+      "page": 14,
+      "sourceBlocks": 57,
+      "coveredBlocks": 57,
+      "characters": 1528
+    },
+    {
+      "document": "ficha",
+      "page": 15,
+      "sourceBlocks": 26,
+      "coveredBlocks": 26,
+      "characters": 1140
+    },
+    {
+      "document": "ficha",
+      "page": 16,
+      "sourceBlocks": 35,
+      "coveredBlocks": 35,
+      "characters": 1354
+    },
+    {
+      "document": "ficha",
+      "page": 17,
+      "sourceBlocks": 36,
+      "coveredBlocks": 36,
+      "characters": 1155
+    },
+    {
+      "document": "ficha",
+      "page": 18,
+      "sourceBlocks": 46,
+      "coveredBlocks": 46,
+      "characters": 976
+    },
+    {
+      "document": "ficha",
+      "page": 19,
+      "sourceBlocks": 25,
+      "coveredBlocks": 25,
+      "characters": 1245
+    },
+    {
+      "document": "ficha",
+      "page": 20,
+      "sourceBlocks": 21,
+      "coveredBlocks": 21,
+      "characters": 1526
+    },
+    {
+      "document": "ficha",
+      "page": 21,
+      "sourceBlocks": 53,
+      "coveredBlocks": 53,
+      "characters": 1294
+    },
+    {
+      "document": "ficha",
+      "page": 22,
+      "sourceBlocks": 49,
+      "coveredBlocks": 49,
+      "characters": 1268
+    },
+    {
+      "document": "ficha",
+      "page": 23,
+      "sourceBlocks": 60,
+      "coveredBlocks": 60,
+      "characters": 1022
+    },
+    {
+      "document": "ficha",
+      "page": 24,
+      "sourceBlocks": 47,
+      "coveredBlocks": 47,
+      "characters": 1309
+    },
+    {
+      "document": "ficha",
+      "page": 25,
+      "sourceBlocks": 19,
+      "coveredBlocks": 19,
+      "characters": 1346
+    },
+    {
+      "document": "ficha",
+      "page": 26,
+      "sourceBlocks": 34,
+      "coveredBlocks": 34,
+      "characters": 1523
+    },
+    {
+      "document": "ficha",
+      "page": 27,
+      "sourceBlocks": 45,
+      "coveredBlocks": 45,
+      "characters": 1893
+    }
+  ],
+  "vectorFragments": 1202,
+  "spriteFiles": 60
+}

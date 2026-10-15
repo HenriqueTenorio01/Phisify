@@ -32,3 +32,9 @@ coverage of all 68 instructional pages, vector assets, all 20 full written
 exercises and their solutions, continuity across page breaks and separation of
 Ensino Médio, Olimpíadas and Universidade. Course maintenance and regeneration
 are documented in `content/olimpiadas/ondas/README.md`.
+
+`gravity.test.ts` checks both gravitation PDF hashes, all 60 instructional
+pages and original blocks, nine diagrams, 20 complete statements/solutions,
+cross-page deductions and independent worksheet URLs. It also covers PDF
+inline-root fragments that must reflow as one paragraph without duplication.
+Regeneration is documented in `content/olimpiadas/gravitacao/README.md`.

@@ -32,6 +32,7 @@ import { SettingsPage } from '../pages/SettingsPage'
 import { recordQuestionCompletion } from '../lib/supabase/activity'
 import { Localize } from '../i18n'
 import { isResponseCorrect } from '../questions'
+import { worksheetPath } from '../../content/worksheets'
 
 const initialRoute: RouteState = {
   screen: 'home',
@@ -39,6 +40,7 @@ const initialRoute: RouteState = {
   courseId: 'mechanics',
   lessonId: '',
   labId: 'projectile',
+  sheetId: null,
 }
 
 function routeFromPath() {
@@ -75,10 +77,10 @@ export function App() {
     return () => window.removeEventListener('popstate', onPopState)
   }, [])
 
-  const navigate = (screen: Screen) => {
-    const path = screenPath(screen, route.trackId)
+  const navigate = (screen: Screen, trackId = route.trackId) => {
+    const path = screenPath(screen, trackId)
     if (path) window.history.pushState({}, '', path)
-    setRoute((current) => ({ ...current, screen }))
+    setRoute((current) => ({ ...current, screen, trackId, sheetId: null }))
     if (
       !['login', 'signup', 'recovery', 'profile', 'settings'].includes(screen)
     ) {
@@ -101,6 +103,7 @@ export function App() {
       screen: 'courses',
       trackId,
       lessonId: '',
+      sheetId: null,
     }))
     setMoreOpen(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -142,6 +145,15 @@ export function App() {
     }
     window.history.pushState({}, '', paths[labId])
     setRoute((current) => ({ ...current, screen: 'simulation', labId }))
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  const openSheet = (sheetId: CourseId) => {
+    const path = worksheetPath(sheetId, route.trackId)
+    if (!path) return
+    window.history.pushState({}, '', path)
+    setRoute((current) => ({ ...current, screen: 'sheets', sheetId }))
+    setMoreOpen(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -221,6 +233,7 @@ export function App() {
     selectTrack,
     openCourse,
     openLesson,
+    openSheet,
     openLab,
     answerQuestion,
     completeLesson,
@@ -243,7 +256,7 @@ export function App() {
     ) : route.screen === 'simulation' ? (
       <SimulationPage />
     ) : route.screen === 'sheets' ? (
-      <SheetsPage key={route.trackId} />
+      <SheetsPage key={`${route.trackId}:${route.sheetId}`} />
     ) : route.screen === 'performance' ? (
       <PerformancePage />
     ) : route.screen === 'review' ? (
