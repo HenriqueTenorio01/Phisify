@@ -1,6 +1,8 @@
+import { waveCourse } from './olimpiadas/ondas'
 import type { Course } from '../src/app/types'
 
 export const courses: Course[] = [
+  waveCourse,
   {
     trackId: 'ensino-medio',
     id: 'mechanics',

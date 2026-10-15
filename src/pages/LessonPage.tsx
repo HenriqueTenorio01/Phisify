@@ -1,8 +1,14 @@
+import { lazy, Suspense } from 'react'
+import { waveLessonById } from '../../content/olimpiadas/ondas'
 import { academicLessonById, lessonDataById } from '../../content/lessons'
 import { questionBank } from '../../content/questions'
 import { lessonById } from '../../content/courses'
 import { useApp } from '../app/context'
 import { AcademicLesson } from '../components/lessons/AcademicLesson'
+const HandbookLessonPage = lazy(
+  () => import('../components/lessons/HandbookLessonPage'),
+)
+
 export function LessonPage() {
   const {
     route,
@@ -13,6 +19,16 @@ export function LessonPage() {
     navigate,
   } = useApp()
   const found = lessonById(route.lessonId)
+  if (
+    found?.course.trackId === route.trackId &&
+    waveLessonById(route.lessonId)
+  ) {
+    return (
+      <Suspense fallback={<p>Carregando aula…</p>}>
+        <HandbookLessonPage key={route.lessonId} id={route.lessonId} />
+      </Suspense>
+    )
+  }
   const raw = lessonDataById[route.lessonId]
   const exercise = questionBank.find((q) => q.lessonId === route.lessonId)
   if (!found || found.course.trackId !== route.trackId || !raw || !exercise)
