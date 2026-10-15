@@ -1,9 +1,27 @@
-export type Screen = 'home' | 'courses' | 'lab' | 'sheets' | 'performance' | 'review' | 'search' | 'course' | 'lesson' | 'simulation' | 'login' | 'signup' | 'recovery' | 'profile' | 'settings'
+export type Screen =
+  | 'home'
+  | 'courses'
+  | 'lab'
+  | 'sheets'
+  | 'performance'
+  | 'review'
+  | 'search'
+  | 'course'
+  | 'lesson'
+  | 'simulation'
+  | 'login'
+  | 'signup'
+  | 'recovery'
+  | 'profile'
+  | 'settings'
+
+export type TrackId = 'ensino-medio' | 'olimpiadas' | 'universidade'
 
 export type CourseId = 'mechanics' | 'electricity' | 'waves' | 'thermo'
 export type LabId = 'projectile' | 'waves' | 'circuit'
 
 export interface RouteState {
+  trackId: TrackId
   screen: Screen
   courseId: CourseId
   lessonId: string
@@ -19,7 +37,12 @@ export interface StoredResponse {
 export interface ProgressState {
   completedLessons: string[]
   responses: Record<string, StoredResponse>
-  history: Array<{ label: string; type: 'answer' | 'lesson'; at: number }>
+  history: Array<{
+    label: string
+    type: 'answer' | 'lesson'
+    at: number
+    contentId?: string
+  }>
   lastScreen: Screen
 }
 
@@ -37,6 +60,7 @@ export interface CourseUnit {
 }
 
 export interface Course {
+  trackId: TrackId
   id: CourseId
   title: string
   area: string
