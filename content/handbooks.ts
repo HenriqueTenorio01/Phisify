@@ -1,4 +1,5 @@
 import { waveCourse, waveLessons } from './olimpiadas/ondas'
+import { resolveLessonId } from './lesson-compatibility'
 import { gravityCourse, gravityLessons } from './olimpiadas/gravitacao'
 import {
   centerOfMassCourse,
@@ -13,7 +14,8 @@ export const handbooks = [
 ]
 
 export function handbookForLesson(id: string) {
+  const canonical = resolveLessonId(id)
   return handbooks.find((book) =>
-    book.lessons.some((lesson) => lesson.id === id),
+    book.lessons.some((lesson) => lesson.id === canonical),
   )
 }

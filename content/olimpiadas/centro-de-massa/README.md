@@ -23,8 +23,8 @@ e suas condições de validade, mesmo quando continuam na página seguinte.
 
 Preservam-se os oito exemplos resolvidos, os três problemas de síntese com
 pistas/conferências, as referências, as dez seções do formulário e os seis
-diagramas da apostila. As aulas existentes de Ondulatória e Gravitação conservam
-seus identificadores, organização e registros.
+diagramas da apostila. Os endereços e os registros dos demais cursos continuam compatíveis, inclusive
+quando seus trechos são reunidos em leituras maiores.
 
 ## Ficha completa
 

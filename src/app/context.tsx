@@ -20,6 +20,7 @@ export interface AppContextValue {
   openLab: (id: LabId) => void
   answerQuestion: (question: Question, selected: number) => Promise<void>
   completeLesson: (id: string) => void
+  lessonCompletion: (id: string) => { completed: number; total: number }
   streak: number
 }
 export const AppContext = createContext<AppContextValue | null>(null)

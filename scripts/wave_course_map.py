@@ -46,6 +46,33 @@ LESSONS = [
 ]
 QUESTION_LESSON = {1:'fase',2:'equacao',3:'cauchy',4:'fase',5:'batimentos',6:'energia',7:'interfaces',8:'modos',9:'som',10:'doppler',11:'young',12:'polarizacao',13:'acoplados',14:'modos',15:'som',16:'agua',17:'filmes',18:'rede',19:'juncao',20:'wkb'}
 
+# Historical IDs are retained as completion parts and working aliases. Regular
+# lessons contain 1–2 reference pages; advanced deductions can contain up to four.
+GROUPS = [
+ (['guia','treino'],'Como estudar: convenções, hipóteses e orientações de treino',2),
+ (['equacao','cauchy'],'Da dinâmica da corda aos dados iniciais e à fórmula de Cauchy',2),
+ (['fase','batimentos'],'Fase, interferência, batimentos e a janela temporal da medida',2),
+ (['energia','esfericas'],'Energia, conservação local, potência e ondas esféricas',2),
+ (['interfaces','juncao'],'Interfaces, impedância e resposta de uma junção com massa',2),
+ (['acoplados','modos','dedilhada'],'Modos normais: osciladores acoplados, projeção e corda dedilhada',3),
+ (['som','ressonancia'],'Acústica, modos dos tubos e ressonância forçada',2),
+ (['pacotes','dispersao'],'Dispersão, pacotes, velocidade de grupo e evanescência',2),
+ (['agua'],'Ondas de gravidade e capilaridade na água',1),
+ (['doppler','mach'],'Doppler, reflexão em fronteiras móveis e cone de Mach',2),
+ (['wkb','suspensa'],'Meios não uniformes: WKB e a corda suspensa',2),
+ (['optica','young'],'Fase óptica, interfaces e interferência de Young',2),
+ (['filmes','cavidade'],'Filmes finos, reflexões múltiplas e função de Airy',2),
+ (['polarizacao'],'Polarização, elipse e lei de Malus',1),
+ (['fenda','duas-fendas'],'Difração de Fraunhofer: fenda única e duas fendas',2),
+ (['rede','circular-bragg'],'Redes, resolução, abertura circular e lei de Bragg',2),
+ (['estrategia','referencias'],'Estratégia de resolução, verificações físicas e referências',2),
+ (['formulario-dinamica','formulario-energia'],'Formulário: dinâmica, superposição e energia',2),
+ (['formulario-interfaces','formulario-modos'],'Formulário: interfaces, modos e ressonância',2),
+ (['formulario-dispersao','formulario-doppler'],'Formulário: acústica, dispersão, Doppler e meios não uniformes',2),
+ (['formulario-optica','formulario-difracao'],'Formulário: óptica, difração e resolução',2),
+ (['gabarito'],'Gabarito completo para conferência',3),
+]
+
 def build_catalog(dest):
  pages=json.loads((dest/'source-pages.json').read_text())
  lessons=[];current=None
@@ -89,6 +116,8 @@ def build_catalog(dest):
   {'id':'olymp-waves-treino','unit':'14 · Treino e conferência','title':'Como treinar e avaliar sua resolução','description':'Convenções da ficha, roteiro de trabalho e uso das soluções comentadas.','refs':guide+solution_intro},
   {'id':'olymp-waves-gabarito','unit':'14 · Treino e conferência','title':'Gabarito completo para conferência','description':'Resultados das 20 questões, incluindo coeficientes, regimes e condições.','refs':[{'page':f'ficha-{n}'} for n in range(12,15)]},
  ])
+ from group_handbook_lessons import group_lessons
+ lessons=group_lessons(lessons,list(questions.values()),'olymp-waves-',GROUPS)
  for l in lessons:
   chars=sum(sum(len(b['text']) for b in pages[r['page']][r.get('start',0):r.get('end')]) for r in l['refs'])
   l['minutes']=max(8,round(chars/750*4))

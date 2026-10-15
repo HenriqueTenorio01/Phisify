@@ -244,3 +244,5 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 .catalog-topic .catalog-row{border:0;border-radius:0;margin:0}
 .catalog-topic .catalog-side .link-button{display:block;width:100%;margin-top:10px;text-align:inherit}
 @media(max-width:600px){.catalog-topic>summary{padding:16px}.catalog-topic>summary small{float:none;display:block;margin:6px 0 0 17px}}
+
+.lesson-row .lesson-progress-note{color:var(--primary);margin-top:5px}

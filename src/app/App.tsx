@@ -33,6 +33,8 @@ import { recordQuestionCompletion } from '../lib/supabase/activity'
 import { Localize } from '../i18n'
 import { isResponseCorrect } from '../questions'
 import { worksheetPath } from '../../content/worksheets'
+import { lessonCompletion } from '../../content/lesson-compatibility'
+import { completeLessonProgress } from './lessonProgress'
 
 const initialRoute: RouteState = {
   screen: 'home',
@@ -126,12 +128,12 @@ export function App() {
     window.history.pushState(
       {},
       '',
-      `/trilhas/${route.trackId}/aulas/${lessonId}`,
+      `/trilhas/${route.trackId}/aulas/${found.data.id}`,
     )
     setRoute((current) => ({
       ...current,
       screen: 'lesson',
-      lessonId,
+      lessonId: found.data.id,
       courseId: found.course.id,
     }))
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -198,28 +200,16 @@ export function App() {
   }
 
   const completeLesson = (lessonId: string) => {
-    if (
-      !user ||
-      !progressReady ||
-      lessonById(lessonId)?.course.trackId !== route.trackId
-    )
+    const found = lessonById(lessonId)
+    if (!user || !progressReady || found?.course.trackId !== route.trackId)
       return
     setProgress((current) =>
-      current.completedLessons.includes(lessonId)
-        ? current
-        : {
-            ...current,
-            completedLessons: [...current.completedLessons, lessonId],
-            history: [
-              {
-                label: lessonById(lessonId)?.data.title ?? lessonId,
-                type: 'lesson' as const,
-                contentId: lessonId,
-                at: Date.now(),
-              },
-              ...current.history,
-            ].slice(0, 50),
-          },
+      completeLessonProgress(
+        current,
+        found.data.id,
+        found.data.title,
+        Date.now(),
+      ),
     )
   }
 
@@ -237,6 +227,7 @@ export function App() {
     openLab,
     answerQuestion,
     completeLesson,
+    lessonCompletion: (id) => lessonCompletion(progress.completedLessons, id),
     streak,
   }
 

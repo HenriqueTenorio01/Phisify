@@ -6,7 +6,8 @@ import { useApp } from '../app/context'
 import { ProgressTrack } from '../components/ui/ProgressTrack'
 
 export function CoursesPage() {
-  const { route, progress, openCourse, openSheet, selectTrack } = useApp()
+  const { route, openCourse, openSheet, selectTrack, lessonCompletion } =
+    useApp()
   const [filter, setFilter] = useState('Todos')
   const courses = coursesForTrack(route.trackId)
   const filters = ['Todos', ...new Set(courses.map((course) => course.area))]
@@ -54,10 +55,18 @@ export function CoursesPage() {
       <div className="catalog">
         {visible.map((course) => {
           const lessons = course.units.flatMap((unit) => unit.lessons)
-          const done = lessons.filter((lesson) =>
-            progress.completedLessons.includes(lesson.id),
-          ).length
-          const percent = lessons.length ? (done / lessons.length) * 100 : 0
+          const completion = lessons.map((lesson) =>
+            lessonCompletion(lesson.id),
+          )
+          const totalParts = completion.reduce(
+            (sum, part) => sum + part.total,
+            0,
+          )
+          const doneParts = completion.reduce(
+            (sum, part) => sum + part.completed,
+            0,
+          )
+          const percent = totalParts ? (doneParts / totalParts) * 100 : 0
           const card = (
             <article className="catalog-row" key={course.id}>
               <div className={`catalog-marker ${course.tone}`} />

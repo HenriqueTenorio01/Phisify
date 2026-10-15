@@ -1,5 +1,6 @@
 import { tracks } from '../../content/tracks'
 import { worksheetsForTrack } from '../../content/worksheets'
+import { resolveLessonId } from '../../content/lesson-compatibility'
 import type { RouteState, Screen, TrackId } from './types'
 
 const trackScreens: Partial<Record<Screen, string>> = {
@@ -58,7 +59,11 @@ export function routeFromLocation(
         courseId: rest.slice(7) as RouteState['courseId'],
       }
     if (rest.startsWith('aulas/'))
-      return { screen: 'lesson', trackId: track.id, lessonId: rest.slice(6) }
+      return {
+        screen: 'lesson',
+        trackId: track.id,
+        lessonId: resolveLessonId(rest.slice(6)),
+      }
     return null
   }
   const screen = Object.entries(paths).find(

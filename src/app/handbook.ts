@@ -34,5 +34,7 @@ export interface HandbookLesson {
   description: string
   minutes: number
   pages?: number
+  estimatedPages?: boolean
+  previousIds?: string[]
   refs: SourceSlice[]
 }

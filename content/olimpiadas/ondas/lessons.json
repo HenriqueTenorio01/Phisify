@@ -2,78 +2,86 @@
   {
     "id": "olymp-waves-guia",
     "unit": "Orientação",
-    "title": "Como estudar: convenções e hipóteses",
-    "description": "Como estudar: convenções e hipóteses. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Como estudar: convenções, hipóteses e orientações de treino",
+    "description": "Como estudar: convenções, hipóteses e orientações de treino. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-2",
         "start": 0,
         "end": 8
+      },
+      {
+        "page": "ficha-1",
+        "start": 0,
+        "end": 5
+      },
+      {
+        "page": "ficha-15",
+        "start": 0,
+        "end": 2
       }
     ],
-    "minutes": 11
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-guia",
+      "olymp-waves-treino"
+    ],
+    "estimatedPages": true,
+    "minutes": 18
   },
   {
     "id": "olymp-waves-equacao",
     "unit": "1 · Dinâmica e dados iniciais",
-    "title": "Da dinâmica da corda à solução de d’Alembert",
-    "description": "Da dinâmica da corda à solução de d’Alembert. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Da dinâmica da corda aos dados iniciais e à fórmula de Cauchy",
+    "description": "Da dinâmica da corda aos dados iniciais e à fórmula de Cauchy. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-5",
         "start": 0,
         "end": 22
-      }
-    ],
-    "minutes": 10
-  },
-  {
-    "id": "olymp-waves-cauchy",
-    "unit": "1 · Dinâmica e dados iniciais",
-    "title": "Dados iniciais, fórmula de Cauchy e pulso gaussiano",
-    "description": "Dados iniciais, fórmula de Cauchy e pulso gaussiano. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-6",
         "start": 0,
         "end": 18
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-equacao",
+      "olymp-waves-cauchy"
+    ],
+    "minutes": 18
   },
   {
     "id": "olymp-waves-fase",
     "unit": "2 · Superposição e batimentos",
-    "title": "Fase, fasores e interferência",
-    "description": "Fase, fasores e interferência. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Fase, interferência, batimentos e a janela temporal da medida",
+    "description": "Fase, interferência, batimentos e a janela temporal da medida. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-7",
         "start": 0,
         "end": 21
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-waves-batimentos",
-    "unit": "2 · Superposição e batimentos",
-    "title": "Batimentos e a janela temporal da medida",
-    "description": "Batimentos e a janela temporal da medida. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-8",
         "start": 0,
         "end": 19
       }
     ],
-    "minutes": 11
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-fase",
+      "olymp-waves-batimentos"
+    ],
+    "minutes": 19
   },
   {
     "id": "olymp-waves-energia",
     "unit": "3 · Energia e propagação",
-    "title": "Energia, conservação local e potência na corda",
-    "description": "Energia, conservação local e potência na corda. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Energia, conservação local, potência e ondas esféricas",
+    "description": "Energia, conservação local, potência e ondas esféricas. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-9",
@@ -83,30 +91,21 @@
       {
         "page": "aula-10",
         "start": 0,
-        "end": 8
-      }
-    ],
-    "minutes": 10
-  },
-  {
-    "id": "olymp-waves-esfericas",
-    "unit": "3 · Energia e propagação",
-    "title": "Ondas esféricas e espalhamento geométrico",
-    "description": "Ondas esféricas e espalhamento geométrico. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-10",
-        "start": 8,
         "end": 16
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-energia",
+      "olymp-waves-esfericas"
+    ],
+    "minutes": 14
   },
   {
     "id": "olymp-waves-interfaces",
     "unit": "4 · Interfaces e impedância",
-    "title": "Reflexão, transmissão e conservação de potência",
-    "description": "Reflexão, transmissão e conservação de potência. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Interfaces, impedância e resposta de uma junção com massa",
+    "description": "Interfaces, impedância e resposta de uma junção com massa. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-11",
@@ -116,45 +115,27 @@
       {
         "page": "aula-12",
         "start": 0,
-        "end": 6
-      }
-    ],
-    "minutes": 13
-  },
-  {
-    "id": "olymp-waves-juncao",
-    "unit": "4 · Interfaces e impedância",
-    "title": "Junção com massa: resposta e armazenamento de energia",
-    "description": "Junção com massa: resposta e armazenamento de energia. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-12",
-        "start": 6,
         "end": 16
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-interfaces",
+      "olymp-waves-juncao"
+    ],
+    "minutes": 17
   },
   {
     "id": "olymp-waves-acoplados",
     "unit": "5 · Modos normais",
-    "title": "Osciladores acoplados e diagonalização",
-    "description": "Osciladores acoplados e diagonalização. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Modos normais: osciladores acoplados, projeção e corda dedilhada",
+    "description": "Modos normais: osciladores acoplados, projeção e corda dedilhada. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-13",
         "start": 0,
         "end": 22
-      }
-    ],
-    "minutes": 9
-  },
-  {
-    "id": "olymp-waves-modos",
-    "unit": "5 · Modos normais",
-    "title": "Condições de contorno, projeção e energia modal",
-    "description": "Condições de contorno, projeção e energia modal. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-14",
         "start": 0,
@@ -163,30 +144,22 @@
       {
         "page": "aula-15",
         "start": 0,
-        "end": 3
-      }
-    ],
-    "minutes": 10
-  },
-  {
-    "id": "olymp-waves-dedilhada",
-    "unit": "5 · Modos normais",
-    "title": "Corda dedilhada e ortogonalidade ponderada",
-    "description": "Corda dedilhada e ortogonalidade ponderada. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-15",
-        "start": 3,
         "end": 20
       }
     ],
-    "minutes": 8
+    "pages": 3,
+    "previousIds": [
+      "olymp-waves-acoplados",
+      "olymp-waves-modos",
+      "olymp-waves-dedilhada"
+    ],
+    "minutes": 26
   },
   {
     "id": "olymp-waves-som",
     "unit": "6 · Acústica e ressonância",
-    "title": "Equações acústicas, impedância e modos dos tubos",
-    "description": "Equações acústicas, impedância e modos dos tubos. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Acústica, modos dos tubos e ressonância forçada",
+    "description": "Acústica, modos dos tubos e ressonância forçada. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-16",
@@ -196,58 +169,45 @@
       {
         "page": "aula-17",
         "start": 0,
-        "end": 5
-      }
-    ],
-    "minutes": 13
-  },
-  {
-    "id": "olymp-waves-ressonancia",
-    "unit": "6 · Acústica e ressonância",
-    "title": "Forçamento modal: picos de amplitude e de potência",
-    "description": "Forçamento modal: picos de amplitude e de potência. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-17",
-        "start": 5,
         "end": 18
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-som",
+      "olymp-waves-ressonancia"
+    ],
+    "minutes": 19
   },
   {
     "id": "olymp-waves-pacotes",
     "unit": "7 · Dispersão",
-    "title": "Velocidades de fase e grupo, pacotes e alargamento",
-    "description": "Velocidades de fase e grupo, pacotes e alargamento. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Dispersão, pacotes, velocidade de grupo e evanescência",
+    "description": "Dispersão, pacotes, velocidade de grupo e evanescência. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-18",
         "start": 0,
         "end": 22
-      }
-    ],
-    "minutes": 9
-  },
-  {
-    "id": "olymp-waves-dispersao",
-    "unit": "7 · Dispersão",
-    "title": "Cadeia discreta, frequência de corte e evanescência",
-    "description": "Cadeia discreta, frequência de corte e evanescência. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-19",
         "start": 0,
         "end": 19
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-pacotes",
+      "olymp-waves-dispersao"
+    ],
+    "minutes": 16
   },
   {
     "id": "olymp-waves-agua",
     "unit": "7 · Dispersão",
     "title": "Ondas de gravidade e capilaridade na água",
-    "description": "Ondas de gravidade e capilaridade na água. Derivações, hipóteses e condições de uso da apostila.",
+    "description": "Ondas de gravidade e capilaridade na água. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-20",
@@ -255,13 +215,17 @@
         "end": 15
       }
     ],
+    "pages": 1,
+    "previousIds": [
+      "olymp-waves-agua"
+    ],
     "minutes": 8
   },
   {
     "id": "olymp-waves-doppler",
     "unit": "8 · Doppler e fronteiras móveis",
-    "title": "Doppler no meio e reflexão em uma parede móvel",
-    "description": "Doppler no meio e reflexão em uma parede móvel. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Doppler, reflexão em fronteiras móveis e cone de Mach",
+    "description": "Doppler, reflexão em fronteiras móveis e cone de Mach. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-21",
@@ -271,48 +235,25 @@
       {
         "page": "aula-22",
         "start": 0,
-        "end": 5
-      }
-    ],
-    "minutes": 14
-  },
-  {
-    "id": "olymp-waves-mach",
-    "unit": "8 · Doppler e fronteiras móveis",
-    "title": "Fonte supersônica e cone de Mach",
-    "description": "Fonte supersônica e cone de Mach. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-22",
-        "start": 5,
         "end": 9
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-doppler",
+      "olymp-waves-mach"
+    ],
+    "minutes": 17
   },
   {
     "id": "olymp-waves-wkb",
     "unit": "9 · Meios não uniformes",
-    "title": "WKB: fase, amplitude e quantização aproximada",
-    "description": "WKB: fase, amplitude e quantização aproximada. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Meios não uniformes: WKB e a corda suspensa",
+    "description": "Meios não uniformes: WKB e a corda suspensa. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-23",
         "start": 0,
-        "end": 18
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-waves-suspensa",
-    "unit": "9 · Meios não uniformes",
-    "title": "Corda suspensa, equação de Bessel e fronteira singular",
-    "description": "Corda suspensa, equação de Bessel e fronteira singular. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-23",
-        "start": 18,
         "end": 21
       },
       {
@@ -321,41 +262,42 @@
         "end": 17
       }
     ],
-    "minutes": 9
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-wkb",
+      "olymp-waves-suspensa"
+    ],
+    "minutes": 17
   },
   {
     "id": "olymp-waves-optica",
     "unit": "10 · Óptica ondulatória",
-    "title": "Campo eletromagnético, caminho óptico, Snell e Fresnel",
-    "description": "Campo eletromagnético, caminho óptico, Snell e Fresnel. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Fase óptica, interfaces e interferência de Young",
+    "description": "Fase óptica, interfaces e interferência de Young. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-25",
         "start": 0,
         "end": 20
-      }
-    ],
-    "minutes": 11
-  },
-  {
-    "id": "olymp-waves-young",
-    "unit": "10 · Óptica ondulatória",
-    "title": "Experiência de Young e deslocamento de franjas",
-    "description": "Experiência de Young e deslocamento de franjas. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-26",
         "start": 0,
         "end": 9
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-optica",
+      "olymp-waves-young"
+    ],
+    "minutes": 16
   },
   {
     "id": "olymp-waves-filmes",
     "unit": "10 · Óptica ondulatória",
-    "title": "Filmes finos: caminho óptico e fases de reflexão",
-    "description": "Filmes finos: caminho óptico e fases de reflexão. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Filmes finos, reflexões múltiplas e função de Airy",
+    "description": "Filmes finos, reflexões múltiplas e função de Airy. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-26",
@@ -365,30 +307,21 @@
       {
         "page": "aula-27",
         "start": 0,
-        "end": 6
-      }
-    ],
-    "minutes": 9
-  },
-  {
-    "id": "olymp-waves-cavidade",
-    "unit": "10 · Óptica ondulatória",
-    "title": "Reflexões múltiplas, série geométrica e função de Airy",
-    "description": "Reflexões múltiplas, série geométrica e função de Airy. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-27",
-        "start": 6,
         "end": 14
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-filmes",
+      "olymp-waves-cavidade"
+    ],
+    "minutes": 14
   },
   {
     "id": "olymp-waves-polarizacao",
     "unit": "10 · Óptica ondulatória",
     "title": "Polarização, elipse e lei de Malus",
-    "description": "Polarização, elipse e lei de Malus. Derivações, hipóteses e condições de uso da apostila.",
+    "description": "Polarização, elipse e lei de Malus. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-28",
@@ -396,41 +329,41 @@
         "end": 12
       }
     ],
+    "pages": 1,
+    "previousIds": [
+      "olymp-waves-polarizacao"
+    ],
     "minutes": 8
   },
   {
     "id": "olymp-waves-fenda",
     "unit": "11 · Difração",
-    "title": "Fraunhofer: integral de amplitudes e fenda única",
-    "description": "Fraunhofer: integral de amplitudes e fenda única. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Difração de Fraunhofer: fenda única e duas fendas",
+    "description": "Difração de Fraunhofer: fenda única e duas fendas. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-29",
         "start": 0,
         "end": 17
-      }
-    ],
-    "minutes": 9
-  },
-  {
-    "id": "olymp-waves-duas-fendas",
-    "unit": "11 · Difração",
-    "title": "Duas fendas: envelope, franjas e ordens ausentes",
-    "description": "Duas fendas: envelope, franjas e ordens ausentes. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-30",
         "start": 0,
         "end": 9
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-fenda",
+      "olymp-waves-duas-fendas"
+    ],
+    "minutes": 15
   },
   {
     "id": "olymp-waves-rede",
     "unit": "11 · Difração",
-    "title": "Rede de difração e poder de resolução",
-    "description": "Rede de difração e poder de resolução. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Redes, resolução, abertura circular e lei de Bragg",
+    "description": "Redes, resolução, abertura circular e lei de Bragg. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-30",
@@ -440,214 +373,141 @@
       {
         "page": "aula-31",
         "start": 0,
-        "end": 8
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-waves-circular-bragg",
-    "unit": "11 · Difração",
-    "title": "Abertura circular, critério de Rayleigh e lei de Bragg",
-    "description": "Abertura circular, critério de Rayleigh e lei de Bragg. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
-      {
-        "page": "aula-31",
-        "start": 8,
         "end": 17
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-rede",
+      "olymp-waves-circular-bragg"
+    ],
+    "minutes": 11
   },
   {
     "id": "olymp-waves-estrategia",
     "unit": "12 · Método e referências",
-    "title": "Estratégia de resolução e verificações físicas",
-    "description": "Estratégia de resolução e verificações físicas. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Estratégia de resolução, verificações físicas e referências",
+    "description": "Estratégia de resolução, verificações físicas e referências. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-32",
         "start": 0,
         "end": 14
-      }
-    ],
-    "minutes": 13
-  },
-  {
-    "id": "olymp-waves-referencias",
-    "unit": "12 · Método e referências",
-    "title": "Referências e alcance do material",
-    "description": "Referências e alcance do material. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-33",
         "start": 0,
         "end": 8
       }
     ],
-    "minutes": 9
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-estrategia",
+      "olymp-waves-referencias"
+    ],
+    "minutes": 22
   },
   {
     "id": "olymp-waves-formulario-dinamica",
     "unit": "13 · Formulário fundamental",
-    "title": "Dinâmica, harmônicas e dados iniciais",
-    "description": "Dinâmica, harmônicas e dados iniciais. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Formulário: dinâmica, superposição e energia",
+    "description": "Formulário: dinâmica, superposição e energia. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-34",
         "start": 0,
         "end": 16
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-waves-formulario-energia",
-    "unit": "13 · Formulário fundamental",
-    "title": "Superposição, média e energia",
-    "description": "Superposição, média e energia. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-35",
         "start": 0,
         "end": 13
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-formulario-dinamica",
+      "olymp-waves-formulario-energia"
+    ],
+    "minutes": 11
   },
   {
     "id": "olymp-waves-formulario-interfaces",
     "unit": "13 · Formulário fundamental",
-    "title": "Interfaces e impedâncias",
-    "description": "Interfaces e impedâncias. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Formulário: interfaces, modos e ressonância",
+    "description": "Formulário: interfaces, modos e ressonância. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-36",
         "start": 0,
         "end": 14
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-waves-formulario-modos",
-    "unit": "13 · Formulário fundamental",
-    "title": "Modos e ressonância",
-    "description": "Modos e ressonância. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-37",
         "start": 0,
         "end": 15
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-formulario-interfaces",
+      "olymp-waves-formulario-modos"
+    ],
+    "minutes": 12
   },
   {
     "id": "olymp-waves-formulario-dispersao",
     "unit": "13 · Formulário fundamental",
-    "title": "Acústica e dispersão",
-    "description": "Acústica e dispersão. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Formulário: acústica, dispersão, Doppler e meios não uniformes",
+    "description": "Formulário: acústica, dispersão, Doppler e meios não uniformes. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-38",
         "start": 0,
         "end": 18
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-waves-formulario-doppler",
-    "unit": "13 · Formulário fundamental",
-    "title": "Doppler e meios não uniformes",
-    "description": "Doppler e meios não uniformes. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-39",
         "start": 0,
         "end": 13
       }
     ],
-    "minutes": 8
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-formulario-dispersao",
+      "olymp-waves-formulario-doppler"
+    ],
+    "minutes": 12
   },
   {
     "id": "olymp-waves-formulario-optica",
     "unit": "13 · Formulário fundamental",
-    "title": "Caminho óptico, filmes e polarização",
-    "description": "Caminho óptico, filmes e polarização. Derivações, hipóteses e condições de uso da apostila.",
+    "title": "Formulário: óptica, difração e resolução",
+    "description": "Formulário: óptica, difração e resolução. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "aula-40",
         "start": 0,
         "end": 13
-      }
-    ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-waves-formulario-difracao",
-    "unit": "13 · Formulário fundamental",
-    "title": "Difração e resolução",
-    "description": "Difração e resolução. Derivações, hipóteses e condições de uso da apostila.",
-    "refs": [
+      },
       {
         "page": "aula-41",
         "start": 0,
         "end": 19
       }
     ],
-    "minutes": 8
-  },
-  {
-    "id": "olymp-waves-treino",
-    "unit": "14 · Treino e conferência",
-    "title": "Como treinar e avaliar sua resolução",
-    "description": "Convenções da ficha, roteiro de trabalho e uso das soluções comentadas.",
-    "refs": [
-      {
-        "page": "ficha-1",
-        "start": 0,
-        "end": 1
-      },
-      {
-        "page": "ficha-1",
-        "start": 1,
-        "end": 2
-      },
-      {
-        "page": "ficha-1",
-        "start": 2,
-        "end": 3
-      },
-      {
-        "page": "ficha-1",
-        "start": 3,
-        "end": 4
-      },
-      {
-        "page": "ficha-1",
-        "start": 4,
-        "end": 5
-      },
-      {
-        "page": "ficha-15",
-        "start": 0,
-        "end": 1
-      },
-      {
-        "page": "ficha-15",
-        "start": 1,
-        "end": 2
-      }
+    "pages": 2,
+    "previousIds": [
+      "olymp-waves-formulario-optica",
+      "olymp-waves-formulario-difracao"
     ],
-    "minutes": 8
+    "minutes": 11
   },
   {
     "id": "olymp-waves-gabarito",
     "unit": "14 · Treino e conferência",
     "title": "Gabarito completo para conferência",
-    "description": "Resultados das 20 questões, incluindo coeficientes, regimes e condições.",
+    "description": "Gabarito completo para conferência. Deduções, exemplos e condições de uso reunidos em uma leitura contínua.",
     "refs": [
       {
         "page": "ficha-12"
@@ -658,6 +518,10 @@
       {
         "page": "ficha-14"
       }
+    ],
+    "pages": 3,
+    "previousIds": [
+      "olymp-waves-gabarito"
     ],
     "minutes": 21
   }

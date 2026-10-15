@@ -1,5 +1,6 @@
 import { courses } from './courses'
 import { questionBank } from './questions'
+import { lessonCompletion, resolveLessonId } from './lesson-compatibility'
 import type { ProgressState, TrackId } from '../src/app/types'
 
 export function coursesForTrack(trackId: TrackId) {
@@ -26,14 +27,19 @@ export function progressForTrack(
   )
   return {
     ...progress,
-    completedLessons: progress.completedLessons.filter((id) => lessons.has(id)),
+    completedLessons: [...lessons].filter((id) => {
+      const state = lessonCompletion(progress.completedLessons, id)
+      return state.completed === state.total
+    }),
     responses: Object.fromEntries(
       Object.entries(progress.responses).filter(([id]) => questions.has(id)),
     ),
     history: progress.history.filter(
       (item) =>
         item.contentId &&
-        (item.type === 'lesson' ? lessons : questions).has(item.contentId),
+        (item.type === 'lesson'
+          ? lessons.has(resolveLessonId(item.contentId))
+          : questions.has(item.contentId)),
     ),
   }
 }

@@ -43,6 +43,26 @@ LESSONS = [
 ]
 QUESTION_LESSON = {1:'potencial',2:'potencial',3:'casca',4:'interior',5:'energia',6:'queda',7:'geometria',8:'dois-corpos',9:'efetivo',10:'binet',11:'vetor-excentricidade',12:'mares',13:'vetor-excentricidade',14:'kepler',15:'hohmann',16:'hiperboles',17:'queda',18:'precessao',19:'interior',20:'colisao'}
 
+GROUPS = [
+ (['guia','treino'],'Como estudar: sistema, convenções e orientações de treino',2),
+ (['potencial','casca'],'Campo, potencial, energia e teorema da casca',2),
+ (['interior','autoenergia'],'Campo interior, túnel gravitacional e autoenergia',2),
+ (['dois-corpos','polares'],'Redução a dois corpos, órbita plana e cinemática polar',2),
+ (['efetivo','estabilidade','lancamento'],'Potencial efetivo, estabilidade e lançamento tangencial',3),
+ (['binet','forca-inversa'],'Equação de Binet, cônicas e reconstrução da força',2),
+ (['geometria','energia','vetor-excentricidade'],'Geometria, energia, apses e vetor de excentricidade',3),
+ (['kepler','barker-virial'],'Leis de Kepler, evolução temporal, Barker e virial',2),
+ (['escape','queda','colisao'],'Escape, queda radial e colisão com uma fonte extensa',2),
+ (['hohmann','oberth'],'Impulsos, transferência de Hohmann e efeito Oberth',2),
+ (['hiperboles','assistencia'],'Hipérboles, espalhamento e assistência gravitacional',2),
+ (['precessao','mares','hill'],'Além de Kepler: precessão, marés e escala de Hill',2),
+ (['estrategia','sintese','referencias'],'Estratégia, problemas de síntese e referências',3),
+ (['formulario-campos','formulario-invariantes'],'Formulário: campos, dois corpos e invariantes',2),
+ (['formulario-binet','formulario-tempo'],'Formulário: Binet, geometria, energia e tempo',2),
+ (['formulario-manobras','formulario-extensoes'],'Formulário: escape, manobras, espalhamento e extensões',2),
+ (['gabarito'],'Gabarito completo para conferência',2),
+]
+
 def build_catalog(dest):
  pages=json.loads((dest/'source-pages.json').read_text())
  lessons=[];current=None
@@ -86,6 +106,8 @@ def build_catalog(dest):
   {'id':'olymp-gravity-treino','unit':'13 · Treino e conferência','title':'Como treinar e avaliar sua resolução','description':'Convenções da ficha, roteiro de trabalho e uso das soluções comentadas.','refs':guide+solution_intro},
   {'id':'olymp-gravity-gabarito','unit':'13 · Treino e conferência','title':'Gabarito completo para conferência','description':'Resultados das 20 questões, incluindo modelos, regimes e condições.','refs':[{'page':f'ficha-{n}'} for n in range(13,15)]},
  ])
+ from group_handbook_lessons import group_lessons
+ lessons=group_lessons(lessons,list(questions.values()),'olymp-gravity-',GROUPS)
  for lesson in lessons:
   chars=sum(sum(len(b['text']) for b in pages[r['page']][r.get('start',0):r.get('end')]) for r in lesson['refs'])
   lesson['minutes']=max(8,round(chars/750*4))

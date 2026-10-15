@@ -7,8 +7,8 @@ sem vínculo oficial com essas competições.
 
 ## Conteúdo e continuidade
 
-São 38 aulas em 14 módulos, incluindo orientação, os 11 capítulos de teoria,
-seis partes do formulário e treino/conferência. As divisões seguem as seções,
+São 17 aulas em 14 módulos, incluindo orientação, os 11 capítulos de teoria,
+seis seções do formulário, reunidas em três aulas e treino/conferência. As divisões seguem as seções,
 mantendo juntas as deduções que atravessam páginas: lançamento tangencial,
 Binet, vetor de excentricidade, equação de Kepler, queda radial, Hohmann e marés.
 Preservam-se os 11 exemplos resolvidos, hipóteses, limites de validade,
@@ -69,3 +69,22 @@ de Ondulatória. Não edite manualmente as faixas ou os arquivos gerados.
 todos os símbolos, as alíneas e os finais das soluções, os limites das aulas,
 os endereços das fichas e o isolamento das trilhas. Execute a suíte conforme
 `tests/README.md`, além de `npm run build`.
+
+## Agrupamento e progresso
+
+As 38 entradas publicadas foram reunidas em 17 leituras. As aulas usuais têm
+uma ou duas páginas de referência; potencial efetivo, geometria/excentricidade
+e síntese têm três, abaixo do limite de quatro. O guia reúne a página de
+convenções e as introduções curtas da ficha, com extensão explicitamente
+estimada em duas páginas de leitura.
+
+Todos os IDs anteriores são preservados em `previousIds` como trechos de
+conclusão e endereços compatíveis. O catálogo não reescreve o progresso salvo.
+Uma leitura agrupada só recebe a marca de concluída quando todos os seus trechos
+estão completos; o progresso parcial aparece no sumário e na aula. O percentual
+do curso continua usando os trechos originais. Enunciados, soluções, IDs de
+questões e autoavaliações permanecem os mesmos.
+
+`LESSONS` em `scripts/gravity_course_map.py` registra os recortes publicados;
+`GROUPS` define a organização atual. Execute `python scripts/gravity_course_map.py`
+para regenerar somente os metadados, sem tocar no texto ou nos símbolos vetoriais.

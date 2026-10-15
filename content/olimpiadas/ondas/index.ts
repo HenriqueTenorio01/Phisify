@@ -1,9 +1,13 @@
 import lessonManifest from './lessons.json'
+import { resolveLessonId } from '../../lesson-compatibility'
 import questionManifest from './questions.json'
 import type { Course, WrittenQuestion } from '../../../src/app/types'
 import type { HandbookLesson } from '../../../src/app/handbook'
 
-export const waveLessons = lessonManifest as HandbookLesson[]
+export const waveLessons = lessonManifest as (HandbookLesson & {
+  pages: number
+  previousIds: string[]
+})[]
 export const waveQuestions = questionManifest as WrittenQuestion[]
 export const waveCourse: Course = {
   id: 'olympiad-waves',
@@ -25,10 +29,12 @@ export const waveCourse: Course = {
           description: lesson.description,
           type: 'Aula',
           minutes: lesson.minutes,
+          pages: lesson.pages,
+          ...(lesson.estimatedPages ? { estimatedPages: true } : {}),
         })),
     }),
   ),
 }
 
 export const waveLessonById = (id: string) =>
-  waveLessons.find((lesson) => lesson.id === id)
+  waveLessons.find((lesson) => lesson.id === resolveLessonId(id))

@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "olymp-waves-guia",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-2",
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-equacao",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-5",
+        "start": 0,
+        "end": 22
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-cauchy",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-6",
+        "start": 0,
+        "end": 18
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-fase",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-7",
+        "start": 0,
+        "end": 21
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-batimentos",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-8",
+        "start": 0,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-energia",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-9",
+        "start": 0,
+        "end": 21
+      },
+      {
+        "page": "aula-10",
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-esfericas",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-10",
+        "start": 8,
+        "end": 16
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-interfaces",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-11",
+        "start": 0,
+        "end": 22
+      },
+      {
+        "page": "aula-12",
+        "start": 0,
+        "end": 6
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-juncao",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-12",
+        "start": 6,
+        "end": 16
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-acoplados",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-13",
+        "start": 0,
+        "end": 22
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-modos",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-14",
+        "start": 0,
+        "end": 20
+      },
+      {
+        "page": "aula-15",
+        "start": 0,
+        "end": 3
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-dedilhada",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-15",
+        "start": 3,
+        "end": 20
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-som",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-16",
+        "start": 0,
+        "end": 21
+      },
+      {
+        "page": "aula-17",
+        "start": 0,
+        "end": 5
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-ressonancia",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-17",
+        "start": 5,
+        "end": 18
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-pacotes",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-18",
+        "start": 0,
+        "end": 22
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-dispersao",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-19",
+        "start": 0,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-agua",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-20",
+        "start": 0,
+        "end": 15
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-doppler",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-21",
+        "start": 0,
+        "end": 20
+      },
+      {
+        "page": "aula-22",
+        "start": 0,
+        "end": 5
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-mach",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-22",
+        "start": 5,
+        "end": 9
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-wkb",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-23",
+        "start": 0,
+        "end": 18
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-suspensa",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-23",
+        "start": 18,
+        "end": 21
+      },
+      {
+        "page": "aula-24",
+        "start": 0,
+        "end": 17
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-optica",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-25",
+        "start": 0,
+        "end": 20
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-young",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-26",
+        "start": 0,
+        "end": 9
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-filmes",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-26",
+        "start": 9,
+        "end": 17
+      },
+      {
+        "page": "aula-27",
+        "start": 0,
+        "end": 6
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-cavidade",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-27",
+        "start": 6,
+        "end": 14
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-polarizacao",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-28",
+        "start": 0,
+        "end": 12
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-fenda",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-29",
+        "start": 0,
+        "end": 17
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-duas-fendas",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-30",
+        "start": 0,
+        "end": 9
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-rede",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-30",
+        "start": 9,
+        "end": 15
+      },
+      {
+        "page": "aula-31",
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-circular-bragg",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-31",
+        "start": 8,
+        "end": 17
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-estrategia",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-32",
+        "start": 0,
+        "end": 14
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-referencias",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-33",
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-formulario-dinamica",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-34",
+        "start": 0,
+        "end": 16
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-formulario-energia",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-35",
+        "start": 0,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-formulario-interfaces",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-36",
+        "start": 0,
+        "end": 14
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-formulario-modos",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-37",
+        "start": 0,
+        "end": 15
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-formulario-dispersao",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-38",
+        "start": 0,
+        "end": 18
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-formulario-doppler",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-39",
+        "start": 0,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-formulario-optica",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-40",
+        "start": 0,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-formulario-difracao",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "aula-41",
+        "start": 0,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-treino",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "ficha-1",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-1",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-1",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-1",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-1",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-15",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-15",
+        "start": 1,
+        "end": 2
+      }
+    ]
+  },
+  {
+    "id": "olymp-waves-gabarito",
+    "course": "olympiad-waves",
+    "refs": [
+      {
+        "page": "ficha-12"
+      },
+      {
+        "page": "ficha-13"
+      },
+      {
+        "page": "ficha-14"
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-guia",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-2",
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-potencial",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-5",
+        "start": 0,
+        "end": 20
+      },
+      {
+        "page": "aula-6",
+        "start": 0,
+        "end": 1
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-casca",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-6",
+        "start": 1,
+        "end": 11
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-interior",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-6",
+        "start": 11,
+        "end": 20
+      },
+      {
+        "page": "aula-7",
+        "start": 0,
+        "end": 8
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-autoenergia",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-7",
+        "start": 8,
+        "end": 15
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-dois-corpos",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-8",
+        "start": 0,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-polares",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-9",
+        "start": 0,
+        "end": 18
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-efetivo",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-10",
+        "start": 0,
+        "end": 21
+      },
+      {
+        "page": "aula-11",
+        "start": 0,
+        "end": 3
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-estabilidade",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-11",
+        "start": 3,
+        "end": 12
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-lancamento",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-11",
+        "start": 12,
+        "end": 14
+      },
+      {
+        "page": "aula-12",
+        "start": 0,
+        "end": 11
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-binet",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-13",
+        "start": 0,
+        "end": 22
+      },
+      {
+        "page": "aula-14",
+        "start": 0,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-forca-inversa",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-14",
+        "start": 4,
+        "end": 11
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-geometria",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-15",
+        "start": 0,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-energia",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-15",
+        "start": 13,
+        "end": 18
+      },
+      {
+        "page": "aula-16",
+        "start": 0,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-vetor-excentricidade",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-16",
+        "start": 19,
+        "end": 22
+      },
+      {
+        "page": "aula-17",
+        "start": 0,
+        "end": 17
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-kepler",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-18",
+        "start": 0,
+        "end": 22
+      },
+      {
+        "page": "aula-19",
+        "start": 0,
+        "end": 10
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-barker-virial",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-19",
+        "start": 10,
+        "end": 24
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-escape",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-20",
+        "start": 0,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-queda",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-20",
+        "start": 13,
+        "end": 21
+      },
+      {
+        "page": "aula-21",
+        "start": 0,
+        "end": 14
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-colisao",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-21",
+        "start": 14,
+        "end": 20
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-hohmann",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-22",
+        "start": 0,
+        "end": 17
+      },
+      {
+        "page": "aula-23",
+        "start": 0,
+        "end": 9
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-oberth",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-23",
+        "start": 9,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-hiperboles",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-24",
+        "start": 0,
+        "end": 23
+      },
+      {
+        "page": "aula-25",
+        "start": 0,
+        "end": 7
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-assistencia",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-25",
+        "start": 7,
+        "end": 13
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-precessao",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-26",
+        "start": 0,
+        "end": 14
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-mares",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-26",
+        "start": 14,
+        "end": 19
+      },
+      {
+        "page": "aula-27",
+        "start": 0,
+        "end": 5
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-hill",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-27",
+        "start": 5,
+        "end": 12
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-estrategia",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-28",
+        "start": 0,
+        "end": 19
+      },
+      {
+        "page": "aula-29",
+        "start": 0,
+        "end": 1
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-sintese",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-29",
+        "start": 1,
+        "end": 21
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-referencias",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-30",
+        "start": 0,
+        "end": 6
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-formulario-campos",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-31",
+        "start": 0,
+        "end": 17
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-formulario-invariantes",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-32",
+        "start": 0,
+        "end": 14
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-formulario-binet",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-33",
+        "start": 0,
+        "end": 16
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-formulario-tempo",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-34",
+        "start": 0,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-formulario-manobras",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-35",
+        "start": 0,
+        "end": 17
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-formulario-extensoes",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "aula-36",
+        "start": 0,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-treino",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "ficha-1",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-1",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-1",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-1",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-1",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-15",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-15",
+        "start": 1,
+        "end": 2
+      }
+    ]
+  },
+  {
+    "id": "olymp-gravity-gabarito",
+    "course": "olympiad-gravity",
+    "refs": [
+      {
+        "page": "ficha-13"
+      },
+      {
+        "page": "ficha-14"
+      }
+    ]
+  }
+]

@@ -61,6 +61,7 @@ export interface LessonSummary {
   type: string
   minutes: number
   pages?: number
+  estimatedPages?: boolean
 }
 
 export interface CourseUnit {

@@ -5,9 +5,9 @@ Curso baseado nos dois PDFs versionados em `materiais/referencias`:
 - `Aula_Ondulatoria_TBF_IPhO.pdf`: 41 páginas.
 - `Ficha_Ondulatoria_TBF_IPhO.pdf`: 30 páginas, com 20 questões autorais.
 
-São 15 módulos e 42 aulas. O curso mantém a progressão e a numeração de seções e
+São 15 módulos e 22 aulas. O curso mantém a progressão e a numeração de seções e
 equações da apostila, os 12 exemplos resolvidos, as hipóteses, as extensões, as
-referências, as oito partes do formulário e as 20 questões com todas as alíneas e
+referências, as oito seções do formulário e as 20 questões com todas as alíneas e
 resoluções comentadas. As soluções 19 e 20 incluem ambas as páginas originais.
 
 ## Cobertura e apresentação
@@ -63,3 +63,29 @@ o isolamento das três trilhas. Consulte `tests/README.md` para executar a suít
 
 Os materiais se identificam como independentes e não oficiais. Essa distinção é
 preservada na interface e nas referências do curso.
+
+## Agrupamento e compatibilidade
+
+As 42 entradas publicadas foram reunidas em 22 leituras: em geral uma ou duas
+páginas de referência, com três páginas para modos normais e para o gabarito.
+Cada dedução continua junto de seus exemplos e condições de uso. O guia reúne
+as convenções da aula e as introduções curtas da ficha: sua extensão aproximada
+é indicada como duas páginas de leitura, distinguindo-a da contagem de páginas
+inteiras dos demais agrupamentos.
+
+`previousIds` registra os trechos publicados de cada aula. Todos os endereços
+anteriores continuam funcionando, sem criar entradas duplicadas no sumário ou
+na busca. As questões mantêm seus IDs, enunciados, soluções e registros; apenas
+o vínculo com a aula foi atualizado.
+
+Nenhum progresso é reescrito ao carregar o catálogo. Trechos concluídos aparecem
+como progresso parcial até que todos os trechos da aula estejam concluídos.
+Os percentuais do curso continuam ponderados pelos trechos originais. Concluir
+uma aula acrescenta apenas os trechos faltantes, preserva respostas e histórico
+e permite que versões anteriores continuem lendo os mesmos IDs salvos.
+
+Em `scripts/wave_course_map.py`, `LESSONS` preserva os recortes publicados e
+`GROUPS` define os agrupamentos atuais. Para alterar apenas a organização, execute
+`python scripts/wave_course_map.py`; não é necessário reexportar os SVGs ou o
+texto das fontes. `tests/lesson-grouping.test.ts` compara os agrupamentos com os
+80 recortes publicados dos dois cursos e testa endereços e progresso.

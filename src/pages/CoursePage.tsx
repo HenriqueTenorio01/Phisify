@@ -3,7 +3,7 @@ import { courseById } from '../../content/courses'
 import { useApp } from '../app/context'
 import { ProgressTrack } from '../components/ui/ProgressTrack'
 export function CoursePage() {
-  const { route, progress, openLesson, navigate } = useApp()
+  const { route, progress, openLesson, navigate, lessonCompletion } = useApp()
   const course = courseById(route.courseId)
   if (!course || course.trackId !== route.trackId)
     return (
@@ -17,9 +17,10 @@ export function CoursePage() {
       </section>
     )
   const lessons = course.units.flatMap((unit) => unit.lessons)
-  const done = lessons.filter((lesson) =>
-    progress.completedLessons.includes(lesson.id),
-  ).length
+  const completion = lessons.map((lesson) => lessonCompletion(lesson.id))
+  const totalParts = completion.reduce((sum, part) => sum + part.total, 0)
+  const doneParts = completion.reduce((sum, part) => sum + part.completed, 0)
+  const percent = totalParts ? (doneParts / totalParts) * 100 : 0
   return (
     <section className="screen active">
       <div className="course-crumb">
@@ -39,13 +40,9 @@ export function CoursePage() {
           </div>
         </div>
         <div className="course-summary">
-          <strong>
-            {Math.round(lessons.length ? (done / lessons.length) * 100 : 0)}%
-          </strong>
+          <strong>{Math.round(percent)}%</strong>
           <small>trilha concluída</small>
-          <ProgressTrack
-            value={lessons.length ? (done / lessons.length) * 100 : 0}
-          />
+          <ProgressTrack value={percent} />
         </div>
       </div>
       {!lessons.length && (
@@ -68,6 +65,7 @@ export function CoursePage() {
             </div>
             {unit.lessons.map((lesson, index) => {
               const isDone = progress.completedLessons.includes(lesson.id)
+              const parts = lessonCompletion(lesson.id)
               return (
                 <button
                   className="lesson-row"
@@ -82,10 +80,16 @@ export function CoursePage() {
                   <span>
                     <strong>{lesson.title}</strong>
                     <small>{lesson.description}</small>
+                    {parts.completed > 0 && parts.completed < parts.total && (
+                      <small className="lesson-progress-note">
+                        {parts.completed} de {parts.total} trechos já concluídos
+                      </small>
+                    )}
                   </span>
                   <span className="lesson-kind">
                     {lesson.pages && (
                       <>
+                        {lesson.estimatedPages ? '≈ ' : ''}
                         {lesson.pages}{' '}
                         {lesson.pages === 1 ? 'página' : 'páginas'} ·{' '}
                       </>

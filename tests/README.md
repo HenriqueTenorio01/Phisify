@@ -45,3 +45,10 @@ their individual optional hints. It enforces 1–2 source pages for standard les
 and at most four for advanced work, with no duplicated theory or interrupted
 sections, plus the compact topic and independent worksheet route.
 Regeneration is documented in `content/olimpiadas/centro-de-massa/README.md`.
+
+`lesson-grouping.test.ts` compares the reorganized readings with fixtures of all
+80 previously published lesson slices and checks all historical routes. It covers
+every partial-completion state, complete progress, idempotent completion, unchanged
+answers, preserved course percentages and partial progress in the real course UI.
+Hashes of the 40 published questions ensure that only their lesson links change.
+The catalog derives compatibility without rewriting account storage on load.
