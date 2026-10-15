@@ -84,6 +84,12 @@ export function CoursePage() {
                     <small>{lesson.description}</small>
                   </span>
                   <span className="lesson-kind">
+                    {lesson.pages && (
+                      <>
+                        {lesson.pages}{' '}
+                        {lesson.pages === 1 ? 'página' : 'páginas'} ·{' '}
+                      </>
+                    )}
                     {lesson.type} · {lesson.minutes} min
                   </span>
                 </button>

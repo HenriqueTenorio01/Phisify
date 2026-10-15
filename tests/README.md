@@ -38,3 +38,10 @@ pages and original blocks, nine diagrams, 20 complete statements/solutions,
 cross-page deductions and independent worksheet URLs. It also covers PDF
 inline-root fragments that must reflow as one paragraph without duplication.
 Regeneration is documented in `content/olimpiadas/gravitacao/README.md`.
+
+`center-of-mass.test.ts` checks the two center-of-mass PDFs, all 52 instructional
+pages and 1,450 original blocks, 13 diagrams, 14 complete questions/solutions and
+their individual optional hints. It enforces 1–2 source pages for standard lessons
+and at most four for advanced work, with no duplicated theory or interrupted
+sections, plus the compact topic and independent worksheet route.
+Regeneration is documented in `content/olimpiadas/centro-de-massa/README.md`.

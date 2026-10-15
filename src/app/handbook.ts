@@ -33,5 +33,6 @@ export interface HandbookLesson {
   title: string
   description: string
   minutes: number
+  pages?: number
   refs: SourceSlice[]
 }

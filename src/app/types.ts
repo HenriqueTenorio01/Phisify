@@ -24,6 +24,7 @@ export type CourseId =
   | 'thermo'
   | 'olympiad-waves'
   | 'olympiad-gravity'
+  | 'olympiad-center-of-mass'
 export type LabId = 'projectile' | 'waves' | 'circuit'
 
 export interface RouteState {
@@ -59,6 +60,7 @@ export interface LessonSummary {
   description: string
   type: string
   minutes: number
+  pages?: number
 }
 
 export interface CourseUnit {
@@ -75,6 +77,7 @@ export interface Course {
   tone: string
   description: string
   units: CourseUnit[]
+  compact?: boolean
 }
 
 export interface LessonData {
@@ -124,6 +127,7 @@ export interface WrittenQuestion extends QuestionBase {
   sourceNumber: number
   statement: import('./handbook').SourceSlice[]
   solution: import('./handbook').SourceSlice[]
+  hints?: import('./handbook').SourceSlice[]
 }
 
 export type Question = ChoiceQuestion | WrittenQuestion

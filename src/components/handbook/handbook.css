@@ -35,3 +35,7 @@
 @media(max-width:600px){.handbook-paper{padding:21px 16px}.handbook-body{font-size:1rem;line-height:1.85}.handbook-body h2{font-size:1.1rem}.handbook-pagination{grid-template-columns:1fr}.handbook-question-meta{flex-direction:column;gap:5px}.handbook-actions>.btn{flex:1}.handbook-source{overflow-wrap:anywhere}}
 @media print{.topbar,.sidebar,.mobile-nav,.handbook-nav,.handbook-pagination,.handbook-workspace,.handbook-self-assessment{display:none!important}.layout,.handbook-layout{display:block!important;width:100%!important}.handbook-paper{box-shadow:none;border:0}.handbook-equation{overflow:visible}.handbook-vector{max-width:100%;height:auto!important}.handbook-solution:not([open]){display:none}}
 .handbook-inline-scroll{display:inline-block;max-width:100%;overflow-x:auto;overflow-y:hidden;vertical-align:middle;line-height:1;scrollbar-width:thin}.handbook-inline-scroll .handbook-inline-math{display:block;vertical-align:initial}
+
+.handbook-hint{margin:20px 0;padding:14px 16px;border:1px dashed var(--book-rule);border-radius:5px;background:#f4f9f7}
+.handbook-hint summary{cursor:pointer;font:600 .8rem/1.6 'Inter',sans-serif;color:var(--book-teal)}
+.handbook-hint>.handbook-body{padding-top:16px}

@@ -83,6 +83,13 @@ export default function HandbookLessonPage({ id }: { id: string }) {
             <p className="handbook-unit">{lesson.unit}</p>
             <h1>{lesson.title}</h1>
             <p className="handbook-small">
+              {lesson.pages && (
+                <>
+                  {lesson.pages} {lesson.pages === 1 ? 'página' : 'páginas'} do
+                  material de referência
+                  {lesson.pages > 2 ? ' · estudo aprofundado' : ''} ·{' '}
+                </>
+              )}
               Leitura com deduções completas · cerca de {lesson.minutes} min,
               além da resolução dos exercícios.
             </p>

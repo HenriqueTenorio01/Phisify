@@ -20,6 +20,7 @@ export default function WrittenQuestionCard({
   const { resolveSource, sourceLabel } = use(loadHandbook(question.course))
   const [draft, setDraft] = useState('')
   const [revealed, setRevealed] = useState(false)
+  const [hintRevealed, setHintRevealed] = useState(false)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState('')
   async function assess(correct: boolean) {
@@ -54,6 +55,20 @@ export default function WrittenQuestionCard({
         blocks={resolveSource(question.statement)}
         prefix={question.id + '-statement'}
       />
+      {question.hints?.length ? (
+        <details
+          className="handbook-hint"
+          onToggle={(event) => setHintRevealed(event.currentTarget.open)}
+        >
+          <summary>Consultar pista opcional</summary>
+          {hintRevealed && (
+            <HandbookBlocks
+              blocks={resolveSource(question.hints)}
+              prefix={question.id + '-hint'}
+            />
+          )}
+        </details>
+      ) : null}
       <label className="handbook-workspace">
         Sua tentativa ou notas de resolução
         <textarea
@@ -122,8 +137,14 @@ export default function WrittenQuestionCard({
         {error && <p role="alert">{error}</p>}
       </div>
       <footer className="handbook-source">
-        Fonte: {sourceLabel([...question.statement, ...question.solution])}.
-        Problema autoral da ficha de treinamento; não é questão oficial da IPhO.
+        Fonte:{' '}
+        {sourceLabel([
+          ...question.statement,
+          ...(question.hints ?? []),
+          ...question.solution,
+        ])}
+        . Problema autoral da ficha de treinamento; não é questão oficial da
+        IPhO.
       </footer>
     </article>
   )

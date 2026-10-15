@@ -1,11 +1,12 @@
 import { coursesForTrack } from '../../content/catalog'
 import { tracks, trackById } from '../../content/tracks'
+import { worksheetPath } from '../../content/worksheets'
 import { useState } from 'react'
 import { useApp } from '../app/context'
 import { ProgressTrack } from '../components/ui/ProgressTrack'
 
 export function CoursesPage() {
-  const { route, progress, openCourse, selectTrack } = useApp()
+  const { route, progress, openCourse, openSheet, selectTrack } = useApp()
   const [filter, setFilter] = useState('Todos')
   const courses = coursesForTrack(route.trackId)
   const filters = ['Todos', ...new Set(courses.map((course) => course.area))]
@@ -57,7 +58,7 @@ export function CoursesPage() {
             progress.completedLessons.includes(lesson.id),
           ).length
           const percent = lessons.length ? (done / lessons.length) * 100 : 0
-          return (
+          const card = (
             <article className="catalog-row" key={course.id}>
               <div className={`catalog-marker ${course.tone}`} />
               <div>
@@ -83,8 +84,27 @@ export function CoursesPage() {
                 >
                   Abrir curso →
                 </button>
+                {course.compact && worksheetPath(course.id, route.trackId) && (
+                  <button
+                    className="link-button"
+                    onClick={() => openSheet(course.id)}
+                  >
+                    Abrir ficha de questões
+                  </button>
+                )}
               </div>
             </article>
+          )
+          return course.compact ? (
+            <details className="catalog-topic" key={course.id}>
+              <summary>
+                <span>{course.area}</span>
+                <small>{lessons.length} aulas · teoria e ficha</small>
+              </summary>
+              {card}
+            </details>
+          ) : (
+            card
           )
         })}
       </div>
