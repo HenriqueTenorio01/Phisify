@@ -1,0 +1,2302 @@
+{
+  "complemento-medidas": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Antes de calcular: grandeza, medida e modelo",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma grandeza física é uma propriedade que podemos comparar por um procedimento de medida. O número sozinho não é a medida: ele depende da unidade escolhida. Alterar metros para centímetros modifica o número, mas preserva o comprimento. Em uma igualdade física, os dois membros precisam representar grandezas de mesma dimensão. Essa exigência permite rejeitar uma relação incompatível, embora não prove que uma relação dimensionalmente correta descreva o fenômeno.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Converter uma área significa converter cada um dos dois comprimentos que a compõem; converter volume exige três fatores. Por isso, elevar uma unidade ao quadrado ou ao cubo também eleva o fator de conversão. O método de multiplicar por razões iguais a um deixa visíveis os cancelamentos. Não se deve trocar apenas o nome da unidade ao final da operação. Também é preciso distinguir a tonelada, unidade de massa, do newton, unidade de força.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "As casas decimais registradas expressam o que a leitura do instrumento permite sustentar. A resolução é a menor variação distinguível na escala; não é, sozinha, uma descrição completa da incerteza, que pode incluir calibração e método. Guardar algarismos intermediários evita arredondamento acumulado, mas a calculadora não torna a medida inicial mais precisa.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Um ponto material não é necessariamente pequeno: seu tamanho é irrelevante para a pergunta feita. Uma bola pode ser ponto material para estudar a trajetória do seu centro e corpo extenso para estudar sua rotação. Antes de escolher a equação, declare quais efeitos serão desprezados e qual observação poderia tornar essa aproximação inadequada.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-vetores": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Componentes descrevem o mesmo vetor",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Escolher eixos é escolher uma linguagem para descrever o espaço. O vetor físico não muda quando os eixos giram; mudam os números usados para representá-lo. Uma componente pode ser negativa porque aponta no sentido contrário ao eixo positivo. O módulo é uma medida de comprimento e permanece não negativo. Essa distinção evita tratar uma velocidade negativa como uma rapidez negativa.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A projeção de um vetor sobre um eixo mede quanto dele atua naquela direção. Se θ é o ângulo entre o vetor e o eixo x, a componente adjacente envolve cos θ; a perpendicular envolve sen θ. Essas funções não são regras a decorar por posição na folha: sua escolha vem do triângulo construído e do eixo a partir do qual o ângulo foi medido. Em outros quadrantes, os sinais devem acompanhar a orientação dos eixos.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Para somar vetores, some separadamente as componentes de cada direção. Só depois reconstrua o módulo pelo teorema de Pitágoras, válido para eixos perpendiculares. Somar módulos diretamente só funciona em situações particulares de alinhamento. O resultado precisa respeitar os limites entre a diferença dos módulos e sua soma.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma força decomposta não se transforma em três forças. Desenhar a força original e acrescentar suas duas componentes como forças extras duplicaria a interação. Use o vetor original ou suas projeções na equação correspondente. O mesmo cuidado vale para deslocamento, velocidade e aceleração: ter direções diferentes não impede que cada componente seja tratada algebricamente.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-graficos": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Ler os eixos antes de interpretar a curva",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Um gráfico físico relaciona duas grandezas, não reproduz necessariamente o desenho da trajetória. Uma reta inclinada em posição × tempo pode descrever um carro em uma estrada reta e horizontal. A origem dos eixos, a escala e as unidades precisam ser lidas antes de qualquer associação entre a forma do traço e o movimento.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A inclinação de uma secante é a razão entre a variação vertical e a horizontal. No gráfico posição × tempo, ela fornece a velocidade média no intervalo. Para discutir um instante, considere secantes em intervalos progressivamente menores; a inclinação local descreve a velocidade naquele instante. Não confunda a altura do ponto com a inclinação: posição nula pode coexistir com velocidade não nula.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em velocidade × tempo, uma faixa de largura temporal Δt e altura v representa vΔt, um deslocamento. Somar faixas dá a área orientada: regiões abaixo do eixo temporal entram com sinal negativo. A distância percorrida exige somar os módulos dessas contribuições, separando os intervalos em que a velocidade troca de sinal. Já em posição × tempo, a área tem dimensão comprimento vezes tempo e não representa deslocamento.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Uma área triangular ou trapezoidal é exata quando os trechos desenhados são efetivamente retilíneos; entre pontos experimentais ela pode ser uma aproximação. Uma escala irregular altera a aparência da curva e exige ler cada marca. Conferir as unidades da inclinação e da área é uma forma rápida de verificar se a interpretação escolhida faz sentido.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-medias": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Posição não é percurso",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Um referencial define em relação a que observador descrevemos o movimento. Fixado esse referencial, escolhemos uma origem e um sentido positivo. A posição informa a localização; o deslocamento compara as posições final e inicial. A trajetória e a distância percorrida exigem conhecer também o que ocorreu entre esses extremos. Voltar ao ponto inicial anula o deslocamento, mesmo depois de um percurso longo.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Velocidade média é deslocamento dividido pelo intervalo total de tempo. Rapidez média é distância total dividida pelo mesmo intervalo. Paradas fazem parte do tempo total quando pertencem à viagem analisada. A média aritmética de duas velocidades só representa a velocidade média quando os intervalos de tempo correspondentes são iguais; em trechos de mesma distância, o trecho mais lento consome mais tempo e pesa mais na média.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Velocidade negativa significa movimento no sentido negativo do eixo. Aceleração negativa significa que a componente da velocidade está diminuindo algebricamente. Isso não basta para afirmar que a rapidez diminui: se velocidade e aceleração têm o mesmo sinal, o módulo da velocidade cresce. Quando têm sinais contrários, a rapidez diminui até uma eventual inversão.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Trocar a origem soma uma constante a todas as posições e não altera o deslocamento. Inverter o eixo troca os sinais das componentes, preservando as previsões físicas. Por isso, duas resoluções com eixos diferentes podem produzir sinais diferentes e descrever o mesmo movimento. Ao apresentar a resposta, indique o sentido físico além do valor algébrico.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-mu": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Uma equação de posição é uma história com relógio",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Movimento uniforme retilíneo significa velocidade vetorial constante no referencial escolhido. Em intervalos iguais, os deslocamentos são iguais; portanto, a posição cresce ou decresce linearmente com o tempo. A forma geral deve indicar o instante em que a posição inicial foi conhecida: s(t) = s(t₀) + v(t − t₀). Escrever apenas s = s₀ + vt pressupõe que o relógio foi zerado nesse instante.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em um encontro, os móveis ocupam a mesma posição no mesmo instante. Isso exige comparar suas funções de posição com um relógio comum. Se um perseguidor começa depois, sua equação só vale a partir da partida; antes dela, sua posição permanece a da espera. Um resultado anterior a essa partida não pertence à etapa modelada, mesmo que satisfaça uma manipulação algébrica das equações.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A velocidade relativa ajuda a interpretar a conta: a separação diminui à taxa de aproximação enquanto as velocidades forem constantes. Ela pode ser uma soma de módulos quando os móveis se aproximam em sentidos opostos, ou uma diferença quando seguem no mesmo sentido. Usar automaticamente uma soma não substitui a escolha de sinais.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Um gráfico posição × tempo horizontal representa repouso nesse referencial, e retas paralelas representam velocidades iguais. A equação do MU não deve atravessar uma mudança de velocidade sem separar o movimento em etapas e preservar a posição na transição. A continuidade da posição não exige que a velocidade também seja contínua em uma idealização de mudança instantânea.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-mruv": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Construir as relações em vez de escolhê-las por aparência",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "A aceleração média é a variação de velocidade por intervalo de tempo. Quando a aceleração é constante, essa razão é a mesma em qualquer trecho: a = (v − v₀)/Δt. Isolar v fornece a primeira equação do MRUV. Aqui a constância da aceleração é a hipótese central; uma força variável ou uma resistência dependente da velocidade podem invalidá-la.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "No gráfico velocidade × tempo, essa primeira relação é uma reta. O deslocamento é a área orientada do trapézio: Δs = (v₀ + v)Δt/2. Substituir v = v₀ + aΔt produz a soma de um retângulo e um triângulo, Δs = v₀Δt + aΔt²/2. Essa construção explica tanto o fator 1/2 quanto os sinais, sem depender de uma figura em que todas as velocidades sejam positivas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Para eliminar o tempo, multiplique a relação do trapézio por 2a e use aΔt = v − v₀. Resulta 2aΔs = (v₀ + v)(v − v₀) = v² − v₀². A equação de Torricelli é, portanto, outra consequência do mesmo modelo. Como ela contém quadrados de velocidades, o sentido final precisa ser recuperado pelo contexto ou pela equação temporal.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Ao resolver uma equação quadrática da posição, duas raízes podem representar duas passagens pelo mesmo lugar; uma raiz negativa pode descrever uma extrapolação anterior ao início adotado. Verifique o intervalo físico da etapa. No instante de inversão, v = 0 não implica a = 0: a aceleração constante continua modificando a velocidade através desse instante.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "equation",
+      "text": "Relação deduzida na ampliação conceitual",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mn>2</mn><mi>a</mi><mi>Δs</mi><mo>=</mo><mo>(</mo><mi>v</mi><mo>+</mo><msub><mi>v</mi><mn>0</mn></msub><mo>)</mo><mo>(</mo><mi>v</mi><mo>−</mo><msub><mi>v</mi><mn>0</mn></msub><mo>)</mo><mo>=</mo><msup><mi>v</mi><mn>2</mn></msup><mo>−</mo><msubsup><mi>v</mi><mn>0</mn><mn>2</mn></msubsup></mrow></math>"
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          6
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-frenagem": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Duas etapas, duas leis de movimento",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "O obstáculo pode ser percebido antes de o freio começar a atuar. Durante o tempo de reação, o modelo supõe que o veículo conserva sua velocidade; depois, supõe uma desaceleração constante. Essas são etapas distintas. A distância de parada é a soma das distâncias de reação e de frenagem, enquanto o tempo de parada soma os dois tempos. Não se deve aplicar a desaceleração ao intervalo inteiro.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Na frenagem, escolha o sentido inicial como positivo e escreva a = −b, com b positivo. A condição final v = 0, aplicada a v² − v₀² = 2aΔs, dá a distância de frenagem v₀²/(2b). O tempo dessa etapa é v₀/b. As unidades confirmam a interpretação: velocidade ao quadrado dividida por aceleração tem dimensão de comprimento.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A dependência quadrática explica por que uma pequena mudança de velocidade pode ter efeito forte na distância de frenagem. A distância de reação cresce linearmente com a velocidade; a outra parcela cresce com seu quadrado se b permanecer igual. Se o enunciado relacionar b ao atrito, essa relação deve vir de um diagrama de forças e das condições de contato, não da cinemática sozinha.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. A desaceleração real pode variar com o pavimento, a inclinação e o sistema de frenagem. A expressão ideal não promete uma distância universal para qualquer carro. Use-a para o modelo declarado e confira se há espaço suficiente antes do obstáculo. Se não houver, calcule a velocidade no ponto do impacto dentro da etapa de frenagem.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-vertical": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · A gravidade não desaparece no ponto mais alto",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Próximo à superfície, adotamos um campo gravitacional praticamente uniforme e desprezamos o ar. A massa gravitacional que determina o peso e a massa inercial que responde à força se cancelam em ma = mg. Nesse modelo, a aceleração de queda independe da massa do corpo. A forma e a densidade passam a importar quando a resistência do ar é relevante.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Escolha um eixo vertical antes de escrever as equações. Com o sentido para cima positivo, a = −g durante a subida, no ponto mais alto e na descida. No topo, apenas a velocidade vertical se anula instantaneamente. Se a aceleração também se anulasse e nenhuma outra força atuasse, o corpo permaneceria parado, contrariando o movimento descrito.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A equação v² = v₀² − 2gΔh mostra que duas passagens pela mesma altura têm velocidades de mesmo módulo, mas de sentidos opostos, desde que pertençam à mesma trajetória ideal. A simetria dos tempos de subida e descida exige partida e chegada no mesmo nível. Uma chegada abaixo do lançamento exige resolver a posição para aquela altura, sem importar o tempo de retorno ao nível inicial.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Uma raiz temporal deve pertencer à etapa posterior ao lançamento e anterior a qualquer colisão. Não prolongue a parábola através do solo se o movimento termina no contato. A aproximação de g constante deve ser revista quando a variação de altura deixa de ser pequena comparada ao raio terrestre; esse caso será estudado em Gravitação.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-relativo": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Dizer “em relação a quem” faz parte da velocidade",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma velocidade pertence a um par corpo–referencial. Para comparar observadores em translação, escreva a posição do corpo em relação ao solo como a posição do referencial móvel mais a posição do corpo em relação a ele. Comparar essa igualdade em dois instantes e dividir pelo mesmo intervalo leva à composição galileana das velocidades. As componentes devem ser somadas vetorialmente, nunca apenas pelos módulos.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em uma correnteza uniforme, a velocidade do barco em relação à água depende de sua propulsão; a da água em relação à margem descreve o arraste. Apontar a proa perpendicular à margem não significa atravessar sem desvio: a corrente acrescenta uma componente. Para chegar exatamente em frente, a componente escolhida contra a corrente precisa cancelar o arraste, se houver velocidade suficiente para isso.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Soltar um objeto de um veículo não apaga sua velocidade horizontal em relação ao solo. Na ausência de força horizontal após a soltura, essa componente permanece constante. O observador no veículo com velocidade constante pode vê-lo cair verticalmente; o observador no solo pode vê-lo seguir uma parábola. Ambas as descrições são compatíveis quando as velocidades e as origens são transformadas corretamente.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. A soma de velocidades aqui é a aproximação clássica para velocidades muito menores que a da luz. A forma das leis de Newton permanece simples em referenciais inerciais; em um veículo acelerado, a descrição relativa da aceleração exige cuidado adicional. Não misture uma velocidade medida na água com outra medida na margem em uma única equação sem declarar a transformação.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-lancamentos": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · As duas direções compartilham o mesmo tempo",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Sem resistência do ar e com gravidade uniforme, a única aceleração após o lançamento é vertical. A componente horizontal da velocidade fica constante, enquanto a vertical varia com −g. Não se trata de dois corpos diferentes: são duas projeções do mesmo movimento, sincronizadas pelo mesmo instante. A posição horizontal encontrada precisa usar o tempo obtido pela condição vertical correspondente.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A velocidade inicial se projeta como v₀ cos θ e v₀ sen θ quando θ é medido acima da horizontal. Eliminar t de x = v₀ cos θ · t e y − y₀ = v₀ sen θ · t − gt²/2 produz uma parábola, desde que a componente horizontal não seja nula. Isso explica a forma da trajetória; o desenho curvo não indica uma força horizontal empurrando o projétil.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "No ápice, a componente vertical da velocidade se anula, mas a horizontal geralmente permanece. Por isso, a rapidez no ápice não é zero em um lançamento oblíquo comum. O tempo total 2v₀ sen θ/g e o alcance v₀² sen(2θ)/g pressupõem chegada na mesma altura. Em outra altura, determine o tempo pela equação vertical e depois a posição horizontal.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. A complementaridade dos ângulos que dão o mesmo alcance vale para mesma rapidez inicial, mesmo nível de chegada e ausência de ar. Um lançamento horizontal tem velocidade vertical inicial nula; isso não significa aceleração vertical nula. Se o enunciado termina no primeiro contato com uma superfície, descarte interseções matemáticas posteriores.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-circular": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Mudar de direção também é acelerar",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "A velocidade é tangente à trajetória. Mesmo que sua intensidade permaneça constante, duas velocidades em pontos vizinhos do círculo têm direções diferentes. O triângulo formado por elas é semelhante, no limite de um pequeno arco, ao triângulo dos raios: |Δv|/v ≈ Δs/r. Dividir por Δt e usar Δs/Δt ≈ v leva a aₙ = v²/r. O sentido da variação aponta para o centro.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O ângulo em radianos compara arco e raio: θ = s/r. Por isso v = ωr relaciona rapidez linear e angular. Um giro completo corresponde a 2π rad; o período é o tempo de um giro e a frequência é o número de giros por unidade de tempo. A relação f = 1/T exige usar unidades compatíveis, convertendo rotações por minuto quando necessário.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Se a rapidez variar, existe também uma aceleração tangencial, associada à mudança de módulo da velocidade. As componentes tangencial e normal são perpendiculares: a intensidade total vem de Pitágoras. A normal não substitui a tangencial e não deve receber o sinal usado para indicar aceleração no eixo de uma trajetória reta.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em rodas ligadas pelo mesmo eixo rígido, a velocidade angular é comum. Em correias ideais sem escorregamento, as velocidades tangenciais nos contatos têm mesmo módulo; os raios diferentes então implicam velocidades angulares diferentes. Hipóteses e alcance. “Centrípeta” nomeia uma componente da aceleração ou da resultante, não uma nova interação física a acrescentar ao diagrama de forças.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-newton": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Da interação ao movimento",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "As leis de Newton conectam uma descrição cinemática às interações responsáveis pela variação da velocidade. Em um referencial inercial, força resultante nula implica velocidade constante, inclusive repouso. Manter um corpo em movimento retilíneo uniforme não exige uma força resultante na direção do movimento; em situações reais de arraste, a força motriz pode equilibrar a resistência, produzindo resultante nula.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A segunda lei relaciona a soma vetorial das forças externas à aceleração do sistema escolhido. Para um corpo de massa constante, escreva uma equação por eixo. A decomposição evita atribuir o módulo total de uma força a cada direção. O diagrama deve conter apenas forças exercidas sobre esse corpo por outros agentes identificáveis: Terra, superfície, fio ou mola, por exemplo.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Um par de ação e reação tem forças de mesmo módulo e sentidos opostos, mas aplicadas em corpos distintos. Elas não se cancelam no diagrama de um único corpo. Quando ambos pertencem ao sistema analisado, tornam-se forças internas e se cancelam na soma para o sistema; ainda podem importar para descrever o movimento relativo de suas partes.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A normal é a força de contato perpendicular à superfície, e seu valor vem da equação nessa direção. Ela só coincide com mg em condições específicas de apoio horizontal e aceleração vertical nula, sem outras forças verticais. Uma balança mede a força de contato, não diretamente a atração gravitacional. Fios leves e polias ideais permitem certas igualdades de tração; uma mola ideal obedece à relação linear apenas no intervalo elástico adotado.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-atrito": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · O valor do atrito depende do regime de contato",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "O atrito estático se ajusta para impedir o deslizamento relativo, até um limite. Escrever f = μₛN desde o começo equivale a supor que o contato está na iminência de deslizar. Primeiro calcule qual força tangencial seria necessária para o regime sem deslizamento e compare seu módulo com μₛN. Se o valor exigido ultrapassar esse limite, a hipótese inicial falhou.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "No modelo de atrito cinético, usa-se aproximadamente f = μₖN, dirigido contra o deslizamento relativo das superfícies. Isso não significa que ele sempre seja contrário à velocidade do centro de massa em qualquer referencial. Uma esteira pode acelerar um objeto por atrito enquanto o contato desliza. O movimento relativo no contato determina o sentido a ser testado.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A normal precisa ser obtida da dinâmica perpendicular à superfície antes de calcular o limite de atrito. Uma força oblíqua que puxa para cima pode diminuir a normal; uma que comprime o corpo contra a superfície pode aumentá-la. Usar N = mg por hábito perde esse efeito e pode trocar a previsão sobre o início do movimento.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A resistência do ar é outra interação dissipativa, com dependência da rapidez e do regime do escoamento. Na velocidade terminal vertical, a força de resistência equilibra o peso e a aceleração se anula, mas a velocidade não. Hipóteses e alcance. Os coeficientes de atrito descrevem um modelo aproximado dos materiais e das condições de contato; não são propriedades universais de um corpo isolado.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-rampa": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Escolher os eixos simplifica a física, não altera as forças",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Em um plano inclinado reto, os eixos paralelo e perpendicular à superfície geralmente reduzem o número de componentes. O peso continua vertical; suas projeções têm módulos mg sen θ ao longo da rampa e mg cos θ na direção normal, se θ for a inclinação em relação à horizontal. Esses fatores vêm dos ângulos do triângulo de projeção, não de uma alteração da gravidade.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A condição de contato com uma superfície rígida fixa impede aceleração perpendicular enquanto o contato existe. Nessa direção, a resultante é nula, mas só se pode concluir N = mg cos θ quando não houver outras forças com componentes normais. Uma tração oblíqua ou uma superfície curva modifica a equação. Uma normal calculada negativa sinaliza que a superfície precisaria puxar o corpo, o que um apoio simples não faz.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Para testar o repouso, a componente tangencial do peso deve ser equilibrada pelas demais forças tangenciais, incluindo o atrito estático necessário. Compare esse valor com μₛN. Se a gravidade for a única tendência de escorregamento, essa comparação produz o limite tan θ ≤ μₛ, derivado de dividir as componentes e não de uma fórmula adicional independente.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Se o corpo já desliza, use o coeficiente cinético e defina o sentido de sua velocidade na rampa. Um corpo que sobe tem peso e atrito voltados para baixo; um que desce tem o atrito para cima. Refaça os sentidos após uma parada ou inversão, pois o regime de contato pode mudar.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-vinculos": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · A restrição geométrica vem antes da aceleração",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Quando dois blocos permanecem em contato, suas posições obedecem a uma relação geométrica; isso pode impor acelerações iguais em uma direção. Analisar o conjunto elimina forças internas e facilita encontrar a aceleração. Analisar cada parte depois permite recuperar a força de contato ou a tração. Uma força interna que some da equação do conjunto não deixou de existir em cada corpo.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Um fio inextensível impõe comprimento constante. Em uma polia fixa simples, os deslocamentos dos extremos têm módulos iguais e sentidos relacionados pela passagem do fio. Em uma polia móvel sustentada por dois trechos, deslocar a polia muda ambos os comprimentos. A relação de posições, escrita com sinais consistentes, pode ter a forma 2y + x = constante; comparar instantes dá 2Δy + Δx = 0 e a mesma proporção para velocidades e acelerações.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Isso explica a vantagem mecânica: dois trechos de tração T podem sustentar uma carga com força 2T, mas a extremidade livre percorre o dobro da distância da carga no modelo ideal. A redução de força não cria energia. A igualdade das trações ao longo de um mesmo fio exige fio de massa desprezível e polias sem efeitos de inércia e atrito relevantes.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em molas em série, a força transmitida é a mesma e as deformações se somam, levando à soma dos inversos das constantes. Em paralelo, a deformação é comum e as forças se somam, dando a soma das constantes. Declare a ligação física antes de escolher a expressão: desenhos parecidos podem impor vínculos diferentes.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-curvas": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · “Centrípeta” é o resultado de somar forças reais",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "O corpo precisa de uma componente de aceleração dirigida ao centro de curvatura. A equação radial é a projeção de ΣF = ma nessa direção, com módulo de aceleração v²/r. No diagrama, desenhe peso, normal, atrito ou tração conforme as interações presentes. Acrescentar também uma força mv²/r ao lado dessas interações contaria a resultante duas vezes.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em uma curva horizontal plana, o atrito estático pode fornecer a força radial. A velocidade máxima ideal vem de exigir a força radial necessária menor ou igual ao atrito máximo, depois de determinar a normal pela equação vertical. O atrito não precisa estar no limite em qualquer velocidade menor. Em uma pista inclinada, a própria normal tem componente horizontal, e as projeções precisam incluir sua componente vertical.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em uma curva vertical, a direção radial muda de orientação em relação ao peso. No alto de um arco convexo, o peso pode apontar para o centro e a normal para fora; em uma trajetória interna circular, os sentidos de contato dependem do lado da superfície ocupado pelo corpo. Não transporte uma equação do topo para o fundo apenas trocando a altura.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Um apoio sem adesão só empurra: N ≥ 0. O limite de perda de contato ocorre quando a normal necessária chega a zero. Depois disso, o corpo deixa a trajetória imposta e precisa de outro modelo, geralmente lançamento sob gravidade. A energia pode ajudar a determinar v em cada ponto, mas não substitui o teste dinâmico de contato.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-trabalho": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Força e deslocamento precisam ser relacionados",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "O trabalho mede uma transferência de energia associada à ação de uma força ao longo de um deslocamento. Para força constante, contribui apenas a componente paralela: W = FΔs cos θ. Uma força intensa perpendicular ao deslocamento pode ter trabalho nulo; a normal em um apoio fixo ideal é um caso frequente. O sinal do trabalho depende da orientação relativa, não de uma classificação da força como “boa” ou “ruim”.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Quando a componente tangencial varia com a posição, divida o percurso em trechos pequenos e some as contribuições. O gráfico dessa componente em função da posição representa o trabalho pela área orientada. Abaixo do eixo, a transferência reduz a energia cinética. Usar o produto entre a força final e todo o deslocamento equivale a supor uma força constante que não existiu.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Para massa constante e aceleração retilínea constante, combine Fᵣ = ma com v² − v₀² = 2aΔs. Resulta FᵣΔs = m(v² − v₀²)/2. Definindo K = mv²/2, obtemos Wᵣ = ΔK. A formulação por pequenos trechos estende a conclusão a forças variáveis: o trabalho da resultante corresponde à variação da energia cinética do ponto material.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. O trabalho de uma força específica não é automaticamente o trabalho da resultante. Some todas as contribuições relevantes ou determine diretamente a resultante. A energia cinética usa o módulo da velocidade e é não negativa; a diferença entre os valores final e inicial pode ser negativa. O teorema informa a rapidez, mas não determina sozinho o sentido final.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-energia": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Energia potencial pertence à configuração de um sistema",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma força conservativa realiza o mesmo trabalho entre dois estados independentemente do caminho. Podemos então associar à configuração uma energia potencial U de modo que Wconservativo = −ΔU. O sinal negativo expressa que o trabalho positivo dessa força reduz a energia potencial e pode aumentar a cinética. O nível em que U vale zero é uma convenção; diferenças de energia não dependem dessa escolha.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "No campo gravitacional uniforme, mover um corpo verticalmente contra o peso exige trabalho proporcional à mudança de altura, dando U = mgh. Para a mola linear ideal, a força externa necessária para deformar lentamente cresce de zero a kx. A área triangular do gráfico força × deformação dá kx²/2. O fator 1/2 aparece porque a força média nesse processo é metade da final.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Separando o trabalho em conservativo e não conservativo, o teorema trabalho–energia fornece ΔK = −ΔU + Wnc. Reorganizar produz Δ(K + U) = Wnc. Só quando esse último trabalho é nulo a energia mecânica permanece constante. O atrito pode converter parte da energia mecânica em energia interna; isso não viola a conservação da energia total do conjunto ampliado.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Identifique o sistema e os estados inicial e final. Uma mola fora do regime elástico linear não obedece ao mesmo potencial quadrático, e uma variação grande de altitude exige a energia gravitacional discutida em Gravitação. Em uma sequência com colisão inelástica, não preserve energia mecânica através do choque; separe o choque das etapas em que a conservação for justificável.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "equation",
+      "text": "Relação deduzida na ampliação conceitual",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>ΔK</mi><mo>=</mo><mo>−</mo><mi>ΔU</mi><mo>+</mo><msub><mi>W</mi><mtext>nc</mtext></msub><mo>⇒</mo><mi>Δ</mi><mo>(</mo><mi>K</mi><mo>+</mo><mi>U</mi><mo>)</mo><mo>=</mo><msub><mi>W</mi><mtext>nc</mtext></msub></mrow></math>"
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          6
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-potencia": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Energia transferida e taxa de transferência são grandezas distintas",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Trabalho e energia se medem em joules. Potência informa a rapidez com que essa transferência ocorre, medida em joules por segundo, ou watts. A potência média é o trabalho dividido pelo intervalo correspondente. Dois motores podem entregar a mesma energia em tempos diferentes e, portanto, ter potências médias diferentes.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em um intervalo curto, o trabalho de uma força é sua componente paralela multiplicada pelo deslocamento. Dividir pelo tempo leva à potência instantânea P = Fv cos θ, quando se usam a força e a velocidade do ponto de aplicação naquele instante. O produto dos valores médios de força e velocidade não representa automaticamente a potência média se ambos variam durante a operação.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Rendimento compara a energia útil entregue com a energia recebida no mesmo processo, ou as potências correspondentes em regime compatível. Para um equipamento passivo, o rendimento fica entre zero e um; a parcela restante não desaparece, sendo transferida para outras formas ou destinos. Ao conhecer a potência útil, dividir pelo rendimento fornece a potência de entrada; multiplicar faria a entrada ficar menor que a saída.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O quilowatt-hora é uma unidade de energia: potência multiplicada por tempo. Um kWh corresponde a 3,6 milhões de joules. Hipóteses e alcance. Uma potência nominal informa uma condição de operação, não garante funcionamento contínuo nesse valor. Em um elevador com rapidez constante, o trabalho motor pode aumentar a energia potencial sem aumentar a cinética; durante a aceleração, o balanço precisa incluir ambas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-impulso": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · O intervalo da interação faz parte da análise",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "A quantidade de movimento linear de um corpo de massa constante é p = mv, uma grandeza vetorial. A segunda lei pode ser escrita como força resultante igual à taxa de variação de p. Multiplicar por um intervalo curto e somar as contribuições da força ao longo do tempo leva ao teorema do impulso: o impulso resultante é a variação da quantidade de movimento.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Um gráfico força × tempo fornece o impulso pela área orientada de cada componente. A força média é a força constante que produziria o mesmo impulso no mesmo intervalo; ela não é necessariamente a força máxima. Para a mesma variação de momento, aumentar o tempo de interação reduz o módulo da força média correspondente, embora o perfil temporal real ainda determine o pico.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Ao somar as equações de todas as partículas de um sistema, as forças internas de ação e reação se cancelam na soma. Resta a variação do momento total igual ao impulso das forças externas. Assim, momento total constante exige impulso externo resultante nulo ou desprezível no intervalo analisado. Não exige ausência de forças internas, que podem ser grandes durante uma colisão.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Um choque curto pode permitir desprezar o impulso do peso diante do impulso de contato, mas essa comparação precisa ser justificável. A conservação pode valer em uma direção e falhar em outra. Escolha e mantenha os sinais: inverter a velocidade de uma bola produz variação de momento que envolve as duas velocidades com sentidos opostos, e não apenas a diferença de seus módulos.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-colisoes": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Cada conservação responde a uma condição diferente",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Em uma colisão de um sistema aproximadamente isolado, o momento linear total se conserva. Isso independe de a energia cinética se conservar. No choque elástico, a energia cinética total também permanece; no inelástico, parte dela pode virar deformação, vibração e energia interna. No choque perfeitamente inelástico, os corpos seguem unidos logo após o impacto, impondo uma velocidade final comum.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O coeficiente de restituição compara a rapidez relativa de afastamento com a de aproximação na direção da colisão. Ele acrescenta uma informação sobre a interação, além da conservação do momento. Para uma colisão unidimensional elástica, a relação de inversão da velocidade relativa pode ser deduzida combinando conservação do momento e da energia cinética, como mostra a apostila. Não é uma terceira conservação independente.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "No recuo ou em uma separação, forças internas podem criar velocidades individuais sem alterar o momento total do sistema isolado. A energia cinética pode aumentar porque havia energia interna disponível, como energia de uma mola. Portanto, momento total nulo não significa que todos os corpos estejam parados: momentos opostos podem se cancelar.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O centro de massa é uma média das posições ponderada pelas massas. Somar as equações dinâmicas mostra que sua aceleração depende apenas da resultante externa e da massa total. Se o impulso horizontal externo for nulo, seu movimento horizontal permanece uniforme mesmo que as partes se desloquem entre si. A posição geométrica do meio só coincide com o centro de massa em distribuições adequadamente simétricas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-equilibrio": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Por que equilibrar forças pode não bastar",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma partícula ideal não tem extensão relevante: anular a resultante impede aceleração de sua posição. Em um corpo extenso, duas forças de mesmo módulo e sentidos opostos podem agir em linhas distintas. A resultante é nula, mas elas podem produzir uma tendência de rotação. Para equilíbrio estático plano de um corpo rígido, exigimos tanto resultante nula quanto soma dos momentos das forças nula.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O momento, ou torque, de uma força em relação a um ponto mede essa tendência de rotação. Seu módulo é a força multiplicada pela distância perpendicular do ponto à linha de ação. A distância ao local de aplicação só pode ser usada diretamente se for perpendicular à força. Escolha um sentido de rotação positivo e use-o para todas as forças.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Escolher o ponto de cálculo dos torques é uma conveniência algébrica: uma força cuja linha de ação passa por esse ponto tem momento nulo. Ela continua atuando e precisa aparecer nas equações de forças. Quando a resultante é nula, o teste de torque não depende da origem escolhida; se uma resolução equilibrar apenas torques sem verificar forças, essa garantia não existe.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Um corpo com resultante e torque nulos pode manter uma translação ou rotação uniforme se já estava em movimento. A estática pressupõe também as condições iniciais de repouso. No campo gravitacional uniforme, o peso resultante pode ser aplicado no centro de massa, que coincide nesse modelo com o centro de gravidade.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-apoios": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · As reações devem ser compatíveis com o apoio real",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma viga pode ser analisada por duas equações de força e uma de torque no plano. O modelo do apoio define quais reações ele pode exercer: um contato liso oferece normal; um contato rugoso pode oferecer também atrito estático. Não acrescente forças apenas para equilibrar a conta. Uma reação negativa indica sentido oposto ao inicialmente suposto somente se o apoio puder exercer esse sentido.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Na alavanca ideal, o equilíbrio dos torques relaciona forças e braços perpendiculares. A vantagem em força é acompanhada por maior deslocamento do ponto de aplicação em um movimento compatível. No campo uniforme, distribuir o peso do corpo em seu centro de massa permite contabilizar o torque do próprio corpo além das cargas externas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em uma escada, calcule as reações supondo equilíbrio e teste o atrito necessário no piso contra μₛN. Só na iminência de escorregar vale igualar seu módulo ao máximo estático. Se a parede também tiver atrito, o modelo muda e pode precisar de informações adicionais. O desenho das forças deve declarar explicitamente quais superfícies são lisas e quais são rugosas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Para o tombamento, a resultante do contato se desloca dentro da base de apoio. O limiar ocorre quando ela chega à borda; a partir daí, o apoio não consegue manter o equilíbrio com uma normal compressiva dentro da base. Comparar o torque em torno dessa borda esclarece a condição. A estabilidade depende de como o torque muda após uma pequena perturbação, e não apenas de anular o torque em uma posição.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-orbitas": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Do campo gravitacional à trajetória orbital",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "A lei da gravitação relaciona a intensidade da atração ao produto das massas e ao inverso do quadrado da distância entre seus centros. Para um planeta esférico, fora dele, o campo pode ser calculado como se sua massa estivesse concentrada no centro. A distância é r = R + h; usar apenas a altitude h como denominador produz uma previsão incorreta junto à superfície.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O campo g = GM/r² é força por unidade de massa. A massa do corpo em órbita não muda ao viajar para outro planeta, embora o peso m g dependa do campo local. Em uma órbita circular sob gravitação de uma massa dominante, a atração fornece toda a resultante radial. Igualar GMm/r² a mv²/r cancela a massa do satélite e dá v² = GM/r.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Como o percurso de uma volta é 2πr, o período é T = 2πr/v. Substituir a rapidez circular produz T² = 4π²r³/(GM). A proporcionalidade entre T² e r³ foi assim obtida para o caso circular e massa central dominante. Nas órbitas elípticas keplerianas, o raio circular é substituído pelo semieixo maior; o corpo central ocupa um foco, não o centro geométrico da elipse.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. A lei das áreas relaciona área varrida e tempo, não ângulo e tempo: em uma elipse, a rapidez orbital muda. A aproximação de massa central dominante despreza o movimento dessa massa e outras perturbações. A gravidade não precisa ser “equilibrada” por uma força extra para manter a órbita: ela é a causa da mudança contínua da direção da velocidade.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "equation",
+      "text": "Relação deduzida na ampliação conceitual",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mfrac><mrow><mi>G</mi><mi>M</mi><mi>m</mi></mrow><msup><mi>r</mi><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mrow><mi>m</mi><msup><mi>v</mi><mn>2</mn></msup></mrow><mi>r</mi></mfrac><mo>⇒</mo><msup><mi>T</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>π</mi><mn>2</mn></msup><msup><mi>r</mi><mn>3</mn></msup></mrow><mrow><mi>G</mi><mi>M</mi></mrow></mfrac></mrow></math>"
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          6
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-escape": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · O zero no infinito organiza a energia gravitacional",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Com U = −GMm/r e zero no infinito, aproximar massas torna a energia potencial mais negativa. Aumentar r exige aumentar U, mesmo quando seu valor permanece negativo. Não confunda energia negativa com rapidez negativa ou falta de energia: o sinal indica a comparação com o estado de referência escolhido.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Entre a superfície de raio R e a altitude h, a diferença exata é ΔU = GMm[1/R − 1/(R + h)] = GMm h/[R(R + h)]. Se h for muito menor que R, o denominador se aproxima de R², recuperando ΔU ≈ m g₀ h. Essa passagem mostra por que mgh é uma aproximação local e não deve ser somada indiscriminadamente à expressão de potencial universal.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Na órbita circular, substituir v² = GM/r em K = mv²/2 dá K = GMm/(2r). Somar com U resulta energia mecânica total negativa, −GMm/(2r). Para escapar no modelo de dois corpos sem propulsão posterior, a energia mínima total é zero: no limite ideal, o corpo chega infinitamente longe com rapidez tendendo a zero. Disso vem vescape² = 2GM/r.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. O escape ideal despreza resistência do ar, rotação do planeta e outros astros; a velocidade é medida no referencial adotado para o modelo. Uma órbita geoestacionária exige plano equatorial, sentido de rotação terrestre e período sideral igual ao da Terra. A aparente ausência de peso no satélite significa ausência de força de apoio, não ausência de gravidade: satélite e ocupantes caem juntos.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "equation",
+      "text": "Relação deduzida na ampliação conceitual",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mi>ΔU</mi><mo>=</mo><mfrac><mrow><mi>G</mi><mi>M</mi><mi>m</mi><mi>h</mi></mrow><mrow><mi>R</mi><mo>(</mo><mi>R</mi><mo>+</mo><mi>h</mi><mo>)</mo></mrow></mfrac><mo>≈</mo><mi>m</mi><msub><mi>g</mi><mn>0</mn></msub><mi>h</mi><mspace width=\"1em\"/><mtext>para h ≪ R</mtext></mrow></math>"
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          6
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-pressao": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Pressão é uma grandeza local, não o peso de todo o líquido",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Densidade relaciona massa e volume; pressão relaciona a componente normal da força de contato à área. Em um fluido em repouso, a pressão em um ponto não escolhe uma direção privilegiada, mas a força que ela exerce em uma superfície é perpendicular a essa superfície. Confundir a pressão escalar com uma força vertical dificulta analisar paredes e manômetros.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Considere uma pequena coluna de líquido de área A e altura Δh. A pressão inferior empurra para cima, a superior para baixo e o peso vale ρgAΔh. O equilíbrio exige (pinferior − psuperior)A = ρgAΔh. Cancelar A produz a lei de Stevin. A diferença depende da profundidade, da densidade e do campo, não do formato completo do recipiente.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A pressão absoluta compara com o vácuo; a manométrica compara com a pressão de referência, geralmente atmosférica. Usar uma ou outra pode ser conveniente, mas é necessário manter a referência ao percorrer um manômetro. Descer por uma coluna homogênea aumenta a pressão em ρgΔh; subir diminui. Ao mudar de líquido, muda a densidade usada naquele trecho.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. A igualdade de pressões em pontos de mesma altura vale para um mesmo fluido conectado e em equilíbrio sob as condições adotadas. Não é uma regra para quaisquer líquidos separados ou fluidos acelerados. Em recipientes de paredes inclinadas, as paredes também exercem forças verticais; por isso a força no fundo não precisa ser igual ao peso de todo o líquido.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-pascal": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Somar forças de pressão exige respeitar sua distribuição",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Em uma placa horizontal a profundidade uniforme, a pressão de um fluido homogêneo em repouso é a mesma em toda a placa e pode ser multiplicada pela área. Em uma parede vertical, ela cresce com a profundidade. Divida a parede em faixas horizontais: cada faixa recebe uma pressão diferente. A força total é a soma das forças sobre essas faixas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Para uma parede retangular de largura constante, com a superfície livre no topo, a pressão manométrica cresce linearmente de zero a ρgH. Sua média espacial é ρgH/2, e a força líquida é ρg bH²/2. Se o ar exerce a mesma pressão do outro lado, a parcela atmosférica se cancela. O ponto de aplicação não fica no meio da altura: a maior pressão nas faixas inferiores desloca a resultante para baixo, a 2H/3 da superfície nesse caso. Geometricamente, esse é o centroide do diagrama triangular de pressão: cada faixa horizontal contribui com uma força proporcional à sua largura nesse diagrama.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O princípio de Pascal trata da transmissão de um incremento de pressão a um líquido confinado em equilíbrio. Ele não apaga a variação hidrostática com a altura. Dois êmbolos na mesma altura podem satisfazer F₁/A₁ = F₂/A₂ para os incrementos transmitidos; em alturas diferentes, é preciso incluir a coluna de fluido.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Em uma prensa ideal incompressível, os volumes deslocados são iguais: A₁Δs₁ = A₂Δs₂. Combinar essa relação com a de forças mostra igualdade dos trabalhos úteis no modelo sem perdas. A prensa multiplica força à custa de deslocamento, sem multiplicar energia. O diâmetro entra ao quadrado na razão das áreas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-empuxo": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · O empuxo vem da diferença entre forças de pressão",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Um corpo imerso recebe forças de pressão por toda a superfície em contato com o fluido. Em um campo uniforme, as contribuições horizontais se compensam no equilíbrio hidrostático e a maior pressão nas regiões inferiores produz uma resultante vertical para cima. Imagine retirar o corpo e preencher o mesmo espaço com o fluido: para essa porção ficar em repouso, a resultante das pressões precisa equilibrar seu peso. Surge E = ρfluido g Vdeslocado.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O volume deslocado é apenas o volume que ocupa espaço no fluido considerado. Um corpo parcialmente fora da água não desloca seu volume total. O peso depende da massa do corpo inteiro; o empuxo depende do fluido e do volume imerso. Essa diferença explica por que densidade do corpo e densidade do líquido entram em papéis distintos.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Na flutuação livre em repouso, sem outras forças verticais, E = mg. Se o corpo tiver densidade média ρcorpo e volume total V, a fração imersa é ρcorpo/ρfluido. Para um corpo oco, a densidade relevante é a massa total dividida pelo volume externo deslocável, incluindo as regiões ocas internas que não foram inundadas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Um cabo ou apoio acrescenta força ao balanço; então E não precisa ser igual ao peso. Para um recipiente flutuante, a capacidade máxima ideal de carga corresponde ao maior volume deslocado permitido antes da entrada de água, descontando a massa do próprio recipiente. Equilíbrio vertical não garante estabilidade contra inclinação: a geometria do centro de empuxo e da distribuição de massa também importa.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-bernoulli": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Conservar massa e conservar energia são passos distintos",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Vazão volumétrica é volume que atravessa uma seção por unidade de tempo. Se a velocidade variar sobre a seção, Q = A v usa a velocidade média normal à seção. Em escoamento permanente, sem vazamentos ou acumulação entre seções, a massa que entra por tempo é a que sai: ρ₁A₁v₁ = ρ₂A₂v₂. Somente para densidade constante isso reduz a A₁v₁ = A₂v₂.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A continuidade não determina sozinha a pressão. Para isso, acompanhe um pequeno volume que se desloca ao longo de uma linha de corrente. O trabalho das pressões de entrada e saída é (p₁ − p₂)ΔV. No modelo ideal, esse trabalho fornece as variações de energia cinética e potencial gravitacional do volume, cuja massa é ρΔV. Dividir por ΔV produz a relação de Bernoulli.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Assim, p + ρv²/2 + ρgz permanece constante nas condições declaradas. Cada termo é energia por unidade de volume, com unidade J/m³, equivalente ao pascal. Os termos não são três pressões de contato independentes exercidas sobre a mesma parede. Em um estreitamento horizontal, continuidade aumenta v; Bernoulli então prevê diminuição de p, se as demais condições forem cumpridas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Essa forma exige escoamento permanente, incompressível, com dissipação desprezível, ao longo da mesma linha de corrente e sem bomba ou turbina entre os pontos. Em alturas diferentes, a parcela gravitacional também varia. Uma queda de pressão não indica automaticamente aumento de velocidade quando há perdas viscosas ou trabalho de máquinas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "equation",
+      "text": "Relação deduzida na ampliação conceitual",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><mrow><mo>(</mo><msub><mi>p</mi><mn>1</mn></msub><mo>−</mo><msub><mi>p</mi><mn>2</mn></msub><mo>)</mo><mi>ΔV</mi><mo>=</mo><mfrac><mrow><mi>ρ</mi><mi>ΔV</mi></mrow><mn>2</mn></mfrac><mo>(</mo><msubsup><mi>v</mi><mn>2</mn><mn>2</mn></msubsup><mo>−</mo><msubsup><mi>v</mi><mn>1</mn><mn>2</mn></msubsup><mo>)</mo><mo>+</mo><mi>ρ</mi><mi>ΔV</mi><mi>g</mi><mo>(</mo><msub><mi>z</mi><mn>2</mn></msub><mo>−</mo><msub><mi>z</mi><mn>1</mn></msub><mo>)</mo></mrow></math>"
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          6
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-torricelli": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Escolher os dois pontos de Bernoulli é parte da dedução",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "Para um reservatório grande com orifício pequeno, compare um ponto na superfície livre com outro no jato logo após a saída. Se ambos estão sob a mesma pressão atmosférica, as pressões se cancelam. Se a área do reservatório for muito maior que a do orifício, a velocidade de descida da superfície é pequena comparada à da saída. A perda de energia potencial por volume se converte em energia cinética por volume, levando a v² = 2gh.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A profundidade h é medida da superfície livre ao orifício. Ela determina a rapidez de saída, mas não é a altura de queda do jato até o chão. Se a saída é horizontal e está a uma altura H acima do chão, o tempo de voo resulta de H = gt²/2. Combinar os dois movimentos dá alcance ideal 2√(hH). A distinção entre as duas alturas evita uma troca de variáveis fisicamente importante.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Uma bomba acrescenta energia ao fluido; não pode ser atravessada usando a forma de Bernoulli sem trabalho externo. Em regime incompressível, sua potência útil é a vazão multiplicada pelo acréscimo de energia por volume: aumento de pressão, de energia gravitacional e de energia cinética. Dividir pela eficiência fornece a potência recebida pela máquina.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Torricelli supõe perdas pequenas; orifícios reais podem exigir coeficientes de descarga. Se o nível do tanque cai, a rapidez muda: o uso com h instantâneo é uma aproximação quase permanente. Para uma superfície que também se move significativamente, use continuidade para manter seu termo de energia cinética, em vez de descartá-lo.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-fluidos-reais": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · O que permanece válido quando Bernoulli ideal falha",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "A viscosidade permite transferência de momento entre regiões do fluido com velocidades diferentes. Em um tubo real horizontal de seção constante, pode haver velocidade média constante e ainda assim queda de pressão ao longo do tubo. A pressão faz trabalho que se converte em energia interna; a continuidade continua válida, mas a forma ideal de Bernoulli precisa de um termo de perda ou de um balanço de energia mais completo.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Não interprete dissipação como desaparecimento da energia total. Ela descreve uma transferência de energia mecânica organizada para formas menos disponíveis para realizar o trabalho desejado. A potência da bomba deve cobrir a elevação útil e essas perdas quando forem relevantes. Sem dados sobre o escoamento e o tubo, não se pode calcular uma perda numérica apenas afirmando que o fluido é real.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Um jato também transporta quantidade de movimento. Em um intervalo Δt, uma massa Δm atravessa uma seção; se a velocidade dessa massa muda ao atingir uma placa ou uma curva, a interação correspondente tem força média relacionada a (Δm/Δt)Δv. Para densidade constante, a vazão mássica é ρQ. A mudança deve ser vetorial, incluindo inversão de sentido quando houver retorno do jato.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Hipóteses e alcance. Ao aplicar o balanço de momento a um volume de controle, considere também forças de pressão nas fronteiras e o peso quando relevante. A expressão de fluxo de momento isolada não representa toda a força em qualquer tubulação. Para um jato livre exposto à atmosfera, usar pressão manométrica permite cancelar as contribuições atmosféricas apropriadas.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ],
+  "complemento-metodos": [
+    {
+      "type": "heading",
+      "text": "Ampliação conceitual · Separar etapas evita conservar a grandeza errada",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          0
+        ]
+      },
+      "level": 2
+    },
+    {
+      "type": "paragraph",
+      "text": "A escolha do método deve responder à informação oferecida e à grandeza procurada. Forças e aceleração favorecem Newton; estados e trabalho favorecem energia; interações breves favorecem impulso; repouso de um corpo extenso exige forças e torques. Esses métodos descrevem a mesma física, mas seus atalhos dependem de hipóteses diferentes.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          1
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Em uma colisão seguida de compressão de mola, o instante do choque e o movimento posterior são etapas distintas. Durante um choque inelástico, o momento do sistema pode se conservar enquanto a energia cinética diminui. Depois dele, um movimento ideal sem atrito pode conservar energia mecânica entre a velocidade imediatamente posterior e a máxima compressão. Conservar energia mecânica desde antes do choque até a compressão ignoraria a conversão ocorrida no impacto.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          2
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "O mesmo princípio vale para reação seguida de frenagem ou para uma bomba ligada a um reservatório e a um jato. Defina os instantes de transição e use o estado final de uma etapa como inicial da seguinte. Não reutilize a aceleração, a pressão ou a velocidade de uma etapa em outra sem uma relação física que as conecte.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          3
+        ]
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Antes de calcular, faça um desenho, escolha sistema e referencial e liste o que cruza sua fronteira: forças, impulso, trabalho ou massa. Ao terminar, confira unidade, sinal, ordem de grandeza e limites. Uma expressão que prevê distância de frenagem menor quando o atrito diminui, ou empuxo independente do volume imerso, deve ser revista mesmo que a álgebra intermediária pareça organizada.",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          4
+        ]
+      }
+    },
+    {
+      "type": "heading",
+      "text": "Desenvolvimento da apostila",
+      "source": {
+        "document": "complemento",
+        "page": 0,
+        "blocks": [
+          5
+        ]
+      },
+      "level": 2
+    }
+  ]
+}

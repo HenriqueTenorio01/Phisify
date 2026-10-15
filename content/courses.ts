@@ -1,3 +1,4 @@
+import { mechanicsCourse } from './ensino-medio/mecanica'
 import { waveCourse } from './olimpiadas/ondas'
 import { gravityCourse } from './olimpiadas/gravitacao'
 import { centerOfMassCourse } from './olimpiadas/centro-de-massa'
@@ -8,21 +9,7 @@ export const courses: Course[] = [
   waveCourse,
   gravityCourse,
   centerOfMassCourse,
-  {
-    trackId: 'ensino-medio',
-    id: 'mechanics',
-    title: 'Fundamentos da Mecânica',
-    area: 'Mecânica',
-    level: 'Ensino Médio',
-    tone: 'blue',
-    description:
-      'Do movimento às leis de Newton, com intuição, modelos e resolução de problemas.',
-    units: [
-      { title: 'Linguagem da Física', lessons: [] },
-      { title: 'Movimento', lessons: [] },
-      { title: 'Forças', lessons: [] },
-    ],
-  },
+  mechanicsCourse,
   {
     trackId: 'ensino-medio',
     id: 'electricity',

@@ -15,14 +15,14 @@ import { searchContent } from '../src/search'
 
 test('retired lessons/questions cannot be discovered; simulations remain searchable', () => {
   assert.ok(courses.length > 0, 'preserve course infrastructure')
-  assert.ok(
-    coursesForTrack('ensino-medio').every((course) =>
-      course.units.every((unit) => !unit.lessons.length),
-    ),
-  )
   assert.deepEqual(lessonDataById, {})
   assert.deepEqual(academicLessons, {})
-  assert.deepEqual(questionsForTrack('ensino-medio'), [])
+  assert.ok(
+    courses
+      .flatMap((c) => c.units.flatMap((u) => u.lessons))
+      .every((l) => l.id !== 'lesson-free-fall'),
+  )
+  assert.ok(questionBank.every((q) => q.id !== 'q-free-fall'))
   assert.equal(lessonById('lesson-free-fall'), null)
   assert.equal(courseById('unknown'), undefined)
   for (const { id } of tracks) {
@@ -33,7 +33,9 @@ test('retired lessons/questions cannot be discovered; simulations remain searcha
     }
     assert.ok(found.labs.length > 0)
     assert.ok(coursesForTrack(id).every((course) => course.trackId === id))
-    if (id !== 'olimpiadas') assert.deepEqual(questionsForTrack(id), [])
+    assert.ok(
+      questionsForTrack(id).every((q) => courseById(q.course)?.trackId === id),
+    )
   }
 })
 
@@ -138,7 +140,11 @@ test('future content and progress are isolated by track', () => {
     assert.equal(university.history.length, 1)
     assert.equal(searchContent('Fixture', 'universidade').lessons.length, 1)
     assert.equal(searchContent('Fixture', 'olimpiadas').lessons.length, 0)
-    assert.deepEqual(questionsForTrack('ensino-medio'), [])
+    assert.ok(
+      !questionsForTrack('ensino-medio').some(
+        (q) => q.id === 'fixture-question',
+      ),
+    )
   } finally {
     courses.pop()
     questionBank.pop()

@@ -45,10 +45,15 @@ export default function HandbookLessonPage({ id }: { id: string }) {
   return (
     <div className="handbook-layout">
       <aside className="handbook-nav">
-        <button className="link-button" onClick={() => openCourse(course.id)}>
+        <button
+          className="link-button"
+          onClick={() => openCourse(course.id, lesson.topicId)}
+        >
           ← Sumário do curso
         </button>
-        <p className="handbook-nav-label">Olimpíadas · {course.area}</p>
+        <p className="handbook-nav-label">
+          {course.level} · {course.area}
+        </p>
         <p>
           {numberInCourse} de {lessons.length} aulas
         </p>
@@ -80,7 +85,9 @@ export default function HandbookLessonPage({ id }: { id: string }) {
         <article className="handbook-paper">
           <header className="handbook-lesson-header">
             <div className="handbook-kicker">
-              Caderno de treinamento · TBF / IPhO
+              {course.trackId === 'ensino-medio'
+                ? 'Mecânica · Ensino Médio'
+                : 'Caderno de treinamento · TBF / IPhO'}
             </div>
             <p className="handbook-unit">{lesson.unit}</p>
             <h1>{lesson.title}</h1>
@@ -118,11 +125,17 @@ export default function HandbookLessonPage({ id }: { id: string }) {
               ))}
             </nav>
           )}
-          <HandbookBlocks blocks={blocks} prefix={id} />
+          <HandbookBlocks
+            blocks={blocks}
+            prefix={id}
+            foldExamples={course.trackId === 'ensino-medio'}
+          />
           <footer className="handbook-source">
             Fonte: {sourceLabel(lesson.refs)}. Os números de equação e as
-            referências a páginas foram preservados das apostilas. Material
-            independente de preparação, sem vínculo oficial com a TBF ou a IPhO.
+            referências a páginas foram preservados das apostilas.{' '}
+            {course.trackId === 'ensino-medio'
+              ? 'As ampliações conceituais são identificadas separadamente. Os exemplos originais estão disponíveis em blocos expansíveis.'
+              : 'Material independente de preparação, sem vínculo oficial com a TBF ou a IPhO.'}
           </footer>
           <div className="handbook-actions">
             {user ? (
@@ -137,7 +150,15 @@ export default function HandbookLessonPage({ id }: { id: string }) {
                 Entre na sua conta para registrar a conclusão desta aula.
               </p>
             )}
-            <button className="btn" onClick={() => openSheet(course.id)}>
+            <button
+              className="btn"
+              onClick={() =>
+                openSheet(
+                  course.id,
+                  lesson.topicId === 'consulta' ? undefined : lesson.topicId,
+                )
+              }
+            >
               Ficha de {course.area}
             </button>
           </div>

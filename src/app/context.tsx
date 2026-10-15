@@ -14,9 +14,9 @@ export interface AppContextValue {
   progress: ProgressState
   navigate: (screen: Screen, trackId?: TrackId) => void
   selectTrack: (id: TrackId) => void
-  openCourse: (id: CourseId) => void
+  openCourse: (id: CourseId, topicId?: string) => void
   openLesson: (id: string) => void
-  openSheet: (id: CourseId) => void
+  openSheet: (id: CourseId, topicId?: string) => void
   openLab: (id: LabId) => void
   answerQuestion: (question: Question, selected: number) => Promise<void>
   completeLesson: (id: string) => void

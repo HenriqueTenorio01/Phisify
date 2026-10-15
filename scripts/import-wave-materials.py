@@ -15,6 +15,7 @@ DEST = ROOT / 'content/olimpiadas/ondas'
 ASSETS = ROOT / 'public/ondas'
 PUBLIC_PREFIX = 'ondas'
 MERGE_INLINE_BLOCKS = False
+DISPLAY_LINE_GAP = 9
 DEST.mkdir(parents=True, exist_ok=True)
 ASSETS.mkdir(parents=True, exist_ok=True)
 SOURCES = {'aula': 'Aula_Ondulatoria_TBF_IPhO.pdf', 'ficha': 'Ficha_Ondulatoria_TBF_IPhO.pdf'}
@@ -175,7 +176,7 @@ def extract(key,number):
   anchors=[s['origin'][1] for l in b['lines'] for s in l['spans'] if s['size']>=9 and (not mathlike(s) or l['bbox'][0]<95)]
   groups=[]
   for l in b['lines']:
-   separated=not prose({'lines':[l]}) and l['bbox'][0]>95 and min((abs(s['origin'][1]-a) for s in l['spans'] for a in anchors),default=0)>9
+   separated=not prose({'lines':[l]}) and l['bbox'][0]>95 and min((abs(s['origin'][1]-a) for s in l['spans'] for a in anchors),default=0)>DISPLAY_LINE_GAP
    if groups and groups[-1][0]==separated:groups[-1][1].append(l)
    else:groups.append((separated,[l]))
   for _,lines in groups:

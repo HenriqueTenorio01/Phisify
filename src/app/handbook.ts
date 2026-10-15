@@ -23,11 +23,17 @@ export interface HandbookBlock {
   level?: number
   boxed?: boolean
   runs?: HandbookRun[]
+  mathml?: string
   image?: VectorFragment
-  source: { document: 'aula' | 'ficha'; page: number; blocks: number[] }
+  source: {
+    document: 'aula' | 'ficha' | 'complemento'
+    page: number
+    blocks: number[]
+  }
 }
 
 export interface HandbookLesson {
+  topicId?: string
   id: string
   unit: string
   title: string

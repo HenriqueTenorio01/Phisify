@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import type { HandbookBlock, VectorFragment } from '../../app/handbook'
 import './handbook.css'
 
@@ -37,10 +38,38 @@ export const blockAnchor = (block: HandbookBlock, prefix: string) =>
 export function HandbookBlocks({
   blocks,
   prefix = 'book',
+  foldExamples = false,
 }: {
   blocks: HandbookBlock[]
   prefix?: string
+  foldExamples?: boolean
 }) {
+  if (foldExamples) {
+    const groups: Array<{ example: boolean; blocks: HandbookBlock[] }> = []
+    for (const block of blocks) {
+      const example =
+        block.type === 'heading' && /^Exemplo resolvido/.test(block.text)
+      const previous = groups.at(-1)
+      if (
+        example ||
+        !previous ||
+        (previous.example && block.type === 'heading')
+      )
+        groups.push({ example, blocks: [block] })
+      else previous.blocks.push(block)
+    }
+    return (
+      <div className="handbook-body">
+        {groups.map((group, index) =>
+          group.example ? (
+            <SourceExample key={index} blocks={group.blocks} prefix={prefix} />
+          ) : (
+            <HandbookBlocks key={index} blocks={group.blocks} prefix={prefix} />
+          ),
+        )}
+      </div>
+    )
+  }
   return (
     <div className="handbook-body">
       {blocks.map((block, index) => {
@@ -55,6 +84,18 @@ export function HandbookBlocks({
             >
               {block.text}
             </Tag>
+          )
+        }
+        if (block.type === 'equation' && block.mathml) {
+          // Presentation-only MathML authored and allowlist-validated by the importer.
+          return (
+            <div
+              key={index}
+              id={id}
+              className="handbook-equation handbook-native-math"
+              tabIndex={0}
+              dangerouslySetInnerHTML={{ __html: block.mathml }}
+            />
           )
         }
         if (block.type === 'equation' && block.image) {
@@ -88,25 +129,46 @@ export function HandbookBlocks({
                 : undefined
             }
           >
-            {block.runs?.map((run, i) =>
-              run.math ? (
-                <SourceVector
-                  key={i}
-                  image={run.math}
-                  label={run.text}
-                  inline
-                />
-              ) : run.bold ? (
-                <strong key={i}>{run.text}</strong>
-              ) : run.italic ? (
-                <em key={i}>{run.text}</em>
-              ) : (
-                <span key={i}>{run.text}</span>
-              ),
-            )}
+            {block.runs
+              ? block.runs.map((run, i) =>
+                  run.math ? (
+                    <SourceVector
+                      key={i}
+                      image={run.math}
+                      label={run.text}
+                      inline
+                    />
+                  ) : run.bold ? (
+                    <strong key={i}>{run.text}</strong>
+                  ) : run.italic ? (
+                    <em key={i}>{run.text}</em>
+                  ) : (
+                    <span key={i}>{run.text}</span>
+                  ),
+                )
+              : block.text}
           </p>
         )
       })}
     </div>
+  )
+}
+
+function SourceExample({
+  blocks,
+  prefix,
+}: {
+  blocks: HandbookBlock[]
+  prefix: string
+}) {
+  const [open, setOpen] = useState(false)
+  return (
+    <details
+      className="handbook-example"
+      onToggle={(event) => setOpen(event.currentTarget.open)}
+    >
+      <summary id={blockAnchor(blocks[0]!, prefix)}>{blocks[0]!.text}</summary>
+      {open && <HandbookBlocks blocks={blocks.slice(1)} prefix={prefix} />}
+    </details>
   )
 }

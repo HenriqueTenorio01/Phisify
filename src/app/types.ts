@@ -33,6 +33,7 @@ export interface RouteState {
   courseId: CourseId
   lessonId: string
   labId: LabId
+  topicId?: string | null
   sheetId: CourseId | 'unavailable' | null
 }
 
@@ -65,6 +66,8 @@ export interface LessonSummary {
 }
 
 export interface CourseUnit {
+  id?: string
+  description?: string
   title: string
   lessons: LessonSummary[]
 }
@@ -105,6 +108,9 @@ export interface AcademicLesson {
 }
 
 interface QuestionBase {
+  topicId?: string
+  subtopic?: string
+  difficultyLabel?: string
   id: string
   topic: string
   course: CourseId

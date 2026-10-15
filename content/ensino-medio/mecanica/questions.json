@@ -1,0 +1,6007 @@
+[
+  {
+    "id": "hs-mech-q01",
+    "kind": "written",
+    "sourceNumber": 1,
+    "topic": "Fundamentos",
+    "topicId": "fundamentos",
+    "subtopic": "1. Fundamentos, medidas e vetores",
+    "course": "mechanics",
+    "lessonId": "hs-mech-medidas",
+    "difficulty": "easy",
+    "objective": "1. Fundamentos, medidas e vetores",
+    "format": "Discursiva",
+    "prompt": "Questão 1 - Unidades que precisam conversar",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-3",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-3",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-3",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-3",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-3",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-42",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-42",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-42",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q02",
+    "kind": "written",
+    "sourceNumber": 2,
+    "topic": "Fundamentos",
+    "topicId": "fundamentos",
+    "subtopic": "1. Fundamentos, medidas e vetores",
+    "course": "mechanics",
+    "lessonId": "hs-mech-medidas",
+    "difficulty": "easy",
+    "objective": "1. Fundamentos, medidas e vetores",
+    "format": "Discursiva",
+    "prompt": "Questão 2 - Medir não é adivinhar casas decimais",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-3",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-3",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-3",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-3",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-3",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-42",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-42",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-42",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q03",
+    "kind": "written",
+    "sourceNumber": 3,
+    "topic": "Fundamentos",
+    "topicId": "fundamentos",
+    "subtopic": "1. Fundamentos, medidas e vetores",
+    "course": "mechanics",
+    "lessonId": "hs-mech-relativo",
+    "difficulty": "easy",
+    "objective": "1. Fundamentos, medidas e vetores",
+    "format": "Discursiva",
+    "prompt": "Questão 3 - Repouso e movimento dependem de quem observa",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-3",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-3",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-3",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-3",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-3",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-42",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-42",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-42",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q04",
+    "kind": "written",
+    "sourceNumber": 4,
+    "topic": "Fundamentos",
+    "topicId": "fundamentos",
+    "subtopic": "1. Fundamentos, medidas e vetores",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vetores",
+    "difficulty": "easy",
+    "objective": "1. Fundamentos, medidas e vetores",
+    "format": "Discursiva",
+    "prompt": "Questão 4 - Caminho percorrido e deslocamento",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-4",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-4",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-4",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-4",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-4",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-4",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-43",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-43",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-43",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q05",
+    "kind": "written",
+    "sourceNumber": 5,
+    "topic": "Fundamentos",
+    "topicId": "fundamentos",
+    "subtopic": "1. Fundamentos, medidas e vetores",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vetores",
+    "difficulty": "easy",
+    "objective": "1. Fundamentos, medidas e vetores",
+    "format": "Discursiva",
+    "prompt": "Questão 5 - Somar grandezas com direção",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-4",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-4",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-4",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-4",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-4",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-43",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-43",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-43",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q06",
+    "kind": "written",
+    "sourceNumber": 6,
+    "topic": "Fundamentos",
+    "topicId": "fundamentos",
+    "subtopic": "1. Fundamentos, medidas e vetores",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vetores",
+    "difficulty": "easy",
+    "objective": "1. Fundamentos, medidas e vetores",
+    "format": "Discursiva",
+    "prompt": "Questão 6 - Decompor é projetar em duas direções",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-4",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-4",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-4",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-4",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "page": "ficha-4",
+        "start": 19,
+        "end": 20
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-43",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-43",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-43",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-43",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-43",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q07",
+    "kind": "written",
+    "sourceNumber": 7,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-graficos",
+    "difficulty": "easy",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 7 - Uma posição negativa não é uma distância negativa",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-5",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-5",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-5",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-5",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-5",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-5",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-44",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-44",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-44",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q08",
+    "kind": "written",
+    "sourceNumber": 8,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-mu",
+    "difficulty": "easy",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 8 - Encontro em uma estrada",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-5",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-5",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-5",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-5",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-44",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-44",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-44",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q09",
+    "kind": "written",
+    "sourceNumber": 9,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-mu",
+    "difficulty": "easy",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 9 - Alcançar quem saiu na frente",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-5",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-5",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-5",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-5",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-5",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-44",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-44",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-44",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q10",
+    "kind": "written",
+    "sourceNumber": 10,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-medias",
+    "difficulty": "easy",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 10 - A média que não é uma média aritmética",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-6",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-6",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-6",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-6",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-6",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-45",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-45",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-45",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q11",
+    "kind": "written",
+    "sourceNumber": 11,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-mruv",
+    "difficulty": "easy",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 11 - Aceleração constante",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-6",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-6",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-6",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-6",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-6",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-45",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-45",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-45",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q12",
+    "kind": "written",
+    "sourceNumber": 12,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-mruv",
+    "difficulty": "easy",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 12 - A área de um gráfico de velocidade",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-6",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-6",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-6",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-6",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-6",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "page": "ficha-6",
+        "start": 19,
+        "end": 20
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-45",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-45",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-45",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q13",
+    "kind": "written",
+    "sourceNumber": 13,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vertical",
+    "difficulty": "easy",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 13 - Queda livre e o papel da massa",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-7",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-7",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-7",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-7",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-46",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-46",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-46",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q14",
+    "kind": "written",
+    "sourceNumber": 14,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vertical",
+    "difficulty": "easy",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 14 - Subir, parar por um instante e cair",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-7",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-7",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-7",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-7",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-7",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-46",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-46",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-46",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q15",
+    "kind": "written",
+    "sourceNumber": 15,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-frenagem",
+    "difficulty": "medium",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 15 - Reação antes da frenagem",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-7",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-7",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-7",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-7",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-7",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-46",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-46",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-46",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q16",
+    "kind": "written",
+    "sourceNumber": 16,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-mruv",
+    "difficulty": "medium",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 16 - Quando o móvel inverte o sentido",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-8",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-8",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-8",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-8",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-8",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-47",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-47",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-47",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q17",
+    "kind": "written",
+    "sourceNumber": 17,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-mruv",
+    "difficulty": "medium",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 17 - Aceleração em etapas",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-8",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-8",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-8",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-8",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-8",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-47",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-47",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-47",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q18",
+    "kind": "written",
+    "sourceNumber": 18,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "2. Cinemática escalar",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vertical",
+    "difficulty": "medium",
+    "objective": "2. Cinemática escalar",
+    "format": "Discursiva",
+    "prompt": "Questão 18 - Uma segunda bola sai depois",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-8",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-8",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-8",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-8",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-8",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-47",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-47",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-47",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q19",
+    "kind": "written",
+    "sourceNumber": 19,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "3. Cinemática vetorial e lançamentos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-relativo",
+    "difficulty": "easy",
+    "objective": "3. Cinemática vetorial e lançamentos",
+    "format": "Discursiva",
+    "prompt": "Questão 19 - Atravessar um rio",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-9",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-9",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-9",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-9",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-9",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-48",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-48",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-48",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q20",
+    "kind": "written",
+    "sourceNumber": 20,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "3. Cinemática vetorial e lançamentos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-lancamentos",
+    "difficulty": "easy",
+    "objective": "3. Cinemática vetorial e lançamentos",
+    "format": "Discursiva",
+    "prompt": "Questão 20 - Lançamento horizontal",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-9",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-9",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-9",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-9",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-9",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-48",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-48",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-48",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-48",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-48",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q21",
+    "kind": "written",
+    "sourceNumber": 21,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "3. Cinemática vetorial e lançamentos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-relativo",
+    "difficulty": "easy",
+    "objective": "3. Cinemática vetorial e lançamentos",
+    "format": "Discursiva",
+    "prompt": "Questão 21 - Soltar uma bola dentro de um trem",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-9",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-9",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-9",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-9",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-9",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-48",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-48",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-48",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q22",
+    "kind": "written",
+    "sourceNumber": 22,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "3. Cinemática vetorial e lançamentos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-relativo",
+    "difficulty": "medium",
+    "objective": "3. Cinemática vetorial e lançamentos",
+    "format": "Discursiva",
+    "prompt": "Questão 22 - Chuva vista de um carro",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-10",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-10",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-10",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-10",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-10",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-10",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-49",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-49",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-49",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q23",
+    "kind": "written",
+    "sourceNumber": 23,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "3. Cinemática vetorial e lançamentos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-lancamentos",
+    "difficulty": "medium",
+    "objective": "3. Cinemática vetorial e lançamentos",
+    "format": "Discursiva",
+    "prompt": "Questão 23 - Lançamento oblíquo com números simples",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-10",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-10",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-10",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-10",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-10",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-10",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-10",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-49",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-49",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-49",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q24",
+    "kind": "written",
+    "sourceNumber": 24,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "4. Movimentos circulares",
+    "course": "mechanics",
+    "lessonId": "hs-mech-circular",
+    "difficulty": "easy",
+    "objective": "4. Movimentos circulares",
+    "format": "Discursiva",
+    "prompt": "Questão 24 - Voltas, frequência e velocidade angular",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-11",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-11",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-11",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-11",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-11",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-50",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-50",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-50",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q25",
+    "kind": "written",
+    "sourceNumber": 25,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "4. Movimentos circulares",
+    "course": "mechanics",
+    "lessonId": "hs-mech-circular",
+    "difficulty": "easy",
+    "objective": "4. Movimentos circulares",
+    "format": "Discursiva",
+    "prompt": "Questão 25 - Rodas ligadas por correia ou pelo mesmo eixo",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-11",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-11",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-11",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-11",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-11",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-50",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-50",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-50",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q26",
+    "kind": "written",
+    "sourceNumber": 26,
+    "topic": "Cinemática",
+    "topicId": "cinematica",
+    "subtopic": "4. Movimentos circulares",
+    "course": "mechanics",
+    "lessonId": "hs-mech-circular",
+    "difficulty": "medium",
+    "objective": "4. Movimentos circulares",
+    "format": "Discursiva",
+    "prompt": "Questão 26 - Mudar o módulo e mudar a direção",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-11",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-11",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-11",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-11",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-11",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-50",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-50",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-50",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q27",
+    "kind": "written",
+    "sourceNumber": 27,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-newton",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 27 - Inércia não é uma força que empurra",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-12",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-12",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-12",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-12",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-12",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-51",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-51",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-51",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q28",
+    "kind": "written",
+    "sourceNumber": 28,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-atrito",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 28 - Paraquedista e velocidade terminal",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-12",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-12",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-12",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-12",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-12",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-51",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-51",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-51",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q29",
+    "kind": "written",
+    "sourceNumber": 29,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-newton",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 29 - Ação e reação atuam em corpos diferentes",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-12",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-12",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-12",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-12",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-12",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-51",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-51",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-51",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q30",
+    "kind": "written",
+    "sourceNumber": 30,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-newton",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 30 - Massa, peso e leitura de uma balança",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-13",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-13",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-13",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-13",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-13",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-52",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-52",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-52",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q31",
+    "kind": "written",
+    "sourceNumber": 31,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-atrito",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 31 - O atrito estático se ajusta",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-13",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-13",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-13",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-13",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-13",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-52",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-52",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-52",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q32",
+    "kind": "written",
+    "sourceNumber": 32,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-rampa",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 32 - Plano inclinado sem atrito",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-13",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-13",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-13",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-13",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-13",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "page": "ficha-13",
+        "start": 19,
+        "end": 20
+      },
+      {
+        "page": "ficha-13",
+        "start": 20,
+        "end": 21
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-52",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-52",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-52",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-52",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-52",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q33",
+    "kind": "written",
+    "sourceNumber": 33,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vinculos",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 33 - Dois blocos em contato",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-14",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-14",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-14",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-14",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-14",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-14",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-53",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-53",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-53",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q34",
+    "kind": "written",
+    "sourceNumber": 34,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vinculos",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 34 - Polia móvel: ganhar força custa deslocamento",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-14",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-14",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-14",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-14",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-14",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-14",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-53",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-53",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-53",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q35",
+    "kind": "written",
+    "sourceNumber": 35,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vinculos",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 35 - Molas em equilíbrio, sem oscilações",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-14",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-14",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-14",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-14",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-14",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-14",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-53",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-53",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-53",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q36",
+    "kind": "written",
+    "sourceNumber": 36,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-curvas",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 36 - Atrito que aponta para o centro da curva",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-15",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-15",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-15",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-15",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-15",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-15",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-54",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-54",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-54",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-54",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-54",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q37",
+    "kind": "written",
+    "sourceNumber": 37,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-curvas",
+    "difficulty": "easy",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 37 - Normal em uma curva vertical",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-15",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-15",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-15",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-15",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-15",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-15",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-54",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-54",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-54",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-54",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q38",
+    "kind": "written",
+    "sourceNumber": 38,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-rampa",
+    "difficulty": "medium",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 38 - Atrito na rampa: repouso e deslizamento",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-15",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-15",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-15",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-15",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-15",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-15",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-54",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-54",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-54",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q39",
+    "kind": "written",
+    "sourceNumber": 39,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-vinculos",
+    "difficulty": "medium",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 39 - Duas massas ligadas por uma polia fixa",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-16",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-16",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-16",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-16",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-16",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-16",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-55",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-55",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-55",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q40",
+    "kind": "written",
+    "sourceNumber": 40,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "5. Dinâmica e forças",
+    "course": "mechanics",
+    "lessonId": "hs-mech-curvas",
+    "difficulty": "medium",
+    "objective": "5. Dinâmica e forças",
+    "format": "Discursiva",
+    "prompt": "Questão 40 - Curva inclinada sem precisar de atrito",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-16",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-16",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-16",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-16",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-16",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-16",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-55",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-55",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-55",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-55",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-55",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q41",
+    "kind": "written",
+    "sourceNumber": 41,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-trabalho",
+    "difficulty": "easy",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 41 - Trabalho depende da direção da força",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-17",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-17",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-17",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-17",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-17",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-17",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-56",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-56",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-56",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q42",
+    "kind": "written",
+    "sourceNumber": 42,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-energia",
+    "difficulty": "easy",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 42 - Descer por caminhos diferentes",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-17",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-17",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-17",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-17",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-17",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-17",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-56",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-56",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-56",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-56",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-56",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q43",
+    "kind": "written",
+    "sourceNumber": 43,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-trabalho",
+    "difficulty": "easy",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 43 - Frenagem pelo atrito",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-17",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-17",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-17",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-17",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-17",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-17",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-56",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-56",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-56",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q44",
+    "kind": "written",
+    "sourceNumber": 44,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-energia",
+    "difficulty": "easy",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 44 - Uma mola lança um bloco",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-18",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-18",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-18",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-18",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-18",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-18",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-57",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-57",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-57",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q45",
+    "kind": "written",
+    "sourceNumber": 45,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-potencia",
+    "difficulty": "easy",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 45 - Potência e rendimento de um elevador de cargas",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-18",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-18",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-18",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-18",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-18",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-18",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-57",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-57",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-57",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q46",
+    "kind": "written",
+    "sourceNumber": 46,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-potencia",
+    "difficulty": "easy",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 46 - Potência de tração em certo instante",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-18",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-18",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-18",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-18",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-18",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-18",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-57",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-57",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-57",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q47",
+    "kind": "written",
+    "sourceNumber": 47,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-potencia",
+    "difficulty": "easy",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 47 - Quilowatt-hora também é energia",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-19",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-19",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-19",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-19",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-19",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-19",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-19",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-58",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-58",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-58",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q48",
+    "kind": "written",
+    "sourceNumber": 48,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-trabalho",
+    "difficulty": "medium",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 48 - Força variável sem usar cálculo",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-19",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-19",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-19",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-19",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-19",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-19",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-58",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-58",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-58",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-58",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-58",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q49",
+    "kind": "written",
+    "sourceNumber": 49,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-trabalho",
+    "difficulty": "medium",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 49 - Puxar para cima reduz a normal",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-20",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-20",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-20",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-20",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-20",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-20",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-59",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-59",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-59",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q50",
+    "kind": "written",
+    "sourceNumber": 50,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "6. Trabalho, energia e potência",
+    "course": "mechanics",
+    "lessonId": "hs-mech-energia",
+    "difficulty": "medium",
+    "objective": "6. Trabalho, energia e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 50 - Da altura à compressão máxima",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-20",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-20",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-20",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-20",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-20",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-20",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-59",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-59",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-59",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q51",
+    "kind": "written",
+    "sourceNumber": 51,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "7. Impulso, colisões e centro de massa",
+    "course": "mechanics",
+    "lessonId": "hs-mech-impulso",
+    "difficulty": "easy",
+    "objective": "7. Impulso, colisões e centro de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 51 - Quantidade de movimento usa sinal",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-21",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-21",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-21",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-21",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-21",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-21",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-60",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-60",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-60",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q52",
+    "kind": "written",
+    "sourceNumber": 52,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "7. Impulso, colisões e centro de massa",
+    "course": "mechanics",
+    "lessonId": "hs-mech-impulso",
+    "difficulty": "easy",
+    "objective": "7. Impulso, colisões e centro de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 52 - Inverter a velocidade de uma bola",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-21",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-21",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-21",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-21",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-21",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-21",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-60",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-60",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-60",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q53",
+    "kind": "written",
+    "sourceNumber": 53,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "7. Impulso, colisões e centro de massa",
+    "course": "mechanics",
+    "lessonId": "hs-mech-impulso",
+    "difficulty": "easy",
+    "objective": "7. Impulso, colisões e centro de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 53 - Impulso por um gráfico triangular",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-21",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-21",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-21",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-21",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-21",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-21",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-60",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-60",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-60",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q54",
+    "kind": "written",
+    "sourceNumber": 54,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "7. Impulso, colisões e centro de massa",
+    "course": "mechanics",
+    "lessonId": "hs-mech-colisoes",
+    "difficulty": "easy",
+    "objective": "7. Impulso, colisões e centro de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 54 - Colisão com união dos corpos",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-22",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-22",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-22",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-22",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-22",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-22",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-61",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-61",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-61",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q55",
+    "kind": "written",
+    "sourceNumber": 55,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "7. Impulso, colisões e centro de massa",
+    "course": "mechanics",
+    "lessonId": "hs-mech-colisoes",
+    "difficulty": "easy",
+    "objective": "7. Impulso, colisões e centro de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 55 - Separação de um corpo inicialmente parado",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-22",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-22",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-22",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-22",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-22",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-22",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-61",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-61",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-61",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q56",
+    "kind": "written",
+    "sourceNumber": 56,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "7. Impulso, colisões e centro de massa",
+    "course": "mechanics",
+    "lessonId": "hs-mech-colisoes",
+    "difficulty": "medium",
+    "objective": "7. Impulso, colisões e centro de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 56 - Colisão elástica de massas iguais",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-22",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-22",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-22",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-22",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-22",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-22",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-61",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-61",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-61",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q57",
+    "kind": "written",
+    "sourceNumber": 57,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "7. Impulso, colisões e centro de massa",
+    "course": "mechanics",
+    "lessonId": "hs-mech-colisoes",
+    "difficulty": "medium",
+    "objective": "7. Impulso, colisões e centro de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 57 - Coeficiente de restituição com uma equação simples",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-23",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-23",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-23",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-23",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-23",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-23",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-62",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-62",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-62",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q58",
+    "kind": "written",
+    "sourceNumber": 58,
+    "topic": "Dinâmica",
+    "topicId": "dinamica",
+    "subtopic": "7. Impulso, colisões e centro de massa",
+    "course": "mechanics",
+    "lessonId": "hs-mech-colisoes",
+    "difficulty": "medium",
+    "objective": "7. Impulso, colisões e centro de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 58 - Centro de massa por média ponderada",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-23",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-23",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-23",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-23",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-23",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-23",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-62",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-62",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-62",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q59",
+    "kind": "written",
+    "sourceNumber": 59,
+    "topic": "Estática",
+    "topicId": "estatica",
+    "subtopic": "8. Estática e equilíbrio",
+    "course": "mechanics",
+    "lessonId": "hs-mech-equilibrio",
+    "difficulty": "easy",
+    "objective": "8. Estática e equilíbrio",
+    "format": "Discursiva",
+    "prompt": "Questão 59 - Alavanca e braço de uma força",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-24",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-24",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-24",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-24",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-24",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-24",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-63",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-63",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-63",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q60",
+    "kind": "written",
+    "sourceNumber": 60,
+    "topic": "Estática",
+    "topicId": "estatica",
+    "subtopic": "8. Estática e equilíbrio",
+    "course": "mechanics",
+    "lessonId": "hs-mech-equilibrio",
+    "difficulty": "easy",
+    "objective": "8. Estática e equilíbrio",
+    "format": "Discursiva",
+    "prompt": "Questão 60 - Onde apoiar uma régua carregada?",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-24",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-24",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-24",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-24",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-24",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-24",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-63",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-63",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-63",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q61",
+    "kind": "written",
+    "sourceNumber": 61,
+    "topic": "Estática",
+    "topicId": "estatica",
+    "subtopic": "8. Estática e equilíbrio",
+    "course": "mechanics",
+    "lessonId": "hs-mech-equilibrio",
+    "difficulty": "medium",
+    "objective": "8. Estática e equilíbrio",
+    "format": "Discursiva",
+    "prompt": "Questão 61 - Equilíbrio com dois cabos inclinados",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-24",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-24",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-24",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-24",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-24",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-24",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-63",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-63",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-63",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q62",
+    "kind": "written",
+    "sourceNumber": 62,
+    "topic": "Estática",
+    "topicId": "estatica",
+    "subtopic": "8. Estática e equilíbrio",
+    "course": "mechanics",
+    "lessonId": "hs-mech-apoios",
+    "difficulty": "medium",
+    "objective": "8. Estática e equilíbrio",
+    "format": "Discursiva",
+    "prompt": "Questão 62 - Uma viga com peso próprio",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-25",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-25",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-25",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-25",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-25",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-25",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-25",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-64",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-64",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-64",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q63",
+    "kind": "written",
+    "sourceNumber": 63,
+    "topic": "Estática",
+    "topicId": "estatica",
+    "subtopic": "8. Estática e equilíbrio",
+    "course": "mechanics",
+    "lessonId": "hs-mech-apoios",
+    "difficulty": "medium",
+    "objective": "8. Estática e equilíbrio",
+    "format": "Discursiva",
+    "prompt": "Questão 63 - Escada apoiada em parede lisa",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-25",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-25",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-25",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-25",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-25",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-25",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-64",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-64",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-64",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q64",
+    "kind": "written",
+    "sourceNumber": 64,
+    "topic": "Estática",
+    "topicId": "estatica",
+    "subtopic": "8. Estática e equilíbrio",
+    "course": "mechanics",
+    "lessonId": "hs-mech-apoios",
+    "difficulty": "medium",
+    "objective": "8. Estática e equilíbrio",
+    "format": "Discursiva",
+    "prompt": "Questão 64 - Deslizar ou tombar primeiro?",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-25",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-25",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-25",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-25",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-25",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "page": "ficha-25",
+        "start": 19,
+        "end": 20
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-64",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-64",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-64",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q65",
+    "kind": "written",
+    "sourceNumber": 65,
+    "topic": "Gravitação",
+    "topicId": "gravitacao",
+    "subtopic": "9. Gravitação",
+    "course": "mechanics",
+    "lessonId": "hs-mech-orbitas",
+    "difficulty": "easy",
+    "objective": "9. Gravitação",
+    "format": "Discursiva",
+    "prompt": "Questão 65 - A gravitação e a lei do inverso do quadrado",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-26",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-26",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-26",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-26",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-26",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-26",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-65",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-65",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-65",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q66",
+    "kind": "written",
+    "sourceNumber": 66,
+    "topic": "Gravitação",
+    "topicId": "gravitacao",
+    "subtopic": "9. Gravitação",
+    "course": "mechanics",
+    "lessonId": "hs-mech-orbitas",
+    "difficulty": "easy",
+    "objective": "9. Gravitação",
+    "format": "Discursiva",
+    "prompt": "Questão 66 - Peso em outro planeta e em outra altitude",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-26",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-26",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-26",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-26",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-26",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-26",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-65",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-65",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-65",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q67",
+    "kind": "written",
+    "sourceNumber": 67,
+    "topic": "Gravitação",
+    "topicId": "gravitacao",
+    "subtopic": "9. Gravitação",
+    "course": "mechanics",
+    "lessonId": "hs-mech-orbitas",
+    "difficulty": "easy",
+    "objective": "9. Gravitação",
+    "format": "Discursiva",
+    "prompt": "Questão 67 - Satélites em órbitas circulares",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-26",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-26",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-26",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-26",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-26",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-26",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-65",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-65",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-65",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q68",
+    "kind": "written",
+    "sourceNumber": 68,
+    "topic": "Gravitação",
+    "topicId": "gravitacao",
+    "subtopic": "9. Gravitação",
+    "course": "mechanics",
+    "lessonId": "hs-mech-escape",
+    "difficulty": "easy",
+    "objective": "9. Gravitação",
+    "format": "Discursiva",
+    "prompt": "Questão 68 - Geoestacionário e aparente ausência de peso",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-27",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-27",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-27",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-27",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-27",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-27",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-66",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-66",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-66",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q69",
+    "kind": "written",
+    "sourceNumber": 69,
+    "topic": "Gravitação",
+    "topicId": "gravitacao",
+    "subtopic": "9. Gravitação",
+    "course": "mechanics",
+    "lessonId": "hs-mech-orbitas",
+    "difficulty": "medium",
+    "objective": "9. Gravitação",
+    "format": "Discursiva",
+    "prompt": "Questão 69 - As três leis de Kepler em situações concretas",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-27",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-27",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-27",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-27",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-27",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-27",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-66",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-66",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-66",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q70",
+    "kind": "written",
+    "sourceNumber": 70,
+    "topic": "Gravitação",
+    "topicId": "gravitacao",
+    "subtopic": "9. Gravitação",
+    "course": "mechanics",
+    "lessonId": "hs-mech-escape",
+    "difficulty": "medium",
+    "objective": "9. Gravitação",
+    "format": "Discursiva",
+    "prompt": "Questão 70 - Energia gravitacional e velocidade de escape",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-27",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-27",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-27",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-27",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-27",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-27",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-66",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-66",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-66",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q71",
+    "kind": "written",
+    "sourceNumber": 71,
+    "topic": "Hidrostática",
+    "topicId": "hidrostatica",
+    "subtopic": "10. Hidrostática",
+    "course": "mechanics",
+    "lessonId": "hs-mech-pressao",
+    "difficulty": "easy",
+    "objective": "10. Hidrostática",
+    "format": "Discursiva",
+    "prompt": "Questão 71 - Densidade e pressão de contato",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-28",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-28",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-28",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-28",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-28",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-28",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-67",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-67",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-67",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q72",
+    "kind": "written",
+    "sourceNumber": 72,
+    "topic": "Hidrostática",
+    "topicId": "hidrostatica",
+    "subtopic": "10. Hidrostática",
+    "course": "mechanics",
+    "lessonId": "hs-mech-pressao",
+    "difficulty": "easy",
+    "objective": "10. Hidrostática",
+    "format": "Discursiva",
+    "prompt": "Questão 72 - Profundidade não é volume de água",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-28",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-28",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-28",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-28",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-28",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-28",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-67",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-67",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-67",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q73",
+    "kind": "written",
+    "sourceNumber": 73,
+    "topic": "Hidrostática",
+    "topicId": "hidrostatica",
+    "subtopic": "10. Hidrostática",
+    "course": "mechanics",
+    "lessonId": "hs-mech-pascal",
+    "difficulty": "easy",
+    "objective": "10. Hidrostática",
+    "format": "Discursiva",
+    "prompt": "Questão 73 - Prensa hidráulica ideal",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-28",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-28",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-28",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-28",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-28",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-28",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-67",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-67",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-67",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q74",
+    "kind": "written",
+    "sourceNumber": 74,
+    "topic": "Hidrostática",
+    "topicId": "hidrostatica",
+    "subtopic": "10. Hidrostática",
+    "course": "mechanics",
+    "lessonId": "hs-mech-empuxo",
+    "difficulty": "easy",
+    "objective": "10. Hidrostática",
+    "format": "Discursiva",
+    "prompt": "Questão 74 - Empuxo e peso aparente de um sólido",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-29",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-29",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-29",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-29",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-29",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-29",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-68",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-68",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-68",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q75",
+    "kind": "written",
+    "sourceNumber": 75,
+    "topic": "Hidrostática",
+    "topicId": "hidrostatica",
+    "subtopic": "10. Hidrostática",
+    "course": "mechanics",
+    "lessonId": "hs-mech-empuxo",
+    "difficulty": "easy",
+    "objective": "10. Hidrostática",
+    "format": "Discursiva",
+    "prompt": "Questão 75 - Flutuação e carga máxima",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-29",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-29",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-29",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-29",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-29",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-29",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-68",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-68",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-68",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q76",
+    "kind": "written",
+    "sourceNumber": 76,
+    "topic": "Hidrostática",
+    "topicId": "hidrostatica",
+    "subtopic": "10. Hidrostática",
+    "course": "mechanics",
+    "lessonId": "hs-mech-pressao",
+    "difficulty": "easy",
+    "objective": "10. Hidrostática",
+    "format": "Discursiva",
+    "prompt": "Questão 76 - Barômetro e pressão atmosférica",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-29",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-29",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-29",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-29",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-29",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-29",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-68",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-68",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-68",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q77",
+    "kind": "written",
+    "sourceNumber": 77,
+    "topic": "Hidrostática",
+    "topicId": "hidrostatica",
+    "subtopic": "10. Hidrostática",
+    "course": "mechanics",
+    "lessonId": "hs-mech-pressao",
+    "difficulty": "medium",
+    "objective": "10. Hidrostática",
+    "format": "Discursiva",
+    "prompt": "Questão 77 - Água e óleo em um tubo em U",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-30",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-30",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-30",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-30",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-30",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-30",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-30",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-69",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-69",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-69",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q78",
+    "kind": "written",
+    "sourceNumber": 78,
+    "topic": "Hidrostática",
+    "topicId": "hidrostatica",
+    "subtopic": "10. Hidrostática",
+    "course": "mechanics",
+    "lessonId": "hs-mech-pascal",
+    "difficulty": "medium",
+    "objective": "10. Hidrostática",
+    "format": "Discursiva",
+    "prompt": "Questão 78 - Força da água em uma parede vertical",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-30",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-30",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-30",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-30",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-30",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-30",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-69",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-69",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-69",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Intermediária"
+  },
+  {
+    "id": "hs-mech-q79",
+    "kind": "written",
+    "sourceNumber": 79,
+    "topic": "Hidrodinâmica",
+    "topicId": "hidrodinamica",
+    "subtopic": "11. Hidrodinâmica",
+    "course": "mechanics",
+    "lessonId": "hs-mech-bernoulli",
+    "difficulty": "easy",
+    "objective": "11. Hidrodinâmica",
+    "format": "Discursiva",
+    "prompt": "Questão 79 - Vazão em litros por segundo",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-31",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-31",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-31",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-31",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-31",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-31",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-31",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-70",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-70",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-70",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q80",
+    "kind": "written",
+    "sourceNumber": 80,
+    "topic": "Hidrodinâmica",
+    "topicId": "hidrodinamica",
+    "subtopic": "11. Hidrodinâmica",
+    "course": "mechanics",
+    "lessonId": "hs-mech-bernoulli",
+    "difficulty": "easy",
+    "objective": "11. Hidrodinâmica",
+    "format": "Discursiva",
+    "prompt": "Questão 80 - Continuidade em um estreitamento",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-31",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-31",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-31",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-31",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-31",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-31",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-70",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-70",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-70",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q81",
+    "kind": "written",
+    "sourceNumber": 81,
+    "topic": "Hidrodinâmica",
+    "topicId": "hidrodinamica",
+    "subtopic": "11. Hidrodinâmica",
+    "course": "mechanics",
+    "lessonId": "hs-mech-bernoulli",
+    "difficulty": "easy",
+    "objective": "11. Hidrodinâmica",
+    "format": "Discursiva",
+    "prompt": "Questão 81 - Bernoulli em tubo horizontal",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-31",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-31",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-31",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-31",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-31",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "page": "ficha-31",
+        "start": 19,
+        "end": 20
+      },
+      {
+        "page": "ficha-31",
+        "start": 20,
+        "end": 21
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-70",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-70",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-70",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q82",
+    "kind": "written",
+    "sourceNumber": 82,
+    "topic": "Hidrodinâmica",
+    "topicId": "hidrodinamica",
+    "subtopic": "11. Hidrodinâmica",
+    "course": "mechanics",
+    "lessonId": "hs-mech-bernoulli",
+    "difficulty": "easy",
+    "objective": "11. Hidrodinâmica",
+    "format": "Discursiva",
+    "prompt": "Questão 82 - Subir pelo tubo também custa energia",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-32",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-32",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-32",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-32",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-32",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-32",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-71",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-71",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-71",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q83",
+    "kind": "written",
+    "sourceNumber": 83,
+    "topic": "Hidrodinâmica",
+    "topicId": "hidrodinamica",
+    "subtopic": "11. Hidrodinâmica",
+    "course": "mechanics",
+    "lessonId": "hs-mech-torricelli",
+    "difficulty": "easy",
+    "objective": "11. Hidrodinâmica",
+    "format": "Discursiva",
+    "prompt": "Questão 83 - Torricelli e o alcance de um jato",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-32",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-32",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-32",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-32",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-32",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-32",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-32",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-71",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-71",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-71",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q84",
+    "kind": "written",
+    "sourceNumber": 84,
+    "topic": "Hidrodinâmica",
+    "topicId": "hidrodinamica",
+    "subtopic": "11. Hidrodinâmica",
+    "course": "mechanics",
+    "lessonId": "hs-mech-torricelli",
+    "difficulty": "easy",
+    "objective": "11. Hidrodinâmica",
+    "format": "Discursiva",
+    "prompt": "Questão 84 - Bomba de água e potência útil",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-32",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-32",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-32",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-32",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-32",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "page": "ficha-32",
+        "start": 19,
+        "end": 20
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-71",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-71",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-71",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "difficultyLabel": "Básica"
+  },
+  {
+    "id": "hs-mech-q85",
+    "kind": "written",
+    "sourceNumber": 85,
+    "topic": "Integração",
+    "topicId": "integracao",
+    "subtopic": "12. Integração de assuntos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-metodos",
+    "difficulty": "hard",
+    "objective": "12. Integração de assuntos",
+    "format": "Discursiva",
+    "prompt": "Questão 85 - Frenagem e distância disponível",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-33",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-33",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-33",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-33",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-33",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-33",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-72",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-72",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-72",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-72",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-72",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "difficultyLabel": "Integração"
+  },
+  {
+    "id": "hs-mech-q86",
+    "kind": "written",
+    "sourceNumber": 86,
+    "topic": "Integração",
+    "topicId": "integracao",
+    "subtopic": "12. Integração de assuntos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-metodos",
+    "difficulty": "hard",
+    "objective": "12. Integração de assuntos",
+    "format": "Discursiva",
+    "prompt": "Questão 86 - Blocos, atrito, polia e energia",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-33",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-33",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-33",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-33",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-33",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-33",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-72",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-72",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-72",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "difficultyLabel": "Integração"
+  },
+  {
+    "id": "hs-mech-q87",
+    "kind": "written",
+    "sourceNumber": 87,
+    "topic": "Integração",
+    "topicId": "integracao",
+    "subtopic": "12. Integração de assuntos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-metodos",
+    "difficulty": "hard",
+    "objective": "12. Integração de assuntos",
+    "format": "Discursiva",
+    "prompt": "Questão 87 - Colisão seguida de compressão",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-34",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-34",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-34",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-34",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-34",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-34",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-72",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-72",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-72",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "difficultyLabel": "Integração"
+  },
+  {
+    "id": "hs-mech-q88",
+    "kind": "written",
+    "sourceNumber": 88,
+    "topic": "Integração",
+    "topicId": "integracao",
+    "subtopic": "12. Integração de assuntos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-metodos",
+    "difficulty": "hard",
+    "objective": "12. Integração de assuntos",
+    "format": "Discursiva",
+    "prompt": "Questão 88 - Uma caixa que flutua e acelera",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-34",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-34",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-34",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-34",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-34",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-34",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-73",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-73",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-73",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "difficultyLabel": "Integração"
+  },
+  {
+    "id": "hs-mech-q89",
+    "kind": "written",
+    "sourceNumber": 89,
+    "topic": "Integração",
+    "topicId": "integracao",
+    "subtopic": "12. Integração de assuntos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-metodos",
+    "difficulty": "hard",
+    "objective": "12. Integração de assuntos",
+    "format": "Discursiva",
+    "prompt": "Questão 89 - Da pressão ao jato e à potência",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-35",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-35",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-35",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-35",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-35",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-35",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-73",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-73",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-73",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-73",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-73",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "difficultyLabel": "Integração"
+  },
+  {
+    "id": "hs-mech-q90",
+    "kind": "written",
+    "sourceNumber": 90,
+    "topic": "Integração",
+    "topicId": "integracao",
+    "subtopic": "12. Integração de assuntos",
+    "course": "mechanics",
+    "lessonId": "hs-mech-metodos",
+    "difficulty": "hard",
+    "objective": "12. Integração de assuntos",
+    "format": "Discursiva",
+    "prompt": "Questão 90 - Gravidade local, órbita e escape",
+    "reasoning": "Escolha o sistema e os eixos, explicite o modelo e confira unidades e sinais.",
+    "statement": [
+      {
+        "page": "ficha-35",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-35",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-35",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-35",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-35",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-35",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-73",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-73",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-73",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-73",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-73",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "difficultyLabel": "Integração"
+  }
+]

@@ -196,11 +196,13 @@ test('the olympiad course cannot leak into Ensino Médio or Universidade', () =>
     15,
   )
   assert.ok(
-    coursesForTrack('ensino-medio').every((course) =>
-      course.units.every((unit) => !unit.lessons.length),
+    !coursesForTrack('ensino-medio').some(
+      (course) => course.id === waveCourse.id,
     ),
   )
-  assert.deepEqual(questionsForTrack('ensino-medio'), [])
+  assert.ok(
+    !questionsForTrack('ensino-medio').some((q) => q.course === waveCourse.id),
+  )
   assert.deepEqual(questionsForTrack('universidade'), [])
   const saved = {
     ...emptyProgress(),

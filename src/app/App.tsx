@@ -43,6 +43,7 @@ const initialRoute: RouteState = {
   lessonId: '',
   labId: 'projectile',
   sheetId: null,
+  topicId: null,
 }
 
 function routeFromPath() {
@@ -82,7 +83,13 @@ export function App() {
   const navigate = (screen: Screen, trackId = route.trackId) => {
     const path = screenPath(screen, trackId)
     if (path) window.history.pushState({}, '', path)
-    setRoute((current) => ({ ...current, screen, trackId, sheetId: null }))
+    setRoute((current) => ({
+      ...current,
+      screen,
+      trackId,
+      sheetId: null,
+      topicId: null,
+    }))
     if (
       !['login', 'signup', 'recovery', 'profile', 'settings'].includes(screen)
     ) {
@@ -106,19 +113,25 @@ export function App() {
       trackId,
       lessonId: '',
       sheetId: null,
+      topicId: null,
     }))
     setMoreOpen(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  const openCourse = (courseId: CourseId) => {
+  const openCourse = (courseId: CourseId, topicId?: string) => {
     if (courseById(courseId)?.trackId !== route.trackId) return
     window.history.pushState(
       {},
       '',
-      `/trilhas/${route.trackId}/cursos/${courseId}`,
+      `/trilhas/${route.trackId}/cursos/${courseId}${topicId ? `?tema=${encodeURIComponent(topicId)}` : ''}`,
     )
-    setRoute((current) => ({ ...current, screen: 'course', courseId }))
+    setRoute((current) => ({
+      ...current,
+      screen: 'course',
+      courseId,
+      topicId: topicId ?? null,
+    }))
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
@@ -150,11 +163,20 @@ export function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  const openSheet = (sheetId: CourseId) => {
+  const openSheet = (sheetId: CourseId, topicId?: string) => {
     const path = worksheetPath(sheetId, route.trackId)
     if (!path) return
-    window.history.pushState({}, '', path)
-    setRoute((current) => ({ ...current, screen: 'sheets', sheetId }))
+    window.history.pushState(
+      {},
+      '',
+      path + (topicId ? `?tema=${encodeURIComponent(topicId)}` : ''),
+    )
+    setRoute((current) => ({
+      ...current,
+      screen: 'sheets',
+      sheetId,
+      topicId: topicId ?? null,
+    }))
     setMoreOpen(false)
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
@@ -247,7 +269,7 @@ export function App() {
     ) : route.screen === 'simulation' ? (
       <SimulationPage />
     ) : route.screen === 'sheets' ? (
-      <SheetsPage key={`${route.trackId}:${route.sheetId}`} />
+      <SheetsPage key={`${route.trackId}:${route.sheetId}:${route.topicId}`} />
     ) : route.screen === 'performance' ? (
       <PerformancePage />
     ) : route.screen === 'review' ? (
