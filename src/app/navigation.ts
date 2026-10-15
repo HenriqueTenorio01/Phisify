@@ -30,6 +30,7 @@ export function routeFromLocation(
   pathname: string,
   search = '',
 ): Partial<RouteState> | null {
+  const topicId = new URLSearchParams(search).get('tema')
   const path = pathname.replace(/\/+$/, '') || '/'
   if (new URLSearchParams(search).get('auth') === 'recovery')
     return { screen: 'recovery' }
@@ -40,7 +41,8 @@ export function routeFromLocation(
     const screen = Object.entries(trackScreens).find(
       ([, suffix]) => suffix === (rest ? `/${rest}` : ''),
     )?.[0] as Screen | undefined
-    if (screen) return { screen, trackId: track.id, sheetId: null }
+    if (screen)
+      return { screen, trackId: track.id, sheetId: null, topicId: null }
     if (rest.startsWith('questoes/')) {
       const sheet = worksheetsForTrack(track.id).find(
         (item) => item.slug === rest.slice(9),
@@ -50,6 +52,7 @@ export function routeFromLocation(
         screen: 'sheets',
         trackId: track.id,
         sheetId: sheet?.id ?? 'unavailable',
+        topicId,
       }
     }
     if (rest.startsWith('cursos/'))
@@ -57,12 +60,14 @@ export function routeFromLocation(
         screen: 'course',
         trackId: track.id,
         courseId: rest.slice(7) as RouteState['courseId'],
+        topicId,
       }
     if (rest.startsWith('aulas/'))
       return {
         screen: 'lesson',
         trackId: track.id,
         lessonId: resolveLessonId(rest.slice(6)),
+        topicId: null,
       }
     return null
   }

@@ -8,13 +8,15 @@ export function loadHandbook(id: CourseId): Promise<Reader> {
   const existing = readers.get(id)
   if (existing) return existing
   const reader =
-    id === 'olympiad-waves'
-      ? import('../../../content/olimpiadas/ondas/reader')
-      : id === 'olympiad-gravity'
-        ? import('../../../content/olimpiadas/gravitacao/reader')
-        : id === 'olympiad-center-of-mass'
-          ? import('../../../content/olimpiadas/centro-de-massa/reader')
-          : null
+    id === 'mechanics'
+      ? import('../../../content/ensino-medio/mecanica/reader')
+      : id === 'olympiad-waves'
+        ? import('../../../content/olimpiadas/ondas/reader')
+        : id === 'olympiad-gravity'
+          ? import('../../../content/olimpiadas/gravitacao/reader')
+          : id === 'olympiad-center-of-mass'
+            ? import('../../../content/olimpiadas/centro-de-massa/reader')
+            : null
   if (!reader) throw new Error(`Apostila indisponível: ${id}`)
   readers.set(id, reader)
   return reader

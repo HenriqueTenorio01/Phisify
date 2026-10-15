@@ -1,0 +1,47 @@
+[
+  {
+    "id": "fundamentos",
+    "title": "Fundamentos",
+    "description": "Medidas, modelos, vetores e leitura de gráficos."
+  },
+  {
+    "id": "cinematica",
+    "title": "Cinemática",
+    "description": "Descrição escalar e vetorial do movimento, lançamentos e movimento circular."
+  },
+  {
+    "id": "dinamica",
+    "title": "Dinâmica",
+    "description": "Forças, vínculos, trabalho, energia, impulso e colisões."
+  },
+  {
+    "id": "estatica",
+    "title": "Estática",
+    "description": "Equilíbrio, torques, apoios e estabilidade."
+  },
+  {
+    "id": "gravitacao",
+    "title": "Gravitação",
+    "description": "Campo, órbitas, leis de Kepler e energia gravitacional."
+  },
+  {
+    "id": "hidrostatica",
+    "title": "Hidrostática",
+    "description": "Pressão, manômetros, Pascal, empuxo e flutuação."
+  },
+  {
+    "id": "hidrodinamica",
+    "title": "Hidrodinâmica",
+    "description": "Vazão, continuidade, Bernoulli, jatos e bombas."
+  },
+  {
+    "id": "integracao",
+    "title": "Integração",
+    "description": "Escolha dos sistemas e combinação de métodos."
+  },
+  {
+    "id": "consulta",
+    "title": "Consulta e orientação",
+    "description": "Roteiros, gabaritos e formulários com condições de uso."
+  }
+]

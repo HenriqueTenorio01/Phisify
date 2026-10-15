@@ -3,7 +3,15 @@ import { courseById } from '../../content/courses'
 import { useApp } from '../app/context'
 import { ProgressTrack } from '../components/ui/ProgressTrack'
 export function CoursePage() {
-  const { route, progress, openLesson, navigate, lessonCompletion } = useApp()
+  const {
+    route,
+    progress,
+    openLesson,
+    navigate,
+    lessonCompletion,
+    openCourse,
+    openSheet,
+  } = useApp()
   const course = courseById(route.courseId)
   if (!course || course.trackId !== route.trackId)
     return (
@@ -16,6 +24,9 @@ export function CoursePage() {
         </button>
       </section>
     )
+  const themed = course.units.some((unit) => unit.id)
+  const topic = course.units.find((unit) => unit.id === route.topicId)
+  const showAll = route.topicId === 'todos'
   const lessons = course.units.flatMap((unit) => unit.lessons)
   const completion = lessons.map((lesson) => lessonCompletion(lesson.id))
   const totalParts = completion.reduce((sum, part) => sum + part.total, 0)
@@ -51,8 +62,67 @@ export function CoursePage() {
           disponibilizadas aqui.
         </div>
       )}
+      {themed && (
+        <>
+          <div className="sheet-links">
+            <button
+              className="link-button"
+              onClick={() => openCourse(course.id)}
+            >
+              Todos os temas de Mecânica
+            </button>
+            <button
+              className="link-button"
+              onClick={() => openCourse(course.id, 'todos')}
+            >
+              Ver todas as aulas
+            </button>
+            {topic && topic.id !== 'consulta' && (
+              <button
+                className="btn"
+                onClick={() => openSheet(course.id, topic.id)}
+              >
+                Ficha de {topic.title}
+              </button>
+            )}
+          </div>
+          {topic && <p className="quiet">{topic.description}</p>}
+          {!topic && !showAll && (
+            <div className="sheet-catalog">
+              {course.units.map((unit) => (
+                <article className="sheet-catalog-card" key={unit.id}>
+                  <div className="eyebrow">Ensino Médio · Mecânica</div>
+                  <h2>{unit.title}</h2>
+                  <p>{unit.description}</p>
+                  <p className="quiet">{unit.lessons.length} leituras</p>
+                  <div className="sheet-links">
+                    <button
+                      className="btn primary"
+                      onClick={() => openCourse(course.id, unit.id)}
+                    >
+                      Aulas de {unit.title}
+                    </button>
+                    {unit.id !== 'consulta' && (
+                      <button
+                        className="btn"
+                        onClick={() => openSheet(course.id, unit.id)}
+                      >
+                        Ficha de {unit.title}
+                      </button>
+                    )}
+                  </div>
+                </article>
+              ))}
+            </div>
+          )}
+        </>
+      )}
       {course.units
-        .filter((unit) => unit.lessons.length > 0)
+        .filter(
+          (unit) =>
+            unit.lessons.length > 0 &&
+            (!themed || showAll || unit.id === topic?.id),
+        )
         .map((unit, unitIndex) => (
           <section className="unit" key={unit.title}>
             <div className="unit-head">

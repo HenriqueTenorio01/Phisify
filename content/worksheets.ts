@@ -1,3 +1,4 @@
+import { mechanicsTopics } from './ensino-medio/mecanica'
 import { courseById } from './courses'
 import type { CourseId, TrackId } from '../src/app/types'
 
@@ -7,8 +8,18 @@ export const worksheets: Array<{
   title: string
   description: string
   guideLessonId: string
+  topics?: Array<{ id: string; title: string; description: string }>
   answersLessonId?: string
 }> = [
+  {
+    id: 'mechanics',
+    slug: 'mecanica',
+    title: 'Ficha de Mecânica',
+    description:
+      '90 questões integrais, separadas por tema e subtema, com resultados e caminhos de resolução.',
+    guideLessonId: 'hs-mech-treino',
+    topics: mechanicsTopics.filter((topic) => topic.id !== 'consulta'),
+  },
   {
     id: 'olympiad-waves',
     slug: 'ondulatoria',

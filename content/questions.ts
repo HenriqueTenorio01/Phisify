@@ -1,3 +1,4 @@
+import { mechanicsQuestions } from './ensino-medio/mecanica'
 import { waveQuestions } from './olimpiadas/ondas'
 import { gravityQuestions } from './olimpiadas/gravitacao'
 import { centerOfMassQuestions } from './olimpiadas/centro-de-massa'
@@ -8,6 +9,7 @@ export const questionBank: Question[] = [
   ...waveQuestions,
   ...gravityQuestions,
   ...centerOfMassQuestions,
+  ...mechanicsQuestions,
 ]
 
 export function questionById(id: string) {

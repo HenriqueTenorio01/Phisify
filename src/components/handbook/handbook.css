@@ -39,3 +39,20 @@
 .handbook-hint{margin:20px 0;padding:14px 16px;border:1px dashed var(--book-rule);border-radius:5px;background:#f4f9f7}
 .handbook-hint summary{cursor:pointer;font:600 .8rem/1.6 'Inter',sans-serif;color:var(--book-teal)}
 .handbook-hint>.handbook-body{padding-top:16px}
+
+.handbook-example {
+  margin: 1.4rem 0;
+  border: 1px solid #b4d5d8;
+  border-radius: 8px;
+  background: #f3f9fa;
+  padding: 1rem 1.2rem;
+}
+.handbook-example > summary {
+  cursor: pointer;
+  color: #086779;
+  font-family: var(--font-sans, sans-serif);
+  font-weight: 650;
+  line-height: 1.6;
+}
+.handbook-example[open] > summary { margin-bottom: 1rem; }
+.handbook-native-math math { font-size: 1.1em; margin: .7rem 0; }

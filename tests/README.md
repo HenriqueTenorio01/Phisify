@@ -52,3 +52,11 @@ every partial-completion state, complete progress, idempotent completion, unchan
 answers, preserved course percentages and partial progress in the real course UI.
 Hashes of the 40 published questions ensure that only their lesson links change.
 The catalog derives compatibility without rewriting account storage on load.
+
+`mechanics.test.ts` checks the new Ensino Médio material: both PDF hashes,
+all 136 instructional pages and 2,591 source blocks exactly once, 24 diagrams,
+32 conceptual supplements, 40 retained examples, 47 readings and 90 complete
+questions with their original difficulty labels. It verifies theme/subtheme
+partitions, ongoing derivations, reloadable thematic routes, new progress IDs
+and isolation from retired content and other tracks. Regeneration and content
+editing are documented in `content/ensino-medio/mecanica/README.md`.

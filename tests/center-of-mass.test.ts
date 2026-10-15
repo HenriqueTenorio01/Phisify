@@ -228,7 +228,9 @@ test('center of mass is a compact olympiad topic with its own sheet and does not
     assert.ok(
       !coursesForTrack(track).some((c) => c.id === centerOfMassCourse.id),
     )
-    assert.deepEqual(questionsForTrack(track), [])
+    assert.ok(
+      !questionsForTrack(track).some((q) => q.course === centerOfMassCourse.id),
+    )
     assert.equal(worksheetPath(centerOfMassCourse.id, track), null)
     assert.equal(
       routeFromLocation(`/trilhas/${track}/questoes/centro-de-massa`)?.sheetId,

@@ -43,11 +43,12 @@ export default function WrittenQuestionCard({
       <div className="handbook-question-meta">
         <span>{question.objective}</span>
         <span>
-          {question.difficulty === 'easy'
-            ? 'Fácil'
-            : question.difficulty === 'medium'
-              ? 'Intermediária'
-              : 'Difícil'}{' '}
+          {question.difficultyLabel ??
+            (question.difficulty === 'easy'
+              ? 'Fácil'
+              : question.difficulty === 'medium'
+                ? 'Intermediária'
+                : 'Difícil')}{' '}
           · Discursiva
         </span>
       </div>
@@ -143,8 +144,10 @@ export default function WrittenQuestionCard({
           ...(question.hints ?? []),
           ...question.solution,
         ])}
-        . Problema autoral da ficha de treinamento; não é questão oficial da
-        IPhO.
+        .{' '}
+        {question.course === 'mechanics'
+          ? 'Problema autoral da ficha de Mecânica do Ensino Médio.'
+          : 'Problema autoral da ficha de treinamento; não é questão oficial da IPhO.'}
       </footer>
     </article>
   )

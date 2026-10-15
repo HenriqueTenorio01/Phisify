@@ -220,24 +220,21 @@ test('gravity lessons keep deductions continuous and both courses remain isolate
   assert.equal(coursesForTrack('olimpiadas').length, 3)
   assert.equal(questionsForTrack('olimpiadas').length, 54)
   for (const id of ['ensino-medio', 'universidade'] as const) {
-    assert.deepEqual(questionsForTrack(id), [])
-    assert.equal(
-      coursesForTrack(id).flatMap((c) => c.units.flatMap((u) => u.lessons))
-        .length,
-      0,
-    )
-    assert.deepEqual(worksheetsForTrack(id), [])
+    assert.ok(!questionsForTrack(id).some((q) => q.course === gravityCourse.id))
+    assert.ok(!coursesForTrack(id).some((c) => c.id === gravityCourse.id))
+    assert.ok(!worksheetsForTrack(id).some((s) => s.id === gravityCourse.id))
   }
 })
 
 test('named worksheets have independent reloadable URLs and cannot be opened through another track', () => {
   assert.equal(worksheetsForTrack('olimpiadas').length, 3)
-  for (const sheet of worksheets) {
+  for (const sheet of worksheetsForTrack('olimpiadas')) {
     const path = worksheetPath(sheet.id, 'olimpiadas')!
     assert.deepEqual(routeFromLocation(path), {
       screen: 'sheets',
       trackId: 'olimpiadas',
       sheetId: sheet.id,
+      topicId: null,
     })
     assert.deepEqual(routeFromLocation(path + '/'), routeFromLocation(path))
     assert.ok(handbookForLesson(sheet.guideLessonId))
