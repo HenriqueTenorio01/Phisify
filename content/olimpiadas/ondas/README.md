@@ -1,0 +1,61 @@
+# Ondulatória — Olimpíadas
+
+Curso baseado nos dois PDFs versionados em `materiais/referencias`:
+
+- `Aula_Ondulatoria_TBF_IPhO.pdf`: 41 páginas.
+- `Ficha_Ondulatoria_TBF_IPhO.pdf`: 30 páginas, com 20 questões autorais.
+
+São 15 módulos e 42 aulas. O curso mantém a progressão e a numeração de seções e
+equações da apostila, os 12 exemplos resolvidos, as hipóteses, as extensões, as
+referências, as oito partes do formulário e as 20 questões com todas as alíneas e
+resoluções comentadas. As soluções 19 e 20 incluem ambas as páginas originais.
+
+## Cobertura e apresentação
+
+`coverage.json` registra os hashes dos PDFs e os 1.552 blocos de origem nas 68
+páginas instrucionais. Só a capa e as duas páginas do sumário da apostila foram
+substituídas pela apresentação e pelo sumário navegável do curso. Cabeçalhos e
+rodapés repetidos não são conteúdo de aula. Os títulos de progressão da ficha são
+apresentados nos metadados das questões.
+
+`source-pages.json` contém parágrafos com texto nativo e ênfases, títulos,
+proveniência e referências a expressões e diagramas vetoriais. O corpo se reorganiza
+conforme a largura da tela. Não há iframe, leitor de PDF, página rasterizada ou
+imagem de uma página completa. Os SVGs contêm somente expressões ou diagramas
+isolados, com os contornos matemáticos compartilhados em 68 arquivos de símbolos.
+Isso conserva frações, índices, matrizes, integrais e a notação original sem depender
+de uma reconstrução aproximada por OCR. Há 284 blocos de equações destacadas e os
+oito diagramas/gráficos originais, além das expressões inseridas no texto.
+
+O tratamento editorial mantém a hierarquia azul, o texto serifado, as caixas
+verde-petróleo e os enunciados subdivididos das apostilas. Equações longas têm
+rolagem horizontal local para manter o tamanho de leitura no celular. Nenhum
+conteúdo físico ou matemático foi abreviado. As adaptações são divisão em aulas,
+refluxo dos parágrafos, navegação, cabeçalhos, identificação da fonte e explicação
+da autoavaliação. Não foram acrescentados gráficos interativos decorativos.
+
+As questões são discursivas: não foram convertidas em múltipla escolha. Enunciados
+e soluções são abertos a todos; alunos autenticados podem marcar a própria
+resolução como correta ou para revisão. Essa escolha é explicitamente uma
+**autoavaliação**, reaproveitando os registros e o controle de sequência existentes.
+Notas digitadas na questão são temporárias e a interface informa essa limitação.
+
+## Manutenção
+
+As divisões editoriais e os vínculos dos exercícios ficam em
+`scripts/wave_course_map.py`. A exportação é reproduzível com:
+
+```sh
+python -m pip install -r scripts/requirements-materials.txt
+python scripts/import-wave-materials.py
+```
+
+O comando atualiza os JSONs e os SVGs gerados. Não modifique os SVGs ou as faixas de
+blocos manualmente. O importador remove conteúdo externo a cada recorte antes de
+exportar os símbolos; os arquivos não são páginas inteiras ocultas por uma janela.
+Os testes em `tests/waves.test.ts` conferem os hashes das fontes, a cobertura,
+todos os símbolos, as alíneas e finais das soluções, a continuidade das deduções e
+o isolamento das três trilhas. Consulte `tests/README.md` para executar a suíte.
+
+Os materiais se identificam como independentes e não oficiais. Essa distinção é
+preservada na interface e nas referências do curso.

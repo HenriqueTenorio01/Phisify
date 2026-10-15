@@ -1,3 +1,4 @@
+import { coursesForTrack } from '../../content/catalog'
 import { tracks } from '../../content/tracks'
 import { useApp } from '../app/context'
 
@@ -66,7 +67,13 @@ export function HomePage() {
           >
             <div className="course-card-top">
               <span>0{index + 1}</span>
-              <small>Conteúdo em preparação</small>
+              <small>
+                {coursesForTrack(track.id).some((course) =>
+                  course.units.some((unit) => unit.lessons.length),
+                )
+                  ? 'Curso disponível'
+                  : 'Conteúdo em preparação'}
+              </small>
             </div>
             <h3>{track.title}</h3>
             <p>{track.description}</p>

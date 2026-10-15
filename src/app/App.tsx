@@ -31,6 +31,7 @@ import { ProfilePage } from '../pages/ProfilePage'
 import { SettingsPage } from '../pages/SettingsPage'
 import { recordQuestionCompletion } from '../lib/supabase/activity'
 import { Localize } from '../i18n'
+import { isResponseCorrect } from '../questions'
 
 const initialRoute: RouteState = {
   screen: 'home',
@@ -158,7 +159,7 @@ export function App() {
         ...current.responses,
         [question.id]: {
           selected,
-          correct: selected === question.answer,
+          correct: isResponseCorrect(question, selected),
           at: answeredAt,
         },
       },
@@ -174,7 +175,10 @@ export function App() {
     }))
 
     try {
-      await recordQuestionCompletion(question.id, selected === question.answer)
+      await recordQuestionCompletion(
+        question.id,
+        isResponseCorrect(question, selected),
+      )
       await refreshProfile()
     } catch {
       // Keep the local answer feedback available if the remote save is temporarily unavailable.

@@ -26,3 +26,9 @@ streak behavior is preserved: only a completed run ending today counts as curren
 New content belongs in the existing course, lesson and question registries. Assign
 courses a `trackId` and use unique course/lesson/question IDs across tracks. The
 catalog selectors scope discovery and visible progress without deleting saved data.
+
+The Ondulatória checks in `waves.test.ts` validate both supplied PDF hashes,
+coverage of all 68 instructional pages, vector assets, all 20 full written
+exercises and their solutions, continuity across page breaks and separation of
+Ensino Médio, Olimpíadas and Universidade. Course maintenance and regeneration
+are documented in `content/olimpiadas/ondas/README.md`.

@@ -9,6 +9,10 @@ export function SheetsPage() {
   const [topic, setTopic] = useState('Todos')
   const [difficulty, setDifficulty] = useState('Todas')
   const [objective, setObjective] = useState('Todos')
+  const topics = [
+    'Todos',
+    ...new Set(questionBank.map((question) => question.topic)),
+  ]
   const objectives = [
     'Todos',
     ...new Set(questionBank.map((question) => question.objective)),
@@ -36,11 +40,9 @@ export function SheetsPage() {
           value={topic}
           onChange={(e) => setTopic(e.target.value)}
         >
-          <option>Todos</option>
-          <option>Mecânica</option>
-          <option>Eletricidade</option>
-          <option>Ondas</option>
-          <option>Termologia</option>
+          {topics.map((item) => (
+            <option key={item}>{item}</option>
+          ))}
         </select>
         <select
           className="select"

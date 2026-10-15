@@ -59,7 +59,9 @@ export function CoursePage() {
           <section className="unit" key={unit.title}>
             <div className="unit-head">
               <h2>
-                {unitIndex + 1}. {unit.title}
+                {course.id === 'olympiad-waves'
+                  ? unit.title
+                  : `${unitIndex + 1}. ${unit.title}`}
               </h2>
               <span>{unit.lessons.length} aulas</span>
             </div>

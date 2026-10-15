@@ -17,7 +17,8 @@ export type Screen =
 
 export type TrackId = 'ensino-medio' | 'olimpiadas' | 'universidade'
 
-export type CourseId = 'mechanics' | 'electricity' | 'waves' | 'thermo'
+export type CourseId =
+  'mechanics' | 'electricity' | 'waves' | 'thermo' | 'olympiad-waves'
 export type LabId = 'projectile' | 'waves' | 'circuit'
 
 export interface RouteState {
@@ -93,7 +94,7 @@ export interface AcademicLesson {
   pitfalls: string
 }
 
-export interface Question {
+interface QuestionBase {
   id: string
   topic: string
   course: CourseId
@@ -102,11 +103,24 @@ export interface Question {
   objective: string
   format: string
   prompt: string
+  reasoning: string
+}
+
+export interface ChoiceQuestion extends QuestionBase {
+  kind?: 'choice'
   options: string[]
   answer: number
-  reasoning: string
   explanation: string
 }
+
+export interface WrittenQuestion extends QuestionBase {
+  kind: 'written'
+  sourceNumber: number
+  statement: import('./handbook').SourceSlice[]
+  solution: import('./handbook').SourceSlice[]
+}
+
+export type Question = ChoiceQuestion | WrittenQuestion
 
 export interface LabDefinition {
   id: LabId

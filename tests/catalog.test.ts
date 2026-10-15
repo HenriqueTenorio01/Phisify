@@ -16,22 +16,24 @@ import { searchContent } from '../src/search'
 test('retired lessons/questions cannot be discovered; simulations remain searchable', () => {
   assert.ok(courses.length > 0, 'preserve course infrastructure')
   assert.ok(
-    courses.every((course) =>
+    coursesForTrack('ensino-medio').every((course) =>
       course.units.every((unit) => !unit.lessons.length),
     ),
   )
   assert.deepEqual(lessonDataById, {})
   assert.deepEqual(academicLessons, {})
-  assert.deepEqual(questionBank, [])
+  assert.deepEqual(questionsForTrack('ensino-medio'), [])
   assert.equal(lessonById('lesson-free-fall'), null)
   assert.equal(courseById('unknown'), undefined)
   for (const { id } of tracks) {
     const found = searchContent('ondas', id)
-    assert.deepEqual(found.lessons, [])
-    assert.deepEqual(found.questions, [])
+    if (id !== 'olimpiadas') {
+      assert.deepEqual(found.lessons, [])
+      assert.deepEqual(found.questions, [])
+    }
     assert.ok(found.labs.length > 0)
     assert.ok(coursesForTrack(id).every((course) => course.trackId === id))
-    assert.deepEqual(questionsForTrack(id), [])
+    if (id !== 'olimpiadas') assert.deepEqual(questionsForTrack(id), [])
   }
 })
 
