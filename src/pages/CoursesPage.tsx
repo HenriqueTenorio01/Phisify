@@ -71,13 +71,18 @@ export function CoursesPage() {
             <article className="catalog-row" key={course.id}>
               <div className={`catalog-marker ${course.tone}`} />
               <div>
+                {course.semester && (
+                  <div className="eyebrow">{course.semester}º semestre</div>
+                )}
                 <h3>{course.title}</h3>
                 <p>{course.description}</p>
                 <div className="tag-list">
                   <span className="pill">{course.level}</span>
                   <span className="pill">
                     {lessons.length
-                      ? `${lessons.length} aulas`
+                      ? course.semester
+                        ? `${course.units.length} aulas · ${lessons.length} leituras`
+                        : `${lessons.length} aulas`
                       : 'Conteúdo em preparação'}
                   </span>
                   <span className="pill">{course.area}</span>
@@ -91,7 +96,7 @@ export function CoursesPage() {
                   className="btn ghost"
                   onClick={() => openCourse(course.id)}
                 >
-                  Abrir curso →
+                  {course.semester ? 'Explorar semestre →' : 'Abrir curso →'}
                 </button>
                 {course.compact && worksheetPath(course.id, route.trackId) && (
                   <button

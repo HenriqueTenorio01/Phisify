@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><defs><clipPath id="f-0f0435a8b1eb3bc8f2-clip_1">
+<path transform="matrix(1,0,0,-1,-528.106,637.4213)" d="M528.106 624.00369H533.08779V637.4213H528.106Z" clip-rule="evenodd" />
+</clipPath>
+<path id="glyph-467062f232993c15" d="M.12399292 .1111145C.09399414 .1111145 .066986087 .083114627 .066986087 .053115846 .066986087 .023117066 .09399414-.0048828127 .12298584-.0048828127 .15499878-.0048828127 .18299866 .022109986 .18299866 .053115846 .18299866 .083114627 .15499878 .1111145 .12399292 .1111145Z" />
+</defs><symbol id="f-0f0435a8b1eb3bc8f2" viewBox="0 0 4.9817507 13.417664"><g clip-path="url(#f-0f0435a8b1eb3bc8f2-clip_1)">
+<use data-text="." xlink:href="#glyph-467062f232993c15" transform="matrix(11.127281,0,0,-10.9091,1.0999756,9.101318)" />
+</g>
+</symbol></svg>
