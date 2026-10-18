@@ -246,3 +246,21 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 @media(max-width:600px){.catalog-topic>summary{padding:16px}.catalog-topic>summary small{float:none;display:block;margin:6px 0 0 17px}}
 
 .lesson-row .lesson-progress-note{color:var(--primary);margin-top:5px}
+
+/* University semester and source-lesson navigation. */
+.university-breadcrumbs { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; margin-bottom: 24px; color: var(--muted-foreground); font-size: .78rem; line-height: 1.8; }
+.university-breadcrumbs button { border: 0; background: transparent; padding: 2px 0; color: var(--primary); text-align: left; font: inherit; cursor: pointer; }
+.university-aula-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0; }
+.university-unit .unit-head { align-items: flex-start; gap: 12px; }
+.university-unit .unit-head p { font-size: .85rem; color: var(--muted-foreground); line-height: 1.7; max-width: 65ch; }
+.university-unit .unit-head > span { flex: none; }
+.university-reading-list { list-style: none; padding: 0; margin: 22px 0; }
+.university-reading-list .lesson-row { width: 100%; }
+.university-aulas .sheet-links { margin-top: 22px; }
+.university-current-position { padding: 12px 14px; border-left: 2px solid var(--primary); background: var(--primary-soft); margin: 14px 0; font-size: .78rem; line-height: 1.7; }
+.university-current-position strong { display: block; }
+.university-lesson-select { width: 100%; max-width: 100%; margin: 8px 0 12px; font-size: .76rem; }
+.university-section-outline a[aria-current="location"] { font-weight: 700; color: var(--book-ink); text-decoration-thickness: 2px; }
+.university-section-outline .university-subsection { margin-left: 16px; font-size: .94em; }
+.university-handbook .handbook-body h4 { text-transform: none; letter-spacing: 0; font-size: .92rem; line-height: 1.55; color: var(--book-teal); }
+@media(max-width:600px) { .university-unit .unit-head { flex-direction: column; } .university-reading-list .lesson-kind { white-space: normal; } .university-aula-tabs .btn { flex: 1 0 auto; } }

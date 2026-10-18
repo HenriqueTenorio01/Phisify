@@ -1,3 +1,4 @@
+import { universityCourse } from './universidade/semestre-1'
 import { mechanicsCourse } from './ensino-medio/mecanica'
 import { waveCourse } from './olimpiadas/ondas'
 import { gravityCourse } from './olimpiadas/gravitacao'
@@ -6,6 +7,7 @@ import { resolveLessonId } from './lesson-compatibility'
 import type { Course } from '../src/app/types'
 
 export const courses: Course[] = [
+  universityCourse,
   waveCourse,
   gravityCourse,
   centerOfMassCourse,

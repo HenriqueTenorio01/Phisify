@@ -1,0 +1,1790 @@
+[
+  {
+    "id": "uni-s1-a01-orientacao",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Orientações e notação",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 2,
+    "minutes": 12,
+    "refs": [
+      {
+        "page": "aula01-2"
+      },
+      {
+        "page": "aula01-3"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a01-c01",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Descrever antes de explicar",
+    "description": "1.1 Partícula, espaço e tempo",
+    "pages": 4,
+    "minutes": 24,
+    "refs": [
+      {
+        "page": "aula01-6"
+      },
+      {
+        "page": "aula01-7"
+      },
+      {
+        "page": "aula01-8"
+      },
+      {
+        "page": "aula01-9"
+      }
+    ],
+    "chapter": 1,
+    "chapterTitle": "Descrever antes de explicar"
+  },
+  {
+    "id": "uni-s1-a01-c02",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Posição, trajetória e distância",
+    "description": "2.1 A função posição",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula01-10"
+      },
+      {
+        "page": "aula01-11"
+      },
+      {
+        "page": "aula01-12"
+      }
+    ],
+    "chapter": 2,
+    "chapterTitle": "Posição, trajetória e distância"
+  },
+  {
+    "id": "uni-s1-a01-c03a",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Velocidade: derivada, tangente e rapidez",
+    "description": "3.1 Da velocidade média à instantânea",
+    "pages": 2,
+    "minutes": 9,
+    "refs": [
+      {
+        "page": "aula01-13"
+      },
+      {
+        "page": "aula01-14"
+      }
+    ],
+    "chapter": 3,
+    "chapterTitle": "Velocidade e aceleração"
+  },
+  {
+    "id": "uni-s1-a01-c03b",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Aceleração, derivadas vetoriais e gráficos",
+    "description": "3.3 Aceleração: a derivada de um vetor",
+    "pages": 3,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula01-15"
+      },
+      {
+        "page": "aula01-16"
+      },
+      {
+        "page": "aula01-17"
+      }
+    ],
+    "chapter": 3,
+    "chapterTitle": "Velocidade e aceleração"
+  },
+  {
+    "id": "uni-s1-a01-c04",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Reconstruir o movimento",
+    "description": "4.1 Integrais e condições iniciais",
+    "pages": 4,
+    "minutes": 21,
+    "refs": [
+      {
+        "page": "aula01-18"
+      },
+      {
+        "page": "aula01-19"
+      },
+      {
+        "page": "aula01-20"
+      },
+      {
+        "page": "aula01-21"
+      }
+    ],
+    "chapter": 4,
+    "chapterTitle": "Reconstruir o movimento"
+  },
+  {
+    "id": "uni-s1-a01-c05",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Lançamentos e aceleração uniforme",
+    "description": "5.1 Construção do modelo",
+    "pages": 4,
+    "minutes": 21,
+    "refs": [
+      {
+        "page": "aula01-22"
+      },
+      {
+        "page": "aula01-23"
+      },
+      {
+        "page": "aula01-24"
+      },
+      {
+        "page": "aula01-25"
+      }
+    ],
+    "chapter": 5,
+    "chapterTitle": "Lançamentos e aceleração uniforme"
+  },
+  {
+    "id": "uni-s1-a01-c06",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Movimento circular",
+    "description": "6.1 Ângulo e comprimento de arco",
+    "pages": 4,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula01-26"
+      },
+      {
+        "page": "aula01-27"
+      },
+      {
+        "page": "aula01-28"
+      },
+      {
+        "page": "aula01-29"
+      }
+    ],
+    "chapter": 6,
+    "chapterTitle": "Movimento circular"
+  },
+  {
+    "id": "uni-s1-a01-c07",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "A geometria local da aceleração",
+    "description": "7.1 Separar rapidez e direção",
+    "pages": 4,
+    "minutes": 21,
+    "refs": [
+      {
+        "page": "aula01-30"
+      },
+      {
+        "page": "aula01-31"
+      },
+      {
+        "page": "aula01-32"
+      },
+      {
+        "page": "aula01-33"
+      }
+    ],
+    "chapter": 7,
+    "chapterTitle": "A geometria local da aceleração"
+  },
+  {
+    "id": "uni-s1-a01-c08",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Coordenadas polares e bases móveis",
+    "description": "8.1 Outra descrição do mesmo plano",
+    "pages": 4,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula01-34"
+      },
+      {
+        "page": "aula01-35"
+      },
+      {
+        "page": "aula01-36"
+      },
+      {
+        "page": "aula01-37"
+      }
+    ],
+    "chapter": 8,
+    "chapterTitle": "Coordenadas polares e bases móveis"
+  },
+  {
+    "id": "uni-s1-a01-c09",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Movimentos no espaço",
+    "description": "9.1 Três componentes, uma única partícula",
+    "pages": 3,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula01-38"
+      },
+      {
+        "page": "aula01-39"
+      },
+      {
+        "page": "aula01-40"
+      }
+    ],
+    "chapter": 9,
+    "chapterTitle": "Movimentos no espaço"
+  },
+  {
+    "id": "uni-s1-a01-c10a",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Comparar referenciais e transformação de Galileu",
+    "description": "10.1 Comparar observadores",
+    "pages": 2,
+    "minutes": 11,
+    "refs": [
+      {
+        "page": "aula01-41"
+      },
+      {
+        "page": "aula01-42"
+      }
+    ],
+    "chapter": 10,
+    "chapterTitle": "Movimento relativo"
+  },
+  {
+    "id": "uni-s1-a01-c10b",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Origens aceleradas, encontros e eixos girantes",
+    "description": "10.3 Quando a origem acelera",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula01-43"
+      },
+      {
+        "page": "aula01-44"
+      },
+      {
+        "page": "aula01-45"
+      }
+    ],
+    "chapter": 10,
+    "chapterTitle": "Movimento relativo"
+  },
+  {
+    "id": "uni-s1-a01-c11",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Vínculos e dados do movimento",
+    "description": "11.1 Uma restrição geométrica também se deriva",
+    "pages": 4,
+    "minutes": 22,
+    "refs": [
+      {
+        "page": "aula01-46"
+      },
+      {
+        "page": "aula01-47"
+      },
+      {
+        "page": "aula01-48"
+      },
+      {
+        "page": "aula01-49"
+      }
+    ],
+    "chapter": 11,
+    "chapterTitle": "Vínculos e dados do movimento"
+  },
+  {
+    "id": "uni-s1-a01-c12",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Estudo orientado e continuidade",
+    "description": "12.1 Escolher uma descrição adequada",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula01-50"
+      },
+      {
+        "page": "aula01-51"
+      },
+      {
+        "page": "aula01-52"
+      }
+    ],
+    "chapter": 12,
+    "chapterTitle": "Estudo orientado e continuidade"
+  },
+  {
+    "id": "uni-s1-a01-referencias",
+    "sourceLesson": 1,
+    "topicId": "aula-01",
+    "unit": "Aula 01 · Cinemática vetorial",
+    "title": "Referências e leituras",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 1,
+    "minutes": 9,
+    "refs": [
+      {
+        "page": "aula01-53"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a02-orientacao",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Orientações e notação",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 2,
+    "minutes": 12,
+    "refs": [
+      {
+        "page": "aula02-2"
+      },
+      {
+        "page": "aula02-3"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a02-c01",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Da cinemática à dinâmica",
+    "description": "1.1 O que falta à descrição do movimento?",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula02-6"
+      },
+      {
+        "page": "aula02-7"
+      },
+      {
+        "page": "aula02-8"
+      }
+    ],
+    "chapter": 1,
+    "chapterTitle": "Da cinemática à dinâmica"
+  },
+  {
+    "id": "uni-s1-a02-c02",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Inércia e referenciais inerciais",
+    "description": "2.1 Primeira lei de Newton",
+    "pages": 3,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula02-9"
+      },
+      {
+        "page": "aula02-10"
+      },
+      {
+        "page": "aula02-11"
+      }
+    ],
+    "chapter": 2,
+    "chapterTitle": "Inércia e referenciais inerciais"
+  },
+  {
+    "id": "uni-s1-a02-c03",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Massa e segunda lei de Newton",
+    "description": "3.1 Massa inercial e comparação de respostas",
+    "pages": 3,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula02-12"
+      },
+      {
+        "page": "aula02-13"
+      },
+      {
+        "page": "aula02-14"
+      }
+    ],
+    "chapter": 3,
+    "chapterTitle": "Massa e segunda lei de Newton"
+  },
+  {
+    "id": "uni-s1-a02-c04",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Terceira lei e escolha do sistema",
+    "description": "4.1 Forças aparecem em pares de interação",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula02-15"
+      },
+      {
+        "page": "aula02-16"
+      },
+      {
+        "page": "aula02-17"
+      }
+    ],
+    "chapter": 4,
+    "chapterTitle": "Terceira lei e escolha do sistema"
+  },
+  {
+    "id": "uni-s1-a02-c05",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Interações fundamentais e peso",
+    "description": "5.1 Leis de movimento não são leis de força",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula02-18"
+      },
+      {
+        "page": "aula02-19"
+      },
+      {
+        "page": "aula02-20"
+      }
+    ],
+    "chapter": 5,
+    "chapterTitle": "Interações fundamentais e peso"
+  },
+  {
+    "id": "uni-s1-a02-c06",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Contato, normal e vínculos",
+    "description": "6.1 Da deformação microscópica ao modelo de contato",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula02-21"
+      },
+      {
+        "page": "aula02-22"
+      },
+      {
+        "page": "aula02-23"
+      }
+    ],
+    "chapter": 6,
+    "chapterTitle": "Contato, normal e vínculos"
+  },
+  {
+    "id": "uni-s1-a02-c07",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Tração e forças elásticas",
+    "description": "7.1 O que uma corda ideal representa?",
+    "pages": 4,
+    "minutes": 21,
+    "refs": [
+      {
+        "page": "aula02-24"
+      },
+      {
+        "page": "aula02-25"
+      },
+      {
+        "page": "aula02-26"
+      },
+      {
+        "page": "aula02-27"
+      }
+    ],
+    "chapter": 7,
+    "chapterTitle": "Tração e forças elásticas"
+  },
+  {
+    "id": "uni-s1-a02-c08",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Atrito e forças resistivas",
+    "description": "8.1 O papel do movimento relativo",
+    "pages": 4,
+    "minutes": 22,
+    "refs": [
+      {
+        "page": "aula02-28"
+      },
+      {
+        "page": "aula02-29"
+      },
+      {
+        "page": "aula02-30"
+      },
+      {
+        "page": "aula02-31"
+      }
+    ],
+    "chapter": 8,
+    "chapterTitle": "Atrito e forças resistivas"
+  },
+  {
+    "id": "uni-s1-a02-c09",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Diagramas de corpo livre",
+    "description": "9.1 Um desenho com função lógica",
+    "pages": 4,
+    "minutes": 23,
+    "refs": [
+      {
+        "page": "aula02-32"
+      },
+      {
+        "page": "aula02-33"
+      },
+      {
+        "page": "aula02-34"
+      },
+      {
+        "page": "aula02-35"
+      }
+    ],
+    "chapter": 9,
+    "chapterTitle": "Diagramas de corpo livre"
+  },
+  {
+    "id": "uni-s1-a02-c10",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Consequências vetoriais da segunda lei",
+    "description": "10.1 Da força à velocidade e à posição",
+    "pages": 4,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula02-36"
+      },
+      {
+        "page": "aula02-37"
+      },
+      {
+        "page": "aula02-38"
+      },
+      {
+        "page": "aula02-39"
+      }
+    ],
+    "chapter": 10,
+    "chapterTitle": "Consequências vetoriais da segunda lei"
+  },
+  {
+    "id": "uni-s1-a02-c11",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Sistemas, vínculos e consistência",
+    "description": "11.1 Combinar equações sem perder interações",
+    "pages": 3,
+    "minutes": 21,
+    "refs": [
+      {
+        "page": "aula02-40"
+      },
+      {
+        "page": "aula02-41"
+      },
+      {
+        "page": "aula02-42"
+      }
+    ],
+    "chapter": 11,
+    "chapterTitle": "Sistemas, vínculos e consistência"
+  },
+  {
+    "id": "uni-s1-a02-c12",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Estudo orientado e continuidade",
+    "description": "12.1 O papel de cada informação",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula02-43"
+      },
+      {
+        "page": "aula02-44"
+      }
+    ],
+    "chapter": 12,
+    "chapterTitle": "Estudo orientado e continuidade"
+  },
+  {
+    "id": "uni-s1-a02-referencias",
+    "sourceLesson": 2,
+    "topicId": "aula-02",
+    "unit": "Aula 02 · Leis de Newton",
+    "title": "Referências e leituras",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 1,
+    "minutes": 9,
+    "refs": [
+      {
+        "page": "aula02-45"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a03-orientacao",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Orientações e notação",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula03-2"
+      },
+      {
+        "page": "aula03-3"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a03-c01",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Do modelo físico às equações",
+    "description": "1.1 O que as aulas anteriores já estabelecem",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula03-6"
+      },
+      {
+        "page": "aula03-7"
+      }
+    ],
+    "chapter": 1,
+    "chapterTitle": "Do modelo físico às equações"
+  },
+  {
+    "id": "uni-s1-a03-c02",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Atrito e planos inclinados",
+    "description": "2.1 O modelo de contato seco",
+    "pages": 4,
+    "minutes": 21,
+    "refs": [
+      {
+        "page": "aula03-8"
+      },
+      {
+        "page": "aula03-9"
+      },
+      {
+        "page": "aula03-10"
+      },
+      {
+        "page": "aula03-11"
+      }
+    ],
+    "chapter": 2,
+    "chapterTitle": "Atrito e planos inclinados"
+  },
+  {
+    "id": "uni-s1-a03-c03",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Polias e sistemas vinculados",
+    "description": "3.1 O que significa um conjunto ideal",
+    "pages": 4,
+    "minutes": 22,
+    "refs": [
+      {
+        "page": "aula03-12"
+      },
+      {
+        "page": "aula03-13"
+      },
+      {
+        "page": "aula03-14"
+      },
+      {
+        "page": "aula03-15"
+      }
+    ],
+    "chapter": 3,
+    "chapterTitle": "Polias e sistemas vinculados"
+  },
+  {
+    "id": "uni-s1-a03-c04",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Dinâmica do movimento circular",
+    "description": "4.1 Projeções radial e tangencial",
+    "pages": 3,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula03-16"
+      },
+      {
+        "page": "aula03-17"
+      },
+      {
+        "page": "aula03-18"
+      }
+    ],
+    "chapter": 4,
+    "chapterTitle": "Dinâmica do movimento circular"
+  },
+  {
+    "id": "uni-s1-a03-c05",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Trabalho e produto escalar",
+    "description": "5.1 Força constante",
+    "pages": 3,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula03-19"
+      },
+      {
+        "page": "aula03-20"
+      },
+      {
+        "page": "aula03-21"
+      }
+    ],
+    "chapter": 5,
+    "chapterTitle": "Trabalho e produto escalar"
+  },
+  {
+    "id": "uni-s1-a03-c06",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Trabalho de forças variáveis",
+    "description": "6.1 Da soma à integral",
+    "pages": 4,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula03-22"
+      },
+      {
+        "page": "aula03-23"
+      },
+      {
+        "page": "aula03-24"
+      },
+      {
+        "page": "aula03-25"
+      }
+    ],
+    "chapter": 6,
+    "chapterTitle": "Trabalho de forças variáveis"
+  },
+  {
+    "id": "uni-s1-a03-c07",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "O teorema trabalho–energia cinética",
+    "description": "7.1 Dedução vetorial, passo a passo",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula03-26"
+      },
+      {
+        "page": "aula03-27"
+      }
+    ],
+    "chapter": 7,
+    "chapterTitle": "O teorema trabalho–energia cinética"
+  },
+  {
+    "id": "uni-s1-a03-c08",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Forças conservativas e energia potencial",
+    "description": "8.1 Independência do caminho",
+    "pages": 4,
+    "minutes": 24,
+    "refs": [
+      {
+        "page": "aula03-28"
+      },
+      {
+        "page": "aula03-29"
+      },
+      {
+        "page": "aula03-30"
+      },
+      {
+        "page": "aula03-31"
+      }
+    ],
+    "chapter": 8,
+    "chapterTitle": "Forças conservativas e energia potencial"
+  },
+  {
+    "id": "uni-s1-a03-c09",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Conservação da energia mecânica",
+    "description": "9.1 Dedução do balanço mecânico",
+    "pages": 3,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula03-32"
+      },
+      {
+        "page": "aula03-33"
+      },
+      {
+        "page": "aula03-34"
+      }
+    ],
+    "chapter": 9,
+    "chapterTitle": "Conservação da energia mecânica"
+  },
+  {
+    "id": "uni-s1-a03-c10",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Energia e curvas verticais",
+    "description": "10.1 Pêndulo: rapidez e tração têm papéis distintos",
+    "pages": 3,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula03-35"
+      },
+      {
+        "page": "aula03-36"
+      },
+      {
+        "page": "aula03-37"
+      }
+    ],
+    "chapter": 10,
+    "chapterTitle": "Energia e curvas verticais"
+  },
+  {
+    "id": "uni-s1-a03-c11",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Diagramas de energia e estabilidade",
+    "description": "11.1 Regiões permitidas e pontos de retorno",
+    "pages": 3,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula03-38"
+      },
+      {
+        "page": "aula03-39"
+      },
+      {
+        "page": "aula03-40"
+      }
+    ],
+    "chapter": 11,
+    "chapterTitle": "Diagramas de energia e estabilidade"
+  },
+  {
+    "id": "uni-s1-a03-c12",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Dissipação e fronteiras do sistema",
+    "description": "12.1 Deslizamento sobre superfície fixa",
+    "pages": 4,
+    "minutes": 25,
+    "refs": [
+      {
+        "page": "aula03-41"
+      },
+      {
+        "page": "aula03-42"
+      },
+      {
+        "page": "aula03-43"
+      },
+      {
+        "page": "aula03-44"
+      }
+    ],
+    "chapter": 12,
+    "chapterTitle": "Dissipação e fronteiras do sistema"
+  },
+  {
+    "id": "uni-s1-a03-c13",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Potência e ritmo da transferência",
+    "description": "13.1 Potência média e instantânea",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula03-45"
+      },
+      {
+        "page": "aula03-46"
+      },
+      {
+        "page": "aula03-47"
+      }
+    ],
+    "chapter": 13,
+    "chapterTitle": "Potência e ritmo da transferência"
+  },
+  {
+    "id": "uni-s1-a03-c14",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Escolher e combinar os métodos",
+    "description": "14.1 Energia de um sistema vinculado",
+    "pages": 3,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula03-48"
+      },
+      {
+        "page": "aula03-49"
+      },
+      {
+        "page": "aula03-50"
+      }
+    ],
+    "chapter": 14,
+    "chapterTitle": "Escolher e combinar os métodos"
+  },
+  {
+    "id": "uni-s1-a03-c15",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Problemas para consolidar",
+    "description": "15.1 Uma rampa com dois regimes",
+    "pages": 3,
+    "minutes": 22,
+    "refs": [
+      {
+        "page": "aula03-51"
+      },
+      {
+        "page": "aula03-52"
+      },
+      {
+        "page": "aula03-53"
+      }
+    ],
+    "chapter": 15,
+    "chapterTitle": "Problemas para consolidar"
+  },
+  {
+    "id": "uni-s1-a03-referencias",
+    "sourceLesson": 3,
+    "topicId": "aula-03",
+    "unit": "Aula 03 · Aplicações da dinâmica, trabalho e energia",
+    "title": "Referências e leituras",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 1,
+    "minutes": 10,
+    "refs": [
+      {
+        "page": "aula03-54"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a05-orientacao",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Orientações e notação",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 2,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula05-2"
+      },
+      {
+        "page": "aula05-3"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a05-c01",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Quantidade de movimento e impulso",
+    "description": "1.1 Uma grandeza vetorial associada ao movimento",
+    "pages": 3,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula05-6"
+      },
+      {
+        "page": "aula05-7"
+      },
+      {
+        "page": "aula05-8"
+      }
+    ],
+    "chapter": 1,
+    "chapterTitle": "Quantidade de movimento e impulso"
+  },
+  {
+    "id": "uni-s1-a05-c02",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Sistemas de partículas e conservação",
+    "description": "2.1 Somar as equações das partículas",
+    "pages": 3,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula05-9"
+      },
+      {
+        "page": "aula05-10"
+      },
+      {
+        "page": "aula05-11"
+      }
+    ],
+    "chapter": 2,
+    "chapterTitle": "Sistemas de partículas e conservação"
+  },
+  {
+    "id": "uni-s1-a05-c03",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Centro de massa: distribuições discretas",
+    "description": "3.1 Definição vetorial",
+    "pages": 3,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula05-12"
+      },
+      {
+        "page": "aula05-13"
+      },
+      {
+        "page": "aula05-14"
+      }
+    ],
+    "chapter": 3,
+    "chapterTitle": "Centro de massa: distribuições discretas"
+  },
+  {
+    "id": "uni-s1-a05-c04",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Centro de massa: distribuições contínuas",
+    "description": "4.1 Da soma ao elemento de massa",
+    "pages": 4,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula05-15"
+      },
+      {
+        "page": "aula05-16"
+      },
+      {
+        "page": "aula05-17"
+      },
+      {
+        "page": "aula05-18"
+      }
+    ],
+    "chapter": 4,
+    "chapterTitle": "Centro de massa: distribuições contínuas"
+  },
+  {
+    "id": "uni-s1-a05-c05",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "O movimento do centro de massa",
+    "description": "5.1 Momento total e velocidade coletiva",
+    "pages": 3,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula05-19"
+      },
+      {
+        "page": "aula05-20"
+      },
+      {
+        "page": "aula05-21"
+      }
+    ],
+    "chapter": 5,
+    "chapterTitle": "O movimento do centro de massa"
+  },
+  {
+    "id": "uni-s1-a05-c06",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Movimento coletivo e movimento relativo",
+    "description": "6.1 Velocidades relativas ao centro de massa",
+    "pages": 3,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula05-22"
+      },
+      {
+        "page": "aula05-23"
+      },
+      {
+        "page": "aula05-24"
+      }
+    ],
+    "chapter": 6,
+    "chapterTitle": "Movimento coletivo e movimento relativo"
+  },
+  {
+    "id": "uni-s1-a05-c07",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Colisões: hipóteses e balanços",
+    "description": "7.1 Separar antes, durante e depois",
+    "pages": 2,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula05-25"
+      },
+      {
+        "page": "aula05-26"
+      }
+    ],
+    "chapter": 7,
+    "chapterTitle": "Colisões: hipóteses e balanços"
+  },
+  {
+    "id": "uni-s1-a05-c08",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Colisões em uma dimensão",
+    "description": "8.1 Adesão e máxima redução cinética",
+    "pages": 4,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula05-27"
+      },
+      {
+        "page": "aula05-28"
+      },
+      {
+        "page": "aula05-29"
+      },
+      {
+        "page": "aula05-30"
+      }
+    ],
+    "chapter": 8,
+    "chapterTitle": "Colisões em uma dimensão"
+  },
+  {
+    "id": "uni-s1-a05-c09",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Colisões em duas dimensões",
+    "description": "9.1 Duas componentes de conservação",
+    "pages": 3,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula05-31"
+      },
+      {
+        "page": "aula05-32"
+      },
+      {
+        "page": "aula05-33"
+      }
+    ],
+    "chapter": 9,
+    "chapterTitle": "Colisões em duas dimensões"
+  },
+  {
+    "id": "uni-s1-a05-c10",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Recuo, captura e processos por etapas",
+    "description": "10.1 Recuo por liberação de energia interna",
+    "pages": 3,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula05-34"
+      },
+      {
+        "page": "aula05-35"
+      },
+      {
+        "page": "aula05-36"
+      }
+    ],
+    "chapter": 10,
+    "chapterTitle": "Recuo, captura e processos por etapas"
+  },
+  {
+    "id": "uni-s1-a05-c11",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Massa variável: construir o balanço",
+    "description": "11.1 O problema de aplicar a regra do produto sem revisar o sistema",
+    "pages": 3,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula05-37"
+      },
+      {
+        "page": "aula05-38"
+      },
+      {
+        "page": "aula05-39"
+      }
+    ],
+    "chapter": 11,
+    "chapterTitle": "Massa variável: construir o balanço"
+  },
+  {
+    "id": "uni-s1-a05-c12",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Captura e perda de material",
+    "description": "12.1 Carrinho que recebe material sem momento horizontal",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula05-40"
+      },
+      {
+        "page": "aula05-41"
+      },
+      {
+        "page": "aula05-42"
+      }
+    ],
+    "chapter": 12,
+    "chapterTitle": "Captura e perda de material"
+  },
+  {
+    "id": "uni-s1-a05-c13",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Foguetes e fluxos de momento",
+    "description": "13.1 Sinais e velocidade de exaustão",
+    "pages": 4,
+    "minutes": 22,
+    "refs": [
+      {
+        "page": "aula05-43"
+      },
+      {
+        "page": "aula05-44"
+      },
+      {
+        "page": "aula05-45"
+      },
+      {
+        "page": "aula05-46"
+      }
+    ],
+    "chapter": 13,
+    "chapterTitle": "Foguetes e fluxos de momento"
+  },
+  {
+    "id": "uni-s1-a05-c14",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Problemas para consolidar",
+    "description": "14.1 Impulso de um pulso suave",
+    "pages": 3,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula05-47"
+      },
+      {
+        "page": "aula05-48"
+      },
+      {
+        "page": "aula05-49"
+      }
+    ],
+    "chapter": 14,
+    "chapterTitle": "Problemas para consolidar"
+  },
+  {
+    "id": "uni-s1-a05-referencias",
+    "sourceLesson": 5,
+    "topicId": "aula-05",
+    "unit": "Aula 05 · Quantidade de movimento e centro de massa",
+    "title": "Referências e leituras",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 1,
+    "minutes": 9,
+    "refs": [
+      {
+        "page": "aula05-50"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a06-orientacao",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Orientações e notação",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula06-2"
+      },
+      {
+        "page": "aula06-3"
+      }
+    ]
+  },
+  {
+    "id": "uni-s1-a06-c01",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Produto vetorial e orientação",
+    "description": "1.1 Por que uma nova operação?",
+    "pages": 3,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula06-6"
+      },
+      {
+        "page": "aula06-7"
+      },
+      {
+        "page": "aula06-8"
+      }
+    ],
+    "chapter": 1,
+    "chapterTitle": "Produto vetorial e orientação"
+  },
+  {
+    "id": "uni-s1-a06-c02",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Torque e sistemas de forças",
+    "description": "2.1 Definição e braço de alavanca",
+    "pages": 3,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula06-9"
+      },
+      {
+        "page": "aula06-10"
+      },
+      {
+        "page": "aula06-11"
+      }
+    ],
+    "chapter": 2,
+    "chapterTitle": "Torque e sistemas de forças"
+  },
+  {
+    "id": "uni-s1-a06-c03",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Momento angular de uma partícula",
+    "description": "3.1 Definição e significado geométrico",
+    "pages": 3,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula06-12"
+      },
+      {
+        "page": "aula06-13"
+      },
+      {
+        "page": "aula06-14"
+      }
+    ],
+    "chapter": 3,
+    "chapterTitle": "Momento angular de uma partícula"
+  },
+  {
+    "id": "uni-s1-a06-c04",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Momento angular de sistemas",
+    "description": "4.1 Soma das equações das partículas",
+    "pages": 3,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula06-15"
+      },
+      {
+        "page": "aula06-16"
+      },
+      {
+        "page": "aula06-17"
+      }
+    ],
+    "chapter": 4,
+    "chapterTitle": "Momento angular de sistemas"
+  },
+  {
+    "id": "uni-s1-a06-c05",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Conservação do momento angular",
+    "description": "5.1 Condição vetorial e condição por componente",
+    "pages": 2,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula06-18"
+      },
+      {
+        "page": "aula06-19"
+      }
+    ],
+    "chapter": 5,
+    "chapterTitle": "Conservação do momento angular"
+  },
+  {
+    "id": "uni-s1-a06-c06",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Momento de inércia: uma introdução",
+    "description": "6.1 Da distribuição de massa ao momento axial",
+    "pages": 3,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula06-20"
+      },
+      {
+        "page": "aula06-21"
+      },
+      {
+        "page": "aula06-22"
+      }
+    ],
+    "chapter": 6,
+    "chapterTitle": "Momento de inércia: uma introdução"
+  },
+  {
+    "id": "uni-s1-a06-c07",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Rotação em torno de um eixo",
+    "description": "7.1 Equação angular e seus limites",
+    "pages": 3,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula06-23"
+      },
+      {
+        "page": "aula06-24"
+      },
+      {
+        "page": "aula06-25"
+      }
+    ],
+    "chapter": 7,
+    "chapterTitle": "Rotação em torno de um eixo"
+  },
+  {
+    "id": "uni-s1-a06-c08",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Equilíbrio translacional e rotacional",
+    "description": "8.1 O que significa equilíbrio estático?",
+    "pages": 2,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula06-26"
+      },
+      {
+        "page": "aula06-27"
+      }
+    ],
+    "chapter": 8,
+    "chapterTitle": "Equilíbrio translacional e rotacional"
+  },
+  {
+    "id": "uni-s1-a06-c09",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Centro de massa e centro de gravidade",
+    "description": "9.1 O peso como força distribuída",
+    "pages": 3,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula06-28"
+      },
+      {
+        "page": "aula06-29"
+      },
+      {
+        "page": "aula06-30"
+      }
+    ],
+    "chapter": 9,
+    "chapterTitle": "Centro de massa e centro de gravidade"
+  },
+  {
+    "id": "uni-s1-a06-c10",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Forças distribuídas e cargas equivalentes",
+    "description": "10.1 Da intensidade à força total",
+    "pages": 3,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula06-31"
+      },
+      {
+        "page": "aula06-32"
+      },
+      {
+        "page": "aula06-33"
+      }
+    ],
+    "chapter": 10,
+    "chapterTitle": "Forças distribuídas e cargas equivalentes"
+  },
+  {
+    "id": "uni-s1-a06-c11",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Vínculos e reações de apoio",
+    "description": "11.1 O apoio é um modelo de interação",
+    "pages": 2,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula06-34"
+      },
+      {
+        "page": "aula06-35"
+      }
+    ],
+    "chapter": 11,
+    "chapterTitle": "Vínculos e reações de apoio"
+  },
+  {
+    "id": "uni-s1-a06-c12",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Aplicações fundamentais de estática",
+    "description": "12.1 Viga articulada com rolete",
+    "pages": 4,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula06-36"
+      },
+      {
+        "page": "aula06-37"
+      },
+      {
+        "page": "aula06-38"
+      },
+      {
+        "page": "aula06-39"
+      }
+    ],
+    "chapter": 12,
+    "chapterTitle": "Aplicações fundamentais de estática"
+  },
+  {
+    "id": "uni-s1-a06-c13",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Estabilidade e limites do equilíbrio",
+    "description": "13.1 Equilibrar e resistir a uma perturbação",
+    "pages": 4,
+    "minutes": 25,
+    "refs": [
+      {
+        "page": "aula06-40"
+      },
+      {
+        "page": "aula06-41"
+      },
+      {
+        "page": "aula06-42"
+      },
+      {
+        "page": "aula06-43"
+      }
+    ],
+    "chapter": 13,
+    "chapterTitle": "Estabilidade e limites do equilíbrio"
+  },
+  {
+    "id": "uni-s1-a06-c14",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Problemas comentados e continuidade",
+    "description": "14.1 Torque no espaço e mudança de origem",
+    "pages": 3,
+    "minutes": 23,
+    "refs": [
+      {
+        "page": "aula06-44"
+      },
+      {
+        "page": "aula06-45"
+      },
+      {
+        "page": "aula06-46"
+      }
+    ],
+    "chapter": 14,
+    "chapterTitle": "Problemas comentados e continuidade"
+  },
+  {
+    "id": "uni-s1-a06-referencias",
+    "sourceLesson": 6,
+    "topicId": "aula-06",
+    "unit": "Aula 06 · Momento angular, torque e estática",
+    "title": "Referências e leituras",
+    "description": "Convenções, leitura e continuidade do estudo.",
+    "pages": 1,
+    "minutes": 9,
+    "refs": [
+      {
+        "page": "aula06-47"
+      }
+    ]
+  }
+]

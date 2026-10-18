@@ -56,3 +56,11 @@
 }
 .handbook-example[open] > summary { margin-bottom: 1rem; }
 .handbook-native-math math { font-size: 1.1em; margin: .7rem 0; }
+
+.handbook-notation { max-width: 100%; margin: 1.5em 0; }
+.handbook-notation table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: .9em; }
+.handbook-notation caption { text-align: left; color: var(--book-teal); padding-bottom: .6em; font-weight: 600; }
+.handbook-notation th,.handbook-notation td { border-bottom: 1px solid var(--book-rule); padding: .7em .6em; text-align: left; vertical-align: top; }
+.handbook-notation th:first-child { width: 34%; font-weight: 400; }
+.handbook-notation thead { font-family: 'Inter', sans-serif; color: var(--book-ink); }
+.handbook-notation tbody tr:nth-child(even) { background: #f3f8f8; }

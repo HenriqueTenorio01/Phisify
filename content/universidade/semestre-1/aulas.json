@@ -1,0 +1,42 @@
+[
+  {
+    "number": 1,
+    "id": "aula-01",
+    "title": "Cinemática vetorial",
+    "description": "Deslocamento, derivadas vetoriais, trajetórias, bases móveis e movimento relativo.",
+    "pdfPages": 53,
+    "readings": 16
+  },
+  {
+    "number": 2,
+    "id": "aula-02",
+    "title": "Leis de Newton",
+    "description": "Interações, referenciais inerciais, diagramas de corpo livre, forças e vínculos.",
+    "pdfPages": 45,
+    "readings": 14
+  },
+  {
+    "number": 3,
+    "id": "aula-03",
+    "title": "Aplicações da dinâmica, trabalho e energia",
+    "description": "Contatos, sistemas vinculados, trabalho, potenciais, energia, estabilidade e potência.",
+    "pdfPages": 54,
+    "readings": 17
+  },
+  {
+    "number": 5,
+    "id": "aula-05",
+    "title": "Quantidade de movimento e centro de massa",
+    "description": "Impulso, sistemas de partículas, distribuições de massa, colisões e fluxos de momento.",
+    "pdfPages": 50,
+    "readings": 16
+  },
+  {
+    "number": 6,
+    "id": "aula-06",
+    "title": "Momento angular, torque e estática",
+    "description": "Balanços angulares, momento de inércia, equilíbrio, apoios e estabilidade.",
+    "pdfPages": 47,
+    "readings": 16
+  }
+]

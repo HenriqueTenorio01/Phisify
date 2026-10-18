@@ -18,6 +18,7 @@ export type Screen =
 export type TrackId = 'ensino-medio' | 'olimpiadas' | 'universidade'
 
 export type CourseId =
+  | 'university-mechanics-1'
   | 'mechanics'
   | 'electricity'
   | 'waves'
@@ -66,6 +67,7 @@ export interface LessonSummary {
 }
 
 export interface CourseUnit {
+  sourceNumber?: number
   id?: string
   description?: string
   title: string
@@ -73,6 +75,7 @@ export interface CourseUnit {
 }
 
 export interface Course {
+  semester?: number
   trackId: TrackId
   id: CourseId
   title: string

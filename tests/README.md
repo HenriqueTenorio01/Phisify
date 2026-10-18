@@ -60,3 +60,11 @@ questions with their original difficulty labels. It verifies theme/subtheme
 partitions, ongoing derivations, reloadable thematic routes, new progress IDs
 and isolation from retired content and other tracks. Regeneration and content
 editing are documented in `content/ensino-medio/mecanica/README.md`.
+
+`university.test.ts` covers the first-semester university collection: all five PDF
+hashes, 234 instructional pages and 4,533 original blocks exactly once, 92 figures,
+64 examples, five semantic notation tables, isolated SVG symbols, 79 readings,
+chapter continuity, original lesson numbering, independently loaded readers,
+semester/lesson/reading routes, scoped progress and the real semester course UI.
+Regeneration and the pedagogical map are documented in
+`content/universidade/semestre-1/README.md`.

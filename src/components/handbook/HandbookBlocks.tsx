@@ -1,5 +1,9 @@
 import { useState } from 'react'
-import type { HandbookBlock, VectorFragment } from '../../app/handbook'
+import type {
+  HandbookBlock,
+  HandbookRun,
+  VectorFragment,
+} from '../../app/handbook'
 import './handbook.css'
 
 export function SourceVector({
@@ -110,11 +114,40 @@ export function HandbookBlocks({
             </div>
           )
         }
+        if (block.type === 'table' && block.rows) {
+          return (
+            <div key={index} className="handbook-notation">
+              <table>
+                <caption>Convenções e notação</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Símbolo</th>
+                    <th scope="col">Significado</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {block.rows.map((row, i) => (
+                    <tr key={i}>
+                      <th scope="row">
+                        <HandbookRuns runs={row.symbol} />
+                      </th>
+                      <td>
+                        <HandbookRuns runs={row.meaning} />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )
+        }
         if (block.type === 'figure' && block.image) {
           return (
             <figure key={index} className="handbook-figure">
               <SourceVector image={block.image} label={block.text} />
-              <figcaption>{block.text}</figcaption>
+              <figcaption>
+                {block.runs ? <HandbookRuns runs={block.runs} /> : block.text}
+              </figcaption>
             </figure>
           )
         }
@@ -170,5 +203,23 @@ function SourceExample({
       <summary id={blockAnchor(blocks[0]!, prefix)}>{blocks[0]!.text}</summary>
       {open && <HandbookBlocks blocks={blocks.slice(1)} prefix={prefix} />}
     </details>
+  )
+}
+
+function HandbookRuns({ runs }: { runs: HandbookRun[] }) {
+  return (
+    <>
+      {runs.map((run, i) =>
+        run.math ? (
+          <SourceVector key={i} image={run.math} label={run.text} inline />
+        ) : run.bold ? (
+          <strong key={i}>{run.text}</strong>
+        ) : run.italic ? (
+          <em key={i}>{run.text}</em>
+        ) : (
+          <span key={i}>{run.text}</span>
+        ),
+      )}
+    </>
   )
 }

@@ -1,3 +1,4 @@
+import { universityCourse, universityLessons } from './universidade/semestre-1'
 import { mechanicsCourse, mechanicsLessons } from './ensino-medio/mecanica'
 import { waveCourse, waveLessons } from './olimpiadas/ondas'
 import { resolveLessonId } from './lesson-compatibility'
@@ -9,6 +10,7 @@ import {
 
 // Metadata only: the large source readers load when a lesson or sheet is opened.
 export const handbooks = [
+  { course: universityCourse, lessons: universityLessons },
   { course: mechanicsCourse, lessons: mechanicsLessons },
   { course: waveCourse, lessons: waveLessons },
   { course: gravityCourse, lessons: gravityLessons },

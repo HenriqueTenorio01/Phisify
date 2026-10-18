@@ -18,21 +18,25 @@ export interface HandbookRun {
 }
 
 export interface HandbookBlock {
-  type: 'heading' | 'paragraph' | 'equation' | 'figure'
+  type: 'heading' | 'paragraph' | 'equation' | 'figure' | 'table'
   text: string
   level?: number
   boxed?: boolean
   runs?: HandbookRun[]
+  rows?: Array<{ symbol: HandbookRun[]; meaning: HandbookRun[] }>
   mathml?: string
   image?: VectorFragment
   source: {
-    document: 'aula' | 'ficha' | 'complemento'
+    document: 'aula' | 'ficha' | 'complemento' | `universidade-${string}`
     page: number
     blocks: number[]
   }
 }
 
 export interface HandbookLesson {
+  sourceLesson?: number
+  chapter?: number
+  chapterTitle?: string
   topicId?: string
   id: string
   unit: string

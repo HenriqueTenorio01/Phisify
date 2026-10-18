@@ -1,3 +1,4 @@
+import { UniversityCoursePage } from '../components/university/UniversityCoursePage'
 import { handbooks } from '../../content/handbooks'
 import { courseById } from '../../content/courses'
 import { useApp } from '../app/context'
@@ -24,6 +25,8 @@ export function CoursePage() {
         </button>
       </section>
     )
+  if (course.trackId === 'universidade' && course.semester)
+    return <UniversityCoursePage course={course} />
   const themed = course.units.some((unit) => unit.id)
   const topic = course.units.find((unit) => unit.id === route.topicId)
   const showAll = route.topicId === 'todos'
