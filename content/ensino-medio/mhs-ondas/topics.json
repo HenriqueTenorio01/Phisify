@@ -1,0 +1,37 @@
+[
+  {
+    "id": "mhs",
+    "title": "Movimento harmônico simples",
+    "description": "Fase, cinemática, molas, energia, pêndulos e ressonância."
+  },
+  {
+    "id": "propagacao",
+    "title": "Propagação e fenômenos ondulatórios",
+    "description": "O que se propaga, função de onda, cordas, reflexão e refração."
+  },
+  {
+    "id": "interferencia",
+    "title": "Superposição e interferência",
+    "description": "Fase relativa, diferença de caminho, composição e batimentos."
+  },
+  {
+    "id": "cordas",
+    "title": "Ondas estacionárias e cordas",
+    "description": "Nós, ventres, modos permitidos e harmônicos."
+  },
+  {
+    "id": "acustica",
+    "title": "Acústica",
+    "description": "Som, intensidade, decibéis, tubos sonoros e Doppler."
+  },
+  {
+    "id": "integracao",
+    "title": "Problemas integrados",
+    "description": "Oscilações iniciadas por colisões, vínculos e ressonâncias combinadas."
+  },
+  {
+    "id": "consulta",
+    "title": "Consulta e orientação",
+    "description": "Como estudar, convenções, referências e gabaritos de conferência."
+  }
+]

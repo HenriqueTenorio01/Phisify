@@ -1,0 +1,408 @@
+[
+  {
+    "id": "hs-elec-c01",
+    "topicId": "eletrostatica",
+    "unit": "Eletrostática",
+    "title": "Cargas elétricas e lei de Coulomb",
+    "description": "Carga, matéria e conservação · Como um corpo se eletriza · Força entre cargas puntiformes",
+    "pages": 2,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula-6"
+      },
+      {
+        "page": "aula-7"
+      }
+    ],
+    "chapter": 1
+  },
+  {
+    "id": "hs-elec-c02",
+    "topicId": "eletrostatica",
+    "unit": "Eletrostática",
+    "title": "Campo elétrico e superposição",
+    "description": "Da força ao campo · Campo uniforme e movimento · Aprofundamento escolar: fluxo e lei de Gauss",
+    "pages": 2,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula-8"
+      },
+      {
+        "page": "aula-9"
+      }
+    ],
+    "chapter": 2
+  },
+  {
+    "id": "hs-elec-c03",
+    "topicId": "eletrostatica",
+    "unit": "Eletrostática",
+    "title": "Potencial, trabalho e energia elétrica",
+    "description": "Potencial é energia por carga · Campo uniforme e superfícies equipotenciais · Conservação de energia em problemas elétricos",
+    "pages": 2,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula-10"
+      },
+      {
+        "page": "aula-11"
+      }
+    ],
+    "chapter": 3
+  },
+  {
+    "id": "hs-elec-c04",
+    "topicId": "eletrostatica",
+    "unit": "Eletrostática",
+    "title": "Condutores em equilíbrio eletrostático",
+    "description": "Por que o campo no metal é zero · Cavidades, blindagem e aterramento · Esfera condutora isolada",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula-12"
+      },
+      {
+        "page": "aula-13"
+      }
+    ],
+    "chapter": 4
+  },
+  {
+    "id": "hs-elec-c05",
+    "topicId": "eletrostatica",
+    "unit": "Eletrostática",
+    "title": "Capacitores e armazenamento de energia",
+    "description": "Capacitância e capacitor plano · Dielétrico: primeiro identifique o que fica constante · Energia: por que aparece o fator um meio",
+    "pages": 2,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula-14"
+      },
+      {
+        "page": "aula-15"
+      }
+    ],
+    "chapter": 5
+  },
+  {
+    "id": "hs-elec-c06",
+    "topicId": "corrente-energia",
+    "unit": "Corrente e energia",
+    "title": "Corrente, resistência e materiais",
+    "description": "A corrente como fluxo de carga · Resistência e primeira lei de Ohm · Segunda lei de Ohm e temperatura",
+    "pages": 2,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula-16"
+      },
+      {
+        "page": "aula-17"
+      }
+    ],
+    "chapter": 6
+  },
+  {
+    "id": "hs-elec-c07",
+    "topicId": "corrente-energia",
+    "unit": "Corrente e energia",
+    "title": "Potência, efeito Joule e uso de energia",
+    "description": "Da tensão à potência · Valores nominais e consumo · Ligações domésticas e proteção: interpretação física",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula-18"
+      },
+      {
+        "page": "aula-19"
+      }
+    ],
+    "chapter": 7
+  },
+  {
+    "id": "hs-elec-c08",
+    "topicId": "corrente-energia",
+    "unit": "Corrente e energia",
+    "title": "Associações de resistores e leitura de circuitos",
+    "description": "Nós e fios ideais · Série: mesma corrente · Paralelo: mesma tensão",
+    "pages": 2,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula-20"
+      },
+      {
+        "page": "aula-21"
+      }
+    ],
+    "chapter": 8
+  },
+  {
+    "id": "hs-elec-c09",
+    "topicId": "circuitos",
+    "unit": "Circuitos elétricos",
+    "title": "Leis de Kirchhoff e instrumentos",
+    "description": "Conservação de carga nos nós · Conservação de energia nas malhas · Ponte de Wheatstone",
+    "pages": 3,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula-22"
+      },
+      {
+        "page": "aula-23"
+      },
+      {
+        "page": "aula-24"
+      }
+    ],
+    "chapter": 9
+  },
+  {
+    "id": "hs-elec-c10",
+    "topicId": "circuitos",
+    "unit": "Circuitos elétricos",
+    "title": "Geradores, receptores e baterias reais",
+    "description": "Força eletromotriz e tensão terminal · Potências e rendimento · Receptor: motor e conversão de energia",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula-25"
+      },
+      {
+        "page": "aula-26"
+      }
+    ],
+    "chapter": 10
+  },
+  {
+    "id": "hs-elec-c11",
+    "topicId": "circuitos",
+    "unit": "Circuitos elétricos",
+    "title": "Capacitores em circuitos e transitórios RC",
+    "description": "Antes, imediatamente depois e muito depois · Carga por uma fonte através de resistor · Descarga e balanço de energia",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula-27"
+      },
+      {
+        "page": "aula-28"
+      }
+    ],
+    "chapter": 11
+  },
+  {
+    "id": "hs-elec-c12",
+    "topicId": "magnetismo",
+    "unit": "Magnetismo",
+    "title": "Campo magnético e suas fontes",
+    "description": "Ímãs, polos e linhas de campo · Fio retilíneo longo · Espira, bobina e solenoide",
+    "pages": 2,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula-29"
+      },
+      {
+        "page": "aula-30"
+      }
+    ],
+    "chapter": 12
+  },
+  {
+    "id": "hs-elec-c13",
+    "topicId": "magnetismo",
+    "unit": "Magnetismo",
+    "title": "Forças magnéticas e movimento de cargas",
+    "description": "Força sobre partícula carregada · Trajetória circular e helicoidal · Seletor de velocidades e aplicações",
+    "pages": 2,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula-31"
+      },
+      {
+        "page": "aula-32"
+      }
+    ],
+    "chapter": 13
+  },
+  {
+    "id": "hs-elec-c14",
+    "topicId": "inducao",
+    "unit": "Indução e corrente alternada",
+    "title": "Fluxo magnético e indução",
+    "description": "Fluxo: campo, área e orientação · Faraday e Lenz · Barra móvel: indução e força de Lorentz",
+    "pages": 2,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula-33"
+      },
+      {
+        "page": "aula-34"
+      }
+    ],
+    "chapter": 14
+  },
+  {
+    "id": "hs-elec-c15",
+    "topicId": "inducao",
+    "unit": "Indução e corrente alternada",
+    "title": "Indutância, motores e geradores",
+    "description": "Autoindução: o próprio circuito responde à mudança · Torque sobre uma espira · Geradores e motores: conversões opostas",
+    "pages": 2,
+    "minutes": 23,
+    "refs": [
+      {
+        "page": "aula-35"
+      },
+      {
+        "page": "aula-36"
+      }
+    ],
+    "chapter": 15
+  },
+  {
+    "id": "hs-elec-c16",
+    "topicId": "inducao",
+    "unit": "Indução e corrente alternada",
+    "title": "Corrente alternada e transformadores",
+    "description": "Amplitude, frequência e valor eficaz · Aprofundamento: resistência, reatância e fase · Transformador ideal",
+    "pages": 3,
+    "minutes": 24,
+    "refs": [
+      {
+        "page": "aula-37"
+      },
+      {
+        "page": "aula-38"
+      },
+      {
+        "page": "aula-39"
+      }
+    ],
+    "chapter": 16
+  },
+  {
+    "id": "hs-elec-c17",
+    "topicId": "ondas-eletromagneticas",
+    "unit": "Ondas eletromagnéticas",
+    "title": "Ondas eletromagnéticas",
+    "description": "A síntese entre eletricidade e magnetismo · Propagação no vácuo e em meios · Espectro eletromagnético",
+    "pages": 3,
+    "minutes": 24,
+    "refs": [
+      {
+        "page": "aula-40"
+      },
+      {
+        "page": "aula-41"
+      },
+      {
+        "page": "aula-42"
+      }
+    ],
+    "chapter": 17
+  },
+  {
+    "id": "hs-elec-c18",
+    "topicId": "integracao",
+    "unit": "Integração de modelos",
+    "title": "Como resolver problemas de eletricidade",
+    "description": "Escolha a descrição antes de calcular · Um procedimento de trabalho · Limites dos modelos que usamos",
+    "pages": 2,
+    "minutes": 19,
+    "refs": [
+      {
+        "page": "aula-43"
+      },
+      {
+        "page": "aula-44"
+      }
+    ],
+    "chapter": 18
+  },
+  {
+    "id": "hs-elec-guia",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Como estudar: roteiro, notação e hipóteses",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 10,
+    "refs": [
+      {
+        "page": "aula-2"
+      }
+    ]
+  },
+  {
+    "id": "hs-elec-referencias",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Referências e alcance dos modelos",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 6,
+    "refs": [
+      {
+        "page": "aula-45"
+      }
+    ]
+  },
+  {
+    "id": "hs-elec-treino",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Como usar a ficha: treino e convenções",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 9,
+    "refs": [
+      {
+        "page": "ficha-2"
+      }
+    ]
+  },
+  {
+    "id": "hs-elec-gabarito-1",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Gabarito de conferência · parte 1",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "ficha-20"
+      },
+      {
+        "page": "ficha-21"
+      }
+    ]
+  },
+  {
+    "id": "hs-elec-gabarito-2",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Gabarito de conferência · parte 2",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 8,
+    "refs": [
+      {
+        "page": "ficha-22"
+      }
+    ]
+  }
+]

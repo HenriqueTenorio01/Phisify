@@ -1,5 +1,6 @@
 @import "tailwindcss" source(none);
 @import "tw-animate-css";
+@import "./components/school/school.css";
 @source "../src";
 
 @theme inline {

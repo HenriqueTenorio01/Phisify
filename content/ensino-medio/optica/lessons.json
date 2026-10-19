@@ -1,0 +1,402 @@
+[
+  {
+    "id": "hs-opt-c01",
+    "topicId": "luz-cores",
+    "unit": "Luz e cores",
+    "title": "Luz e princípios da óptica geométrica",
+    "description": "O que é a luz · Fontes, meios e raios · Sombras, eclipses e câmara escura",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula-6"
+      },
+      {
+        "page": "aula-7"
+      }
+    ],
+    "chapter": 1
+  },
+  {
+    "id": "hs-opt-c02",
+    "topicId": "luz-cores",
+    "unit": "Luz e cores",
+    "title": "Cores, absorção e filtros",
+    "description": "A cor observada depende do conjunto · Mistura aditiva e subtrativa · Filtros em sequência",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula-8"
+      },
+      {
+        "page": "aula-9"
+      }
+    ],
+    "chapter": 2
+  },
+  {
+    "id": "hs-opt-c03",
+    "topicId": "espelhos",
+    "unit": "Reflexão e espelhos",
+    "title": "Reflexão e espelhos planos",
+    "description": "Leis da reflexão · Construção da imagem plana · Translação, rotação e campo visual",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula-10"
+      },
+      {
+        "page": "aula-11"
+      }
+    ],
+    "chapter": 3
+  },
+  {
+    "id": "hs-opt-c04",
+    "topicId": "espelhos",
+    "unit": "Reflexão e espelhos",
+    "title": "Espelhos esféricos e equação de Gauss",
+    "description": "Geometria e aproximação paraxial · Convenção de sinais e aumento · Dedução da equação dos pontos conjugados",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula-12"
+      },
+      {
+        "page": "aula-13"
+      }
+    ],
+    "chapter": 4
+  },
+  {
+    "id": "hs-opt-c05",
+    "topicId": "espelhos",
+    "unit": "Reflexão e espelhos",
+    "title": "Construção de imagens em espelhos",
+    "description": "Raios notáveis e realidade da imagem · Todos os casos para objeto real · O que as equações revelam sem decorar a tabela",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula-14"
+      },
+      {
+        "page": "aula-15"
+      }
+    ],
+    "chapter": 5
+  },
+  {
+    "id": "hs-opt-c06",
+    "topicId": "refracao",
+    "unit": "Refração",
+    "title": "Refração e reflexão total",
+    "description": "Índice de refração e mudança de velocidade · Lei de Snell-Descartes e uma construção ondulatória · Condições para reflexão total interna",
+    "pages": 2,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula-16"
+      },
+      {
+        "page": "aula-17"
+      }
+    ],
+    "chapter": 6
+  },
+  {
+    "id": "hs-opt-c07",
+    "topicId": "refracao",
+    "unit": "Refração",
+    "title": "Dioptros e lâminas de faces paralelas",
+    "description": "Dioptro plano e profundidade aparente · Lâmina de faces paralelas · Aprofundamento: dioptro esférico",
+    "pages": 2,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula-18"
+      },
+      {
+        "page": "aula-19"
+      }
+    ],
+    "chapter": 7
+  },
+  {
+    "id": "hs-opt-c08",
+    "topicId": "refracao",
+    "unit": "Refração",
+    "title": "Prismas, dispersão e fenômenos atmosféricos",
+    "description": "Geometria do prisma · Desvio mínimo e prisma delgado · Dispersão e arco-íris",
+    "pages": 2,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula-20"
+      },
+      {
+        "page": "aula-21"
+      }
+    ],
+    "chapter": 8
+  },
+  {
+    "id": "hs-opt-c09",
+    "topicId": "lentes",
+    "unit": "Lentes, instrumentos e visão",
+    "title": "Lentes delgadas",
+    "description": "Forma, material e convergência · Fórmula dos fabricantes: construção por duas refrações · Equação de Gauss, aumento e vergência",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula-22"
+      },
+      {
+        "page": "aula-23"
+      }
+    ],
+    "chapter": 9
+  },
+  {
+    "id": "hs-opt-c10",
+    "topicId": "lentes",
+    "unit": "Lentes, instrumentos e visão",
+    "title": "Associação de lentes e projeção",
+    "description": "Cada elemento recebe os raios do anterior · Lentes em contato · Distância mínima entre objeto e tela",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula-24"
+      },
+      {
+        "page": "aula-25"
+      }
+    ],
+    "chapter": 10
+  },
+  {
+    "id": "hs-opt-c11",
+    "topicId": "lentes",
+    "unit": "Lentes, instrumentos e visão",
+    "title": "Instrumentos ópticos",
+    "description": "Câmera, projetor e abertura · Lupa e aumento angular · Microscópio composto",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula-26"
+      },
+      {
+        "page": "aula-27"
+      }
+    ],
+    "chapter": 11
+  },
+  {
+    "id": "hs-opt-c12",
+    "topicId": "lentes",
+    "unit": "Lentes, instrumentos e visão",
+    "title": "Olho humano e correção óptica",
+    "description": "Formação da imagem e acomodação · Miopia e hipermetropia · Presbiopia, astigmatismo e limites da visão",
+    "pages": 2,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula-28"
+      },
+      {
+        "page": "aula-29"
+      }
+    ],
+    "chapter": 12
+  },
+  {
+    "id": "hs-opt-c13",
+    "topicId": "optica-ondulatoria",
+    "unit": "Óptica ondulatória",
+    "title": "Caminho óptico e princípio de Fermat",
+    "description": "Comprimento geométrico não é tempo de viagem · Reflexão obtida por geometria · Caminho óptico e fase",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "aula-30"
+      },
+      {
+        "page": "aula-31"
+      }
+    ],
+    "chapter": 13
+  },
+  {
+    "id": "hs-opt-c14",
+    "topicId": "optica-ondulatoria",
+    "unit": "Óptica ondulatória",
+    "title": "Interferência da luz",
+    "description": "Superposição, fase e coerência · Intensidade: uma dedução com trigonometria · Duas fendas de Young",
+    "pages": 3,
+    "minutes": 23,
+    "refs": [
+      {
+        "page": "aula-32"
+      },
+      {
+        "page": "aula-33"
+      },
+      {
+        "page": "aula-34"
+      }
+    ],
+    "chapter": 14
+  },
+  {
+    "id": "hs-opt-c15",
+    "topicId": "optica-ondulatoria",
+    "unit": "Óptica ondulatória",
+    "title": "Difração e poder de resolução",
+    "description": "A luz não se limita a linhas geométricas · Fenda simples: localização dos mínimos · Rede de difração",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula-35"
+      },
+      {
+        "page": "aula-36"
+      }
+    ],
+    "chapter": 15
+  },
+  {
+    "id": "hs-opt-c16",
+    "topicId": "optica-ondulatoria",
+    "unit": "Óptica ondulatória",
+    "title": "Polarização da luz",
+    "description": "O que é selecionar uma direção de oscilação · Lei de Malus e perda no primeiro polarizador · Polarização por reflexão e ângulo de Brewster",
+    "pages": 2,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula-37"
+      },
+      {
+        "page": "aula-38"
+      }
+    ],
+    "chapter": 16
+  },
+  {
+    "id": "hs-opt-c17",
+    "topicId": "energia-luz",
+    "unit": "Energia e medidas da luz",
+    "title": "Energia, fotometria e interação com a matéria",
+    "description": "Potência luminosa e lei do inverso do quadrado · Aprofundamento: lúmen, candela e lux · Fótons e uma ponte para a física moderna",
+    "pages": 2,
+    "minutes": 17,
+    "refs": [
+      {
+        "page": "aula-39"
+      },
+      {
+        "page": "aula-40"
+      }
+    ],
+    "chapter": 17
+  },
+  {
+    "id": "hs-opt-c18",
+    "topicId": "integracao",
+    "unit": "Aplicações integradas",
+    "title": "Estratégias e uma aplicação integrada",
+    "description": "Reconheça o mecanismo antes da fórmula · Uma ordem de resolução · Aproximações que precisam acompanhar a resposta",
+    "pages": 2,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula-41"
+      },
+      {
+        "page": "aula-42"
+      }
+    ],
+    "chapter": 18
+  },
+  {
+    "id": "hs-opt-guia",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Como estudar: roteiro, notação e hipóteses",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 10,
+    "refs": [
+      {
+        "page": "aula-2"
+      }
+    ]
+  },
+  {
+    "id": "hs-opt-referencias",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Referências e alcance dos modelos",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 6,
+    "refs": [
+      {
+        "page": "aula-43"
+      }
+    ]
+  },
+  {
+    "id": "hs-opt-treino",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Como usar a ficha: treino e convenções",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 10,
+    "refs": [
+      {
+        "page": "ficha-2"
+      }
+    ]
+  },
+  {
+    "id": "hs-opt-gabarito-1",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Gabarito de conferência · parte 1",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "ficha-21"
+      },
+      {
+        "page": "ficha-22"
+      }
+    ]
+  },
+  {
+    "id": "hs-opt-gabarito-2",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Gabarito de conferência · parte 2",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 10,
+    "refs": [
+      {
+        "page": "ficha-23"
+      }
+    ]
+  }
+]

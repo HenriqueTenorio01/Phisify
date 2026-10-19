@@ -1,0 +1,369 @@
+[
+  {
+    "id": "hs-term-c01",
+    "topicId": "temperatura",
+    "unit": "Temperatura e dilatação",
+    "title": "Temperatura e equilíbrio térmico",
+    "description": "A temperatura não é quantidade de calor · Equilíbrio e lei zero · Grandezas termométricas e calibração",
+    "pages": 2,
+    "minutes": 18,
+    "refs": [
+      {
+        "page": "aula-6"
+      },
+      {
+        "page": "aula-7"
+      }
+    ],
+    "chapter": 1
+  },
+  {
+    "id": "hs-term-c02",
+    "topicId": "temperatura",
+    "unit": "Temperatura e dilatação",
+    "title": "Dilatação térmica",
+    "description": "O que muda quando um corpo é aquecido? · Dilatação linear e aproximação · Área e volume a partir da dilatação linear",
+    "pages": 3,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula-8"
+      },
+      {
+        "page": "aula-9"
+      },
+      {
+        "page": "aula-10"
+      }
+    ],
+    "chapter": 2
+  },
+  {
+    "id": "hs-term-c03",
+    "topicId": "calorimetria",
+    "unit": "Calor e mudanças de fase",
+    "title": "Calor, capacidade térmica e calor específico",
+    "description": "Energia em trânsito · Capacidade térmica e calor específico · Sinais e leitura de gráficos",
+    "pages": 3,
+    "minutes": 23,
+    "refs": [
+      {
+        "page": "aula-11"
+      },
+      {
+        "page": "aula-12"
+      },
+      {
+        "page": "aula-13"
+      }
+    ],
+    "chapter": 3
+  },
+  {
+    "id": "hs-term-c04",
+    "topicId": "calorimetria",
+    "unit": "Calor e mudanças de fase",
+    "title": "Mudanças de fase, vapor e umidade",
+    "description": "Estados físicos e energia microscópica · Calor latente e condições de coexistência · Curva de aquecimento",
+    "pages": 3,
+    "minutes": 23,
+    "refs": [
+      {
+        "page": "aula-14"
+      },
+      {
+        "page": "aula-15"
+      },
+      {
+        "page": "aula-16"
+      }
+    ],
+    "chapter": 4
+  },
+  {
+    "id": "hs-term-c05",
+    "topicId": "calorimetria",
+    "unit": "Calor e mudanças de fase",
+    "title": "Calorimetria e equilíbrio entre corpos",
+    "description": "O sistema precisa ser escolhido · Mistura sem mudança de fase · Capacidade do calorímetro e equivalente em água",
+    "pages": 3,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula-17"
+      },
+      {
+        "page": "aula-18"
+      },
+      {
+        "page": "aula-19"
+      }
+    ],
+    "chapter": 5
+  },
+  {
+    "id": "hs-term-c06",
+    "topicId": "transferencia",
+    "unit": "Transferência de calor",
+    "title": "Como o calor é transferido",
+    "description": "Mecanismos e taxa de transferência · Condução em uma parede plana · Resistência térmica e camadas",
+    "pages": 3,
+    "minutes": 26,
+    "refs": [
+      {
+        "page": "aula-20"
+      },
+      {
+        "page": "aula-21"
+      },
+      {
+        "page": "aula-22"
+      }
+    ],
+    "chapter": 6
+  },
+  {
+    "id": "hs-term-c07",
+    "topicId": "gases",
+    "unit": "Gases e teoria cinética",
+    "title": "Gases ideais e leis macroscópicas",
+    "description": "Quantidade de matéria e número de partículas · Modelo de gás ideal · Uma amostra fixa entre dois estados",
+    "pages": 3,
+    "minutes": 21,
+    "refs": [
+      {
+        "page": "aula-23"
+      },
+      {
+        "page": "aula-24"
+      },
+      {
+        "page": "aula-25"
+      }
+    ],
+    "chapter": 7
+  },
+  {
+    "id": "hs-term-c08",
+    "topicId": "gases",
+    "unit": "Gases e teoria cinética",
+    "title": "Teoria cinética dos gases",
+    "description": "Do movimento molecular à pressão · Um terço para cada direção · Temperatura e energia cinética média",
+    "pages": 3,
+    "minutes": 22,
+    "refs": [
+      {
+        "page": "aula-26"
+      },
+      {
+        "page": "aula-27"
+      },
+      {
+        "page": "aula-28"
+      }
+    ],
+    "chapter": 8
+  },
+  {
+    "id": "hs-term-c09",
+    "topicId": "primeira-lei",
+    "unit": "Primeira lei e transformações",
+    "title": "Sistemas, trabalho e primeira lei",
+    "description": "Fronteiras e variáveis de estado · Trabalho de expansão por um êmbolo · A primeira lei como conservação de energia",
+    "pages": 3,
+    "minutes": 22,
+    "refs": [
+      {
+        "page": "aula-29"
+      },
+      {
+        "page": "aula-30"
+      },
+      {
+        "page": "aula-31"
+      }
+    ],
+    "chapter": 9
+  },
+  {
+    "id": "hs-term-c10",
+    "topicId": "primeira-lei",
+    "unit": "Primeira lei e transformações",
+    "title": "Transformações e calores molares",
+    "description": "Calor depende do caminho; energia interna, do estado · Isocórica: volume constante · Isobárica: pressão constante",
+    "pages": 4,
+    "minutes": 21,
+    "refs": [
+      {
+        "page": "aula-32"
+      },
+      {
+        "page": "aula-33"
+      },
+      {
+        "page": "aula-34"
+      },
+      {
+        "page": "aula-35"
+      }
+    ],
+    "chapter": 10
+  },
+  {
+    "id": "hs-term-c11",
+    "topicId": "maquinas",
+    "unit": "Máquinas, segunda lei e entropia",
+    "title": "Ciclos e máquinas térmicas",
+    "description": "Retornar ao estado inicial · Área de um ciclo no diagrama de pressão e volume · Uma máquina entre duas fontes térmicas",
+    "pages": 2,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula-36"
+      },
+      {
+        "page": "aula-37"
+      }
+    ],
+    "chapter": 11
+  },
+  {
+    "id": "hs-term-c12",
+    "topicId": "maquinas",
+    "unit": "Máquinas, segunda lei e entropia",
+    "title": "Segunda lei, irreversibilidade e entropia",
+    "description": "Conservar energia não escolhe o sentido · Dois enunciados da segunda lei · Reversível é uma idealização exigente",
+    "pages": 3,
+    "minutes": 25,
+    "refs": [
+      {
+        "page": "aula-38"
+      },
+      {
+        "page": "aula-39"
+      },
+      {
+        "page": "aula-40"
+      }
+    ],
+    "chapter": 12
+  },
+  {
+    "id": "hs-term-c13",
+    "topicId": "maquinas",
+    "unit": "Máquinas, segunda lei e entropia",
+    "title": "Carnot, refrigeração e motores",
+    "description": "O limite entre duas fontes · O ciclo de Carnot · Refrigerador e bomba de calor",
+    "pages": 4,
+    "minutes": 24,
+    "refs": [
+      {
+        "page": "aula-41"
+      },
+      {
+        "page": "aula-42"
+      },
+      {
+        "page": "aula-43"
+      },
+      {
+        "page": "aula-44"
+      }
+    ],
+    "chapter": 13
+  },
+  {
+    "id": "hs-term-c14",
+    "topicId": "integracao",
+    "unit": "Resolução integrada",
+    "title": "Organizar uma resolução térmica",
+    "description": "A escolha do método vem do processo · Um aquecimento com mudança de fase e recipiente · Perguntas que precisam ser respondidas antes da conta",
+    "pages": 2,
+    "minutes": 14,
+    "refs": [
+      {
+        "page": "aula-45"
+      },
+      {
+        "page": "aula-46"
+      }
+    ],
+    "chapter": 14
+  },
+  {
+    "id": "hs-term-guia",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Como estudar: roteiro, notação e hipóteses",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 10,
+    "refs": [
+      {
+        "page": "aula-2"
+      },
+      {
+        "page": "aula-3"
+      }
+    ]
+  },
+  {
+    "id": "hs-term-referencias",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Referências e alcance dos modelos",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 7,
+    "refs": [
+      {
+        "page": "aula-47"
+      }
+    ]
+  },
+  {
+    "id": "hs-term-treino",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Como usar a ficha: treino e convenções",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 8,
+    "refs": [
+      {
+        "page": "ficha-2"
+      }
+    ]
+  },
+  {
+    "id": "hs-term-gabarito-1",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Gabarito de conferência · parte 1",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 11,
+    "refs": [
+      {
+        "page": "ficha-20"
+      },
+      {
+        "page": "ficha-21"
+      }
+    ]
+  },
+  {
+    "id": "hs-term-gabarito-2",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Gabarito de conferência · parte 2",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 8,
+    "refs": [
+      {
+        "page": "ficha-22"
+      }
+    ]
+  }
+]

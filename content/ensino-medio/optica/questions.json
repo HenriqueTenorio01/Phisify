@@ -1,0 +1,2674 @@
+[
+  {
+    "id": "hs-opt-q01",
+    "kind": "written",
+    "sourceNumber": 1,
+    "topic": "Luz e cores",
+    "topicId": "luz-cores",
+    "course": "optics",
+    "lessonId": "hs-opt-c01",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Propagação retilínea e semelhança",
+    "format": "Discursiva",
+    "prompt": "Questão 1 - Da fonte à câmara escura",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-3",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-3",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-3",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-3",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-3",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-3",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-24",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-24",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-24",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-24",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "subtopic": "Propagação retilínea e semelhança"
+  },
+  {
+    "id": "hs-opt-q02",
+    "kind": "written",
+    "sourceNumber": 2,
+    "topic": "Luz e cores",
+    "topicId": "luz-cores",
+    "course": "optics",
+    "lessonId": "hs-opt-c01",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Fonte puntiforme, penumbra e eclipses",
+    "format": "Discursiva",
+    "prompt": "Questão 2 - Sombras também medem distâncias",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-3",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-3",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-3",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-3",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-3",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-3",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-3",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-24",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-24",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-24",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-24",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "subtopic": "Fonte puntiforme, penumbra e eclipses"
+  },
+  {
+    "id": "hs-opt-q03",
+    "kind": "written",
+    "sourceNumber": 3,
+    "topic": "Luz e cores",
+    "topicId": "luz-cores",
+    "course": "optics",
+    "lessonId": "hs-opt-c02",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Absorção, filtros e misturas",
+    "format": "Discursiva",
+    "prompt": "Questão 3 - A cor não pertence só ao objeto",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-4",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-4",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-4",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-4",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-4",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-4",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-24",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-24",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "subtopic": "Absorção, filtros e misturas"
+  },
+  {
+    "id": "hs-opt-q04",
+    "kind": "written",
+    "sourceNumber": 4,
+    "topic": "Reflexão e espelhos",
+    "topicId": "espelhos",
+    "course": "optics",
+    "lessonId": "hs-opt-c03",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Reflexão e rotação do espelho",
+    "format": "Discursiva",
+    "prompt": "Questão 4 - O ângulo é com a normal",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-4",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-4",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-4",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-4",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-4",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-4",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-4",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-25",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-25",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "subtopic": "Reflexão e rotação do espelho"
+  },
+  {
+    "id": "hs-opt-q05",
+    "kind": "written",
+    "sourceNumber": 5,
+    "topic": "Reflexão e espelhos",
+    "topicId": "espelhos",
+    "course": "optics",
+    "lessonId": "hs-opt-c03",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Espelho plano, movimento e campo visual",
+    "format": "Discursiva",
+    "prompt": "Questão 5 - A imagem acompanha o espelho",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-5",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-5",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-5",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-5",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-5",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-5",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-25",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-25",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-25",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-25",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "subtopic": "Espelho plano, movimento e campo visual"
+  },
+  {
+    "id": "hs-opt-q06",
+    "kind": "written",
+    "sourceNumber": 6,
+    "topic": "Reflexão e espelhos",
+    "topicId": "espelhos",
+    "course": "optics",
+    "lessonId": "hs-opt-c04",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Equação de Gauss e aumento",
+    "format": "Discursiva",
+    "prompt": "Questão 6 - Uma imagem real no espelho côncavo",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-5",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-5",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-5",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-5",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-5",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-5",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-25",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-25",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-25",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-25",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-25",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "subtopic": "Equação de Gauss e aumento"
+  },
+  {
+    "id": "hs-opt-q07",
+    "kind": "written",
+    "sourceNumber": 7,
+    "topic": "Reflexão e espelhos",
+    "topicId": "espelhos",
+    "course": "optics",
+    "lessonId": "hs-opt-c05",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Imagem virtual e sinais",
+    "format": "Discursiva",
+    "prompt": "Questão 7 - O espelho convexo reduz o objeto real",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-6",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-6",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-6",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-6",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-6",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-6",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-26",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-26",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "subtopic": "Imagem virtual e sinais"
+  },
+  {
+    "id": "hs-opt-q08",
+    "kind": "written",
+    "sourceNumber": 8,
+    "topic": "Refração",
+    "topicId": "refracao",
+    "course": "optics",
+    "lessonId": "hs-opt-c06",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Índice, velocidade e lei de Snell",
+    "format": "Discursiva",
+    "prompt": "Questão 8 - A frequência sobrevive à refração",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-6",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-6",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-6",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-6",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-6",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-6",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-26",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-26",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "subtopic": "Índice, velocidade e lei de Snell"
+  },
+  {
+    "id": "hs-opt-q09",
+    "kind": "written",
+    "sourceNumber": 9,
+    "topic": "Refração",
+    "topicId": "refracao",
+    "course": "optics",
+    "lessonId": "hs-opt-c06",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Reflexão total interna",
+    "format": "Discursiva",
+    "prompt": "Questão 9 - Quando a luz não consegue sair",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-7",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-7",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-7",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-7",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-7",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-7",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-26",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-26",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-26",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-26",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "subtopic": "Reflexão total interna"
+  },
+  {
+    "id": "hs-opt-q10",
+    "kind": "written",
+    "sourceNumber": 10,
+    "topic": "Refração",
+    "topicId": "refracao",
+    "course": "optics",
+    "lessonId": "hs-opt-c07",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Dioptro plano e profundidade aparente",
+    "format": "Discursiva",
+    "prompt": "Questão 10 - O fundo parece estar mais perto",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-7",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-7",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-7",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-7",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-7",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-7",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-27",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-27",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "subtopic": "Dioptro plano e profundidade aparente"
+  },
+  {
+    "id": "hs-opt-q11",
+    "kind": "written",
+    "sourceNumber": 11,
+    "topic": "Refração",
+    "topicId": "refracao",
+    "course": "optics",
+    "lessonId": "hs-opt-c07",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Lâmina de faces paralelas",
+    "format": "Discursiva",
+    "prompt": "Questão 11 - Sai paralelo, mas deslocado",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-8",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-8",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-8",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-8",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-8",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-8",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-8",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-8",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-27",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-27",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-27",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "subtopic": "Lâmina de faces paralelas"
+  },
+  {
+    "id": "hs-opt-q12",
+    "kind": "written",
+    "sourceNumber": 12,
+    "topic": "Refração",
+    "topicId": "refracao",
+    "course": "optics",
+    "lessonId": "hs-opt-c08",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Desvio mínimo, dispersão e atmosfera",
+    "format": "Discursiva",
+    "prompt": "Questão 12 - O prisma separa trajetos e cores",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-8",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-8",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-8",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-8",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-8",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-8",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-27",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-27",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-27",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "subtopic": "Desvio mínimo, dispersão e atmosfera"
+  },
+  {
+    "id": "hs-opt-q13",
+    "kind": "written",
+    "sourceNumber": 13,
+    "topic": "Lentes, instrumentos e visão",
+    "topicId": "lentes",
+    "course": "optics",
+    "lessonId": "hs-opt-c09",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Lente convergente e vergência",
+    "format": "Discursiva",
+    "prompt": "Questão 13 - Uma lente projeta o objeto",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-9",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-9",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-9",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-9",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-9",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-9",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-28",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-28",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-28",
+        "start": 3,
+        "end": 4
+      }
+    ],
+    "subtopic": "Lente convergente e vergência"
+  },
+  {
+    "id": "hs-opt-q14",
+    "kind": "written",
+    "sourceNumber": 14,
+    "topic": "Lentes, instrumentos e visão",
+    "topicId": "lentes",
+    "course": "optics",
+    "lessonId": "hs-opt-c09",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Sinais e prolongamentos de raios",
+    "format": "Discursiva",
+    "prompt": "Questão 14 - A lente divergente e a imagem direita",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-9",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-9",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-9",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-9",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-9",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-9",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-28",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-28",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-28",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "subtopic": "Sinais e prolongamentos de raios"
+  },
+  {
+    "id": "hs-opt-q15",
+    "kind": "written",
+    "sourceNumber": 15,
+    "topic": "Lentes, instrumentos e visão",
+    "topicId": "lentes",
+    "course": "optics",
+    "lessonId": "hs-opt-c10",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Vergências e distância focal equivalente",
+    "format": "Discursiva",
+    "prompt": "Questão 15 - Somar lentes em contato",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-10",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-10",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-10",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-10",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-10",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-10",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-10",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-28",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-28",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "subtopic": "Vergências e distância focal equivalente"
+  },
+  {
+    "id": "hs-opt-q16",
+    "kind": "written",
+    "sourceNumber": 16,
+    "topic": "Lentes, instrumentos e visão",
+    "topicId": "lentes",
+    "course": "optics",
+    "lessonId": "hs-opt-c12",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Acomodação e correções ópticas idealizadas",
+    "format": "Discursiva",
+    "prompt": "Questão 16 - O olho precisa formar a imagem na retina",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-10",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-10",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-10",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-10",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-10",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-10",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-10",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-29",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-29",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-29",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-29",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-29",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Acomodação e correções ópticas idealizadas"
+  },
+  {
+    "id": "hs-opt-q17",
+    "kind": "written",
+    "sourceNumber": 17,
+    "topic": "Óptica ondulatória",
+    "topicId": "optica-ondulatoria",
+    "course": "optics",
+    "lessonId": "hs-opt-c14",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Interferência de Young",
+    "format": "Discursiva",
+    "prompt": "Questão 17 - As franjas medem comprimentos pequenos",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-11",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-11",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-11",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-11",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-11",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-11",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-11",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-11",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-11",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-29",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-29",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-29",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-29",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-29",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "subtopic": "Interferência de Young"
+  },
+  {
+    "id": "hs-opt-q18",
+    "kind": "written",
+    "sourceNumber": 18,
+    "topic": "Óptica ondulatória",
+    "topicId": "optica-ondulatoria",
+    "course": "optics",
+    "lessonId": "hs-opt-c16",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Polarizadores e lei de Malus",
+    "format": "Discursiva",
+    "prompt": "Questão 18 - Selecionando a direção de oscilação",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-11",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-11",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-11",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-11",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-11",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-11",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-29",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-29",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-29",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-29",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-29",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "subtopic": "Polarizadores e lei de Malus"
+  },
+  {
+    "id": "hs-opt-q19",
+    "kind": "written",
+    "sourceNumber": 19,
+    "topic": "Reflexão e espelhos",
+    "topicId": "espelhos",
+    "course": "optics",
+    "lessonId": "hs-opt-c05",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Espelho côncavo e mudança de região",
+    "format": "Discursiva",
+    "prompt": "Questão 19 - Descobrir o sistema a partir da imagem",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-12",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-12",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-12",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-12",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-12",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-12",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-30",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-30",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-30",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-30",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-30",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Espelho côncavo e mudança de região"
+  },
+  {
+    "id": "hs-opt-q20",
+    "kind": "written",
+    "sourceNumber": 20,
+    "topic": "Lentes, instrumentos e visão",
+    "topicId": "lentes",
+    "course": "optics",
+    "lessonId": "hs-opt-c09",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Fabricantes, meio externo e dioptro esférico",
+    "format": "Discursiva",
+    "prompt": "Questão 20 - A forma da lente não decide tudo",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-12",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-12",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-12",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-12",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-12",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-12",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-12",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-30",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-30",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-30",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-30",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-30",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-opt-c07"
+    ],
+    "subtopic": "Fabricantes, meio externo e dioptro esférico"
+  },
+  {
+    "id": "hs-opt-q21",
+    "kind": "written",
+    "sourceNumber": 21,
+    "topic": "Lentes, instrumentos e visão",
+    "topicId": "lentes",
+    "course": "optics",
+    "lessonId": "hs-opt-c11",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Lupa, microscópio e luneta",
+    "format": "Discursiva",
+    "prompt": "Questão 21 - Três maneiras de ampliar a visão",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-13",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-13",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-13",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-13",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-13",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-13",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-31",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-31",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-31",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-31",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-31",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Lupa, microscópio e luneta"
+  },
+  {
+    "id": "hs-opt-q22",
+    "kind": "written",
+    "sourceNumber": 22,
+    "topic": "Óptica ondulatória",
+    "topicId": "optica-ondulatoria",
+    "course": "optics",
+    "lessonId": "hs-opt-c15",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Difração de fenda, rede e resolução",
+    "format": "Discursiva",
+    "prompt": "Questão 22 - Uma abertura limita a nitidez",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-13",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-13",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-13",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-13",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-13",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-13",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-31",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-31",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-31",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "subtopic": "Difração de fenda, rede e resolução"
+  },
+  {
+    "id": "hs-opt-q23",
+    "kind": "written",
+    "sourceNumber": 23,
+    "topic": "Óptica ondulatória",
+    "topicId": "optica-ondulatoria",
+    "course": "optics",
+    "lessonId": "hs-opt-c13",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Caminho óptico e construção de Fermat",
+    "format": "Discursiva",
+    "prompt": "Questão 23 - Refletir sem escolher o ponto ao acaso",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-14",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-14",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-14",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-14",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-14",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-14",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-14",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-14",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-32",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-32",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-32",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-32",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-32",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-32",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-32",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "subtopic": "Caminho óptico e construção de Fermat"
+  },
+  {
+    "id": "hs-opt-q24",
+    "kind": "written",
+    "sourceNumber": 24,
+    "topic": "Óptica ondulatória",
+    "topicId": "optica-ondulatoria",
+    "course": "optics",
+    "lessonId": "hs-opt-c14",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Interferência em filmes finos",
+    "format": "Discursiva",
+    "prompt": "Questão 24 - A reflexão também altera a fase",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-15",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-15",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-15",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-15",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-15",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-15",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-15",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-15",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-15",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-32",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-32",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-32",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-32",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-32",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "subtopic": "Interferência em filmes finos"
+  },
+  {
+    "id": "hs-opt-q25",
+    "kind": "written",
+    "sourceNumber": 25,
+    "topic": "Energia e medidas da luz",
+    "topicId": "energia-luz",
+    "course": "optics",
+    "lessonId": "hs-opt-c17",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Irradiância, fotometria e energia da luz",
+    "format": "Discursiva",
+    "prompt": "Questão 25 - Watts, lux e número de fótons",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-16",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-16",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-16",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-16",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-16",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-16",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-16",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-33",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-33",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-33",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-33",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-33",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Irradiância, fotometria e energia da luz"
+  },
+  {
+    "id": "hs-opt-q26",
+    "kind": "written",
+    "sourceNumber": 26,
+    "topic": "Óptica ondulatória",
+    "topicId": "optica-ondulatoria",
+    "course": "optics",
+    "lessonId": "hs-opt-c16",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Malus, otimização e Brewster",
+    "format": "Discursiva",
+    "prompt": "Questão 26 - O polarizador intermediário muda o resultado",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-16",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-16",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-16",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-16",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-16",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-16",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-16",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-33",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-33",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-33",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-33",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-33",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "subtopic": "Malus, otimização e Brewster"
+  },
+  {
+    "id": "hs-opt-q27",
+    "kind": "written",
+    "sourceNumber": 27,
+    "topic": "Lentes, instrumentos e visão",
+    "topicId": "lentes",
+    "course": "optics",
+    "lessonId": "hs-opt-c10",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Duas lentes e objeto virtual",
+    "format": "Discursiva",
+    "prompt": "Questão 27 - A segunda lente encontra um feixe convergente",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-17",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-17",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-17",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-17",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-17",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-17",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-17",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-17",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-17",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-17",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-17",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-34",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-34",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-34",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-34",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-34",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-34",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-34",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-34",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-34",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-34",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-34",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-34",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-34",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-34",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-34",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-34",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-opt-c09"
+    ],
+    "subtopic": "Duas lentes e objeto virtual"
+  },
+  {
+    "id": "hs-opt-q28",
+    "kind": "written",
+    "sourceNumber": 28,
+    "topic": "Lentes, instrumentos e visão",
+    "topicId": "lentes",
+    "course": "optics",
+    "lessonId": "hs-opt-c10",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Projeção em tela e método de Bessel",
+    "format": "Discursiva",
+    "prompt": "Questão 28 - Duas posições da lente, uma única focal",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-18",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-18",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-18",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-18",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-18",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-18",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-18",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-18",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-18",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-35",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-35",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-35",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-35",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-35",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-35",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-35",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-35",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-35",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-35",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-35",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-35",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-35",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-35",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-35",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-opt-c09"
+    ],
+    "subtopic": "Projeção em tela e método de Bessel"
+  },
+  {
+    "id": "hs-opt-q29",
+    "kind": "written",
+    "sourceNumber": 29,
+    "topic": "Aplicações integradas",
+    "topicId": "integracao",
+    "course": "optics",
+    "lessonId": "hs-opt-c18",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Refração plana, lente e reflexão total",
+    "format": "Discursiva",
+    "prompt": "Questão 29 - A câmera vê através de duas camadas",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-19",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-19",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-19",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-19",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-19",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-19",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-19",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-19",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-19",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-36",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-36",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-36",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-36",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-36",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-36",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-36",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-36",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-36",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-36",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-36",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-36",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-36",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-36",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-36",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-36",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-36",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-opt-c06",
+      "hs-opt-c07",
+      "hs-opt-c09"
+    ],
+    "subtopic": "Refração plana, lente e reflexão total"
+  },
+  {
+    "id": "hs-opt-q30",
+    "kind": "written",
+    "sourceNumber": 30,
+    "topic": "Óptica ondulatória",
+    "topicId": "optica-ondulatoria",
+    "course": "optics",
+    "lessonId": "hs-opt-c14",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Young com lâmina em uma fenda",
+    "format": "Discursiva",
+    "prompt": "Questão 30 - Mudar um caminho desloca todo o padrão",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-20",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-20",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-20",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-20",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-20",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-20",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-20",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-20",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-20",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-20",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-20",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-37",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-37",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-37",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-37",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-37",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-37",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-37",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-37",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-37",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-37",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-37",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-37",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-37",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-37",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-37",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-opt-c07"
+    ],
+    "subtopic": "Young com lâmina em uma fenda"
+  }
+]

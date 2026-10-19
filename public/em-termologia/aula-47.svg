@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><defs><clipPath id="f-33e470ebb9d651948c-clip_1">
+<path transform="matrix(1,0,0,-1,-64.097,593.6483)" d="M64.097 580.3392H74.78428V593.6483H64.097Z" clip-rule="evenodd" />
+</clipPath>
+<path id="glyph-ee19359004e2ac64" d="M.5329895 .23098755C.5329895 .30999757 .46798707 .375 .3889923 .375 .30999757 .375 .24499512 .30999757 .24499512 .23098755 .24499512 .1519928 .30999757 .08699036 .3889923 .08699036 .46798707 .08699036 .5329895 .1519928 .5329895 .23098755Z" />
+<clipPath id="f-24c2860bbaeaca753f-clip_1">
+<path transform="matrix(1,0,0,-1,-64.09703,480.06733)" d="M64.09703 466.75819H74.78431V480.06733H64.09703Z" clip-rule="evenodd" />
+</clipPath>
+</defs><symbol id="f-33e470ebb9d651948c" viewBox="0 0 10.687279 13.309143"><g clip-path="url(#f-33e470ebb9d651948c-clip_1)">
+<use data-text="•" xlink:href="#glyph-ee19359004e2ac64" transform="matrix(10.9091,0,0,-10.9091,1.0999985,9.927307)" />
+</g>
+</symbol><symbol id="f-24c2860bbaeaca753f" viewBox="0 0 10.687279 13.309143"><g clip-path="url(#f-24c2860bbaeaca753f-clip_1)">
+<use data-text="•" xlink:href="#glyph-ee19359004e2ac64" transform="matrix(10.9091,0,0,-10.9091,1.0999985,9.927307)" />
+</g>
+</symbol></svg>

@@ -1,4 +1,9 @@
 import {
+  SchoolBreadcrumbs,
+  SchoolLessonNavigation,
+  SchoolSections,
+} from '../school/SchoolLessonNavigation'
+import {
   UniversityBreadcrumbs,
   UniversityLessonNavigation,
   UniversitySections,
@@ -33,6 +38,7 @@ export default function HandbookLessonPage({ id }: { id: string }) {
   if (!book) return null
   const { course, lessons } = book
   const university = course.trackId === 'universidade'
+  const school = Boolean(course.separatePractice)
   const lesson = lessons.find((item) => item.id === id)!
   const { resolveSource, sourceLabel } = use(
     loadHandbook(course.id, lesson.sourceLesson),
@@ -40,11 +46,15 @@ export default function HandbookLessonPage({ id }: { id: string }) {
   const blocks = resolveSource(lesson.refs)
   // The source chapter title is already the reading's h1.
   const readingBlocks =
-    university &&
-    blocks[0]?.type === 'heading' &&
-    blocks[0].text === lesson.title
-      ? blocks.slice(1)
-      : blocks
+    school &&
+    blocks[0]?.text.startsWith('CAPÍTULO') &&
+    blocks[1]?.text === lesson.title
+      ? blocks.slice(2)
+      : university &&
+          blocks[0]?.type === 'heading' &&
+          blocks[0].text === lesson.title
+        ? blocks.slice(1)
+        : blocks
   const headings = blocks.filter(
     (block) => block.type === 'heading' && block.level !== 4,
   )
@@ -53,7 +63,11 @@ export default function HandbookLessonPage({ id }: { id: string }) {
   const next = lessons[index + 1]
   const completed = progress.completedLessons.includes(id)
   const parts = lessonCompletion(id)
-  const questions = questionBank.filter((question) => question.lessonId === id)
+  const questions = questionBank.filter(
+    (question) =>
+      question.lessonId === id ||
+      (question.kind === 'written' && question.relatedLessonIds?.includes(id)),
+  )
   const numberInCourse =
     course.units
       .flatMap((unit) => unit.lessons)
@@ -61,6 +75,7 @@ export default function HandbookLessonPage({ id }: { id: string }) {
   return (
     <>
       {university && <UniversityBreadcrumbs course={course} lesson={lesson} />}
+      {school && <SchoolBreadcrumbs course={course} lesson={lesson} />}
       <div
         className={
           university ? 'handbook-layout university-handbook' : 'handbook-layout'
@@ -69,6 +84,12 @@ export default function HandbookLessonPage({ id }: { id: string }) {
         <aside className="handbook-nav">
           {university ? (
             <UniversityLessonNavigation
+              course={course}
+              lesson={lesson}
+              lessons={lessons}
+            />
+          ) : school ? (
+            <SchoolLessonNavigation
               course={course}
               lesson={lesson}
               lessons={lessons}
@@ -122,7 +143,7 @@ export default function HandbookLessonPage({ id }: { id: string }) {
                 {university
                   ? `Universidade · ${course.semester}º semestre · ${course.title}`
                   : course.trackId === 'ensino-medio'
-                    ? 'Mecânica · Ensino Médio'
+                    ? `${course.area} · Ensino Médio`
                     : 'Caderno de treinamento · TBF / IPhO'}
               </div>
               <p className="handbook-unit">{lesson.unit}</p>
@@ -150,6 +171,8 @@ export default function HandbookLessonPage({ id }: { id: string }) {
             </header>
             {university ? (
               <UniversitySections blocks={blocks} prefix={id} />
+            ) : school ? (
+              <SchoolSections blocks={blocks} prefix={id} />
             ) : (
               headings.length > 1 && (
                 <nav
@@ -176,7 +199,9 @@ export default function HandbookLessonPage({ id }: { id: string }) {
               {university
                 ? 'Texto, demonstrações, exemplos, problemas comentados e figuras preservados da coleção. A capa e o sumário foram substituídos pela navegação do semestre.'
                 : course.trackId === 'ensino-medio'
-                  ? 'As ampliações conceituais são identificadas separadamente. Os exemplos originais estão disponíveis em blocos expansíveis.'
+                  ? school
+                    ? 'Texto, deduções, exemplos e figuras preservados do material original. Os exemplos estão em blocos expansíveis e os exercícios na ficha por assunto.'
+                    : 'As ampliações conceituais são identificadas separadamente. Os exemplos originais estão disponíveis em blocos expansíveis.'
                   : 'Material independente de preparação, sem vínculo oficial com a TBF ou a IPhO.'}
             </footer>
             <div className="handbook-actions">
@@ -215,7 +240,38 @@ export default function HandbookLessonPage({ id }: { id: string }) {
               )}
             </div>
           </article>
-          {questions.length > 0 && (
+          {school && questions.length > 0 && (
+            <section
+              className="school-practice-links"
+              aria-label="Questões relacionadas à aula"
+            >
+              <h2>Pratique este assunto</h2>
+              <p>
+                {questions.length}{' '}
+                {questions.length === 1
+                  ? 'questão relacionada'
+                  : 'questões relacionadas'}{' '}
+                na ficha, com enunciados completos, figuras e soluções
+                detalhadas. Os exercícios ficam separados da teoria para você
+                escolher quando praticar.
+              </p>
+              <div className="handbook-actions">
+                {[
+                  ...new Set(questions.map((question) => question.topicId)),
+                ].map((topicId) => (
+                  <button
+                    key={topicId}
+                    className="btn primary"
+                    onClick={() => openSheet(course.id, topicId)}
+                  >
+                    Questões de{' '}
+                    {course.units.find((unit) => unit.id === topicId)?.title}
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
+          {!school && questions.length > 0 && (
             <section
               className="handbook-exercises"
               aria-label="Exercícios desta aula"

@@ -1,0 +1,2624 @@
+[
+  {
+    "id": "hs-elec-q01",
+    "kind": "written",
+    "sourceNumber": 1,
+    "topic": "Eletrostática",
+    "topicId": "eletrostatica",
+    "course": "electricity",
+    "lessonId": "hs-elec-c01",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Carga, conservação e eletrização",
+    "format": "Discursiva",
+    "prompt": "Questão 1 - Para onde foram os elétrons?",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-3",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-3",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-3",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-3",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-3",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-3",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-23",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-23",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-23",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-23",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-23",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "subtopic": "Carga, conservação e eletrização"
+  },
+  {
+    "id": "hs-elec-q02",
+    "kind": "written",
+    "sourceNumber": 2,
+    "topic": "Eletrostática",
+    "topicId": "eletrostatica",
+    "course": "electricity",
+    "lessonId": "hs-elec-c01",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Lei de Coulomb e proporções",
+    "format": "Discursiva",
+    "prompt": "Questão 2 - A força entre duas cargas",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-3",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-3",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-3",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-3",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-3",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-3",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-23",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-23",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-23",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-23",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-23",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "subtopic": "Lei de Coulomb e proporções"
+  },
+  {
+    "id": "hs-elec-q03",
+    "kind": "written",
+    "sourceNumber": 3,
+    "topic": "Eletrostática",
+    "topicId": "eletrostatica",
+    "course": "electricity",
+    "lessonId": "hs-elec-c02",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Superposição escalar e vetorial",
+    "format": "Discursiva",
+    "prompt": "Questão 3 - Campo nulo, potencial nulo?",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-4",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-4",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-4",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-4",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-4",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-4",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-4",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-23",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-23",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-23",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-23",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-23",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "subtopic": "Superposição escalar e vetorial"
+  },
+  {
+    "id": "hs-elec-q04",
+    "kind": "written",
+    "sourceNumber": 4,
+    "topic": "Eletrostática",
+    "topicId": "eletrostatica",
+    "course": "electricity",
+    "lessonId": "hs-elec-c03",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Campo uniforme, tensão e trabalho",
+    "format": "Discursiva",
+    "prompt": "Questão 4 - A energia de uma carga entre dois pontos",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-4",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-4",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-4",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-4",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-4",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-4",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-24",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-24",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-24",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-24",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Campo uniforme, tensão e trabalho"
+  },
+  {
+    "id": "hs-elec-q05",
+    "kind": "written",
+    "sourceNumber": 5,
+    "topic": "Eletrostática",
+    "topicId": "eletrostatica",
+    "course": "electricity",
+    "lessonId": "hs-elec-c04",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Equilíbrio eletrostático e fluxo",
+    "format": "Discursiva",
+    "prompt": "Questão 5 - Dentro e fora de um condutor",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-5",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-5",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-5",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-5",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-5",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-5",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-24",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-24",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-24",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-24",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "subtopic": "Equilíbrio eletrostático e fluxo"
+  },
+  {
+    "id": "hs-elec-q06",
+    "kind": "written",
+    "sourceNumber": 6,
+    "topic": "Eletrostática",
+    "topicId": "eletrostatica",
+    "course": "electricity",
+    "lessonId": "hs-elec-c05",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Carga, tensão e energia armazenada",
+    "format": "Discursiva",
+    "prompt": "Questão 6 - Capacitores: série e paralelo",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-5",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-5",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-5",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-5",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-5",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-5",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-24",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-24",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "subtopic": "Carga, tensão e energia armazenada"
+  },
+  {
+    "id": "hs-elec-q07",
+    "kind": "written",
+    "sourceNumber": 7,
+    "topic": "Corrente e energia",
+    "topicId": "corrente-energia",
+    "course": "electricity",
+    "lessonId": "hs-elec-c06",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Área no gráfico de corrente",
+    "format": "Discursiva",
+    "prompt": "Questão 7 - A carga que atravessou o fio",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-6",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-6",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-6",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-6",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-6",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-6",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-6",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-6",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-25",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-25",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-25",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-25",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Área no gráfico de corrente"
+  },
+  {
+    "id": "hs-elec-q08",
+    "kind": "written",
+    "sourceNumber": 8,
+    "topic": "Corrente e energia",
+    "topicId": "corrente-energia",
+    "course": "electricity",
+    "lessonId": "hs-elec-c06",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Leis de Ohm e temperatura",
+    "format": "Discursiva",
+    "prompt": "Questão 8 - A resistência vem do material e da forma",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-6",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-6",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-6",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-6",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-6",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-6",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-25",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-25",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "subtopic": "Leis de Ohm e temperatura"
+  },
+  {
+    "id": "hs-elec-q09",
+    "kind": "written",
+    "sourceNumber": 9,
+    "topic": "Corrente e energia",
+    "topicId": "corrente-energia",
+    "course": "electricity",
+    "lessonId": "hs-elec-c08",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Associações em série e paralelo",
+    "format": "Discursiva",
+    "prompt": "Questão 9 - Mesmos resistores, ligações diferentes",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-7",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-7",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-7",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-7",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-7",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-7",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-25",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-25",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "subtopic": "Associações em série e paralelo"
+  },
+  {
+    "id": "hs-elec-q10",
+    "kind": "written",
+    "sourceNumber": 10,
+    "topic": "Corrente e energia",
+    "topicId": "corrente-energia",
+    "course": "electricity",
+    "lessonId": "hs-elec-c07",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Efeito Joule e consumo",
+    "format": "Discursiva",
+    "prompt": "Questão 10 - Potência nominal e conta de energia",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-7",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-7",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-7",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-7",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-7",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-7",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-26",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-26",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "subtopic": "Efeito Joule e consumo"
+  },
+  {
+    "id": "hs-elec-q11",
+    "kind": "written",
+    "sourceNumber": 11,
+    "topic": "Circuitos elétricos",
+    "topicId": "circuitos",
+    "course": "electricity",
+    "lessonId": "hs-elec-c09",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Instrumentos e proteção elétrica",
+    "format": "Discursiva",
+    "prompt": "Questão 11 - Medir sem mudar o circuito ideal",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-8",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-8",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-8",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-8",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-8",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-8",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-26",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-26",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "subtopic": "Instrumentos e proteção elétrica"
+  },
+  {
+    "id": "hs-elec-q12",
+    "kind": "written",
+    "sourceNumber": 12,
+    "topic": "Circuitos elétricos",
+    "topicId": "circuitos",
+    "course": "electricity",
+    "lessonId": "hs-elec-c10",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Gerador real e capacidade",
+    "format": "Discursiva",
+    "prompt": "Questão 12 - A bateria tem resistência interna",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-8",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-8",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-8",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-8",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-8",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-8",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-26",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-26",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "subtopic": "Gerador real e capacidade"
+  },
+  {
+    "id": "hs-elec-q13",
+    "kind": "written",
+    "sourceNumber": 13,
+    "topic": "Magnetismo",
+    "topicId": "magnetismo",
+    "course": "electricity",
+    "lessonId": "hs-elec-c12",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Fio longo, solenoide e ímãs",
+    "format": "Discursiva",
+    "prompt": "Questão 13 - Correntes produzem campos magnéticos",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-9",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-9",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-9",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-9",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-9",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-9",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-27",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-27",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-27",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-27",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Fio longo, solenoide e ímãs"
+  },
+  {
+    "id": "hs-elec-q14",
+    "kind": "written",
+    "sourceNumber": 14,
+    "topic": "Magnetismo",
+    "topicId": "magnetismo",
+    "course": "electricity",
+    "lessonId": "hs-elec-c13",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Força magnética sobre uma carga",
+    "format": "Discursiva",
+    "prompt": "Questão 14 - A força que desvia, mas não acelera a rapidez",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-9",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-9",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-9",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-9",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-9",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-9",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-27",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-27",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "subtopic": "Força magnética sobre uma carga"
+  },
+  {
+    "id": "hs-elec-q15",
+    "kind": "written",
+    "sourceNumber": 15,
+    "topic": "Magnetismo",
+    "topicId": "magnetismo",
+    "course": "electricity",
+    "lessonId": "hs-elec-c13",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Correntes, torque e interação magnética",
+    "format": "Discursiva",
+    "prompt": "Questão 15 - Da força sobre o fio ao motor",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-10",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-10",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-10",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-10",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-10",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-10",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-10",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-27",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-27",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-27",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-27",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-27",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "subtopic": "Correntes, torque e interação magnética"
+  },
+  {
+    "id": "hs-elec-q16",
+    "kind": "written",
+    "sourceNumber": 16,
+    "topic": "Indução e corrente alternada",
+    "topicId": "inducao",
+    "course": "electricity",
+    "lessonId": "hs-elec-c14",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Faraday e Lenz",
+    "format": "Discursiva",
+    "prompt": "Questão 16 - O fluxo mudou, aparece uma fem",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-10",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-10",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-10",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-10",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-10",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-10",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-10",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-28",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-28",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "subtopic": "Faraday e Lenz"
+  },
+  {
+    "id": "hs-elec-q17",
+    "kind": "written",
+    "sourceNumber": 17,
+    "topic": "Indução e corrente alternada",
+    "topicId": "inducao",
+    "course": "electricity",
+    "lessonId": "hs-elec-c16",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Corrente alternada e transformador ideal",
+    "format": "Discursiva",
+    "prompt": "Questão 17 - Transformar tensão não cria potência",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-11",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-11",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-11",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-11",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-11",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-11",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-28",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-28",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "subtopic": "Corrente alternada e transformador ideal"
+  },
+  {
+    "id": "hs-elec-q18",
+    "kind": "written",
+    "sourceNumber": 18,
+    "topic": "Ondas eletromagnéticas",
+    "topicId": "ondas-eletromagneticas",
+    "course": "electricity",
+    "lessonId": "hs-elec-c17",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Ondas eletromagnéticas e espectro",
+    "format": "Discursiva",
+    "prompt": "Questão 18 - A eletricidade também se propaga como onda",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-11",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-11",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-11",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-11",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-11",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-11",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-28",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-28",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "subtopic": "Ondas eletromagnéticas e espectro"
+  },
+  {
+    "id": "hs-elec-q19",
+    "kind": "written",
+    "sourceNumber": 19,
+    "topic": "Eletrostática",
+    "topicId": "eletrostatica",
+    "course": "electricity",
+    "lessonId": "hs-elec-c02",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Campo e potencial de duas cargas",
+    "format": "Discursiva",
+    "prompt": "Questão 19 - Somar campos exige olhar as direções",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-12",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-12",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-12",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-12",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-12",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-12",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-12",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-29",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-29",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-29",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-29",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-29",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Campo e potencial de duas cargas"
+  },
+  {
+    "id": "hs-elec-q20",
+    "kind": "written",
+    "sourceNumber": 20,
+    "topic": "Eletrostática",
+    "topicId": "eletrostatica",
+    "course": "electricity",
+    "lessonId": "hs-elec-c05",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Capacitor ligado e capacitor isolado",
+    "format": "Discursiva",
+    "prompt": "Questão 20 - O que fica constante ao inserir o dielétrico?",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-12",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-12",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-12",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-12",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-12",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-12",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-29",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-29",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-29",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-29",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-29",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "subtopic": "Capacitor ligado e capacitor isolado"
+  },
+  {
+    "id": "hs-elec-q21",
+    "kind": "written",
+    "sourceNumber": 21,
+    "topic": "Corrente e energia",
+    "topicId": "corrente-energia",
+    "course": "electricity",
+    "lessonId": "hs-elec-c08",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Associação mista e chave",
+    "format": "Discursiva",
+    "prompt": "Questão 21 - Abrir um ramo pode aumentar uma potência",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-13",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-13",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-13",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-13",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-13",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-13",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-13",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-30",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-30",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-30",
+        "start": 2,
+        "end": 3
+      }
+    ],
+    "subtopic": "Associação mista e chave"
+  },
+  {
+    "id": "hs-elec-q22",
+    "kind": "written",
+    "sourceNumber": 22,
+    "topic": "Circuitos elétricos",
+    "topicId": "circuitos",
+    "course": "electricity",
+    "lessonId": "hs-elec-c09",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Kirchhoff com duas fontes",
+    "format": "Discursiva",
+    "prompt": "Questão 22 - Uma corrente negativa também é resposta",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-13",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-13",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-13",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-13",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-13",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-13",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-13",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-30",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-30",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-30",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-30",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-30",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-30",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-30",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "subtopic": "Kirchhoff com duas fontes"
+  },
+  {
+    "id": "hs-elec-q23",
+    "kind": "written",
+    "sourceNumber": 23,
+    "topic": "Circuitos elétricos",
+    "topicId": "circuitos",
+    "course": "electricity",
+    "lessonId": "hs-elec-c10",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Gerador, receptor e rendimento",
+    "format": "Discursiva",
+    "prompt": "Questão 23 - A fonte e o motor têm papéis diferentes",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-14",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-14",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-14",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-14",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-14",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-14",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-14",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-31",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-31",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-31",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-31",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-31",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Gerador, receptor e rendimento"
+  },
+  {
+    "id": "hs-elec-q24",
+    "kind": "written",
+    "sourceNumber": 24,
+    "topic": "Magnetismo",
+    "topicId": "magnetismo",
+    "course": "electricity",
+    "lessonId": "hs-elec-c13",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Energia elétrica e trajetória magnética",
+    "format": "Discursiva",
+    "prompt": "Questão 24 - Acelerar, selecionar e curvar um íon",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-14",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-14",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-14",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-14",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-14",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-14",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-14",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-31",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-31",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-31",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-31",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-31",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-31",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-31",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-elec-c03"
+    ],
+    "subtopic": "Energia elétrica e trajetória magnética"
+  },
+  {
+    "id": "hs-elec-q25",
+    "kind": "written",
+    "sourceNumber": 25,
+    "topic": "Indução e corrente alternada",
+    "topicId": "inducao",
+    "course": "electricity",
+    "lessonId": "hs-elec-c15",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Autoindução, LC e extensão RLC",
+    "format": "Discursiva",
+    "prompt": "Questão 25 - A energia também pode estar no campo magnético",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-15",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-15",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-15",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-15",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-15",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-15",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-15",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-15",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-32",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-32",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-32",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-32",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-32",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-32",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-32",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-elec-c16"
+    ],
+    "subtopic": "Autoindução, LC e extensão RLC"
+  },
+  {
+    "id": "hs-elec-q26",
+    "kind": "written",
+    "sourceNumber": 26,
+    "topic": "Indução e corrente alternada",
+    "topicId": "inducao",
+    "course": "electricity",
+    "lessonId": "hs-elec-c16",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Perdas, corrente eficaz e potência",
+    "format": "Discursiva",
+    "prompt": "Questão 26 - Por que elevar a tensão da transmissão?",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-15",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-15",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-15",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-15",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-15",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-15",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-15",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-32",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-32",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-32",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "subtopic": "Perdas, corrente eficaz e potência"
+  },
+  {
+    "id": "hs-elec-q27",
+    "kind": "written",
+    "sourceNumber": 27,
+    "topic": "Circuitos elétricos",
+    "topicId": "circuitos",
+    "course": "electricity",
+    "lessonId": "hs-elec-c11",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Carga e descarga RC com balanço de energia",
+    "format": "Discursiva",
+    "prompt": "Questão 27 - O capacitor não muda de tensão instantaneamente",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-16",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-16",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-16",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-16",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-16",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-16",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-16",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-16",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-16",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-33",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-33",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-33",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-33",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-33",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-33",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-33",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-33",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-33",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-33",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-33",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-33",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-33",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-33",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-33",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-33",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-elec-c05",
+      "hs-elec-c07"
+    ],
+    "subtopic": "Carga e descarga RC com balanço de energia"
+  },
+  {
+    "id": "hs-elec-q28",
+    "kind": "written",
+    "sourceNumber": 28,
+    "topic": "Circuitos elétricos",
+    "topicId": "circuitos",
+    "course": "electricity",
+    "lessonId": "hs-elec-c09",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Nós, malhas e redistribuição de correntes",
+    "format": "Discursiva",
+    "prompt": "Questão 28 - A ponte não está equilibrada",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-17",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-17",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-17",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-17",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-17",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-17",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-17",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-17",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-34",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-34",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-34",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-34",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-34",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-34",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-34",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-34",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-34",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-34",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-34",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-34",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-34",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-elec-c08"
+    ],
+    "subtopic": "Nós, malhas e redistribuição de correntes"
+  },
+  {
+    "id": "hs-elec-q29",
+    "kind": "written",
+    "sourceNumber": 29,
+    "topic": "Indução e corrente alternada",
+    "topicId": "inducao",
+    "course": "electricity",
+    "lessonId": "hs-elec-c14",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Indução motora e balanço mecânico",
+    "format": "Discursiva",
+    "prompt": "Questão 29 - A barra que transforma trabalho em calor",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-18",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-18",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-18",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-18",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-18",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-18",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-18",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-18",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-35",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-35",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-35",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-35",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-35",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-35",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-35",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-35",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-35",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-35",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-35",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-35",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-35",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-35",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-35",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-35",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-35",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-elec-c07",
+      "hs-elec-c13"
+    ],
+    "subtopic": "Indução motora e balanço mecânico"
+  },
+  {
+    "id": "hs-elec-q30",
+    "kind": "written",
+    "sourceNumber": 30,
+    "topic": "Integração de modelos",
+    "topicId": "integracao",
+    "course": "electricity",
+    "lessonId": "hs-elec-c18",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Pêndulo carregado e energia",
+    "format": "Discursiva",
+    "prompt": "Questão 30 - Equilíbrio estático não significa parar ao passar",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-19",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-19",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-19",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-19",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-19",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-19",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-19",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-19",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-19",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-19",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-36",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-36",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-36",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-36",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-36",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-36",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-36",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-36",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-36",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-36",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-36",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-36",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-36",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-36",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-36",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-36",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-36",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-elec-c01",
+      "hs-elec-c02",
+      "hs-elec-c03"
+    ],
+    "subtopic": "Pêndulo carregado e energia"
+  }
+]

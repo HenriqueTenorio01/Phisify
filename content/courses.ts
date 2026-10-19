@@ -1,3 +1,7 @@
+import { course as electricityCourse } from './ensino-medio/eletricidade'
+import { course as wavesCourse } from './ensino-medio/mhs-ondas'
+import { course as opticsCourse } from './ensino-medio/optica'
+import { course as thermoCourse } from './ensino-medio/termologia'
 import { universityCourse } from './universidade/semestre-1'
 import { mechanicsCourse } from './ensino-medio/mecanica'
 import { waveCourse } from './olimpiadas/ondas'
@@ -12,42 +16,10 @@ export const courses: Course[] = [
   gravityCourse,
   centerOfMassCourse,
   mechanicsCourse,
-  {
-    trackId: 'ensino-medio',
-    id: 'electricity',
-    title: 'Eletricidade essencial',
-    area: 'Eletricidade',
-    level: 'Ensino Médio',
-    tone: 'green',
-    description:
-      'Leia circuitos e conecte tensão, corrente, resistência e potência.',
-    units: [
-      { title: 'Circuitos', lessons: [] },
-      { title: 'Energia elétrica', lessons: [] },
-    ],
-  },
-  {
-    trackId: 'ensino-medio',
-    id: 'waves',
-    title: 'Ondas e oscilações',
-    area: 'Ondas',
-    level: 'Ensino Médio',
-    tone: 'amber',
-    description:
-      'Visualize padrões periódicos e entenda suas grandezas fundamentais.',
-    units: [{ title: 'Ondas', lessons: [] }],
-  },
-  {
-    trackId: 'ensino-medio',
-    id: 'thermo',
-    title: 'Termologia na prática',
-    area: 'Termologia',
-    level: 'Ensino Médio',
-    tone: 'blue',
-    description:
-      'Uma introdução clara a temperatura, calor, capacidade térmica e mudanças de fase.',
-    units: [{ title: 'Calor e temperatura', lessons: [] }],
-  },
+  electricityCourse,
+  wavesCourse,
+  opticsCourse,
+  thermoCourse,
 ]
 
 export function courseById(id: string) {

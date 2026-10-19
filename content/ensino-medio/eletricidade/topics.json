@@ -1,0 +1,42 @@
+[
+  {
+    "id": "eletrostatica",
+    "title": "Eletrostática",
+    "description": "Cargas, campos, potencial, condutores e capacitores."
+  },
+  {
+    "id": "corrente-energia",
+    "title": "Corrente e energia",
+    "description": "Materiais, resistência, potência e associações de resistores."
+  },
+  {
+    "id": "circuitos",
+    "title": "Circuitos elétricos",
+    "description": "Kirchhoff, instrumentos, fontes reais e transitórios RC."
+  },
+  {
+    "id": "magnetismo",
+    "title": "Magnetismo",
+    "description": "Fontes do campo magnético, forças e trajetórias de cargas."
+  },
+  {
+    "id": "inducao",
+    "title": "Indução e corrente alternada",
+    "description": "Faraday, Lenz, indutância, máquinas, transformadores e transmissão."
+  },
+  {
+    "id": "ondas-eletromagneticas",
+    "title": "Ondas eletromagnéticas",
+    "description": "Propagação dos campos, espectro e interação com a matéria."
+  },
+  {
+    "id": "integracao",
+    "title": "Integração de modelos",
+    "description": "Escolha dos sistemas, regimes e balanços de energia."
+  },
+  {
+    "id": "consulta",
+    "title": "Consulta e orientação",
+    "description": "Como estudar, convenções, referências e gabaritos de conferência."
+  }
+]
