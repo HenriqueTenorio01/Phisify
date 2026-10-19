@@ -12,8 +12,8 @@
   --color-border: var(--border);
   --color-input: var(--border);
   --color-ring: var(--primary);
-  --font-display: "Space Grotesk", sans-serif;
-  --font-body: "Inter", sans-serif;
+  --font-display: "Satoshi", Arial, sans-serif;
+  --font-body: "Satoshi", Arial, sans-serif;
   --font-mono: "DM Mono", monospace;
 }
 
@@ -216,3 +216,18 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
     line-height: 1.15;
   }
 }
+
+
+/* Satoshi is the visual system font; monospace remains reserved for technical readouts. */
+body * { font-family: var(--font-body) !important; }
+body *::before, body *::after { font-family: inherit; }
+.mono,.eyebrow,.section-label,.meta-label,.lesson-kicker,.side-label,
+.list-index,.lab-icon,.sim-stage:before,.reading b,.question-id,
+.lesson-aside-title,.block-number,.formula-row code,.deduction i,.deduction code,
+.example-box .example-label,.error-box .example-label,.sim-status,
+.sim-stage.playing:after,.projectile-stage-label,.projectile-axis-label,
+.projectile-origin-label,.projectile-object-label,.projectile-stage-status,
+.projectile-live b,.projectile-chart-label,.projectile-predictions b,
+.pro-stage-head span,.pro-stage-head b,.pro-status,.pro-status b,
+.side-kicker,.metric b,.sim-slider small,.sim-slider>span strong,
+.settings-nav-title,.settings-badge,.auth-loading { font-family: var(--font-mono) !important; }
