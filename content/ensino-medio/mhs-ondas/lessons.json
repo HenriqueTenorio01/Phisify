@@ -1,0 +1,366 @@
+[
+  {
+    "id": "hs-mhs-c01",
+    "topicId": "mhs",
+    "unit": "Movimento harmônico simples",
+    "title": "Periodicidade, amplitude e fase",
+    "description": "Oscilar e repetir são ideias relacionadas · Equilíbrio e amplitude · Radianos: a medida que acompanha o círculo",
+    "pages": 2,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula-6"
+      },
+      {
+        "page": "aula-7"
+      }
+    ],
+    "chapter": 1
+  },
+  {
+    "id": "hs-mhs-c02",
+    "topicId": "mhs",
+    "unit": "Movimento harmônico simples",
+    "title": "Cinemática do MHS",
+    "description": "A projeção de um movimento circular uniforme · Velocidade e aceleração por projeção · Uma relação útil sem o tempo",
+    "pages": 3,
+    "minutes": 16,
+    "refs": [
+      {
+        "page": "aula-8"
+      },
+      {
+        "page": "aula-9"
+      },
+      {
+        "page": "aula-10"
+      }
+    ],
+    "chapter": 2
+  },
+  {
+    "id": "hs-mhs-c03",
+    "topicId": "mhs",
+    "unit": "Movimento harmônico simples",
+    "title": "Molas e energia no MHS",
+    "description": "Da lei de Hooke ao período · Energia e rapidez em qualquer posição · Como obter a amplitude após um impulso",
+    "pages": 4,
+    "minutes": 24,
+    "refs": [
+      {
+        "page": "aula-11"
+      },
+      {
+        "page": "aula-12"
+      },
+      {
+        "page": "aula-13"
+      },
+      {
+        "page": "aula-14"
+      }
+    ],
+    "chapter": 3
+  },
+  {
+    "id": "hs-mhs-c04",
+    "topicId": "mhs",
+    "unit": "Movimento harmônico simples",
+    "title": "Pêndulo, amortecimento e ressonância",
+    "description": "Pêndulo simples: o modelo · Por que apenas pequenas oscilações são MHS? · Energia e tração do fio",
+    "pages": 3,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula-15"
+      },
+      {
+        "page": "aula-16"
+      },
+      {
+        "page": "aula-17"
+      }
+    ],
+    "chapter": 4
+  },
+  {
+    "id": "hs-mhs-c05",
+    "topicId": "propagacao",
+    "unit": "Propagação e fenômenos ondulatórios",
+    "title": "O que se propaga em uma onda?",
+    "description": "Perturbação, energia e movimento do meio · Classificação das ondas · Amplitude, comprimento de onda, período e frequência",
+    "pages": 3,
+    "minutes": 23,
+    "refs": [
+      {
+        "page": "aula-18"
+      },
+      {
+        "page": "aula-19"
+      },
+      {
+        "page": "aula-20"
+      }
+    ],
+    "chapter": 5
+  },
+  {
+    "id": "hs-mhs-c06",
+    "topicId": "propagacao",
+    "unit": "Propagação e fenômenos ondulatórios",
+    "title": "Propagação e fenômenos ondulatórios",
+    "description": "Velocidade em uma corda · Reflexão e transmissão de pulsos · Refração: frequência atravessa a fronteira",
+    "pages": 3,
+    "minutes": 25,
+    "refs": [
+      {
+        "page": "aula-21"
+      },
+      {
+        "page": "aula-22"
+      },
+      {
+        "page": "aula-23"
+      }
+    ],
+    "chapter": 6
+  },
+  {
+    "id": "hs-mhs-c07",
+    "topicId": "interferencia",
+    "unit": "Superposição e interferência",
+    "title": "Superposição, interferência e batimentos",
+    "description": "Somar deslocamentos no mesmo ponto · Interferência de ondas periódicas · Diferença de caminho e diferença de fase",
+    "pages": 4,
+    "minutes": 31,
+    "refs": [
+      {
+        "page": "aula-24"
+      },
+      {
+        "page": "aula-25"
+      },
+      {
+        "page": "aula-26"
+      },
+      {
+        "page": "aula-27"
+      }
+    ],
+    "chapter": 7
+  },
+  {
+    "id": "hs-mhs-c08",
+    "topicId": "cordas",
+    "unit": "Ondas estacionárias e cordas",
+    "title": "Ondas estacionárias e cordas",
+    "description": "Duas ondas iguais em sentidos opostos · Nós e ventres · Corda com as duas extremidades fixas",
+    "pages": 3,
+    "minutes": 20,
+    "refs": [
+      {
+        "page": "aula-28"
+      },
+      {
+        "page": "aula-29"
+      },
+      {
+        "page": "aula-30"
+      }
+    ],
+    "chapter": 8
+  },
+  {
+    "id": "hs-mhs-c09",
+    "topicId": "acustica",
+    "unit": "Acústica",
+    "title": "Som, intensidade e nível sonoro",
+    "description": "Como o som se propaga · Altura, intensidade e timbre · Eco, reverberação e tempo de percurso",
+    "pages": 4,
+    "minutes": 28,
+    "refs": [
+      {
+        "page": "aula-31"
+      },
+      {
+        "page": "aula-32"
+      },
+      {
+        "page": "aula-33"
+      },
+      {
+        "page": "aula-34"
+      }
+    ],
+    "chapter": 9
+  },
+  {
+    "id": "hs-mhs-c10",
+    "topicId": "acustica",
+    "unit": "Acústica",
+    "title": "Tubos sonoros e efeito Doppler",
+    "description": "O que é nó em uma coluna de ar? · Tubo aberto nas duas extremidades · Tubo fechado em uma extremidade",
+    "pages": 4,
+    "minutes": 29,
+    "refs": [
+      {
+        "page": "aula-35"
+      },
+      {
+        "page": "aula-36"
+      },
+      {
+        "page": "aula-37"
+      },
+      {
+        "page": "aula-38"
+      }
+    ],
+    "chapter": 10
+  },
+  {
+    "id": "hs-mhs-c11",
+    "topicId": "integracao",
+    "unit": "Problemas integrados",
+    "title": "Estratégias e problemas integrados",
+    "description": "Escolher a relação pela informação física · Separar etapas que obedecem a leis diferentes · Conferências que evitam respostas incompatíveis",
+    "pages": 2,
+    "minutes": 15,
+    "refs": [
+      {
+        "page": "aula-39"
+      },
+      {
+        "page": "aula-40"
+      }
+    ],
+    "chapter": 11
+  },
+  {
+    "id": "hs-mhs-guia",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Como estudar: roteiro, notação e hipóteses",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 10,
+    "refs": [
+      {
+        "page": "aula-2"
+      },
+      {
+        "page": "aula-3"
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-formulario-1",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Formulário: MHS, molas e pêndulo",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 9,
+    "refs": [
+      {
+        "page": "aula-42"
+      },
+      {
+        "page": "aula-43"
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-formulario-2",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Formulário: Propagação, interferência e batimentos",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 10,
+    "refs": [
+      {
+        "page": "aula-44"
+      },
+      {
+        "page": "aula-45"
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-formulario-3",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Formulário: Cordas, tubos, som e Doppler",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 11,
+    "refs": [
+      {
+        "page": "aula-46"
+      },
+      {
+        "page": "aula-47"
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-referencias",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Referências e alcance dos modelos",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 6,
+    "refs": [
+      {
+        "page": "aula-41"
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-treino",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Como usar a ficha: treino e convenções",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 7,
+    "refs": [
+      {
+        "page": "ficha-2"
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-gabarito-1",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Gabarito de conferência · parte 1",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 2,
+    "minutes": 13,
+    "refs": [
+      {
+        "page": "ficha-20"
+      },
+      {
+        "page": "ficha-21"
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-gabarito-2",
+    "topicId": "consulta",
+    "unit": "Consulta e orientação",
+    "title": "Gabarito de conferência · parte 2",
+    "description": "Texto integral da referência, com as convenções e condições de uso.",
+    "pages": 1,
+    "minutes": 6,
+    "refs": [
+      {
+        "page": "ficha-22"
+      }
+    ]
+  }
+]

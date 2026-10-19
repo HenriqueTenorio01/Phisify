@@ -1,4 +1,5 @@
 import { use, useState } from 'react'
+import { courseById } from '../../../content/courses'
 import type { WrittenQuestion, StoredResponse } from '../../app/types'
 import { useAuth } from '../../hooks/useAuth'
 import { HandbookBlocks } from '../handbook/HandbookBlocks'
@@ -145,8 +146,8 @@ export default function WrittenQuestionCard({
           ...question.solution,
         ])}
         .{' '}
-        {question.course === 'mechanics'
-          ? 'Problema autoral da ficha de Mecânica do Ensino Médio.'
+        {courseById(question.course)?.trackId === 'ensino-medio'
+          ? `Problema autoral da ficha de ${courseById(question.course)?.area} do Ensino Médio.`
           : 'Problema autoral da ficha de treinamento; não é questão oficial da IPhO.'}
       </footer>
     </article>

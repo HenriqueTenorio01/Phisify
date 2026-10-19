@@ -1,0 +1,42 @@
+[
+  {
+    "id": "luz-cores",
+    "title": "Luz e cores",
+    "description": "Propagação, fontes, sombras, absorção e filtros."
+  },
+  {
+    "id": "espelhos",
+    "title": "Reflexão e espelhos",
+    "description": "Reflexão, imagens, espelhos planos e esféricos."
+  },
+  {
+    "id": "refracao",
+    "title": "Refração",
+    "description": "Snell, reflexão total, dioptros, lâminas, prismas e dispersão."
+  },
+  {
+    "id": "lentes",
+    "title": "Lentes, instrumentos e visão",
+    "description": "Lentes delgadas, associações, projeção, instrumentos e olho humano."
+  },
+  {
+    "id": "optica-ondulatoria",
+    "title": "Óptica ondulatória",
+    "description": "Fermat, interferência, filmes finos, difração, resolução e polarização."
+  },
+  {
+    "id": "energia-luz",
+    "title": "Energia e medidas da luz",
+    "description": "Irradiância, fotometria e interação da luz com a matéria."
+  },
+  {
+    "id": "integracao",
+    "title": "Aplicações integradas",
+    "description": "Escolha dos modelos e análise de sistemas com meios sucessivos."
+  },
+  {
+    "id": "consulta",
+    "title": "Consulta e orientação",
+    "description": "Como estudar, convenções, referências e gabaritos de conferência."
+  }
+]

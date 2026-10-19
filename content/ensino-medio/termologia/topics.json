@@ -1,0 +1,42 @@
+[
+  {
+    "id": "temperatura",
+    "title": "Temperatura e dilatação",
+    "description": "Equilíbrio térmico, escalas, dimensões e dilatação aparente."
+  },
+  {
+    "id": "calorimetria",
+    "title": "Calor e mudanças de fase",
+    "description": "Calor sensível e latente, estados da matéria, vapor e balanços térmicos."
+  },
+  {
+    "id": "transferencia",
+    "title": "Transferência de calor",
+    "description": "Condução, convecção, radiação, isolamento e potência."
+  },
+  {
+    "id": "gases",
+    "title": "Gases e teoria cinética",
+    "description": "Leis macroscópicas, misturas e interpretação microscópica."
+  },
+  {
+    "id": "primeira-lei",
+    "title": "Primeira lei e transformações",
+    "description": "Sistemas, trabalho, energia interna e processos dos gases."
+  },
+  {
+    "id": "maquinas",
+    "title": "Máquinas, segunda lei e entropia",
+    "description": "Ciclos, irreversibilidade, Carnot, refrigeração e motores."
+  },
+  {
+    "id": "integracao",
+    "title": "Resolução integrada",
+    "description": "Etapas, vínculos e escolha dos balanços adequados."
+  },
+  {
+    "id": "consulta",
+    "title": "Consulta e orientação",
+    "description": "Como estudar, convenções, referências e gabaritos de conferência."
+  }
+]

@@ -1,3 +1,7 @@
+import { questions as electricityQuestions } from './ensino-medio/eletricidade'
+import { questions as wavesQuestions } from './ensino-medio/mhs-ondas'
+import { questions as opticsQuestions } from './ensino-medio/optica'
+import { questions as thermoQuestions } from './ensino-medio/termologia'
 import { mechanicsQuestions } from './ensino-medio/mecanica'
 import { waveQuestions } from './olimpiadas/ondas'
 import { gravityQuestions } from './olimpiadas/gravitacao'
@@ -10,6 +14,10 @@ export const questionBank: Question[] = [
   ...gravityQuestions,
   ...centerOfMassQuestions,
   ...mechanicsQuestions,
+  ...electricityQuestions,
+  ...wavesQuestions,
+  ...opticsQuestions,
+  ...thermoQuestions,
 ]
 
 export function questionById(id: string) {

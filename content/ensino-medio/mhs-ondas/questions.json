@@ -1,0 +1,2954 @@
+[
+  {
+    "id": "hs-mhs-q01",
+    "kind": "written",
+    "sourceNumber": 1,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c01",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Periodicidade e amplitude",
+    "format": "Discursiva",
+    "prompt": "Questão 1 - Contando ciclos e percursos",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-3",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-3",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-3",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-3",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-3",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-23",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-23",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-23",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-23",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-23",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "subtopic": "Periodicidade e amplitude"
+  },
+  {
+    "id": "hs-mhs-q02",
+    "kind": "written",
+    "sourceNumber": 2,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c02",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Posição, velocidade e aceleração",
+    "format": "Discursiva",
+    "prompt": "Questão 2 - Lendo o gráfico de uma oscilação",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-3",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-3",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-3",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-3",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-3",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-3",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-3",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-23",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-23",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-23",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-23",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-23",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "subtopic": "Posição, velocidade e aceleração"
+  },
+  {
+    "id": "hs-mhs-q03",
+    "kind": "written",
+    "sourceNumber": 3,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c02",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Equação do MHS",
+    "format": "Discursiva",
+    "prompt": "Questão 3 - O que a função horária informa",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-4",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-4",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-4",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-4",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-4",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-4",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-4",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-23",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-23",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-23",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-23",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-23",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-23",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "subtopic": "Equação do MHS"
+  },
+  {
+    "id": "hs-mhs-q04",
+    "kind": "written",
+    "sourceNumber": 4,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c03",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Lei de Hooke e MHS",
+    "format": "Discursiva",
+    "prompt": "Questão 4 - Força e movimento em uma mola horizontal",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-4",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-4",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-4",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-4",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-4",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-4",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-4",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-4",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-24",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-24",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-24",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-24",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-24",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-24",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "subtopic": "Lei de Hooke e MHS"
+  },
+  {
+    "id": "hs-mhs-q05",
+    "kind": "written",
+    "sourceNumber": 5,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c03",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Energia do oscilador",
+    "format": "Discursiva",
+    "prompt": "Questão 5 - Onde está a energia?",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-5",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-5",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-5",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-5",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-5",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-5",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-24",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-24",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-24",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-24",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-24",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-24",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-24",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "subtopic": "Energia do oscilador"
+  },
+  {
+    "id": "hs-mhs-q06",
+    "kind": "written",
+    "sourceNumber": 6,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c03",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Mola vertical",
+    "format": "Discursiva",
+    "prompt": "Questão 6 - Alongamento não é amplitude",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-5",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-5",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-5",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-5",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-5",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-5",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-24",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-24",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-24",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-24",
+        "start": 18,
+        "end": 19
+      },
+      {
+        "page": "ficha-24",
+        "start": 19,
+        "end": 20
+      }
+    ],
+    "subtopic": "Mola vertical"
+  },
+  {
+    "id": "hs-mhs-q07",
+    "kind": "written",
+    "sourceNumber": 7,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c04",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Pequenas oscilações",
+    "format": "Discursiva",
+    "prompt": "Questão 7 - O que muda o período do pêndulo?",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-6",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-6",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-6",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-6",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-6",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-6",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-25",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-25",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-25",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-25",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-25",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "subtopic": "Pequenas oscilações"
+  },
+  {
+    "id": "hs-mhs-q08",
+    "kind": "written",
+    "sourceNumber": 8,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c04",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Amortecimento e ressonância",
+    "format": "Discursiva",
+    "prompt": "Questão 8 - Perdas e excitação periódica",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-6",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-6",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-6",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-6",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-6",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-6",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-25",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-25",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-25",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-25",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "subtopic": "Amortecimento e ressonância"
+  },
+  {
+    "id": "hs-mhs-q09",
+    "kind": "written",
+    "sourceNumber": 9,
+    "topic": "Propagação e fenômenos ondulatórios",
+    "topicId": "propagacao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c05",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Natureza das ondas",
+    "format": "Discursiva",
+    "prompt": "Questão 9 - O que oscila e o que se propaga?",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-7",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-7",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-7",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-7",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-7",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-7",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-25",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-25",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-25",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-25",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-25",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-25",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "subtopic": "Natureza das ondas"
+  },
+  {
+    "id": "hs-mhs-q10",
+    "kind": "written",
+    "sourceNumber": 10,
+    "topic": "Propagação e fenômenos ondulatórios",
+    "topicId": "propagacao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c05",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Amplitude e comprimento de onda",
+    "format": "Discursiva",
+    "prompt": "Questão 10 - Uma fotografia da corda",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-7",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-7",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-7",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-7",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-7",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-7",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-7",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-26",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-26",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-26",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-26",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-26",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "subtopic": "Amplitude e comprimento de onda"
+  },
+  {
+    "id": "hs-mhs-q11",
+    "kind": "written",
+    "sourceNumber": 11,
+    "topic": "Propagação e fenômenos ondulatórios",
+    "topicId": "propagacao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c05",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Espaço, tempo e direção",
+    "format": "Discursiva",
+    "prompt": "Questão 11 - Decifrando uma onda senoidal",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-8",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-8",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-8",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-8",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-8",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-8",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-8",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-26",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-26",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-26",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-26",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-26",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "subtopic": "Espaço, tempo e direção"
+  },
+  {
+    "id": "hs-mhs-q12",
+    "kind": "written",
+    "sourceNumber": 12,
+    "topic": "Propagação e fenômenos ondulatórios",
+    "topicId": "propagacao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c06",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Tração e densidade linear",
+    "format": "Discursiva",
+    "prompt": "Questão 12 - Uma corda mais esticada",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-8",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-8",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-8",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-8",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-8",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-8",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-26",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-26",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-26",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-26",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-26",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-26",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "subtopic": "Tração e densidade linear"
+  },
+  {
+    "id": "hs-mhs-q13",
+    "kind": "written",
+    "sourceNumber": 13,
+    "topic": "Propagação e fenômenos ondulatórios",
+    "topicId": "propagacao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c06",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Extremidades e junções",
+    "format": "Discursiva",
+    "prompt": "Questão 13 - Refletir pode inverter o pulso",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-9",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-9",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-9",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-9",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-9",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-9",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-27",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-27",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-27",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-27",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-27",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-27",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "subtopic": "Extremidades e junções"
+  },
+  {
+    "id": "hs-mhs-q14",
+    "kind": "written",
+    "sourceNumber": 14,
+    "topic": "Propagação e fenômenos ondulatórios",
+    "topicId": "propagacao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c06",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Refração de ondas",
+    "format": "Discursiva",
+    "prompt": "Questão 14 - Atravessando uma fronteira",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-9",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-9",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-9",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-9",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-9",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-9",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-9",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-27",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-27",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-27",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-27",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-27",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "subtopic": "Refração de ondas"
+  },
+  {
+    "id": "hs-mhs-q15",
+    "kind": "written",
+    "sourceNumber": 15,
+    "topic": "Propagação e fenômenos ondulatórios",
+    "topicId": "propagacao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c06",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Difração, polarização e dispersão",
+    "format": "Discursiva",
+    "prompt": "Questão 15 - Três fenômenos diferentes",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-10",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-10",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-10",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-10",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-10",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-10",
+        "start": 5,
+        "end": 6
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-27",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-27",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-27",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-27",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-27",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "subtopic": "Difração, polarização e dispersão"
+  },
+  {
+    "id": "hs-mhs-q16",
+    "kind": "written",
+    "sourceNumber": 16,
+    "topic": "Superposição e interferência",
+    "topicId": "interferencia",
+    "course": "waves",
+    "lessonId": "hs-mhs-c07",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Superposição",
+    "format": "Discursiva",
+    "prompt": "Questão 16 - O encontro de dois pulsos",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-10",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-10",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-10",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-10",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-10",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-10",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-10",
+        "start": 12,
+        "end": 13
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-28",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-28",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-28",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-28",
+        "start": 4,
+        "end": 5
+      }
+    ],
+    "subtopic": "Superposição"
+  },
+  {
+    "id": "hs-mhs-q17",
+    "kind": "written",
+    "sourceNumber": 17,
+    "topic": "Ondas estacionárias e cordas",
+    "topicId": "cordas",
+    "course": "waves",
+    "lessonId": "hs-mhs-c08",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Ondas estacionárias",
+    "format": "Discursiva",
+    "prompt": "Questão 17 - Uma corda com três ventres",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-11",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-11",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-11",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-11",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-11",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-11",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-11",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-28",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-28",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-28",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-28",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-28",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-28",
+        "start": 11,
+        "end": 12
+      }
+    ],
+    "subtopic": "Ondas estacionárias"
+  },
+  {
+    "id": "hs-mhs-q18",
+    "kind": "written",
+    "sourceNumber": 18,
+    "topic": "Acústica",
+    "topicId": "acustica",
+    "course": "waves",
+    "lessonId": "hs-mhs-c09",
+    "difficulty": "easy",
+    "difficultyLabel": "Fácil",
+    "objective": "Som",
+    "format": "Discursiva",
+    "prompt": "Questão 18 - Eco, altura e timbre",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-11",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-11",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-11",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-11",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-11",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-11",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-11",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-28",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-28",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-28",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-28",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-28",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-28",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-28",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "subtopic": "Som"
+  },
+  {
+    "id": "hs-mhs-q19",
+    "kind": "written",
+    "sourceNumber": 19,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c02",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Condições iniciais",
+    "format": "Discursiva",
+    "prompt": "Questão 19 - Reconstruindo a oscilação",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-12",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-12",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-12",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-12",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-12",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-12",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-29",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-29",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-29",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-29",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-29",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-29",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-29",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-29",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-29",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-29",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-29",
+        "start": 10,
+        "end": 11
+      }
+    ],
+    "subtopic": "Condições iniciais"
+  },
+  {
+    "id": "hs-mhs-q20",
+    "kind": "written",
+    "sourceNumber": 20,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c02",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Fase e rapidez no MHS",
+    "format": "Discursiva",
+    "prompt": "Questão 20 - Distâncias iguais, tempos diferentes",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-12",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-12",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-12",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-12",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-12",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-12",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-12",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-29",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-29",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-29",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-29",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-29",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-29",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-29",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "subtopic": "Fase e rapidez no MHS"
+  },
+  {
+    "id": "hs-mhs-q21",
+    "kind": "written",
+    "sourceNumber": 21,
+    "topic": "Movimento harmônico simples",
+    "topicId": "mhs",
+    "course": "waves",
+    "lessonId": "hs-mhs-c03",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Associações e energia",
+    "format": "Discursiva",
+    "prompt": "Questão 21 - Duas montagens com as mesmas molas",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-13",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-13",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-13",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-13",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-13",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-13",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-13",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-13",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-30",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-30",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-30",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-30",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-30",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-30",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-30",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-30",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-30",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "subtopic": "Associações e energia"
+  },
+  {
+    "id": "hs-mhs-q22",
+    "kind": "written",
+    "sourceNumber": 22,
+    "topic": "Superposição e interferência",
+    "topicId": "interferencia",
+    "course": "waves",
+    "lessonId": "hs-mhs-c07",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Interferência coerente",
+    "format": "Discursiva",
+    "prompt": "Questão 22 - Caminhos e fase",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-13",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-13",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-13",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-13",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-13",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-13",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-13",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-30",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-30",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-30",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-30",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-30",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-30",
+        "start": 14,
+        "end": 15
+      }
+    ],
+    "subtopic": "Interferência coerente"
+  },
+  {
+    "id": "hs-mhs-q23",
+    "kind": "written",
+    "sourceNumber": 23,
+    "topic": "Superposição e interferência",
+    "topicId": "interferencia",
+    "course": "waves",
+    "lessonId": "hs-mhs-c07",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Frequências próximas",
+    "format": "Discursiva",
+    "prompt": "Questão 23 - Afinando com batimentos",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-14",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-14",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-14",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-14",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-14",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-14",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-14",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-31",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-31",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-31",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-31",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-31",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-31",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-31",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "subtopic": "Frequências próximas"
+  },
+  {
+    "id": "hs-mhs-q24",
+    "kind": "written",
+    "sourceNumber": 24,
+    "topic": "Acústica",
+    "topicId": "acustica",
+    "course": "waves",
+    "lessonId": "hs-mhs-c09",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Intensidade e decibéis",
+    "format": "Discursiva",
+    "prompt": "Questão 24 - Distância e várias fontes",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-14",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-14",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-14",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-14",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-14",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-14",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-14",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-31",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-31",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-31",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-31",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-31",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-31",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-31",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-31",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-31",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-31",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "subtopic": "Intensidade e decibéis"
+  },
+  {
+    "id": "hs-mhs-q25",
+    "kind": "written",
+    "sourceNumber": 25,
+    "topic": "Acústica",
+    "topicId": "acustica",
+    "course": "waves",
+    "lessonId": "hs-mhs-c10",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Coluna de ar e condições nas pontas",
+    "format": "Discursiva",
+    "prompt": "Questão 25 - Ressonâncias acima da água",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-15",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-15",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-15",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-15",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-15",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-15",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-15",
+        "start": 6,
+        "end": 7
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-32",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-32",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-32",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-32",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-32",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-32",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-32",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-32",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "subtopic": "Coluna de ar e condições nas pontas"
+  },
+  {
+    "id": "hs-mhs-q26",
+    "kind": "written",
+    "sourceNumber": 26,
+    "topic": "Acústica",
+    "topicId": "acustica",
+    "course": "waves",
+    "lessonId": "hs-mhs-c10",
+    "difficulty": "medium",
+    "difficultyLabel": "Intermediária",
+    "objective": "Doppler acústico",
+    "format": "Discursiva",
+    "prompt": "Questão 26 - Fonte e observador em movimento",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-15",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-15",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-15",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-15",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-15",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-15",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-15",
+        "start": 13,
+        "end": 14
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-32",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-32",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-32",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-32",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-32",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-32",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-32",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-32",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-32",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "subtopic": "Doppler acústico"
+  },
+  {
+    "id": "hs-mhs-q27",
+    "kind": "written",
+    "sourceNumber": 27,
+    "topic": "Problemas integrados",
+    "topicId": "integracao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c11",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Momento linear, dissipação e oscilação",
+    "format": "Discursiva",
+    "prompt": "Questão 27 - Uma colisão que inicia o MHS",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-16",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-16",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-16",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-16",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-16",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-16",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-16",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-16",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-16",
+        "start": 9,
+        "end": 10
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-33",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-33",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-33",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-33",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-33",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-33",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-33",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-33",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-33",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-33",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-33",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-33",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-33",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-33",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-33",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-33",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-33",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-33",
+        "start": 17,
+        "end": 18
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-mhs-c03"
+    ],
+    "subtopic": "Momento linear, dissipação e oscilação",
+    "hints": [
+      {
+        "page": "ficha-16",
+        "start": 10,
+        "end": 11
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-q28",
+    "kind": "written",
+    "sourceNumber": 28,
+    "topic": "Problemas integrados",
+    "topicId": "integracao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c11",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Mola vertical e adição de massa",
+    "format": "Discursiva",
+    "prompt": "Questão 28 - O equilíbrio muda de lugar",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-17",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-17",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-17",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-17",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-17",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-17",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-17",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-17",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-34",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-34",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-34",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-34",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-34",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-34",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-34",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-34",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-34",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-34",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-34",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-34",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-34",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-34",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-34",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-34",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-34",
+        "start": 16,
+        "end": 17
+      },
+      {
+        "page": "ficha-34",
+        "start": 17,
+        "end": 18
+      },
+      {
+        "page": "ficha-34",
+        "start": 18,
+        "end": 19
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-mhs-c03"
+    ],
+    "subtopic": "Mola vertical e adição de massa",
+    "hints": [
+      {
+        "page": "ficha-17",
+        "start": 8,
+        "end": 9
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-q29",
+    "kind": "written",
+    "sourceNumber": 29,
+    "topic": "Problemas integrados",
+    "topicId": "integracao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c11",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Modos permitidos e ressonância",
+    "format": "Discursiva",
+    "prompt": "Questão 29 - Uma corda e um tubo precisam concordar",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-18",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-18",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-18",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-18",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-18",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-18",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-18",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-18",
+        "start": 7,
+        "end": 8
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-35",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-35",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-35",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-35",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-35",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-35",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-35",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-35",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-35",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-35",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-35",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-35",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-35",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-35",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-35",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-35",
+        "start": 15,
+        "end": 16
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-mhs-c08",
+      "hs-mhs-c10"
+    ],
+    "subtopic": "Modos permitidos e ressonância",
+    "hints": [
+      {
+        "page": "ficha-18",
+        "start": 8,
+        "end": 9
+      }
+    ]
+  },
+  {
+    "id": "hs-mhs-q30",
+    "kind": "written",
+    "sourceNumber": 30,
+    "topic": "Problemas integrados",
+    "topicId": "integracao",
+    "course": "waves",
+    "lessonId": "hs-mhs-c11",
+    "difficulty": "hard",
+    "difficultyLabel": "Difícil",
+    "objective": "Tempo de propagação e dois efeitos Doppler",
+    "format": "Discursiva",
+    "prompt": "Questão 30 - O eco de um refletor que se aproxima",
+    "reasoning": "Declare o modelo e suas hipóteses; confira unidades, sinais e interpretação do resultado.",
+    "statement": [
+      {
+        "page": "ficha-19",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-19",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-19",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-19",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-19",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-19",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-19",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-19",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-19",
+        "start": 8,
+        "end": 9
+      }
+    ],
+    "solution": [
+      {
+        "page": "ficha-36",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "page": "ficha-36",
+        "start": 1,
+        "end": 2
+      },
+      {
+        "page": "ficha-36",
+        "start": 2,
+        "end": 3
+      },
+      {
+        "page": "ficha-36",
+        "start": 3,
+        "end": 4
+      },
+      {
+        "page": "ficha-36",
+        "start": 4,
+        "end": 5
+      },
+      {
+        "page": "ficha-36",
+        "start": 5,
+        "end": 6
+      },
+      {
+        "page": "ficha-36",
+        "start": 6,
+        "end": 7
+      },
+      {
+        "page": "ficha-36",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "page": "ficha-36",
+        "start": 8,
+        "end": 9
+      },
+      {
+        "page": "ficha-36",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "page": "ficha-36",
+        "start": 10,
+        "end": 11
+      },
+      {
+        "page": "ficha-36",
+        "start": 11,
+        "end": 12
+      },
+      {
+        "page": "ficha-36",
+        "start": 12,
+        "end": 13
+      },
+      {
+        "page": "ficha-36",
+        "start": 13,
+        "end": 14
+      },
+      {
+        "page": "ficha-36",
+        "start": 14,
+        "end": 15
+      },
+      {
+        "page": "ficha-36",
+        "start": 15,
+        "end": 16
+      },
+      {
+        "page": "ficha-36",
+        "start": 16,
+        "end": 17
+      }
+    ],
+    "relatedLessonIds": [
+      "hs-mhs-c09",
+      "hs-mhs-c10"
+    ],
+    "subtopic": "Tempo de propagação e dois efeitos Doppler",
+    "hints": [
+      {
+        "page": "ficha-19",
+        "start": 9,
+        "end": 10
+      }
+    ]
+  }
+]

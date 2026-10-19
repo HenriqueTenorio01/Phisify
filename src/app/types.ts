@@ -23,6 +23,7 @@ export type CourseId =
   | 'electricity'
   | 'waves'
   | 'thermo'
+  | 'optics'
   | 'olympiad-waves'
   | 'olympiad-gravity'
   | 'olympiad-center-of-mass'
@@ -84,6 +85,7 @@ export interface Course {
   tone: string
   description: string
   units: CourseUnit[]
+  separatePractice?: boolean
   compact?: boolean
 }
 
@@ -135,6 +137,7 @@ export interface ChoiceQuestion extends QuestionBase {
 export interface WrittenQuestion extends QuestionBase {
   kind: 'written'
   sourceNumber: number
+  relatedLessonIds?: string[]
   statement: import('./handbook').SourceSlice[]
   solution: import('./handbook').SourceSlice[]
   hints?: import('./handbook').SourceSlice[]

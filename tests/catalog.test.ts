@@ -27,7 +27,7 @@ test('retired lessons/questions cannot be discovered; simulations remain searcha
   assert.equal(courseById('unknown'), undefined)
   for (const { id } of tracks) {
     const found = searchContent('ondas', id)
-    if (id !== 'olimpiadas') {
+    if (id === 'universidade') {
       assert.deepEqual(found.lessons, [])
       assert.deepEqual(found.questions, [])
     }

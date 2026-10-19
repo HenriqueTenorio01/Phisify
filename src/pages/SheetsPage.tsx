@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { courseById, lessonById } from '../../content/courses'
 import { questionsForTrack } from '../../content/catalog'
 import { tracks, trackById } from '../../content/tracks'
 import { worksheetsForTrack } from '../../content/worksheets'
@@ -96,9 +97,8 @@ export function SheetsPage() {
             >
               Aulas de{' '}
               {topic?.title ??
-                (sheet.id === 'mechanics'
-                  ? 'Mecânica'
-                  : questionBank[0]?.topic)}
+                courseById(sheet.id)?.area ??
+                questionBank[0]?.topic}
             </button>
           </div>
           {sheet.topics && (
@@ -114,7 +114,7 @@ export function SheetsPage() {
                   className="link-button"
                   onClick={() => openSheet(sheet.id, 'todos')}
                 >
-                  Ver as 90 questões
+                  Ver as {questionBank.length} questões
                 </button>
               </div>
               {!showQuestions && (
@@ -203,12 +203,35 @@ export function SheetsPage() {
               </div>
               <div className="question-list">
                 {filtered.map((question) => (
-                  <QuestionCard
-                    key={question.id}
-                    question={question}
-                    response={progress.responses[question.id]}
-                    onAnswer={answerQuestion}
-                  />
+                  <div key={question.id} className="sheet-question">
+                    {courseById(question.course)?.separatePractice && (
+                      <nav
+                        className="school-question-reading"
+                        aria-label={`Teoria da questão ${question.kind === 'written' ? question.sourceNumber : ''}`}
+                      >
+                        <strong>Rever a teoria:</strong>
+                        {[
+                          question.lessonId,
+                          ...(question.kind === 'written'
+                            ? (question.relatedLessonIds ?? [])
+                            : []),
+                        ].map((id) => (
+                          <button
+                            key={id}
+                            className="link-button"
+                            onClick={() => openLesson(id)}
+                          >
+                            {lessonById(id)?.data.title}
+                          </button>
+                        ))}
+                      </nav>
+                    )}
+                    <QuestionCard
+                      question={question}
+                      response={progress.responses[question.id]}
+                      onAnswer={answerQuestion}
+                    />
+                  </div>
                 ))}
               </div>
               {!filtered.length && (

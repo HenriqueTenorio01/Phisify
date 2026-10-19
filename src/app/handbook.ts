@@ -24,6 +24,8 @@ export interface HandbookBlock {
   boxed?: boolean
   runs?: HandbookRun[]
   rows?: Array<{ symbol: HandbookRun[]; meaning: HandbookRun[] }>
+  columns?: string[]
+  cells?: HandbookRun[][][]
   mathml?: string
   image?: VectorFragment
   source: {

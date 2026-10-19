@@ -114,6 +114,51 @@ export function HandbookBlocks({
             </div>
           )
         }
+        if (block.type === 'table' && block.columns && block.cells) {
+          return (
+            <div
+              key={index}
+              className="handbook-notation handbook-source-table"
+              tabIndex={0}
+              role="region"
+              aria-label={block.text + '; role horizontalmente se necessário'}
+            >
+              <table
+                className={
+                  block.columns.length > 2 ? 'handbook-wide-table' : undefined
+                }
+              >
+                <caption>{block.text}</caption>
+                <thead>
+                  <tr>
+                    {block.columns.map((column) => (
+                      <th scope="col" key={column}>
+                        {column}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {block.cells.map((row, i) => (
+                    <tr key={i}>
+                      {row.map((cell, j) =>
+                        j === 0 ? (
+                          <th scope="row" key={j}>
+                            <HandbookRuns runs={cell} />
+                          </th>
+                        ) : (
+                          <td key={j}>
+                            <HandbookRuns runs={cell} />
+                          </td>
+                        ),
+                      )}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )
+        }
         if (block.type === 'table' && block.rows) {
           return (
             <div key={index} className="handbook-notation">

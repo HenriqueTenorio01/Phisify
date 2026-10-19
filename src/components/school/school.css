@@ -1,0 +1,94 @@
+.school-breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin-bottom: 1.1rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.school-breadcrumbs button {
+  border: 0;
+  background: none;
+  color: var(--ink);
+  cursor: pointer;
+  padding: 0;
+  font: inherit;
+  text-align: left;
+}
+.school-breadcrumbs button:hover {
+  text-decoration: underline;
+}
+.school-breadcrumbs [aria-current] {
+  overflow-wrap: anywhere;
+}
+.school-topic-select {
+  width: 100%;
+  margin: 0.6rem 0;
+}
+.school-current-position {
+  display: grid;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+}
+.school-section-outline .school-subsection {
+  padding-left: 1.25rem;
+  font-size: 0.9em;
+}
+.school-practice-links {
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  margin-top: 1.5rem;
+}
+.school-practice-links p {
+  color: var(--muted);
+  line-height: 1.65;
+}
+.school-question-reading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  align-items: baseline;
+  margin: 1rem 0;
+  font-size: 0.85rem;
+}
+.school-question-reading button {
+  white-space: normal;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  .school-breadcrumbs {
+    font-size: 0.78rem;
+  }
+  .school-practice-links {
+    padding: 1rem;
+  }
+}
+
+.sheet-question {
+  min-width: 0;
+}
+
+.handbook-source-table {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.handbook-notation.handbook-source-table table {
+  table-layout: auto;
+}
+.handbook-notation.handbook-source-table th:first-child {
+  width: auto;
+  font-weight: 600;
+}
+.handbook-source-table .handbook-wide-table {
+  min-width: 540px;
+}
+.handbook-source-table table {
+  overflow-wrap: normal;
+}
+.handbook-source-table thead th,
+.handbook-source-table tbody th {
+  white-space: nowrap;
+}

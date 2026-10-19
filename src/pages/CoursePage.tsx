@@ -72,7 +72,7 @@ export function CoursePage() {
               className="link-button"
               onClick={() => openCourse(course.id)}
             >
-              Todos os temas de Mecânica
+              Todos os temas de {course.area}
             </button>
             <button
               className="link-button"
@@ -94,7 +94,9 @@ export function CoursePage() {
             <div className="sheet-catalog">
               {course.units.map((unit) => (
                 <article className="sheet-catalog-card" key={unit.id}>
-                  <div className="eyebrow">Ensino Médio · Mecânica</div>
+                  <div className="eyebrow">
+                    {course.level} · {course.area}
+                  </div>
                   <h2>{unit.title}</h2>
                   <p>{unit.description}</p>
                   <p className="quiet">{unit.lessons.length} leituras</p>
@@ -148,7 +150,9 @@ export function CoursePage() {
                   <span
                     className={`lesson-state ${isDone ? 'done' : index === 0 && unitIndex === 0 ? 'current' : ''}`}
                   >
-                    {isDone ? '✓' : unitIndex + index + 1}
+                    {isDone
+                      ? '✓'
+                      : lessons.findIndex((item) => item.id === lesson.id) + 1}
                   </span>
                   <span>
                     <strong>{lesson.title}</strong>

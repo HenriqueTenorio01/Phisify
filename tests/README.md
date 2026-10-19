@@ -68,3 +68,12 @@ chapter continuity, original lesson numbering, independently loaded readers,
 semester/lesson/reading routes, scoped progress and the real semester course UI.
 Regeneration and the pedagogical map are documented in
 `content/universidade/semestre-1/README.md`.
+
+`high-school.test.ts` covers the four remaining Ensino Médio collections: eight PDF
+hashes, all 309 instructional pages and 5,967 original blocks exactly once, 91
+reviewed vector diagrams, 125 worked examples, six native tables, 84 balanced
+readings and 120 complete written questions/solutions. It checks source subparts,
+difficulties, thematic and cross-topic theory links, scoped progress, search,
+reloadable routes and the real course/worksheet overviews. Existing Mechanics and
+other tracks retain their own regression suites. See
+`content/ensino-medio/README.md` for the pedagogical map and regeneration.
