@@ -1,3 +1,4 @@
+import { useLocalizedTree } from '../../i18n'
 import type { ReactNode } from 'react'
 import { Atom, Settings } from 'lucide-react'
 import type { Screen } from '../../app/types'
@@ -38,7 +39,7 @@ export function AppShell({
 }: AppShellProps) {
   const initial = userName.slice(0, 1).toUpperCase()
 
-  return (
+  return useLocalizedTree((
     <div className="app-shell">
       <div className="ambient ambient-one" />
       <div className="ambient ambient-two" />
@@ -99,7 +100,7 @@ export function AppShell({
         {primary.slice(3).map(([target, label]) => <button key={target} onClick={() => onNavigate(target)}>{label}</button>)}
       </div>
     </div>
-  )
+  ))
 }
 
 
