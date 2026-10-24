@@ -172,14 +172,6 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 }
 
 
-/* Brand symbol colors are explicit per theme to match the approved mockup. */
-.brand-logo-bg { fill: #18cbe5; }
-.brand-logo-glyph { fill: #061018; stroke: none; font-weight: 400; }
-:root[data-theme="light"] .brand-logo-bg { fill: #163A63; }
-:root[data-theme="light"] .brand-logo-glyph { fill: #ffffff; }
-:root[data-theme="dark"] .brand-logo-bg { fill: #18cbe5; }
-:root[data-theme="dark"] .brand-logo-glyph { fill: #061018; }
-
 
 /* Laboratory navigation icon: match the approved atom preview. */
 .mobile-link .lab-atom-icon {
@@ -265,3 +257,6 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 .university-section-outline .university-subsection { margin-left: 16px; font-size: .94em; }
 .university-handbook .handbook-body h4 { text-transform: none; letter-spacing: 0; font-size: .92rem; line-height: 1.55; color: var(--book-teal); }
 @media(max-width:600px) { .university-unit .unit-head { flex-direction: column; } .university-reading-list .lesson-kind { white-space: normal; } .university-aula-tabs .btn { flex: 1 0 auto; } }
+
+
+.brand-mark.brand-logo { background: #000; color: #fff; box-shadow: none; }

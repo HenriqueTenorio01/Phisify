@@ -11,7 +11,7 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import settingsCss from "../settings.css?url";
-import phisifyLogo from "../assets/phisify-logo-cyan.svg?url";
+import phisifyLogo from "../assets/phisify-logo-orbital-white.svg?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { AuthProvider } from "../auth/AuthProvider";
 import { PreferencesProvider } from "../app/PreferencesProvider";
