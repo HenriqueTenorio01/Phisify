@@ -259,4 +259,4 @@ body{font-family:'Inter',system-ui,sans-serif;background:var(--background);backg
 @media(max-width:600px) { .university-unit .unit-head { flex-direction: column; } .university-reading-list .lesson-kind { white-space: normal; } .university-aula-tabs .btn { flex: 1 0 auto; } }
 
 
-.brand-mark.brand-logo { background: #000; color: #fff; box-shadow: none; }
+.brand-mark.brand-logo { background: transparent; color: #fff; box-shadow: none; }
