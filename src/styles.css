@@ -78,7 +78,7 @@ body{font-family:'Satoshi',system-ui,sans-serif;background:var(--background);bac
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
 
-/* Satoshiactive laboratory simulations */
+/* Interactive laboratory simulations */
 .sim-stage-label{position:absolute;left:17px;top:14px;color:#8494a6;font:.59rem 'DM Mono';letter-spacing:.1em;z-index:2}.sim-stage-status{position:absolute;right:16px;bottom:13px;color:#66788c;font:500 .62rem 'DM Mono';letter-spacing:.08em;text-transform:uppercase}.lab-svg{width:92%;height:88%;display:block;color:#7d8da0}.lab-axis{stroke:#b9c5d2;stroke-width:1}.lab-label{fill:#68798d;font:600 11px 'DM Mono';letter-spacing:.03em}.wave-line{fill:none;stroke-width:3;vector-effect:non-scaling-stroke}.wave-a{stroke:#16c5dc}.wave-b{stroke:#667eea}.wave-sum{stroke:#14263a;stroke-width:4}.circuit-wire{fill:none;stroke:#34485c;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.battery-plate{stroke:#14263a;stroke-width:6;stroke-linecap:round}.resistor{fill:none;stroke:#14263a;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.circuit-electron{fill:#09bfd8;filter:drop-shadow(0 0 3px rgba(9,191,216,.4))}.circuit-value{fill:#2d4257;font:600 12px 'DM Mono'}
 @media(max-width:720px){.lab-svg{width:100%;height:86%}.sim-stage{height:300px}.sim-stage-label{font-size:.5rem}.sim-stage-status{font-size:.54rem}}
 
